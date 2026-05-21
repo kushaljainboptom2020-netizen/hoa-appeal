@@ -22,7 +22,17 @@
 
 # misc
 .DS_Store
+Thumbs.db
+Desktop.ini
 *.pem
+*.key
+credentials.json
+secrets.json
+
+# IDE / editor (local only — never commit)
+.cursor/
+.vscode/
+.idea/
 
 # debug
 npm-debug.log*
@@ -30,11 +40,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files — .env.example is committed intentionally (no secrets)
+# env files — only .env.example is committed (placeholders, no secrets)
+# Real values go in .env.local locally or Vercel → Settings → Environment Variables
 .env*
 !.env.example
 
-# vercel
+# vercel (project link + local deploy metadata)
 .vercel
 
 # typescript
