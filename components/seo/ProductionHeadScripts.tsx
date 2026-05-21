@@ -1,12 +1,12 @@
 import Script from "next/script";
 
 /**
- * Cookie-less analytics hook rendered inside <head> in the root layout.
+ * Third-party scripts rendered inside <head> in the root layout.
  *
- * Activate by setting environment variables in Vercel / Netlify — no code
- * change or redeploy needed when swapping analytics providers.
+ * Activate by setting environment variables in Vercel — no code change needed
+ * when swapping providers or enabling AdSense.
  *
- * ─── Provider setup (set in your hosting dashboard) ───────────────────────
+ * ─── Analytics (optional) ───────────────────────────────────────────────────
  *
  * Umami (self-hosted or Umami Cloud):
  *   NEXT_PUBLIC_ANALYTICS_SCRIPT_SRC = https://analytics.umami.is/script.js
@@ -16,26 +16,40 @@ import Script from "next/script";
  *   NEXT_PUBLIC_ANALYTICS_SCRIPT_SRC = https://plausible.io/js/script.js
  *   (no website-id env needed — domain is inferred from the request)
  *
- * Vercel Analytics:
- *   Install @vercel/analytics and add <Analytics /> to this layout instead.
- *   No external script src is required.
+ * ─── Google AdSense (optional) ──────────────────────────────────────────────
  *
- * ──────────────────────────────────────────────────────────────────────────
+ *   NEXT_PUBLIC_ADSENSE_CLIENT_ID = ca-pub-XXXXXXXXXXXXXXXX
  *
- * When NEXT_PUBLIC_ANALYTICS_SCRIPT_SRC is unset the component renders
- * nothing — safe for local dev and staging environments.
+ * Loads the adsbygoogle.js verification script on every page when set.
+ * Required for AdSense site ownership verification and ad serving.
+ *
+ * When env vars are unset the corresponding script is not rendered — safe for
+ * local dev and staging.
  */
 export function ProductionHeadScripts() {
-  const src = process.env.NEXT_PUBLIC_ANALYTICS_SCRIPT_SRC;
+  const analyticsSrc = process.env.NEXT_PUBLIC_ANALYTICS_SCRIPT_SRC;
   const websiteId = process.env.NEXT_PUBLIC_ANALYTICS_WEBSITE_ID;
+  const adsenseClientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
 
-  if (!src) return null;
+  if (!analyticsSrc && !adsenseClientId) return null;
 
   return (
-    <Script
-      src={src}
-      strategy="lazyOnload"
-      {...(websiteId ? { "data-website-id": websiteId } : {})}
-    />
+    <>
+      {adsenseClientId && (
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`}
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
+      )}
+      {analyticsSrc && (
+        <Script
+          src={analyticsSrc}
+          strategy="lazyOnload"
+          {...(websiteId ? { "data-website-id": websiteId } : {})}
+        />
+      )}
+    </>
   );
 }
