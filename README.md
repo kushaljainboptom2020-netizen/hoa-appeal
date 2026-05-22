@@ -1,6 +1,8 @@
 # MyHOAAppeal — HOA Fine Appeal Letter Generator
 
-Free, professional HOA fine dispute and appeal letter generator. No account required.
+Free, professional HOA fine dispute and appeal letter generator for homeowners in the **United States**. No account required.
+
+Legal pages: [Privacy Policy](/privacy) · [Terms of Service](/terms)
 
 Built with [Next.js](https://nextjs.org) 16 (App Router), React 19, Tailwind CSS 4.
 

@@ -61,6 +61,7 @@ export function ViolationDetailsStep({
           label="Date of Notice"
           htmlFor="dateOfNotice"
           required
+          hint="US format (MM/DD/YYYY)"
           error={fieldError("dateOfNotice")}
         >
           <TextInput
@@ -81,6 +82,7 @@ export function ViolationDetailsStep({
           label="Fine Amount ($)"
           htmlFor="fineAmount"
           required
+          hint="Amount in US dollars (USD)"
           error={fieldError("fineAmount")}
         >
           <TextInput

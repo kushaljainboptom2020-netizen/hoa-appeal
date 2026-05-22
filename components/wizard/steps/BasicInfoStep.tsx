@@ -79,6 +79,7 @@ export function BasicInfoStep({
             label="Property Address"
             htmlFor="propertyAddress"
             required
+            hint="Street, city, state, and ZIP code"
             error={fieldError("propertyAddress")}
           >
             <TextInput

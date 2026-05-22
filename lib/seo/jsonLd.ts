@@ -16,6 +16,11 @@ export function buildWebApplicationSchema() {
     },
     description:
       "Instantly create a legally structured dispute and appeal letter to fight unreasonable HOA fines. 100% free.",
+    inLanguage: "en-US",
+    areaServed: {
+      "@type": "Country",
+      name: "United States",
+    },
   };
 }
 

@@ -21,7 +21,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "MyHOAAppeal — HOA Fine Appeal Letter Generator",
   description:
-    "Generate professional HOA fine appeal and dispute letters in minutes. 100% free, no account required.",
+    "Free US HOA fine appeal letter generator for homeowners across the United States. 100% free, no account required.",
+  openGraph: {
+    locale: "en_US",
+  },
   other: {
     "google-adsense-account": "ca-pub-7862241510527930",
   },
@@ -34,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en-US"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>

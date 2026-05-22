@@ -12,6 +12,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   };
 
+  const legalPages: MetadataRoute.Sitemap = [
+    {
+      url: new URL("/privacy", SITE_URL).toString(),
+      changeFrequency: "yearly",
+      priority: 0.5,
+      lastModified: new Date(),
+    },
+    {
+      url: new URL("/terms", SITE_URL).toString(),
+      changeFrequency: "yearly",
+      priority: 0.5,
+      lastModified: new Date(),
+    },
+  ];
+
   const statePages = STATE_SLUGS.map((slug) => ({
     url: new URL(`/appeal-hoa-fine/${slug}`, SITE_URL).toString(),
     changeFrequency: "monthly" as const,
@@ -19,5 +34,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   }));
 
-  return [home, ...statePages];
+  return [home, ...legalPages, ...statePages];
 }
