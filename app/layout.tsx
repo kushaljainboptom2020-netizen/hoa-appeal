@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "MyHOAAppeal — HOA Fine Appeal Letter Generator",
   description:
     "Generate professional HOA fine appeal and dispute letters in minutes. 100% free, no account required.",
+  other: {
+    "google-adsense-account": "ca-pub-7862241510527930",
+  },
 };
 
 export default function RootLayout({
