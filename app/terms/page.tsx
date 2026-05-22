@@ -130,10 +130,10 @@ export default function TermsPage() {
         <p className="mt-3 leading-relaxed">
           Questions about these Terms:{" "}
           <a
-            href="mailto:privacy@myhoaappeal.com"
+            href="mailto:insighteyecare9988@gmail.com"
             className="text-emerald-400 underline-offset-2 hover:underline"
           >
-            privacy@myhoaappeal.com
+            insighteyecare9988@gmail.com
           </a>
         </p>
       </section>

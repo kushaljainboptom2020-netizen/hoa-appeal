@@ -71,10 +71,10 @@ export default function PrivacyPage() {
         <p className="mt-3 leading-relaxed">
           To submit a privacy request, contact us at{" "}
           <a
-            href="mailto:privacy@myhoaappeal.com"
+            href="mailto:insighteyecare9988@gmail.com"
             className="text-emerald-400 underline-offset-2 hover:underline"
           >
-            privacy@myhoaappeal.com
+            insighteyecare9988@gmail.com
           </a>
           . We will respond within the timeframes required by applicable law.
         </p>
@@ -123,10 +123,10 @@ export default function PrivacyPage() {
         <p className="mt-3 leading-relaxed">
           Privacy questions:{" "}
           <a
-            href="mailto:privacy@myhoaappeal.com"
+            href="mailto:insighteyecare9988@gmail.com"
             className="text-emerald-400 underline-offset-2 hover:underline"
           >
-            privacy@myhoaappeal.com
+            insighteyecare9988@gmail.com
           </a>
         </p>
       </section>

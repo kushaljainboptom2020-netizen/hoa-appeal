@@ -30,10 +30,10 @@ export function SiteFooter() {
             Terms of Service
           </Link>
           <a
-            href="mailto:privacy@myhoaappeal.com"
+            href="mailto:insighteyecare9988@gmail.com"
             className="text-slate-400 transition-colors hover:text-emerald-400"
           >
-            privacy@myhoaappeal.com
+            insighteyecare9988@gmail.com
           </a>
         </nav>
         <p className="mt-4 text-center text-xs leading-relaxed text-slate-500">
