@@ -4,17 +4,13 @@ import Script from "next/script";
  * Third-party scripts rendered inside <head> in the root layout.
  *
  * Activate by setting environment variables in Vercel — no code change needed
- * when swapping providers or enabling AdSense.
+ * when enabling AdSense.
  *
- * ─── Analytics (optional) ───────────────────────────────────────────────────
+ * ─── Google Analytics 4 (optional) ───────────────────────────────────────────
  *
- * Umami (self-hosted or Umami Cloud):
- *   NEXT_PUBLIC_ANALYTICS_SCRIPT_SRC = https://analytics.umami.is/script.js
- *   NEXT_PUBLIC_ANALYTICS_WEBSITE_ID = <your-website-id>
+ *   NEXT_PUBLIC_GA_MEASUREMENT_ID = G-XXXXXXXXXX
  *
- * Plausible:
- *   NEXT_PUBLIC_ANALYTICS_SCRIPT_SRC = https://plausible.io/js/script.js
- *   (no website-id env needed — domain is inferred from the request)
+ * Loaded via <GoogleAnalytics /> in app/layout.tsx (not this file).
  *
  * ─── Google AdSense (optional) ──────────────────────────────────────────────
  *
@@ -27,29 +23,16 @@ import Script from "next/script";
  * local dev and staging.
  */
 export function ProductionHeadScripts() {
-  const analyticsSrc = process.env.NEXT_PUBLIC_ANALYTICS_SCRIPT_SRC;
-  const websiteId = process.env.NEXT_PUBLIC_ANALYTICS_WEBSITE_ID;
   const adsenseClientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
 
-  if (!analyticsSrc && !adsenseClientId) return null;
+  if (!adsenseClientId) return null;
 
   return (
-    <>
-      {adsenseClientId && (
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`}
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-      )}
-      {analyticsSrc && (
-        <Script
-          src={analyticsSrc}
-          strategy="lazyOnload"
-          {...(websiteId ? { "data-website-id": websiteId } : {})}
-        />
-      )}
-    </>
+    <Script
+      async
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`}
+      crossOrigin="anonymous"
+      strategy="afterInteractive"
+    />
   );
 }

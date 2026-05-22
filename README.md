@@ -25,8 +25,7 @@ Copy `.env.example` to `.env.local` for local dev or set these directly in Verce
 | Variable | Required | Purpose |
 |----------|----------|---------|
 | `NEXT_PUBLIC_SITE_URL` | **Yes** | Canonical domain — used by sitemap, robots.txt, JSON-LD, and `metadataBase`. Must match your redirect policy (`www` vs apex). |
-| `NEXT_PUBLIC_ANALYTICS_SCRIPT_SRC` | No | External analytics script URL (Umami, Plausible). Injected via `<head>` with `lazyOnload`. |
-| `NEXT_PUBLIC_ANALYTICS_WEBSITE_ID` | No | `data-website-id` attribute for Umami. |
+| `NEXT_PUBLIC_GA_MEASUREMENT_ID` | No | Google Analytics 4 measurement ID (e.g. `G-CV35EV8Y9X`). Loads gtag.js on all routes when set. |
 | `NEXT_PUBLIC_MAILFORM_AFFILIATE_ID` | No | Activates USPS Certified Mail CTA. Set to your Mailform affiliate ID. |
 | `NEXT_PUBLIC_ROCKETLAWYER_AFFILIATE_ID` | No | Activates RocketLawyer attorney CTA. Set to your RocketLawyer affiliate ID. |
 | `NEXT_PUBLIC_ADSENSE_CLIENT_ID` | No | Activates AdSense ad slots (`ca-pub-XXXXXXXXXXXXXXXX`). |
@@ -49,7 +48,7 @@ npm run start
 
 1. Push the repository to GitHub.
 2. Import the project at [vercel.com/new](https://vercel.com/new).
-3. Add `NEXT_PUBLIC_SITE_URL` (and any optional vars) in the Vercel project **Settings → Environment Variables**.
+3. Add `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_GA_MEASUREMENT_ID` (and any other optional vars) in the Vercel project **Settings → Environment Variables**.
 4. Deploy. Sitemap, robots.txt, and JSON-LD will all use the configured domain automatically.
 
 No `vercel.json` or custom build configuration is required for standard deployment.

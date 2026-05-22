@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SITE_URL } from "@/lib/config/site";
 import { ProductionHeadScripts } from "@/components/seo/ProductionHeadScripts";
 import "./globals.css";
+
+const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +42,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full bg-slate-950 text-slate-100 font-sans">
         {children}
+        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
       </body>
     </html>
   );
