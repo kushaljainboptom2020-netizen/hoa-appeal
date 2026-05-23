@@ -22,7 +22,10 @@ export function AppealLandingPage({ stateConfig }: AppealLandingPageProps) {
         subheadline={heroCopy?.subheadline}
       />
       {stateConfig && <StateStatuteBanner stateConfig={stateConfig} />}
-      <AppealWizard initialState={stateConfig?.code} />
+      <AppealWizard
+        initialState={stateConfig?.code}
+        statePageLabel={stateConfig?.name}
+      />
       <StateBrowseFooter />
       <SiteFooter />
     </main>

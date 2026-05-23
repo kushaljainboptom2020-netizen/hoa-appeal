@@ -5,6 +5,7 @@ import { buildDefenseParagraph } from "@/lib/letter/defenseParagraphs";
 import { generateViolationNoticeId } from "@/lib/letter/deterministicId";
 import { formatCurrency, formatDate, formatToday } from "@/lib/letter/format";
 import type { CompiledLetter } from "@/lib/letter/types";
+import { getStateLetterContext } from "@/lib/seo/statePages";
 
 export function compileAppealLetter(formData: AppealFormData): CompiledLetter {
   const violationId = generateViolationNoticeId(formData);
@@ -21,12 +22,22 @@ export function compileAppealLetter(formData: AppealFormData): CompiledLetter {
 
   const paragraph1 = `I, ${fullName || "[Your Name]"}, hereby submit this formal written notice of appeal to dispute the violation notice issued against my property. I am formally contesting the violation I received on ${noticeDate} regarding ${violationLabel}, which carries an assessed penalty totaling ${fineAmount}. I do not concede liability for this violation and respectfully demand that the board review this matter in full before any fine is deemed final or collected.`;
 
+  const stateContext = getStateLetterContext(formData.state);
+  const statuteClause =
+    stateContext?.letterStatuteClause ??
+    `the governing statutes applicable to homeowners associations in ${stateLabel}`;
+
   const paragraph2 = buildDefenseParagraph(
     formData.primaryDefenseStrategy,
-    supportingDetails
+    supportingDetails,
+    formData.state
   );
 
-  const paragraph3 = `Pursuant to the governing statutes and administrative guidelines applicable to homeowners associations in ${stateLabel}, I hereby demand a formal hearing before the HOA board of directors at which I may present this appeal and all supporting evidence. I further request that the association produce all photographic evidence, inspection reports, violation logs, and proof of tracking or certified delivery relied upon in connection with this violation notice. I reserve all rights available to me under the association's governing documents and applicable state law pending resolution of this appeal.`;
+  const hearingSentence = stateContext?.hearingRightsHook
+    ? `${stateContext.hearingRightsHook} `
+    : "";
+
+  const paragraph3 = `Pursuant to ${statuteClause}, I hereby demand a formal hearing before the HOA board of directors at which I may present this appeal and all supporting evidence. ${hearingSentence}I further request that the association produce all photographic evidence, inspection reports, violation logs, and proof of tracking or certified delivery relied upon in connection with this violation notice. I reserve all rights available to me under the association's governing documents and applicable ${stateLabel} law pending resolution of this appeal.`;
 
   return {
     headerLeft: {

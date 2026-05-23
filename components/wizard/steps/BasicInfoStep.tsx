@@ -10,6 +10,7 @@ type BasicInfoStepProps = {
     field: K,
     value: AppealFormData[K]
   ) => void;
+  statePageLabel?: string;
 };
 
 const STATE_OPTIONS = [
@@ -22,6 +23,7 @@ export function BasicInfoStep({
   errors,
   showErrors,
   onChange,
+  statePageLabel,
 }: BasicInfoStepProps) {
   const fieldError = (key: keyof AppealFormData) =>
     showErrors ? errors[key] : undefined;
@@ -102,6 +104,11 @@ export function BasicInfoStep({
           label="State"
           htmlFor="state"
           required
+          hint={
+            statePageLabel
+              ? `Your letter is tailored to ${statePageLabel}. Change below if needed.`
+              : undefined
+          }
           error={fieldError("state")}
         >
           <SelectInput

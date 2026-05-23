@@ -1,4 +1,4 @@
-import { GENERIC_STATUTE_FALLBACK, type StateSeoConfig } from "./statePages";
+import type { StateSeoConfig } from "./statePages";
 import { SITE_URL } from "./siteUrl";
 
 export function buildWebApplicationSchema() {
@@ -26,25 +26,18 @@ export function buildWebApplicationSchema() {
 
 export function buildHowToSchema(config: StateSeoConfig) {
   const { name, slug, statuteReference } = config;
-  const hasCustomStatute = statuteReference !== GENERIC_STATUTE_FALLBACK;
 
   return {
     "@context": "https://schema.org",
     "@type": "HowTo",
     name: `How to dispute an HOA fine in ${name}`,
-    description: `A step-by-step guide to appealing an HOA fine in ${name}${
-      hasCustomStatute ? `, informed by ${statuteReference}` : ""
-    }.`,
+    description: `A step-by-step guide to appealing an HOA fine in ${name}, informed by ${statuteReference}.`,
     step: [
       {
         "@type": "HowToStep",
         position: 1,
         name: "Review the fine notice",
-        text: `Read the HOA violation notice carefully and note the stated violation, fine amount, and response deadline. In ${name}, ${
-          hasCustomStatute
-            ? statuteReference
-            : "state HOA statutes require the association to follow proper notice procedures before imposing fines"
-        }.`,
+        text: `Read the HOA violation notice carefully and note the stated violation, fine amount, and response deadline. In ${name}, ${statuteReference}.`,
       },
       {
         "@type": "HowToStep",

@@ -1,3 +1,5 @@
+import { getStateLetterContext } from "@/lib/seo/statePages";
+
 function weaveSupportingDetails(base: string, details: string): string {
   const trimmed = details.trim();
   if (!trimmed) return base;
@@ -60,15 +62,31 @@ const DEFENSE_PARAGRAPH_BUILDERS: Record<string, (details: string) => string> = 
     ),
 };
 
+const NOTICE_DEFENSE_STRATEGY = "Lack of proper written notice period";
+
+function appendStateNoticeHook(paragraph: string, stateCode: string): string {
+  if (!stateCode) return paragraph;
+  const hook = getStateLetterContext(stateCode)?.noticeDefenseHook;
+  if (!hook) return paragraph;
+  return `${paragraph} ${hook}`;
+}
+
 export function buildDefenseParagraph(
   strategy: string,
-  supportingDetails: string
+  supportingDetails: string,
+  stateCode?: string
 ): string {
   const builder = DEFENSE_PARAGRAPH_BUILDERS[strategy];
-  if (builder) return builder(supportingDetails);
+  const base = builder
+    ? builder(supportingDetails)
+    : weaveSupportingDetails(
+        "Based on the facts of my case, the governing documents of this association, and principles of fair and consistent enforcement, I respectfully submit that this fine should be waived or substantially reduced. The circumstances surrounding this violation do not support the penalty as assessed.",
+        supportingDetails
+      );
 
-  return weaveSupportingDetails(
-    "Based on the facts of my case, the governing documents of this association, and principles of fair and consistent enforcement, I respectfully submit that this fine should be waived or substantially reduced. The circumstances surrounding this violation do not support the penalty as assessed.",
-    supportingDetails
-  );
+  if (strategy === NOTICE_DEFENSE_STRATEGY && stateCode) {
+    return appendStateNoticeHook(base, stateCode);
+  }
+
+  return base;
 }

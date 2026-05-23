@@ -17,9 +17,13 @@ import {
 
 type AppealWizardProps = {
   initialState?: string;
+  statePageLabel?: string;
 };
 
-export function AppealWizard({ initialState }: AppealWizardProps) {
+export function AppealWizard({
+  initialState,
+  statePageLabel,
+}: AppealWizardProps) {
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<AppealFormData>(() => ({
     ...initialFormData,
@@ -94,6 +98,7 @@ export function AppealWizard({ initialState }: AppealWizardProps) {
           errors={errors}
           showErrors={showErrors}
           onChange={handleChange}
+          statePageLabel={statePageLabel}
         />
         <WizardNav
           currentStep={currentStep}

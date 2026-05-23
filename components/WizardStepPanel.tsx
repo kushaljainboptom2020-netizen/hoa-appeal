@@ -13,6 +13,7 @@ type WizardStepPanelProps = {
     field: K,
     value: AppealFormData[K]
   ) => void;
+  statePageLabel?: string;
 };
 
 export function WizardStepPanel({
@@ -21,8 +22,9 @@ export function WizardStepPanel({
   errors,
   showErrors,
   onChange,
+  statePageLabel,
 }: WizardStepPanelProps) {
-  const stepProps = { formData, errors, showErrors, onChange };
+  const stepProps = { formData, errors, showErrors, onChange, statePageLabel };
 
   return (
     <div
