@@ -13,3 +13,7 @@ export const SITE_URL =
 export function getSiteOrigin(): string {
   return SITE_URL.replace(/\/$/, "");
 }
+
+export const SUPPORT_EMAIL = "support@myhoaappeal.com";
+
+export const LEGAL_LAST_UPDATED = "June 1, 2026";

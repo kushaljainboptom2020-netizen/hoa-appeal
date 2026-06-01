@@ -2,7 +2,7 @@
 
 Free, professional HOA fine dispute and appeal letter generator for homeowners in the **United States**. No account required.
 
-Legal pages: [Privacy Policy](/privacy) · [Terms of Service](/terms)
+Trust pages: [About](/about) · [Contact](/contact) · [Privacy Policy](/privacy-policy) · [Terms of Service](/terms-of-service)
 
 Built with [Next.js](https://nextjs.org) 16 (App Router), React 19, Tailwind CSS 4.
 

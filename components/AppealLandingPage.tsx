@@ -1,4 +1,5 @@
 import { AppealWizard } from "@/components/AppealWizard";
+import { HoaAppealFaq } from "@/components/HoaAppealFaq";
 import { HeroSection } from "@/components/HeroSection";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StateBrowseFooter } from "@/components/StateBrowseFooter";
@@ -26,6 +27,7 @@ export function AppealLandingPage({ stateConfig }: AppealLandingPageProps) {
         initialState={stateConfig?.code}
         statePageLabel={stateConfig?.name}
       />
+      <HoaAppealFaq stateName={stateConfig?.name} />
       <StateBrowseFooter />
       <SiteFooter />
     </main>

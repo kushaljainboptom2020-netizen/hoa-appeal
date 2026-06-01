@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
+import { LEGAL_LAST_UPDATED, SUPPORT_EMAIL } from "@/lib/config/site";
 
 export const metadata: Metadata = {
   title: "Terms of Service | MyHOAAppeal",
   description:
-    "Terms of Service for MyHOAAppeal, a free US HOA fine appeal letter generator. Governed by Delaware law.",
+    "Terms of Service for MyHOAAppeal. Template-based HOA appeal letters, no legal representation, and Delaware governing law.",
 };
 
-const LAST_UPDATED = "May 22, 2026";
-
-export default function TermsPage() {
+export default function TermsOfServicePage() {
   return (
-    <LegalPageLayout title="Terms of Service" lastUpdated={LAST_UPDATED}>
+    <LegalPageLayout title="Terms of Service" lastUpdated={LEGAL_LAST_UPDATED}>
       <section>
         <h2 className="text-xl font-semibold text-white">Agreement</h2>
         <p className="mt-3 leading-relaxed">
@@ -35,22 +35,32 @@ export default function TermsPage() {
       <section>
         <h2 className="text-xl font-semibold text-white">Service description</h2>
         <p className="mt-3 leading-relaxed">
-          MyHOAAppeal offers a free online tool to generate formatted appeal
-          letter drafts based on information you provide. The tool may reference
-          general concepts from applicable U.S. state HOA and property statutes
-          on state-specific pages, but output is not a substitute for professional
-          legal review.
+          MyHOAAppeal offers a free online tool that compiles formal template
+          layouts into appeal letter drafts based on information you provide in
+          your browser. The tool may reference general concepts from applicable
+          U.S. state HOA and property statutes on state-specific pages. Output is
+          a formatted document template—not customized legal representation or a
+          guarantee of any particular outcome.
         </p>
       </section>
 
       <section>
-        <h2 className="text-xl font-semibold text-white">No legal advice</h2>
+        <h2 className="text-xl font-semibold text-white">
+          No legal advice or attorney-client relationship
+        </h2>
         <p className="mt-3 leading-relaxed">
-          MyHOAAppeal is not a law firm and does not provide legal advice,
-          representation, or attorney-client relationships. You are responsible
-          for verifying that any letter meets your HOA&apos;s requirements,
-          deadlines, and the laws of your U.S. state. Consult a qualified attorney
-          in your jurisdiction before relying on any generated document.
+          MyHOAAppeal and HOAShield are not law firms. We do not provide legal
+          advice, legal representation, or services that create an
+          attorney-client relationship. No communication with us—by email, contact
+          form, or otherwise—establishes attorney-client privilege or a duty of
+          care equivalent to a licensed attorney in your jurisdiction.
+        </p>
+        <p className="mt-3 leading-relaxed">
+          You are solely responsible for verifying that any letter meets your
+          HOA&apos;s governing documents, notice requirements, appeal deadlines,
+          and the laws of your U.S. state. Consult a qualified attorney before
+          relying on any generated document or taking action that could affect
+          your property rights, fines, or assessments.
         </p>
       </section>
 
@@ -98,10 +108,15 @@ export default function TermsPage() {
         <h2 className="text-xl font-semibold text-white">Privacy</h2>
         <p className="mt-3 leading-relaxed">
           Our collection and use of information is described in our{" "}
-          <a href="/privacy" className="text-emerald-400 underline-offset-2 hover:underline">
+          <Link
+            href="/privacy-policy"
+            className="text-emerald-400 underline-offset-2 hover:underline"
+          >
             Privacy Policy
-          </a>
-          , including rights for California residents under the CCPA/CPRA.
+          </Link>
+          , including rights for California residents under the CCPA/CPRA and
+          disclosures regarding client-side data handling, Google Analytics, and
+          Google AdSense.
         </p>
       </section>
 
@@ -130,10 +145,10 @@ export default function TermsPage() {
         <p className="mt-3 leading-relaxed">
           Questions about these Terms:{" "}
           <a
-            href="mailto:insighteyecare9988@gmail.com"
+            href={`mailto:${SUPPORT_EMAIL}`}
             className="text-emerald-400 underline-offset-2 hover:underline"
           >
-            insighteyecare9988@gmail.com
+            {SUPPORT_EMAIL}
           </a>
         </p>
       </section>

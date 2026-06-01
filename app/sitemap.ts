@@ -12,15 +12,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   };
 
-  const legalPages: MetadataRoute.Sitemap = [
+  const trustPages: MetadataRoute.Sitemap = [
     {
-      url: new URL("/privacy", SITE_URL).toString(),
+      url: new URL("/about", SITE_URL).toString(),
+      changeFrequency: "yearly",
+      priority: 0.6,
+      lastModified: new Date(),
+    },
+    {
+      url: new URL("/contact", SITE_URL).toString(),
+      changeFrequency: "yearly",
+      priority: 0.6,
+      lastModified: new Date(),
+    },
+    {
+      url: new URL("/privacy-policy", SITE_URL).toString(),
       changeFrequency: "yearly",
       priority: 0.5,
       lastModified: new Date(),
     },
     {
-      url: new URL("/terms", SITE_URL).toString(),
+      url: new URL("/terms-of-service", SITE_URL).toString(),
       changeFrequency: "yearly",
       priority: 0.5,
       lastModified: new Date(),
@@ -34,5 +46,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   }));
 
-  return [home, ...legalPages, ...statePages];
+  return [home, ...trustPages, ...statePages];
 }

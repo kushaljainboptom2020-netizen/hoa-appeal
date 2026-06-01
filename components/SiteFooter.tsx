@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SUPPORT_EMAIL } from "@/lib/config/site";
 
 export function SiteFooter() {
   const year = new Date().getFullYear();
@@ -18,27 +19,48 @@ export function SiteFooter() {
           aria-label="Legal and policies"
         >
           <Link
-            href="/privacy"
+            href="/about"
+            className="text-slate-400 transition-colors hover:text-emerald-400"
+          >
+            About
+          </Link>
+          <Link
+            href="/contact"
+            className="text-slate-400 transition-colors hover:text-emerald-400"
+          >
+            Contact
+          </Link>
+          <Link
+            href="/privacy-policy"
             className="text-slate-400 transition-colors hover:text-emerald-400"
           >
             Privacy Policy
           </Link>
           <Link
-            href="/terms"
+            href="/terms-of-service"
             className="text-slate-400 transition-colors hover:text-emerald-400"
           >
             Terms of Service
           </Link>
+        </nav>
+        <p className="mt-3 text-center text-sm text-slate-500">
           <a
-            href="mailto:insighteyecare9988@gmail.com"
+            href={`mailto:${SUPPORT_EMAIL}`}
             className="text-slate-400 transition-colors hover:text-emerald-400"
           >
-            insighteyecare9988@gmail.com
+            {SUPPORT_EMAIL}
           </a>
-        </nav>
+        </p>
         <p className="mt-4 text-center text-xs leading-relaxed text-slate-500">
           Governed by the laws of the State of Delaware. California residents:
-          see our Privacy Policy for CCPA rights.
+          see our{" "}
+          <Link
+            href="/privacy-policy"
+            className="text-slate-400 underline-offset-2 hover:text-emerald-400 hover:underline"
+          >
+            Privacy Policy
+          </Link>{" "}
+          for CCPA rights.
         </p>
         <p className="mt-6 text-center text-xs text-slate-600">
           © {year} MyHOAAppeal. All rights reserved.
