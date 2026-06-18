@@ -25,6 +25,12 @@ export function SiteFooter() {
             About
           </Link>
           <Link
+            href="/guides"
+            className="text-slate-400 transition-colors hover:text-emerald-400"
+          >
+            Guides
+          </Link>
+          <Link
             href="/contact"
             className="text-slate-400 transition-colors hover:text-emerald-400"
           >
