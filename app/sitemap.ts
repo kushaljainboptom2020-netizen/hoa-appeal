@@ -1,8 +1,10 @@
 import type { MetadataRoute } from "next";
+import { getAllGuideSlugs } from "@/lib/content/guides";
 import { getAllStateSlugs } from "@/lib/seo/statePages";
 import { SITE_URL } from "@/lib/seo/siteUrl";
 
 const STATE_SLUGS = getAllStateSlugs();
+const GUIDE_SLUGS = getAllGuideSlugs();
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const home: MetadataRoute.Sitemap[number] = {
@@ -39,6 +41,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  const guidesIndex: MetadataRoute.Sitemap[number] = {
+    url: new URL("/guides", SITE_URL).toString(),
+    changeFrequency: "daily",
+    priority: 0.9,
+    lastModified: new Date(),
+  };
+
+  const guidePages = GUIDE_SLUGS.map((slug) => ({
+    url: new URL(`/guides/${slug}`, SITE_URL).toString(),
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+    lastModified: new Date(),
+  }));
+
   const statePages = STATE_SLUGS.map((slug) => ({
     url: new URL(`/appeal-hoa-fine/${slug}`, SITE_URL).toString(),
     changeFrequency: "monthly" as const,
@@ -46,5 +62,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   }));
 
-  return [home, ...trustPages, ...statePages];
+  return [home, ...trustPages, guidesIndex, ...guidePages, ...statePages];
 }
