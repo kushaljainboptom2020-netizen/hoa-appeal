@@ -4,6 +4,9 @@ import { SUPPORT_EMAIL } from "@/lib/config/site";
 const PRIMARY_LINKS = [
   { href: "/about", label: "About" },
   { href: "/guides", label: "Guides" },
+  { href: "/decision-tree", label: "Decision Tree" },
+  { href: "/readiness-calculator", label: "Readiness Calculator" },
+  { href: "/map", label: "State Map" },
   { href: "/faq", label: "FAQ" },
   { href: "/success-stories", label: "Success Stories" },
   { href: "/authors", label: "Authors" },

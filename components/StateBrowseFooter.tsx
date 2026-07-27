@@ -14,7 +14,14 @@ export function StateBrowseFooter() {
         </h2>
         <p className="mt-2 max-w-2xl text-sm text-slate-400">
           Find a free HOA fine appeal letter generator tailored to your state&apos;s
-          requirements.
+          requirements.{" "}
+          <Link
+            href="/map"
+            className="text-emerald-400 underline-offset-2 hover:underline"
+          >
+            Explore the interactive map
+          </Link>
+          .
         </p>
         <nav className="mt-8" aria-label="State appeal letter pages">
           <ul className="grid grid-cols-2 gap-x-4 gap-y-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">

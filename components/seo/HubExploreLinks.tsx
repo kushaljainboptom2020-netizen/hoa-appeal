@@ -2,6 +2,9 @@ import Link from "next/link";
 
 const HUB_LINKS = [
   { href: "/", label: "Appeal letter tool" },
+  { href: "/decision-tree", label: "Decision tree" },
+  { href: "/readiness-calculator", label: "Readiness calculator" },
+  { href: "/map", label: "State map" },
   { href: "/guides", label: "Guides" },
   { href: "/faq", label: "FAQ" },
   { href: "/success-stories", label: "Success stories" },
@@ -9,7 +12,14 @@ const HUB_LINKS = [
 
 type HubExploreLinksProps = {
   /** Current hub path to exclude from the list */
-  currentPath: "/" | "/guides" | "/faq" | "/success-stories";
+  currentPath:
+    | "/"
+    | "/guides"
+    | "/faq"
+    | "/success-stories"
+    | "/decision-tree"
+    | "/readiness-calculator"
+    | "/map";
 };
 
 export function HubExploreLinks({ currentPath }: HubExploreLinksProps) {

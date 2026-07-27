@@ -196,6 +196,14 @@ export function assertAllGuidesValid(): void {
     if (!assets.downloadables?.length) {
       throw new Error(`${article.slug}: downloadables incomplete`);
     }
+    if (
+      !assets.infographics?.process ||
+      !assets.infographics?.comparison ||
+      !assets.infographics?.timeline ||
+      !assets.infographics?.checklist
+    ) {
+      throw new Error(`${article.slug}: infographics incomplete`);
+    }
 
     for (const related of article.relatedGuideSlugs) {
       if (!bySlug.has(related)) {

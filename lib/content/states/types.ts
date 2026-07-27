@@ -16,6 +16,9 @@ export type StateAppealStep = {
   step: number;
   title: string;
   description: string;
+  estimatedTime: string;
+  documentsRequired: string[];
+  commonMistakes: string[];
 };
 
 export type StateStatute = {
@@ -27,6 +30,8 @@ export type StateTimelineEvent = {
   label: string;
   duration: string;
   notes: string;
+  documentsRequired: string[];
+  commonMistakes: string[];
 };
 
 export type StateEvidenceCategory = {
@@ -89,8 +94,14 @@ export type StateLegalContent = {
 
 export function countStateContentWords(content: StateLegalContent): number {
   const textParts: string[] = [];
+  const skipKeys = new Set([
+    "documentsRequired",
+    "commonMistakes",
+    "estimatedTime",
+  ]);
 
-  function collect(value: unknown): void {
+  function collect(value: unknown, key?: string): void {
+    if (key && skipKeys.has(key)) return;
     if (typeof value === "string") {
       textParts.push(value);
       return;
@@ -100,7 +111,9 @@ export function countStateContentWords(content: StateLegalContent): number {
       return;
     }
     if (value && typeof value === "object") {
-      for (const nested of Object.values(value)) collect(nested);
+      for (const [nestedKey, nested] of Object.entries(value)) {
+        collect(nested, nestedKey);
+      }
     }
   }
 

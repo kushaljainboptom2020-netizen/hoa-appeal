@@ -70,6 +70,9 @@ export type GuideProcessStep = {
   step: number;
   title: string;
   description: string;
+  estimatedTime: string;
+  documentsRequired: string[];
+  commonMistakes: string[];
 };
 
 export type GuideProcessFlow = {
@@ -105,6 +108,8 @@ export type GuideTimelineEvent = {
   label: string;
   duration: string;
   notes: string;
+  documentsRequired: string[];
+  commonMistakes: string[];
 };
 
 export type GuideTimelineAsset = {
@@ -128,7 +133,14 @@ export type GuideDownloadable = {
   label: string;
   description: string;
   href: string;
-  fileType: "pdf";
+  fileType: "pdf" | "svg";
+};
+
+export type GuideInfographicSet = {
+  process: string;
+  comparison: string;
+  timeline: string;
+  checklist: string;
 };
 
 /** Structured educational assets rendered beside long-form guide prose. */
@@ -140,6 +152,7 @@ export type GuideEducationalAssets = {
   timeline: GuideTimelineAsset;
   visualSummary: GuideVisualSummary;
   downloadables: GuideDownloadable[];
+  infographics: GuideInfographicSet;
 };
 
 /** Catalog metadata — SEO and taxonomy without long-form body. */

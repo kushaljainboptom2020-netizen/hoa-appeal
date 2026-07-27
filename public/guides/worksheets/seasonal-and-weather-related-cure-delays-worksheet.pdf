@@ -9,7 +9,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 4 0 obj
-<< /Length 4182 >>
+<< /Length 5375 >>
 stream
 BT
 /F1 10 Tf
@@ -27,45 +27,45 @@ BT
 1 0 0 1 48 599 Tm (* Keep escalation proportionate: Match collections risk and dollar amount to mediation, counsel, or court only after the packet is complete.) Tj
 1 0 0 1 48 586 Tm () Tj
 1 0 0 1 48 573 Tm (== PROCESS FLOW ==) Tj
-1 0 0 1 48 560 Tm (1. Capture the trigger) Tj
+1 0 0 1 48 560 Tm (1. Capture the trigger [Same day \(30-90 min\)]) Tj
 1 0 0 1 48 547 Tm (Save the notice, portal message, invoice, or verbal summary that started the dispute about) Tj
 1 0 0 1 48 534 Tm (weather logs and reasonable extension requests. Note the date received.) Tj
-1 0 0 1 48 521 Tm (2. Pull controlling text) Tj
-1 0 0 1 48 508 Tm (Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action) Tj
-1 0 0 1 48 495 Tm (on weather logs and reasonable extension requests.) Tj
-1 0 0 1 48 482 Tm (3. Build the evidence spine) Tj
-1 0 0 1 48 469 Tm (Assemble dated photos, correspondence, ledgers, and comparables that speak directly to) Tj
-1 0 0 1 48 456 Tm (whether to request a weather-based extension.) Tj
-1 0 0 1 48 443 Tm (4. Choose the procedural path) Tj
-1 0 0 1 48 430 Tm (Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on) Tj
-1 0 0 1 48 417 Tm (deadlines and stakes around weather logs and reasonable extension requests.) Tj
-1 0 0 1 48 404 Tm (5. Submit a written ask) Tj
-1 0 0 1 48 391 Tm (Send one clear remedy request \(waive, reduce, re-notice, or reverse\) tied to whether to) Tj
-1 0 0 1 48 378 Tm (request a weather-based extension, with exhibits attached.) Tj
-1 0 0 1 48 365 Tm (6. Confirm the outcome in writing) Tj
-1 0 0 1 48 352 Tm (Demand or calendar a written decision, update your ledger notes, and decide whether) Tj
-1 0 0 1 48 339 Tm (escalation is still proportionate.) Tj
-1 0 0 1 48 326 Tm () Tj
-1 0 0 1 48 313 Tm (== CHECKLIST ==) Tj
-1 0 0 1 48 300 Tm (Documents on hand) Tj
-1 0 0 1 48 287 Tm ([ ] Written notice or invoice tied to weather logs and reasonable extension requests) Tj
-1 0 0 1 48 274 Tm ([ ] Current CC&Rs, rules, and fine schedule excerpts) Tj
-1 0 0 1 48 261 Tm ([ ] Delivery proof \(certified mail, portal export, or email headers\)) Tj
-1 0 0 1 48 248 Tm () Tj
-1 0 0 1 48 235 Tm (Evidence quality) Tj
-1 0 0 1 48 222 Tm ([ ] Dated materials that address whether to request a weather-based extension) Tj
-1 0 0 1 48 209 Tm ([ ] One-page timeline of key events) Tj
-1 0 0 1 48 196 Tm ([ ] Exhibit index with short labels \(A, B, C...\)) Tj
-1 0 0 1 48 183 Tm () Tj
-1 0 0 1 48 170 Tm (Procedural safeguards) Tj
-1 0 0 1 48 157 Tm ([ ] Appeal / cure / hearing deadline calendared) Tj
-1 0 0 1 48 144 Tm ([ ] Clear written remedy \(waive, reduce, re-notice, reverse\)) Tj
-1 0 0 1 48 131 Tm ([ ] Plan for payment under protest if lien pressure rises) Tj
-1 0 0 1 48 118 Tm () Tj
-1 0 0 1 48 105 Tm (Before you stop working the file) Tj
-1 0 0 1 48 92 Tm ([ ] Confirm whether documented storm delay or mild weather better describes your posture) Tj
-1 0 0 1 48 79 Tm ([ ] Save a PDF export of the full packet) Tj
-1 0 0 1 48 66 Tm ([ ] Note any verbal promises in a same-day email) Tj
+1 0 0 1 48 521 Tm (   Documents: Violation notice, invoice, or portal message; Envelope postmark or delivery receipt; Dated note of when you first learned of the issue) Tj
+1 0 0 1 48 508 Tm (   Avoid: Relying on a verbal warning without a written artifact; Forgetting to photograph the notice date and cited rule) Tj
+1 0 0 1 48 495 Tm (2. Pull controlling text [1-3 days]) Tj
+1 0 0 1 48 482 Tm (Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action) Tj
+1 0 0 1 48 469 Tm (on weather logs and reasonable extension requests.) Tj
+1 0 0 1 48 456 Tm (   Documents: CC&R / rule pages cited in the notice; Current fine schedule; Bylaws appeal or hearing clause) Tj
+1 0 0 1 48 443 Tm (   Avoid: Arguing fairness before confirming the board cited a real rule; Using an outdated schedule that no longer matches the ledger) Tj
+1 0 0 1 48 430 Tm (3. Build the evidence spine [2-5 days]) Tj
+1 0 0 1 48 417 Tm (Assemble dated photos, correspondence, ledgers, and comparables that speak directly to) Tj
+1 0 0 1 48 404 Tm (whether to request a weather-based extension.) Tj
+1 0 0 1 48 391 Tm (   Documents: Dated photos or maintenance logs; Correspondence export; Comparable-neighbor notes \(when relevant\); One-page exhibit index) Tj
+1 0 0 1 48 378 Tm (   Avoid: Photos without dates, landmarks, or consistent angles; Dumping unsorted emails instead of labeled exhibits) Tj
+1 0 0 1 48 365 Tm (4. Choose the procedural path [Per notice window \(often 7-14 days\)]) Tj
+1 0 0 1 48 352 Tm (Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on) Tj
+1 0 0 1 48 339 Tm (deadlines and stakes around weather logs and reasonable extension requests.) Tj
+1 0 0 1 48 326 Tm (   Documents: Deadline calendar from the notice and bylaws; Draft remedy sentence \(waive / reduce / re-notice / reverse\); Proof of any cure already completed) Tj
+1 0 0 1 48 313 Tm (   Avoid: Missing the internal appeal deadline while still gathering evidence; Asking for conflicting remedies in the same letter) Tj
+1 0 0 1 48 300 Tm (5. Submit a written ask [1-2 hours to finalize + send]) Tj
+1 0 0 1 48 287 Tm (Send one clear remedy request \(waive, reduce, re-notice, or reverse\) tied to whether to) Tj
+1 0 0 1 48 274 Tm (request a weather-based extension, with exhibits attached.) Tj
+1 0 0 1 48 261 Tm (   Documents: Signed appeal or dispute letter; Indexed exhibits; Certified-mail / portal delivery proof) Tj
+1 0 0 1 48 248 Tm (   Avoid: Sending exhibits without a clear ask on the first page; Failing to keep delivery proof for the appeal packet) Tj
+1 0 0 1 48 235 Tm (6. Confirm the outcome in writing [1-7 days after hearing or board action]) Tj
+1 0 0 1 48 222 Tm (Demand or calendar a written decision, update your ledger notes, and decide whether) Tj
+1 0 0 1 48 209 Tm (escalation is still proportionate.) Tj
+1 0 0 1 48 196 Tm (   Documents: Written decision or refusal-to-decide record; Updated ledger screenshot; Post-decision deadline calendar) Tj
+1 0 0 1 48 183 Tm (   Avoid: Assuming silence means the fine was waived; Paying without noting payment under protest when escalation continues) Tj
+1 0 0 1 48 170 Tm () Tj
+1 0 0 1 48 157 Tm (== CHECKLIST ==) Tj
+1 0 0 1 48 144 Tm (Documents on hand) Tj
+1 0 0 1 48 131 Tm ([ ] Written notice or invoice tied to weather logs and reasonable extension requests) Tj
+1 0 0 1 48 118 Tm ([ ] Current CC&Rs, rules, and fine schedule excerpts) Tj
+1 0 0 1 48 105 Tm ([ ] Delivery proof \(certified mail, portal export, or email headers\)) Tj
+1 0 0 1 48 92 Tm () Tj
+1 0 0 1 48 79 Tm (Evidence quality) Tj
+1 0 0 1 48 66 Tm ([ ] Dated materials that address whether to request a weather-based extension) Tj
 ET
 endstream
 endobj
@@ -73,63 +73,63 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 3 0 R >> >> >>
 endobj
 6 0 obj
-<< /Length 4478 >>
+<< /Length 4685 >>
 stream
 BT
 /F1 10 Tf
-1 0 0 1 48 742 Tm () Tj
-1 0 0 1 48 729 Tm (== TIMELINE ==) Tj
-1 0 0 1 48 716 Tm (Trigger / notice | Day 0) Tj
-1 0 0 1 48 703 Tm (Violation letter, invoice, or demand referencing weather logs and reasonable extension) Tj
-1 0 0 1 48 690 Tm (requests arrives.) Tj
-1 0 0 1 48 677 Tm (Document pull | Days 0-3) Tj
-1 0 0 1 48 664 Tm (Gather CC&Rs, schedules, and records that control whether to request a weather-based) Tj
-1 0 0 1 48 651 Tm (extension.) Tj
-1 0 0 1 48 638 Tm (Cure or early response | Per notice \(often 7-14 days\)) Tj
-1 0 0 1 48 625 Tm (Cure if appropriate; otherwise send a written dispute preserving hearing rights.) Tj
-1 0 0 1 48 612 Tm (Hearing / board review | Often 2-6 weeks after request) Tj
-1 0 0 1 48 599 Tm (Present indexed exhibits focused on weather logs and reasonable extension requests; ask for) Tj
-1 0 0 1 48 586 Tm (a written decision.) Tj
-1 0 0 1 48 573 Tm (Written decision | Promptly after hearing \(document-driven\)) Tj
-1 0 0 1 48 560 Tm (Confirm outcome in writing; calendar any post-decision deadlines.) Tj
-1 0 0 1 48 547 Tm (Escalation fork | After denial or silence) Tj
-1 0 0 1 48 534 Tm (Choose payment under protest, ADR, counsel, or court based on stakes around weather logs and) Tj
-1 0 0 1 48 521 Tm (reasonable extension requests.) Tj
-1 0 0 1 48 508 Tm () Tj
-1 0 0 1 48 495 Tm (== DECISION TREE \(print path\) ==) Tj
-1 0 0 1 48 482 Tm (Use this yes/no path to decide your next action on weather logs and reasonable extension) Tj
-1 0 0 1 48 469 Tm (requests. Outcomes are educational starting points-confirm against your CC&Rs and state law.) Tj
-1 0 0 1 48 456 Tm (Q \(start\): Do you already have written materials covering weather logs and reasonable extension requests?) Tj
-1 0 0 1 48 443 Tm (- Yes - I have notices or governing excerpts -> go to quality) Tj
-1 0 0 1 48 430 Tm (- No - I am starting from a verbal warning or rumor -> go to collect) Tj
-1 0 0 1 48 417 Tm (Q \(collect\): Can you obtain the written notice, fine schedule, and relevant CC&R/rule pages within 48 hours?) Tj
-1 0 0 1 48 404 Tm (- Yes - I can request or download them -> Request the file in writing today, then re-run) Tj
-1 0 0 1 48 391 Tm (this tree for weather logs and reasonable extension requests. Do not rely on memory alone.) Tj
-1 0 0 1 48 378 Tm (- No - the association will not provide records -> Send a dated records request, keep) Tj
-1 0 0 1 48 365 Tm (delivery proof, and note the refusal in your appeal packet about weather logs and reasonable) Tj
-1 0 0 1 48 352 Tm (extension requests.) Tj
-1 0 0 1 48 339 Tm (Q \(quality\): Does your packet clearly address whether to request a weather-based extension?) Tj
-1 0 0 1 48 326 Tm (- Yes - defects and facts are indexed -> go to deadline) Tj
-1 0 0 1 48 313 Tm (- Not yet - gaps remain -> Fill gaps with dated exhibits before you argue weather logs and) Tj
-1 0 0 1 48 300 Tm (reasonable extension requests. Incomplete packets invite denials on procedure.) Tj
-1 0 0 1 48 287 Tm (Q \(deadline\): Is an appeal, cure, or response deadline still open?) Tj
-1 0 0 1 48 274 Tm (- Yes - time remains -> Calendar the deadline, submit a written position on weather logs and) Tj
-1 0 0 1 48 261 Tm (reasonable extension requests, and request a hearing or written decision in the same letter.) Tj
-1 0 0 1 48 248 Tm (- Unsure / possibly missed -> Ask in writing for the controlling deadline and whether late) Tj
-1 0 0 1 48 235 Tm (submissions are accepted. Preserve weather logs and reasonable extension requests arguments) Tj
-1 0 0 1 48 222 Tm (even while clarifying timing.) Tj
-1 0 0 1 48 209 Tm (- No - the window closed -> Document why the window was missed \(late notice, portal failure,) Tj
-1 0 0 1 48 196 Tm (etc.\) and escalate via payment-under-protest, mediation, or counsel depending on stakes.) Tj
-1 0 0 1 48 183 Tm () Tj
-1 0 0 1 48 170 Tm (== COMPARISON SNAPSHOT ==) Tj
-1 0 0 1 48 157 Tm (Columns: Documented storm delay | Mild weather | Vendor backlog only) Tj
-1 0 0 1 48 144 Tm (Typical signal) Tj
-1 0 0 1 48 131 Tm ([Documented storm delay] Clear written basis for documented storm delay) Tj
-1 0 0 1 48 118 Tm ([Mild weather] Partial or contested basis for mild weather) Tj
-1 0 0 1 48 105 Tm ([Vendor backlog only] High risk if you only have vendor backlog only) Tj
-1 0 0 1 48 92 Tm (Owner priority) Tj
-1 0 0 1 48 79 Tm ([Documented storm delay] Preserve documented storm delay with indexed proof) Tj
-1 0 0 1 48 66 Tm ([Mild weather] Convert mild weather into a documented record) Tj
+1 0 0 1 48 742 Tm ([ ] One-page timeline of key events) Tj
+1 0 0 1 48 729 Tm ([ ] Exhibit index with short labels \(A, B, C...\)) Tj
+1 0 0 1 48 716 Tm () Tj
+1 0 0 1 48 703 Tm (Procedural safeguards) Tj
+1 0 0 1 48 690 Tm ([ ] Appeal / cure / hearing deadline calendared) Tj
+1 0 0 1 48 677 Tm ([ ] Clear written remedy \(waive, reduce, re-notice, reverse\)) Tj
+1 0 0 1 48 664 Tm ([ ] Plan for payment under protest if lien pressure rises) Tj
+1 0 0 1 48 651 Tm () Tj
+1 0 0 1 48 638 Tm (Before you stop working the file) Tj
+1 0 0 1 48 625 Tm ([ ] Confirm whether documented storm delay or mild weather better describes your posture) Tj
+1 0 0 1 48 612 Tm ([ ] Save a PDF export of the full packet) Tj
+1 0 0 1 48 599 Tm ([ ] Note any verbal promises in a same-day email) Tj
+1 0 0 1 48 586 Tm () Tj
+1 0 0 1 48 573 Tm (== TIMELINE ==) Tj
+1 0 0 1 48 560 Tm (Trigger / notice | Day 0) Tj
+1 0 0 1 48 547 Tm (Violation letter, invoice, or demand referencing weather logs and reasonable extension) Tj
+1 0 0 1 48 534 Tm (requests arrives.) Tj
+1 0 0 1 48 521 Tm (   Documents: Violation letter or invoice; Delivery proof / portal export) Tj
+1 0 0 1 48 508 Tm (   Avoid: Ignoring early inspection photos that later become exhibit A; Losing the envelope that shows the mailing date) Tj
+1 0 0 1 48 495 Tm (Document pull | Days 0-3) Tj
+1 0 0 1 48 482 Tm (Gather CC&Rs, schedules, and records that control whether to request a weather-based) Tj
+1 0 0 1 48 469 Tm (extension.) Tj
+1 0 0 1 48 456 Tm (   Documents: CC&Rs and rules cited; Fine schedule; Prior correspondence on the same issue) Tj
+1 0 0 1 48 443 Tm (   Avoid: Starting to write before you have the controlling text; Mixing draft rules with recorded covenants) Tj
+1 0 0 1 48 430 Tm (Cure or early response | Per notice \(often 7-14 days\)) Tj
+1 0 0 1 48 417 Tm (Cure if appropriate; otherwise send a written dispute preserving hearing rights.) Tj
+1 0 0 1 48 404 Tm (   Documents: Cure photos or vendor invoice; Written dispute letter if not curing; Delivery proof) Tj
+1 0 0 1 48 391 Tm (   Avoid: Curing without asking for written confirmation; Letting the cure window expire while waiting on a phone call) Tj
+1 0 0 1 48 378 Tm (Hearing / board review | Often 2-6 weeks after request) Tj
+1 0 0 1 48 365 Tm (Present indexed exhibits focused on weather logs and reasonable extension requests; ask for) Tj
+1 0 0 1 48 352 Tm (a written decision.) Tj
+1 0 0 1 48 339 Tm (   Documents: Indexed exhibit packet; Hearing agenda or appearance confirmation; One-sentence remedy ask) Tj
+1 0 0 1 48 326 Tm (   Avoid: Showing up without copies for the board; Skipping a written decision request on the record) Tj
+1 0 0 1 48 313 Tm (Written decision | Promptly after hearing \(document-driven\)) Tj
+1 0 0 1 48 300 Tm (Confirm outcome in writing; calendar any post-decision deadlines.) Tj
+1 0 0 1 48 287 Tm (   Documents: Written decision letter; Updated ledger entry; Minutes request \(if decision is oral only\)) Tj
+1 0 0 1 48 274 Tm (   Avoid: Accepting an oral outcome without a dated writing; Missing post-decision escalation clocks) Tj
+1 0 0 1 48 261 Tm (Escalation fork | After denial or silence) Tj
+1 0 0 1 48 248 Tm (Choose payment under protest, ADR, counsel, or court based on stakes around weather logs and) Tj
+1 0 0 1 48 235 Tm (reasonable extension requests.) Tj
+1 0 0 1 48 222 Tm (   Documents: Full appeal record to date; Collections / lien notice if any; ADR clause or counsel intake notes) Tj
+1 0 0 1 48 209 Tm (   Avoid: Escalating before the internal record is complete; Paying without preserving dispute rights when a lien is threatened) Tj
+1 0 0 1 48 196 Tm () Tj
+1 0 0 1 48 183 Tm (== DECISION TREE \(print path\) ==) Tj
+1 0 0 1 48 170 Tm (Use this yes/no path to decide your next action on weather logs and reasonable extension) Tj
+1 0 0 1 48 157 Tm (requests. Outcomes are educational starting points-confirm against your CC&Rs and state law.) Tj
+1 0 0 1 48 144 Tm (Q \(start\): Do you already have written materials covering weather logs and reasonable extension requests?) Tj
+1 0 0 1 48 131 Tm (- Yes - I have notices or governing excerpts -> go to quality) Tj
+1 0 0 1 48 118 Tm (- No - I am starting from a verbal warning or rumor -> go to collect) Tj
+1 0 0 1 48 105 Tm (Q \(collect\): Can you obtain the written notice, fine schedule, and relevant CC&R/rule pages within 48 hours?) Tj
+1 0 0 1 48 92 Tm (- Yes - I can request or download them -> Request the file in writing today, then re-run) Tj
+1 0 0 1 48 79 Tm (this tree for weather logs and reasonable extension requests. Do not rely on memory alone.) Tj
+1 0 0 1 48 66 Tm (- No - the association will not provide records -> Send a dated records request, keep) Tj
 ET
 endstream
 endobj
@@ -137,27 +137,51 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 3 0 R >> >> >>
 endobj
 8 0 obj
-<< /Length 1261 >>
+<< /Length 3361 >>
 stream
 BT
 /F1 10 Tf
-1 0 0 1 48 742 Tm ([Vendor backlog only] Do not rely on vendor backlog only alone) Tj
-1 0 0 1 48 729 Tm (Board / manager reaction) Tj
-1 0 0 1 48 716 Tm ([Documented storm delay] Harder to dismiss when exhibits are complete) Tj
-1 0 0 1 48 703 Tm ([Mild weather] May stall or ask for more information) Tj
-1 0 0 1 48 690 Tm ([Vendor backlog only] Often treated as insufficient without follow-up writing) Tj
-1 0 0 1 48 677 Tm (Next educational move) Tj
-1 0 0 1 48 664 Tm ([Documented storm delay] Advance the formal path for weather logs and reasonable extension) Tj
-1 0 0 1 48 651 Tm (requests) Tj
-1 0 0 1 48 638 Tm ([Mild weather] Send a clarifying letter addressing whether to request a weather-based) Tj
-1 0 0 1 48 625 Tm (extension) Tj
-1 0 0 1 48 612 Tm ([Vendor backlog only] Collect missing documents before arguing substance) Tj
-1 0 0 1 48 599 Tm (Escalation risk if ignored) Tj
-1 0 0 1 48 586 Tm ([Documented storm delay] Lower if you stay on deadline) Tj
-1 0 0 1 48 573 Tm ([Mild weather] Medium - ambiguity can harden into denial) Tj
-1 0 0 1 48 560 Tm ([Vendor backlog only] Higher - vendor backlog only gaps feed collections narratives) Tj
-1 0 0 1 48 547 Tm () Tj
-1 0 0 1 48 534 Tm (Generated for educational purposes by MyHOAAppeal.) Tj
+1 0 0 1 48 742 Tm (delivery proof, and note the refusal in your appeal packet about weather logs and reasonable) Tj
+1 0 0 1 48 729 Tm (extension requests.) Tj
+1 0 0 1 48 716 Tm (Q \(quality\): Does your packet clearly address whether to request a weather-based extension?) Tj
+1 0 0 1 48 703 Tm (- Yes - defects and facts are indexed -> go to deadline) Tj
+1 0 0 1 48 690 Tm (- Not yet - gaps remain -> Fill gaps with dated exhibits before you argue weather logs and) Tj
+1 0 0 1 48 677 Tm (reasonable extension requests. Incomplete packets invite denials on procedure.) Tj
+1 0 0 1 48 664 Tm (Q \(deadline\): Is an appeal, cure, or response deadline still open?) Tj
+1 0 0 1 48 651 Tm (- Yes - time remains -> Calendar the deadline, submit a written position on weather logs and) Tj
+1 0 0 1 48 638 Tm (reasonable extension requests, and request a hearing or written decision in the same letter.) Tj
+1 0 0 1 48 625 Tm (- Unsure / possibly missed -> Ask in writing for the controlling deadline and whether late) Tj
+1 0 0 1 48 612 Tm (submissions are accepted. Preserve weather logs and reasonable extension requests arguments) Tj
+1 0 0 1 48 599 Tm (even while clarifying timing.) Tj
+1 0 0 1 48 586 Tm (- No - the window closed -> Document why the window was missed \(late notice, portal failure,) Tj
+1 0 0 1 48 573 Tm (etc.\) and escalate via payment-under-protest, mediation, or counsel depending on stakes.) Tj
+1 0 0 1 48 560 Tm () Tj
+1 0 0 1 48 547 Tm (== COMPARISON SNAPSHOT ==) Tj
+1 0 0 1 48 534 Tm (Columns: Documented storm delay | Mild weather | Vendor backlog only) Tj
+1 0 0 1 48 521 Tm (Typical signal) Tj
+1 0 0 1 48 508 Tm ([Documented storm delay] Clear written basis for documented storm delay) Tj
+1 0 0 1 48 495 Tm ([Mild weather] Partial or contested basis for mild weather) Tj
+1 0 0 1 48 482 Tm ([Vendor backlog only] High risk if you only have vendor backlog only) Tj
+1 0 0 1 48 469 Tm (Owner priority) Tj
+1 0 0 1 48 456 Tm ([Documented storm delay] Preserve documented storm delay with indexed proof) Tj
+1 0 0 1 48 443 Tm ([Mild weather] Convert mild weather into a documented record) Tj
+1 0 0 1 48 430 Tm ([Vendor backlog only] Do not rely on vendor backlog only alone) Tj
+1 0 0 1 48 417 Tm (Board / manager reaction) Tj
+1 0 0 1 48 404 Tm ([Documented storm delay] Harder to dismiss when exhibits are complete) Tj
+1 0 0 1 48 391 Tm ([Mild weather] May stall or ask for more information) Tj
+1 0 0 1 48 378 Tm ([Vendor backlog only] Often treated as insufficient without follow-up writing) Tj
+1 0 0 1 48 365 Tm (Next educational move) Tj
+1 0 0 1 48 352 Tm ([Documented storm delay] Advance the formal path for weather logs and reasonable extension) Tj
+1 0 0 1 48 339 Tm (requests) Tj
+1 0 0 1 48 326 Tm ([Mild weather] Send a clarifying letter addressing whether to request a weather-based) Tj
+1 0 0 1 48 313 Tm (extension) Tj
+1 0 0 1 48 300 Tm ([Vendor backlog only] Collect missing documents before arguing substance) Tj
+1 0 0 1 48 287 Tm (Escalation risk if ignored) Tj
+1 0 0 1 48 274 Tm ([Documented storm delay] Lower if you stay on deadline) Tj
+1 0 0 1 48 261 Tm ([Mild weather] Medium - ambiguity can harden into denial) Tj
+1 0 0 1 48 248 Tm ([Vendor backlog only] Higher - vendor backlog only gaps feed collections narratives) Tj
+1 0 0 1 48 235 Tm () Tj
+1 0 0 1 48 222 Tm (Generated for educational purposes by MyHOAAppeal.) Tj
 ET
 endstream
 endobj
@@ -171,13 +195,13 @@ xref
 0000000058 00000 n 
 0000000127 00000 n 
 0000000197 00000 n 
-0000004431 00000 n 
-0000004557 00000 n 
-0000009087 00000 n 
-0000009213 00000 n 
-0000010526 00000 n 
+0000005624 00000 n 
+0000005750 00000 n 
+0000010487 00000 n 
+0000010613 00000 n 
+0000014026 00000 n 
 trailer
 << /Size 10 /Root 1 0 R >>
 startxref
-10652
+14152
 %%EOF

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="608" viewBox="0 0 960 608" role="img" aria-labelledby="title desc">
+  <title id="title">HOA Due Process Rights for Homeowners</title>
+  <desc id="desc">MyHOAAppeal branded Checklist infographic</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0b1224"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1e293b" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="608" fill="url(#bgGrad)"/>
+  <rect width="960" height="608" fill="url(#dotGrid)" opacity="0.35"/>
+  <rect x="24" y="24" width="912" height="560" rx="18" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <circle cx="52" cy="56" r="10" fill="url(#accentGrad)"/>
+  <path d="M48 56 l3 3 6-7" fill="none" stroke="#020617" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="52" fill="#ffffff" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700">MyHOAAppeal</text>
+  <text x="72" y="70" fill="#94a3b8" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="500">CHECKLIST</text>
+  
+  <text x="56" y="88" font-family="system-ui,Segoe UI,sans-serif"><tspan x="56" dy="0" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start">Checklist for notice, opportunity to be heard, and impartial process</tspan></text>
+  
+      <g>
+        <rect x="48" y="120" width="424" height="210" rx="16" fill="#111827" stroke="#334155"/>
+        <rect x="48" y="120" width="6" height="210" rx="3" fill="url(#accentGrad)"/>
+        <text x="70" y="152" font-family="system-ui,Segoe UI,sans-serif"><tspan x="70" dy="0" fill="#f8fafc" font-size="14" font-weight="700" text-anchor="start">Documents on hand</tspan></text>
+        
+          <rect x="66" y="178" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M70 187 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="96" y="192" font-family="system-ui,Segoe UI,sans-serif"><tspan x="96" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Written notice or invoice tied to notice,</tspan><tspan x="96" dy="14" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">opportunity to be heard, and impartial</tspan></text>
+          <rect x="66" y="220" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M70 229 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="96" y="234" font-family="system-ui,Segoe UI,sans-serif"><tspan x="96" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Current CC&amp;Rs, rules, and fine schedule</tspan><tspan x="96" dy="14" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">excerpts</tspan></text>
+          <rect x="66" y="262" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M70 271 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="96" y="276" font-family="system-ui,Segoe UI,sans-serif"><tspan x="96" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Delivery proof (certified mail, portal</tspan><tspan x="96" dy="14" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">export, or email headers)</tspan></text>
+      </g>
+      <g>
+        <rect x="488" y="120" width="424" height="210" rx="16" fill="#111827" stroke="#334155"/>
+        <rect x="488" y="120" width="6" height="210" rx="3" fill="url(#accentGrad)"/>
+        <text x="510" y="152" font-family="system-ui,Segoe UI,sans-serif"><tspan x="510" dy="0" fill="#f8fafc" font-size="14" font-weight="700" text-anchor="start">Evidence quality</tspan></text>
+        
+          <rect x="506" y="178" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M510 187 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="536" y="192" font-family="system-ui,Segoe UI,sans-serif"><tspan x="536" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Dated materials that address which</tspan><tspan x="536" dy="14" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">due-process step was skipped</tspan></text>
+          <rect x="506" y="220" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M510 229 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="536" y="234" font-family="system-ui,Segoe UI,sans-serif"><tspan x="536" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">One-page timeline of key events</tspan></text>
+          <rect x="506" y="262" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M510 271 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="536" y="276" font-family="system-ui,Segoe UI,sans-serif"><tspan x="536" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Exhibit index with short labels (A, B, C…)</tspan></text>
+      </g>
+      <g>
+        <rect x="48" y="346" width="424" height="210" rx="16" fill="#111827" stroke="#334155"/>
+        <rect x="48" y="346" width="6" height="210" rx="3" fill="url(#accentGrad)"/>
+        <text x="70" y="378" font-family="system-ui,Segoe UI,sans-serif"><tspan x="70" dy="0" fill="#f8fafc" font-size="14" font-weight="700" text-anchor="start">Procedural safeguards</tspan></text>
+        
+          <rect x="66" y="404" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M70 413 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="96" y="418" font-family="system-ui,Segoe UI,sans-serif"><tspan x="96" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Appeal / cure / hearing deadline</tspan><tspan x="96" dy="14" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">calendared</tspan></text>
+          <rect x="66" y="446" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M70 455 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="96" y="460" font-family="system-ui,Segoe UI,sans-serif"><tspan x="96" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Clear written remedy (waive, reduce,</tspan><tspan x="96" dy="14" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">re-notice, reverse)</tspan></text>
+          <rect x="66" y="488" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M70 497 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="96" y="502" font-family="system-ui,Segoe UI,sans-serif"><tspan x="96" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Plan for payment under protest if lien</tspan><tspan x="96" dy="14" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">pressure rises</tspan></text>
+      </g>
+      <g>
+        <rect x="488" y="346" width="424" height="210" rx="16" fill="#111827" stroke="#334155"/>
+        <rect x="488" y="346" width="6" height="210" rx="3" fill="url(#accentGrad)"/>
+        <text x="510" y="378" font-family="system-ui,Segoe UI,sans-serif"><tspan x="510" dy="0" fill="#f8fafc" font-size="14" font-weight="700" text-anchor="start">Before you stop working the file</tspan></text>
+        
+          <rect x="506" y="404" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M510 413 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="536" y="418" font-family="system-ui,Segoe UI,sans-serif"><tspan x="536" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Confirm whether full process or partial</tspan><tspan x="536" dy="14" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">process better describes your posture</tspan></text>
+          <rect x="506" y="446" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M510 455 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="536" y="460" font-family="system-ui,Segoe UI,sans-serif"><tspan x="536" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Save a PDF export of the full packet</tspan></text>
+          <rect x="506" y="488" width="18" height="18" rx="4" fill="none" stroke="#34d399" stroke-width="2"/>
+          <path d="M510 497 l3 3 6-7" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+          <text x="536" y="502" font-family="system-ui,Segoe UI,sans-serif"><tspan x="536" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Note any verbal promises in a same-day</tspan><tspan x="536" dy="14" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">email</tspan></text>
+      </g>
+</svg>

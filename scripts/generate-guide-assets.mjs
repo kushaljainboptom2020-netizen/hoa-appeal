@@ -1,15 +1,24 @@
 /**
- * Generates educational assets + printable worksheet PDFs for all 50 guides.
+ * Generates educational assets + printable worksheet PDFs + branded SVG
+ * infographics for all 50 guides.
  * Run: node scripts/generate-guide-assets.mjs
  */
 import { writeFileSync, mkdirSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
+import {
+  buildChecklistSvg,
+  buildComparisonSvg,
+  buildProcessSvg,
+  buildTimelineSvg,
+  infographicHref,
+} from "./lib/guide-infographic-svgs.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const OUT_TS = join(ROOT, "lib", "content", "guides", "assets.generated.ts");
 const PDF_DIR = join(ROOT, "public", "guides", "worksheets");
+const SVG_DIR = join(ROOT, "public", "guides", "infographics");
 
 /** @typedef {"rights-process"|"appeals-letters"|"evidence-enforcement"|"money-liens"|"rules-terminology"} Cat */
 
@@ -117,38 +126,99 @@ function buildDecisionTree(g) {
 function buildProcessFlow(g) {
   const topic = g.focus;
   return {
-    heading: `Process flowchart: ${g.title.replace(/^The /, "")}`,
-    intro: `Follow these stages in order when working through ${topic}. Skip steps only when your documents expressly allow it.`,
+    heading: `Interactive process timeline: ${g.title.replace(/^The /, "")}`,
+    intro: `Follow these stages in order when working through ${topic}. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.`,
     steps: [
       {
         step: 1,
         title: "Capture the trigger",
         description: `Save the notice, portal message, invoice, or verbal summary that started the dispute about ${topic}. Note the date received.`,
+        estimatedTime: "Same day (30–90 min)",
+        documentsRequired: [
+          "Violation notice, invoice, or portal message",
+          "Envelope postmark or delivery receipt",
+          "Dated note of when you first learned of the issue",
+        ],
+        commonMistakes: [
+          "Relying on a verbal warning without a written artifact",
+          "Forgetting to photograph the notice date and cited rule",
+        ],
       },
       {
         step: 2,
         title: "Pull controlling text",
         description: `Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on ${topic}.`,
+        estimatedTime: "1–3 days",
+        documentsRequired: [
+          "CC&R / rule pages cited in the notice",
+          "Current fine schedule",
+          "Bylaws appeal or hearing clause",
+        ],
+        commonMistakes: [
+          "Arguing fairness before confirming the board cited a real rule",
+          "Using an outdated schedule that no longer matches the ledger",
+        ],
       },
       {
         step: 3,
         title: "Build the evidence spine",
         description: `Assemble dated photos, correspondence, ledgers, and comparables that speak directly to ${g.decisionFocus}.`,
+        estimatedTime: "2–5 days",
+        documentsRequired: [
+          "Dated photos or maintenance logs",
+          "Correspondence export",
+          "Comparable-neighbor notes (when relevant)",
+          "One-page exhibit index",
+        ],
+        commonMistakes: [
+          "Photos without dates, landmarks, or consistent angles",
+          "Dumping unsorted emails instead of labeled exhibits",
+        ],
       },
       {
         step: 4,
         title: "Choose the procedural path",
         description: `Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around ${topic}.`,
+        estimatedTime: "Per notice window (often 7–14 days)",
+        documentsRequired: [
+          "Deadline calendar from the notice and bylaws",
+          "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+          "Proof of any cure already completed",
+        ],
+        commonMistakes: [
+          "Missing the internal appeal deadline while still gathering evidence",
+          "Asking for conflicting remedies in the same letter",
+        ],
       },
       {
         step: 5,
         title: "Submit a written ask",
         description: `Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to ${g.decisionFocus}, with exhibits attached.`,
+        estimatedTime: "1–2 hours to finalize + send",
+        documentsRequired: [
+          "Signed appeal or dispute letter",
+          "Indexed exhibits",
+          "Certified-mail / portal delivery proof",
+        ],
+        commonMistakes: [
+          "Sending exhibits without a clear ask on the first page",
+          "Failing to keep delivery proof for the appeal packet",
+        ],
       },
       {
         step: 6,
         title: "Confirm the outcome in writing",
         description: `Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.`,
+        estimatedTime: "1–7 days after hearing or board action",
+        documentsRequired: [
+          "Written decision or refusal-to-decide record",
+          "Updated ledger screenshot",
+          "Post-decision deadline calendar",
+        ],
+        commonMistakes: [
+          "Assuming silence means the fine was waived",
+          "Paying without noting payment under protest when escalation continues",
+        ],
       },
     ],
   };
@@ -247,38 +317,91 @@ function buildChecklist(g) {
 
 function buildTimeline(g) {
   return {
-    heading: `Timeline for issues involving ${g.focus}`,
-    intro: `Typical sequence owners encounter when dealing with ${g.focus}. Replace example windows with the dates in your governing documents.`,
+    heading: `Interactive timeline for ${g.focus}`,
+    intro: `Typical sequence owners encounter when dealing with ${g.focus}. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.`,
     events: [
       {
         label: "Trigger / notice",
         duration: "Day 0",
         notes: `Violation letter, invoice, or demand referencing ${g.focus} arrives.`,
+        documentsRequired: [
+          "Violation letter or invoice",
+          "Delivery proof / portal export",
+        ],
+        commonMistakes: [
+          "Ignoring early inspection photos that later become exhibit A",
+          "Losing the envelope that shows the mailing date",
+        ],
       },
       {
         label: "Document pull",
         duration: "Days 0–3",
         notes: `Gather CC&Rs, schedules, and records that control ${g.decisionFocus}.`,
+        documentsRequired: [
+          "CC&Rs and rules cited",
+          "Fine schedule",
+          "Prior correspondence on the same issue",
+        ],
+        commonMistakes: [
+          "Starting to write before you have the controlling text",
+          "Mixing draft rules with recorded covenants",
+        ],
       },
       {
         label: "Cure or early response",
         duration: "Per notice (often 7–14 days)",
         notes: "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+        documentsRequired: [
+          "Cure photos or vendor invoice",
+          "Written dispute letter if not curing",
+          "Delivery proof",
+        ],
+        commonMistakes: [
+          "Curing without asking for written confirmation",
+          "Letting the cure window expire while waiting on a phone call",
+        ],
       },
       {
         label: "Hearing / board review",
         duration: "Often 2–6 weeks after request",
         notes: `Present indexed exhibits focused on ${g.focus}; ask for a written decision.`,
+        documentsRequired: [
+          "Indexed exhibit packet",
+          "Hearing agenda or appearance confirmation",
+          "One-sentence remedy ask",
+        ],
+        commonMistakes: [
+          "Showing up without copies for the board",
+          "Skipping a written decision request on the record",
+        ],
       },
       {
         label: "Written decision",
         duration: "Promptly after hearing (document-driven)",
         notes: "Confirm outcome in writing; calendar any post-decision deadlines.",
+        documentsRequired: [
+          "Written decision letter",
+          "Updated ledger entry",
+          "Minutes request (if decision is oral only)",
+        ],
+        commonMistakes: [
+          "Accepting an oral outcome without a dated writing",
+          "Missing post-decision escalation clocks",
+        ],
       },
       {
         label: "Escalation fork",
         duration: "After denial or silence",
         notes: `Choose payment under protest, ADR, counsel, or court based on stakes around ${g.focus}.`,
+        documentsRequired: [
+          "Full appeal record to date",
+          "Collections / lien notice if any",
+          "ADR clause or counsel intake notes",
+        ],
+        commonMistakes: [
+          "Escalating before the internal record is complete",
+          "Paying without preserving dispute rights when a lien is threatened",
+        ],
       },
     ],
   };
@@ -321,7 +444,40 @@ function buildDownloadables(g) {
       href: pdfHref(g.slug),
       fileType: "pdf",
     },
+    {
+      label: `${g.title} — process flowchart (SVG)`,
+      description: `Branded vector process diagram for ${g.focus}.`,
+      href: infographicHref(g.slug, "process"),
+      fileType: "svg",
+    },
+    {
+      label: `${g.title} — comparison chart (SVG)`,
+      description: `Side-by-side comparison of ${g.compareA}, ${g.compareB}, and ${g.compareC}.`,
+      href: infographicHref(g.slug, "comparison"),
+      fileType: "svg",
+    },
+    {
+      label: `${g.title} — deadline timeline (SVG)`,
+      description: `Visual timeline of deadlines and durations for ${g.focus}.`,
+      href: infographicHref(g.slug, "timeline"),
+      fileType: "svg",
+    },
+    {
+      label: `${g.title} — checklist (SVG)`,
+      description: `Printable checklist categories for documenting ${g.focus}.`,
+      href: infographicHref(g.slug, "checklist"),
+      fileType: "svg",
+    },
   ];
+}
+
+function buildInfographics(g) {
+  return {
+    process: infographicHref(g.slug, "process"),
+    comparison: infographicHref(g.slug, "comparison"),
+    timeline: infographicHref(g.slug, "timeline"),
+    checklist: infographicHref(g.slug, "checklist"),
+  };
 }
 
 function buildAssets(g) {
@@ -333,6 +489,7 @@ function buildAssets(g) {
     timeline: buildTimeline(g),
     visualSummary: buildVisualSummary(g),
     downloadables: buildDownloadables(g),
+    infographics: buildInfographics(g),
   };
 }
 
@@ -389,8 +546,10 @@ function buildWorksheetLines(g, assets) {
   push("");
   push("== PROCESS FLOW ==");
   for (const s of assets.processFlow.steps) {
-    push(`${s.step}. ${s.title}`);
+    push(`${s.step}. ${s.title} [${s.estimatedTime}]`);
     pushWrap(`   ${s.description}`);
+    push(`   Documents: ${s.documentsRequired.join("; ")}`);
+    push(`   Avoid: ${s.commonMistakes.join("; ")}`);
   }
   push("");
   push("== CHECKLIST ==");
@@ -403,6 +562,8 @@ function buildWorksheetLines(g, assets) {
   for (const e of assets.timeline.events) {
     push(`${e.label} | ${e.duration}`);
     pushWrap(`   ${e.notes}`);
+    push(`   Documents: ${e.documentsRequired.join("; ")}`);
+    push(`   Avoid: ${e.commonMistakes.join("; ")}`);
   }
   push("");
   push("== DECISION TREE (print path) ==");
@@ -493,12 +654,55 @@ function createPdfFromLines(lines) {
   return Buffer.from(pdf, "utf8");
 }
 
+function writeInfographics(g, assets) {
+  const files = [
+    {
+      kind: "process",
+      svg: buildProcessSvg({
+        title: g.title,
+        heading: assets.processFlow.heading,
+        steps: assets.processFlow.steps,
+      }),
+    },
+    {
+      kind: "comparison",
+      svg: buildComparisonSvg({
+        title: g.title,
+        heading: assets.comparisonTable.heading,
+        columns: assets.comparisonTable.columns,
+        rows: assets.comparisonTable.rows,
+      }),
+    },
+    {
+      kind: "timeline",
+      svg: buildTimelineSvg({
+        title: g.title,
+        heading: assets.timeline.heading,
+        events: assets.timeline.events,
+      }),
+    },
+    {
+      kind: "checklist",
+      svg: buildChecklistSvg({
+        title: g.title,
+        heading: assets.checklist.heading,
+        categories: assets.checklist.categories,
+      }),
+    },
+  ];
+
+  for (const file of files) {
+    writeFileSync(join(SVG_DIR, `${g.slug}-${file.kind}.svg`), file.svg, "utf8");
+  }
+}
+
 function generate() {
   if (GUIDES.length !== 50) {
     throw new Error(`Expected 50 guides, found ${GUIDES.length}`);
   }
 
   mkdirSync(PDF_DIR, { recursive: true });
+  mkdirSync(SVG_DIR, { recursive: true });
 
   /** @type {Record<string, unknown>} */
   const out = {};
@@ -510,6 +714,7 @@ function generate() {
     const pdf = createPdfFromLines(lines);
     const pdfPath = join(PDF_DIR, `${g.slug}-worksheet.pdf`);
     writeFileSync(pdfPath, pdf);
+    writeInfographics(g, assets);
   }
 
   const content = `// AUTO-GENERATED by scripts/generate-guide-assets.mjs — do not edit manually
@@ -522,6 +727,7 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = ${JSON.strin
   writeFileSync(OUT_TS, content, "utf8");
   console.log(`Wrote ${OUT_TS} (${Object.keys(out).length} guides)`);
   console.log(`Wrote ${GUIDES.length} PDFs to ${PDF_DIR}`);
+  console.log(`Wrote ${GUIDES.length * 4} SVGs to ${SVG_DIR}`);
 }
 
 generate();

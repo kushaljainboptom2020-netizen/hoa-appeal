@@ -102,6 +102,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: stateLastModBySlug.get(slug) ?? CONTENT_LAST_MOD,
   }));
 
+  const decisionTreePage: MetadataRoute.Sitemap[number] = {
+    url: new URL("/decision-tree", SITE_URL).toString(),
+    changeFrequency: "weekly",
+    priority: 0.9,
+    lastModified: CONTENT_LAST_MOD,
+  };
+
+  const readinessCalculatorPage: MetadataRoute.Sitemap[number] = {
+    url: new URL("/readiness-calculator", SITE_URL).toString(),
+    changeFrequency: "weekly",
+    priority: 0.9,
+    lastModified: CONTENT_LAST_MOD,
+  };
+
+  const stateMapPage: MetadataRoute.Sitemap[number] = {
+    url: new URL("/map", SITE_URL).toString(),
+    changeFrequency: "monthly",
+    priority: 0.85,
+    lastModified: CONTENT_LAST_MOD,
+  };
+
   const successStoriesIndex: MetadataRoute.Sitemap[number] = {
     url: new URL("/success-stories", SITE_URL).toString(),
     changeFrequency: "monthly",
@@ -124,6 +145,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...guidePages,
     faqIndex,
     ...faqPages,
+    decisionTreePage,
+    readinessCalculatorPage,
+    stateMapPage,
     ...statePages,
     successStoriesIndex,
     ...successStoryPages,

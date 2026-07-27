@@ -53,6 +53,16 @@ describe("state legal content", () => {
       expect(content.appealProcess.steps.length).toBeGreaterThanOrEqual(4);
       expect(content.statutes.items.length).toBeGreaterThanOrEqual(2);
       expect(content.timelines.events.length).toBeGreaterThanOrEqual(3);
+      for (const step of content.appealProcess.steps) {
+        expect(step.estimatedTime.length).toBeGreaterThan(1);
+        expect(step.documentsRequired.length).toBeGreaterThanOrEqual(1);
+        expect(step.commonMistakes.length).toBeGreaterThanOrEqual(1);
+      }
+      for (const event of content.timelines.events) {
+        expect(event.duration.length).toBeGreaterThan(1);
+        expect(event.documentsRequired.length).toBeGreaterThanOrEqual(1);
+        expect(event.commonMistakes.length).toBeGreaterThanOrEqual(1);
+      }
       expect(content.hearingProcess.paragraphs.length).toBeGreaterThanOrEqual(1);
       expect(content.evidenceChecklist.categories.length).toBeGreaterThanOrEqual(2);
       expect(content.appealStrategy.phases.length).toBeGreaterThanOrEqual(2);

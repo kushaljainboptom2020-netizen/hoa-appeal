@@ -80,11 +80,34 @@ describe("guide hub content", () => {
       expect(assets.checklist.categories.length).toBeGreaterThanOrEqual(3);
       expect(assets.timeline.events.length).toBeGreaterThanOrEqual(5);
       expect(assets.visualSummary.takeaways.length).toBeGreaterThanOrEqual(4);
-      expect(assets.downloadables.length).toBeGreaterThanOrEqual(1);
+      expect(assets.downloadables.length).toBeGreaterThanOrEqual(5);
       expect(assets.downloadables[0]?.href).toContain(guide.slug);
       expect(assets.downloadables[0]?.fileType).toBe("pdf");
+      expect(
+        assets.downloadables.filter((d) => d.fileType === "svg")
+      ).toHaveLength(4);
+      expect(assets.infographics.process).toContain(`${guide.slug}-process.svg`);
+      expect(assets.infographics.comparison).toContain(
+        `${guide.slug}-comparison.svg`
+      );
+      expect(assets.infographics.timeline).toContain(
+        `${guide.slug}-timeline.svg`
+      );
+      expect(assets.infographics.checklist).toContain(
+        `${guide.slug}-checklist.svg`
+      );
       expect(assets.decisionTree.heading.toLowerCase()).toContain("decision");
       expect(assets.processFlow.intro.length).toBeGreaterThan(20);
+      for (const step of assets.processFlow.steps) {
+        expect(step.estimatedTime.length).toBeGreaterThan(2);
+        expect(step.documentsRequired.length).toBeGreaterThanOrEqual(2);
+        expect(step.commonMistakes.length).toBeGreaterThanOrEqual(1);
+      }
+      for (const event of assets.timeline.events) {
+        expect(event.duration.length).toBeGreaterThan(1);
+        expect(event.documentsRequired.length).toBeGreaterThanOrEqual(1);
+        expect(event.commonMistakes.length).toBeGreaterThanOrEqual(1);
+      }
     }
   });
 

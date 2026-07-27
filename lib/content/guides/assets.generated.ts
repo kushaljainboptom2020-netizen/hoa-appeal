@@ -71,38 +71,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Understanding Your Rights When an HOA Fines You",
-      "intro": "Follow these stages in order when working through notice, cure, hearing, and written decision rights. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Understanding Your Rights When an HOA Fines You",
+      "intro": "Follow these stages in order when working through notice, cure, hearing, and written decision rights. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about notice, cure, hearing, and written decision rights. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about notice, cure, hearing, and written decision rights. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on notice, cure, hearing, and written decision rights."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on notice, cure, hearing, and written decision rights.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether your notice meets procedural requirements."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether your notice meets procedural requirements.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around notice, cure, hearing, and written decision rights."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around notice, cure, hearing, and written decision rights.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether your notice meets procedural requirements, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether your notice meets procedural requirements, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -196,38 +257,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving notice, cure, hearing, and written decision rights",
-      "intro": "Typical sequence owners encounter when dealing with notice, cure, hearing, and written decision rights. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for notice, cure, hearing, and written decision rights",
+      "intro": "Typical sequence owners encounter when dealing with notice, cure, hearing, and written decision rights. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing notice, cure, hearing, and written decision rights arrives."
+          "notes": "Violation letter, invoice, or demand referencing notice, cure, hearing, and written decision rights arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether your notice meets procedural requirements."
+          "notes": "Gather CC&Rs, schedules, and records that control whether your notice meets procedural requirements.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on notice, cure, hearing, and written decision rights; ask for a written decision."
+          "notes": "Present indexed exhibits focused on notice, cure, hearing, and written decision rights; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around notice, cure, hearing, and written decision rights."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around notice, cure, hearing, and written decision rights.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -263,8 +377,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for notice, cure, hearing, and written decision rights.",
         "href": "/guides/worksheets/understanding-your-rights-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Understanding Your Rights When an HOA Fines You — process flowchart (SVG)",
+        "description": "Branded vector process diagram for notice, cure, hearing, and written decision rights.",
+        "href": "/guides/infographics/understanding-your-rights-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Understanding Your Rights When an HOA Fines You — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Valid notice, Defective notice, and No written notice.",
+        "href": "/guides/infographics/understanding-your-rights-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Understanding Your Rights When an HOA Fines You — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for notice, cure, hearing, and written decision rights.",
+        "href": "/guides/infographics/understanding-your-rights-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Understanding Your Rights When an HOA Fines You — checklist (SVG)",
+        "description": "Printable checklist categories for documenting notice, cure, hearing, and written decision rights.",
+        "href": "/guides/infographics/understanding-your-rights-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/understanding-your-rights-process.svg",
+      "comparison": "/guides/infographics/understanding-your-rights-comparison.svg",
+      "timeline": "/guides/infographics/understanding-your-rights-timeline.svg",
+      "checklist": "/guides/infographics/understanding-your-rights-checklist.svg"
+    }
   },
   "how-to-collect-evidence": {
     "decisionTree": {
@@ -335,38 +479,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: How to Collect Evidence for an HOA Fine Appeal",
-      "intro": "Follow these stages in order when working through dated photos, logs, and records that boards can verify. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: How to Collect Evidence for an HOA Fine Appeal",
+      "intro": "Follow these stages in order when working through dated photos, logs, and records that boards can verify. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about dated photos, logs, and records that boards can verify. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about dated photos, logs, and records that boards can verify. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on dated photos, logs, and records that boards can verify."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on dated photos, logs, and records that boards can verify.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether your evidence packet is hearing-ready."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether your evidence packet is hearing-ready.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around dated photos, logs, and records that boards can verify."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around dated photos, logs, and records that boards can verify.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether your evidence packet is hearing-ready, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether your evidence packet is hearing-ready, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -460,38 +665,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving dated photos, logs, and records that boards can verify",
-      "intro": "Typical sequence owners encounter when dealing with dated photos, logs, and records that boards can verify. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for dated photos, logs, and records that boards can verify",
+      "intro": "Typical sequence owners encounter when dealing with dated photos, logs, and records that boards can verify. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing dated photos, logs, and records that boards can verify arrives."
+          "notes": "Violation letter, invoice, or demand referencing dated photos, logs, and records that boards can verify arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether your evidence packet is hearing-ready."
+          "notes": "Gather CC&Rs, schedules, and records that control whether your evidence packet is hearing-ready.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on dated photos, logs, and records that boards can verify; ask for a written decision."
+          "notes": "Present indexed exhibits focused on dated photos, logs, and records that boards can verify; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around dated photos, logs, and records that boards can verify."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around dated photos, logs, and records that boards can verify.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -527,8 +785,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for dated photos, logs, and records that boards can verify.",
         "href": "/guides/worksheets/how-to-collect-evidence-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "How to Collect Evidence for an HOA Fine Appeal — process flowchart (SVG)",
+        "description": "Branded vector process diagram for dated photos, logs, and records that boards can verify.",
+        "href": "/guides/infographics/how-to-collect-evidence-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "How to Collect Evidence for an HOA Fine Appeal — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Strong exhibit, Weak exhibit, and Unusable exhibit.",
+        "href": "/guides/infographics/how-to-collect-evidence-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "How to Collect Evidence for an HOA Fine Appeal — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for dated photos, logs, and records that boards can verify.",
+        "href": "/guides/infographics/how-to-collect-evidence-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "How to Collect Evidence for an HOA Fine Appeal — checklist (SVG)",
+        "description": "Printable checklist categories for documenting dated photos, logs, and records that boards can verify.",
+        "href": "/guides/infographics/how-to-collect-evidence-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/how-to-collect-evidence-process.svg",
+      "comparison": "/guides/infographics/how-to-collect-evidence-comparison.svg",
+      "timeline": "/guides/infographics/how-to-collect-evidence-timeline.svg",
+      "checklist": "/guides/infographics/how-to-collect-evidence-checklist.svg"
+    }
   },
   "dealing-with-lien-threats": {
     "decisionTree": {
@@ -599,38 +887,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Dealing With HOA Lien Threats Over Unpaid Fines",
-      "intro": "Follow these stages in order when working through verifying debt before lien escalation. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Dealing With HOA Lien Threats Over Unpaid Fines",
+      "intro": "Follow these stages in order when working through verifying debt before lien escalation. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about verifying debt before lien escalation. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about verifying debt before lien escalation. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on verifying debt before lien escalation."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on verifying debt before lien escalation.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether to pay under protest or dispute first."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether to pay under protest or dispute first.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around verifying debt before lien escalation."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around verifying debt before lien escalation.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether to pay under protest or dispute first, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether to pay under protest or dispute first, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -724,38 +1073,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving verifying debt before lien escalation",
-      "intro": "Typical sequence owners encounter when dealing with verifying debt before lien escalation. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for verifying debt before lien escalation",
+      "intro": "Typical sequence owners encounter when dealing with verifying debt before lien escalation. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing verifying debt before lien escalation arrives."
+          "notes": "Violation letter, invoice, or demand referencing verifying debt before lien escalation arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether to pay under protest or dispute first."
+          "notes": "Gather CC&Rs, schedules, and records that control whether to pay under protest or dispute first.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on verifying debt before lien escalation; ask for a written decision."
+          "notes": "Present indexed exhibits focused on verifying debt before lien escalation; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around verifying debt before lien escalation."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around verifying debt before lien escalation.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -791,8 +1193,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for verifying debt before lien escalation.",
         "href": "/guides/worksheets/dealing-with-lien-threats-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Dealing With HOA Lien Threats Over Unpaid Fines — process flowchart (SVG)",
+        "description": "Branded vector process diagram for verifying debt before lien escalation.",
+        "href": "/guides/infographics/dealing-with-lien-threats-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Dealing With HOA Lien Threats Over Unpaid Fines — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Lien warning, Recorded lien, and Foreclosure notice.",
+        "href": "/guides/infographics/dealing-with-lien-threats-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Dealing With HOA Lien Threats Over Unpaid Fines — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for verifying debt before lien escalation.",
+        "href": "/guides/infographics/dealing-with-lien-threats-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Dealing With HOA Lien Threats Over Unpaid Fines — checklist (SVG)",
+        "description": "Printable checklist categories for documenting verifying debt before lien escalation.",
+        "href": "/guides/infographics/dealing-with-lien-threats-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/dealing-with-lien-threats-process.svg",
+      "comparison": "/guides/infographics/dealing-with-lien-threats-comparison.svg",
+      "timeline": "/guides/infographics/dealing-with-lien-threats-timeline.svg",
+      "checklist": "/guides/infographics/dealing-with-lien-threats-checklist.svg"
+    }
   },
   "hoa-meeting-preparation": {
     "decisionTree": {
@@ -863,38 +1295,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Preparing to Present Your Case at an HOA Board Hearing",
-      "intro": "Follow these stages in order when working through opening remarks, exhibits, and a clear ask. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Preparing to Present Your Case at an HOA Board Hearing",
+      "intro": "Follow these stages in order when working through opening remarks, exhibits, and a clear ask. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about opening remarks, exhibits, and a clear ask. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about opening remarks, exhibits, and a clear ask. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on opening remarks, exhibits, and a clear ask."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on opening remarks, exhibits, and a clear ask.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether you are ready to present live."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether you are ready to present live.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around opening remarks, exhibits, and a clear ask."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around opening remarks, exhibits, and a clear ask.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether you are ready to present live, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether you are ready to present live, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -988,38 +1481,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving opening remarks, exhibits, and a clear ask",
-      "intro": "Typical sequence owners encounter when dealing with opening remarks, exhibits, and a clear ask. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for opening remarks, exhibits, and a clear ask",
+      "intro": "Typical sequence owners encounter when dealing with opening remarks, exhibits, and a clear ask. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing opening remarks, exhibits, and a clear ask arrives."
+          "notes": "Violation letter, invoice, or demand referencing opening remarks, exhibits, and a clear ask arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether you are ready to present live."
+          "notes": "Gather CC&Rs, schedules, and records that control whether you are ready to present live.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on opening remarks, exhibits, and a clear ask; ask for a written decision."
+          "notes": "Present indexed exhibits focused on opening remarks, exhibits, and a clear ask; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around opening remarks, exhibits, and a clear ask."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around opening remarks, exhibits, and a clear ask.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -1055,8 +1601,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for opening remarks, exhibits, and a clear ask.",
         "href": "/guides/worksheets/hoa-meeting-preparation-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Preparing to Present Your Case at an HOA Board Hearing — process flowchart (SVG)",
+        "description": "Branded vector process diagram for opening remarks, exhibits, and a clear ask.",
+        "href": "/guides/infographics/hoa-meeting-preparation-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Preparing to Present Your Case at an HOA Board Hearing — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Prepared owner, Underprepared owner, and Hostile presentation.",
+        "href": "/guides/infographics/hoa-meeting-preparation-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Preparing to Present Your Case at an HOA Board Hearing — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for opening remarks, exhibits, and a clear ask.",
+        "href": "/guides/infographics/hoa-meeting-preparation-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Preparing to Present Your Case at an HOA Board Hearing — checklist (SVG)",
+        "description": "Printable checklist categories for documenting opening remarks, exhibits, and a clear ask.",
+        "href": "/guides/infographics/hoa-meeting-preparation-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-meeting-preparation-process.svg",
+      "comparison": "/guides/infographics/hoa-meeting-preparation-comparison.svg",
+      "timeline": "/guides/infographics/hoa-meeting-preparation-timeline.svg",
+      "checklist": "/guides/infographics/hoa-meeting-preparation-checklist.svg"
+    }
   },
   "hoa-fine-appeal-process": {
     "decisionTree": {
@@ -1127,38 +1703,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: HOA Fine Appeal Process Step by Step",
-      "intro": "Follow these stages in order when working through the full path from notice to written decision. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: HOA Fine Appeal Process Step by Step",
+      "intro": "Follow these stages in order when working through the full path from notice to written decision. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about the full path from notice to written decision. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about the full path from notice to written decision. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on the full path from notice to written decision."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on the full path from notice to written decision.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which appeal stage you are in now."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which appeal stage you are in now.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around the full path from notice to written decision."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around the full path from notice to written decision.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which appeal stage you are in now, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which appeal stage you are in now, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -1252,38 +1889,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving the full path from notice to written decision",
-      "intro": "Typical sequence owners encounter when dealing with the full path from notice to written decision. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for the full path from notice to written decision",
+      "intro": "Typical sequence owners encounter when dealing with the full path from notice to written decision. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing the full path from notice to written decision arrives."
+          "notes": "Violation letter, invoice, or demand referencing the full path from notice to written decision arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control which appeal stage you are in now."
+          "notes": "Gather CC&Rs, schedules, and records that control which appeal stage you are in now.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on the full path from notice to written decision; ask for a written decision."
+          "notes": "Present indexed exhibits focused on the full path from notice to written decision; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around the full path from notice to written decision."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around the full path from notice to written decision.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -1319,8 +2009,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for the full path from notice to written decision.",
         "href": "/guides/worksheets/hoa-fine-appeal-process-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "The HOA Fine Appeal Process Step by Step — process flowchart (SVG)",
+        "description": "Branded vector process diagram for the full path from notice to written decision.",
+        "href": "/guides/infographics/hoa-fine-appeal-process-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "The HOA Fine Appeal Process Step by Step — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Informal dispute, Formal hearing, and Post-hearing escalation.",
+        "href": "/guides/infographics/hoa-fine-appeal-process-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "The HOA Fine Appeal Process Step by Step — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for the full path from notice to written decision.",
+        "href": "/guides/infographics/hoa-fine-appeal-process-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "The HOA Fine Appeal Process Step by Step — checklist (SVG)",
+        "description": "Printable checklist categories for documenting the full path from notice to written decision.",
+        "href": "/guides/infographics/hoa-fine-appeal-process-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-fine-appeal-process-process.svg",
+      "comparison": "/guides/infographics/hoa-fine-appeal-process-comparison.svg",
+      "timeline": "/guides/infographics/hoa-fine-appeal-process-timeline.svg",
+      "checklist": "/guides/infographics/hoa-fine-appeal-process-checklist.svg"
+    }
   },
   "how-to-write-an-hoa-appeal-letter": {
     "decisionTree": {
@@ -1391,38 +2111,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: How to Write an Effective HOA Fine Appeal Letter",
-      "intro": "Follow these stages in order when working through facts, citations, defects, exhibits, and remedy. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: How to Write an Effective HOA Fine Appeal Letter",
+      "intro": "Follow these stages in order when working through facts, citations, defects, exhibits, and remedy. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about facts, citations, defects, exhibits, and remedy. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about facts, citations, defects, exhibits, and remedy. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on facts, citations, defects, exhibits, and remedy."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on facts, citations, defects, exhibits, and remedy.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether your letter is complete enough to send."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether your letter is complete enough to send.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around facts, citations, defects, exhibits, and remedy."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around facts, citations, defects, exhibits, and remedy.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether your letter is complete enough to send, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether your letter is complete enough to send, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -1516,38 +2297,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving facts, citations, defects, exhibits, and remedy",
-      "intro": "Typical sequence owners encounter when dealing with facts, citations, defects, exhibits, and remedy. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for facts, citations, defects, exhibits, and remedy",
+      "intro": "Typical sequence owners encounter when dealing with facts, citations, defects, exhibits, and remedy. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing facts, citations, defects, exhibits, and remedy arrives."
+          "notes": "Violation letter, invoice, or demand referencing facts, citations, defects, exhibits, and remedy arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether your letter is complete enough to send."
+          "notes": "Gather CC&Rs, schedules, and records that control whether your letter is complete enough to send.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on facts, citations, defects, exhibits, and remedy; ask for a written decision."
+          "notes": "Present indexed exhibits focused on facts, citations, defects, exhibits, and remedy; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around facts, citations, defects, exhibits, and remedy."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around facts, citations, defects, exhibits, and remedy.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -1583,8 +2417,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for facts, citations, defects, exhibits, and remedy.",
         "href": "/guides/worksheets/how-to-write-an-hoa-appeal-letter-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "How to Write an Effective HOA Fine Appeal Letter — process flowchart (SVG)",
+        "description": "Branded vector process diagram for facts, citations, defects, exhibits, and remedy.",
+        "href": "/guides/infographics/how-to-write-an-hoa-appeal-letter-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "How to Write an Effective HOA Fine Appeal Letter — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Complete letter, Emotional letter, and Incomplete letter.",
+        "href": "/guides/infographics/how-to-write-an-hoa-appeal-letter-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "How to Write an Effective HOA Fine Appeal Letter — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for facts, citations, defects, exhibits, and remedy.",
+        "href": "/guides/infographics/how-to-write-an-hoa-appeal-letter-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "How to Write an Effective HOA Fine Appeal Letter — checklist (SVG)",
+        "description": "Printable checklist categories for documenting facts, citations, defects, exhibits, and remedy.",
+        "href": "/guides/infographics/how-to-write-an-hoa-appeal-letter-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/how-to-write-an-hoa-appeal-letter-process.svg",
+      "comparison": "/guides/infographics/how-to-write-an-hoa-appeal-letter-comparison.svg",
+      "timeline": "/guides/infographics/how-to-write-an-hoa-appeal-letter-timeline.svg",
+      "checklist": "/guides/infographics/how-to-write-an-hoa-appeal-letter-checklist.svg"
+    }
   },
   "sample-hoa-appeal-letter-structure": {
     "decisionTree": {
@@ -1655,38 +2519,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Sample HOA Appeal Letter Structure and Outline",
-      "intro": "Follow these stages in order when working through section-by-section letter architecture. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Sample HOA Appeal Letter Structure and Outline",
+      "intro": "Follow these stages in order when working through section-by-section letter architecture. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about section-by-section letter architecture. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about section-by-section letter architecture. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on section-by-section letter architecture."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on section-by-section letter architecture.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which letter section needs work."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which letter section needs work.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around section-by-section letter architecture."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around section-by-section letter architecture.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which letter section needs work, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which letter section needs work, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -1780,38 +2705,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving section-by-section letter architecture",
-      "intro": "Typical sequence owners encounter when dealing with section-by-section letter architecture. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for section-by-section letter architecture",
+      "intro": "Typical sequence owners encounter when dealing with section-by-section letter architecture. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing section-by-section letter architecture arrives."
+          "notes": "Violation letter, invoice, or demand referencing section-by-section letter architecture arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control which letter section needs work."
+          "notes": "Gather CC&Rs, schedules, and records that control which letter section needs work.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on section-by-section letter architecture; ask for a written decision."
+          "notes": "Present indexed exhibits focused on section-by-section letter architecture; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around section-by-section letter architecture."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around section-by-section letter architecture.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -1847,8 +2825,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for section-by-section letter architecture.",
         "href": "/guides/worksheets/sample-hoa-appeal-letter-structure-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Sample HOA Appeal Letter Structure and Outline — process flowchart (SVG)",
+        "description": "Branded vector process diagram for section-by-section letter architecture.",
+        "href": "/guides/infographics/sample-hoa-appeal-letter-structure-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Sample HOA Appeal Letter Structure and Outline — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Header & facts, Legal arguments, and Remedy & exhibits.",
+        "href": "/guides/infographics/sample-hoa-appeal-letter-structure-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Sample HOA Appeal Letter Structure and Outline — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for section-by-section letter architecture.",
+        "href": "/guides/infographics/sample-hoa-appeal-letter-structure-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Sample HOA Appeal Letter Structure and Outline — checklist (SVG)",
+        "description": "Printable checklist categories for documenting section-by-section letter architecture.",
+        "href": "/guides/infographics/sample-hoa-appeal-letter-structure-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/sample-hoa-appeal-letter-structure-process.svg",
+      "comparison": "/guides/infographics/sample-hoa-appeal-letter-structure-comparison.svg",
+      "timeline": "/guides/infographics/sample-hoa-appeal-letter-structure-timeline.svg",
+      "checklist": "/guides/infographics/sample-hoa-appeal-letter-structure-checklist.svg"
+    }
   },
   "hoa-hearing-what-to-expect": {
     "decisionTree": {
@@ -1919,38 +2927,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: What to Expect at an HOA Fine Hearing",
-      "intro": "Follow these stages in order when working through agenda flow, speaking order, and decision timing. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: What to Expect at an HOA Fine Hearing",
+      "intro": "Follow these stages in order when working through agenda flow, speaking order, and decision timing. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about agenda flow, speaking order, and decision timing. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about agenda flow, speaking order, and decision timing. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on agenda flow, speaking order, and decision timing."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on agenda flow, speaking order, and decision timing.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to respond to common hearing surprises."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to respond to common hearing surprises.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around agenda flow, speaking order, and decision timing."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around agenda flow, speaking order, and decision timing.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to respond to common hearing surprises, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to respond to common hearing surprises, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -2044,38 +3113,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving agenda flow, speaking order, and decision timing",
-      "intro": "Typical sequence owners encounter when dealing with agenda flow, speaking order, and decision timing. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for agenda flow, speaking order, and decision timing",
+      "intro": "Typical sequence owners encounter when dealing with agenda flow, speaking order, and decision timing. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing agenda flow, speaking order, and decision timing arrives."
+          "notes": "Violation letter, invoice, or demand referencing agenda flow, speaking order, and decision timing arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control how to respond to common hearing surprises."
+          "notes": "Gather CC&Rs, schedules, and records that control how to respond to common hearing surprises.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on agenda flow, speaking order, and decision timing; ask for a written decision."
+          "notes": "Present indexed exhibits focused on agenda flow, speaking order, and decision timing; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around agenda flow, speaking order, and decision timing."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around agenda flow, speaking order, and decision timing.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -2111,8 +3233,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for agenda flow, speaking order, and decision timing.",
         "href": "/guides/worksheets/hoa-hearing-what-to-expect-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "What to Expect at an HOA Fine Hearing — process flowchart (SVG)",
+        "description": "Branded vector process diagram for agenda flow, speaking order, and decision timing.",
+        "href": "/guides/infographics/hoa-hearing-what-to-expect-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "What to Expect at an HOA Fine Hearing — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Open hearing, Closed session, and Manager-only conference.",
+        "href": "/guides/infographics/hoa-hearing-what-to-expect-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "What to Expect at an HOA Fine Hearing — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for agenda flow, speaking order, and decision timing.",
+        "href": "/guides/infographics/hoa-hearing-what-to-expect-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "What to Expect at an HOA Fine Hearing — checklist (SVG)",
+        "description": "Printable checklist categories for documenting agenda flow, speaking order, and decision timing.",
+        "href": "/guides/infographics/hoa-hearing-what-to-expect-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-hearing-what-to-expect-process.svg",
+      "comparison": "/guides/infographics/hoa-hearing-what-to-expect-comparison.svg",
+      "timeline": "/guides/infographics/hoa-hearing-what-to-expect-timeline.svg",
+      "checklist": "/guides/infographics/hoa-hearing-what-to-expect-checklist.svg"
+    }
   },
   "after-the-hoa-hearing-next-steps": {
     "decisionTree": {
@@ -2183,38 +3335,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: After the HOA Hearing: Next Steps for Homeowners",
-      "intro": "Follow these stages in order when working through written decisions, deadlines, and escalation. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: After the HOA Hearing: Next Steps for Homeowners",
+      "intro": "Follow these stages in order when working through written decisions, deadlines, and escalation. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about written decisions, deadlines, and escalation. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about written decisions, deadlines, and escalation. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on written decisions, deadlines, and escalation."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on written decisions, deadlines, and escalation.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to what to do after the board rules."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to what to do after the board rules.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around written decisions, deadlines, and escalation."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around written decisions, deadlines, and escalation.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to what to do after the board rules, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to what to do after the board rules, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -2308,38 +3521,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving written decisions, deadlines, and escalation",
-      "intro": "Typical sequence owners encounter when dealing with written decisions, deadlines, and escalation. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for written decisions, deadlines, and escalation",
+      "intro": "Typical sequence owners encounter when dealing with written decisions, deadlines, and escalation. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing written decisions, deadlines, and escalation arrives."
+          "notes": "Violation letter, invoice, or demand referencing written decisions, deadlines, and escalation arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control what to do after the board rules."
+          "notes": "Gather CC&Rs, schedules, and records that control what to do after the board rules.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on written decisions, deadlines, and escalation; ask for a written decision."
+          "notes": "Present indexed exhibits focused on written decisions, deadlines, and escalation; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around written decisions, deadlines, and escalation."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around written decisions, deadlines, and escalation.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -2375,8 +3641,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for written decisions, deadlines, and escalation.",
         "href": "/guides/worksheets/after-the-hoa-hearing-next-steps-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "After the HOA Hearing: Next Steps for Homeowners — process flowchart (SVG)",
+        "description": "Branded vector process diagram for written decisions, deadlines, and escalation.",
+        "href": "/guides/infographics/after-the-hoa-hearing-next-steps-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "After the HOA Hearing: Next Steps for Homeowners — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Win / reduction, Denial, and No written decision.",
+        "href": "/guides/infographics/after-the-hoa-hearing-next-steps-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "After the HOA Hearing: Next Steps for Homeowners — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for written decisions, deadlines, and escalation.",
+        "href": "/guides/infographics/after-the-hoa-hearing-next-steps-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "After the HOA Hearing: Next Steps for Homeowners — checklist (SVG)",
+        "description": "Printable checklist categories for documenting written decisions, deadlines, and escalation.",
+        "href": "/guides/infographics/after-the-hoa-hearing-next-steps-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/after-the-hoa-hearing-next-steps-process.svg",
+      "comparison": "/guides/infographics/after-the-hoa-hearing-next-steps-comparison.svg",
+      "timeline": "/guides/infographics/after-the-hoa-hearing-next-steps-timeline.svg",
+      "checklist": "/guides/infographics/after-the-hoa-hearing-next-steps-checklist.svg"
+    }
   },
   "appealing-an-hoa-fine-in-court": {
     "decisionTree": {
@@ -2447,38 +3743,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Appealing an HOA Fine in Court",
-      "intro": "Follow these stages in order when working through exhaustion, jurisdiction, and evidence preservation. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Appealing an HOA Fine in Court",
+      "intro": "Follow these stages in order when working through exhaustion, jurisdiction, and evidence preservation. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about exhaustion, jurisdiction, and evidence preservation. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about exhaustion, jurisdiction, and evidence preservation. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on exhaustion, jurisdiction, and evidence preservation."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on exhaustion, jurisdiction, and evidence preservation.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether court is proportionate to the dispute."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether court is proportionate to the dispute.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around exhaustion, jurisdiction, and evidence preservation."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around exhaustion, jurisdiction, and evidence preservation.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether court is proportionate to the dispute, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether court is proportionate to the dispute, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -2572,38 +3929,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving exhaustion, jurisdiction, and evidence preservation",
-      "intro": "Typical sequence owners encounter when dealing with exhaustion, jurisdiction, and evidence preservation. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for exhaustion, jurisdiction, and evidence preservation",
+      "intro": "Typical sequence owners encounter when dealing with exhaustion, jurisdiction, and evidence preservation. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing exhaustion, jurisdiction, and evidence preservation arrives."
+          "notes": "Violation letter, invoice, or demand referencing exhaustion, jurisdiction, and evidence preservation arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether court is proportionate to the dispute."
+          "notes": "Gather CC&Rs, schedules, and records that control whether court is proportionate to the dispute.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on exhaustion, jurisdiction, and evidence preservation; ask for a written decision."
+          "notes": "Present indexed exhibits focused on exhaustion, jurisdiction, and evidence preservation; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around exhaustion, jurisdiction, and evidence preservation."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around exhaustion, jurisdiction, and evidence preservation.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -2639,8 +4049,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for exhaustion, jurisdiction, and evidence preservation.",
         "href": "/guides/worksheets/appealing-an-hoa-fine-in-court-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Appealing an HOA Fine in Court — process flowchart (SVG)",
+        "description": "Branded vector process diagram for exhaustion, jurisdiction, and evidence preservation.",
+        "href": "/guides/infographics/appealing-an-hoa-fine-in-court-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Appealing an HOA Fine in Court — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Small claims, Civil court, and ADR first.",
+        "href": "/guides/infographics/appealing-an-hoa-fine-in-court-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Appealing an HOA Fine in Court — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for exhaustion, jurisdiction, and evidence preservation.",
+        "href": "/guides/infographics/appealing-an-hoa-fine-in-court-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Appealing an HOA Fine in Court — checklist (SVG)",
+        "description": "Printable checklist categories for documenting exhaustion, jurisdiction, and evidence preservation.",
+        "href": "/guides/infographics/appealing-an-hoa-fine-in-court-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/appealing-an-hoa-fine-in-court-process.svg",
+      "comparison": "/guides/infographics/appealing-an-hoa-fine-in-court-comparison.svg",
+      "timeline": "/guides/infographics/appealing-an-hoa-fine-in-court-timeline.svg",
+      "checklist": "/guides/infographics/appealing-an-hoa-fine-in-court-checklist.svg"
+    }
   },
   "checklist-before-paying-an-hoa-fine": {
     "decisionTree": {
@@ -2711,38 +4151,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Checklist Before Paying an HOA Fine",
-      "intro": "Follow these stages in order when working through verify, document, and preserve dispute rights before payment. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Checklist Before Paying an HOA Fine",
+      "intro": "Follow these stages in order when working through verify, document, and preserve dispute rights before payment. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about verify, document, and preserve dispute rights before payment. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about verify, document, and preserve dispute rights before payment. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on verify, document, and preserve dispute rights before payment."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on verify, document, and preserve dispute rights before payment.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether paying now helps or hurts you."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether paying now helps or hurts you.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around verify, document, and preserve dispute rights before payment."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around verify, document, and preserve dispute rights before payment.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether paying now helps or hurts you, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether paying now helps or hurts you, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -2836,38 +4337,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving verify, document, and preserve dispute rights before payment",
-      "intro": "Typical sequence owners encounter when dealing with verify, document, and preserve dispute rights before payment. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for verify, document, and preserve dispute rights before payment",
+      "intro": "Typical sequence owners encounter when dealing with verify, document, and preserve dispute rights before payment. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing verify, document, and preserve dispute rights before payment arrives."
+          "notes": "Violation letter, invoice, or demand referencing verify, document, and preserve dispute rights before payment arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether paying now helps or hurts you."
+          "notes": "Gather CC&Rs, schedules, and records that control whether paying now helps or hurts you.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on verify, document, and preserve dispute rights before payment; ask for a written decision."
+          "notes": "Present indexed exhibits focused on verify, document, and preserve dispute rights before payment; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around verify, document, and preserve dispute rights before payment."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around verify, document, and preserve dispute rights before payment.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -2903,8 +4457,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for verify, document, and preserve dispute rights before payment.",
         "href": "/guides/worksheets/checklist-before-paying-an-hoa-fine-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Checklist Before Paying an HOA Fine — process flowchart (SVG)",
+        "description": "Branded vector process diagram for verify, document, and preserve dispute rights before payment.",
+        "href": "/guides/infographics/checklist-before-paying-an-hoa-fine-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Checklist Before Paying an HOA Fine — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Pay under protest, Hold payment, and Partial payment.",
+        "href": "/guides/infographics/checklist-before-paying-an-hoa-fine-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Checklist Before Paying an HOA Fine — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for verify, document, and preserve dispute rights before payment.",
+        "href": "/guides/infographics/checklist-before-paying-an-hoa-fine-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Checklist Before Paying an HOA Fine — checklist (SVG)",
+        "description": "Printable checklist categories for documenting verify, document, and preserve dispute rights before payment.",
+        "href": "/guides/infographics/checklist-before-paying-an-hoa-fine-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/checklist-before-paying-an-hoa-fine-process.svg",
+      "comparison": "/guides/infographics/checklist-before-paying-an-hoa-fine-comparison.svg",
+      "timeline": "/guides/infographics/checklist-before-paying-an-hoa-fine-timeline.svg",
+      "checklist": "/guides/infographics/checklist-before-paying-an-hoa-fine-checklist.svg"
+    }
   },
   "selective-enforcement-hoa-fines": {
     "decisionTree": {
@@ -2975,38 +4559,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Selective Enforcement of HOA Fines Explained",
-      "intro": "Follow these stages in order when working through comparable neighbors and unequal application proof. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Selective Enforcement of HOA Fines Explained",
+      "intro": "Follow these stages in order when working through comparable neighbors and unequal application proof. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about comparable neighbors and unequal application proof. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about comparable neighbors and unequal application proof. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on comparable neighbors and unequal application proof."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on comparable neighbors and unequal application proof.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether you have enough comparables."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether you have enough comparables.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around comparable neighbors and unequal application proof."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around comparable neighbors and unequal application proof.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether you have enough comparables, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether you have enough comparables, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -3100,38 +4745,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving comparable neighbors and unequal application proof",
-      "intro": "Typical sequence owners encounter when dealing with comparable neighbors and unequal application proof. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for comparable neighbors and unequal application proof",
+      "intro": "Typical sequence owners encounter when dealing with comparable neighbors and unequal application proof. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing comparable neighbors and unequal application proof arrives."
+          "notes": "Violation letter, invoice, or demand referencing comparable neighbors and unequal application proof arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether you have enough comparables."
+          "notes": "Gather CC&Rs, schedules, and records that control whether you have enough comparables.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on comparable neighbors and unequal application proof; ask for a written decision."
+          "notes": "Present indexed exhibits focused on comparable neighbors and unequal application proof; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around comparable neighbors and unequal application proof."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around comparable neighbors and unequal application proof.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -3167,8 +4865,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for comparable neighbors and unequal application proof.",
         "href": "/guides/worksheets/selective-enforcement-hoa-fines-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Selective Enforcement of HOA Fines Explained — process flowchart (SVG)",
+        "description": "Branded vector process diagram for comparable neighbors and unequal application proof.",
+        "href": "/guides/infographics/selective-enforcement-hoa-fines-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Selective Enforcement of HOA Fines Explained — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Clear comparable, Ambiguous comparable, and No comparable.",
+        "href": "/guides/infographics/selective-enforcement-hoa-fines-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Selective Enforcement of HOA Fines Explained — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for comparable neighbors and unequal application proof.",
+        "href": "/guides/infographics/selective-enforcement-hoa-fines-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Selective Enforcement of HOA Fines Explained — checklist (SVG)",
+        "description": "Printable checklist categories for documenting comparable neighbors and unequal application proof.",
+        "href": "/guides/infographics/selective-enforcement-hoa-fines-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/selective-enforcement-hoa-fines-process.svg",
+      "comparison": "/guides/infographics/selective-enforcement-hoa-fines-comparison.svg",
+      "timeline": "/guides/infographics/selective-enforcement-hoa-fines-timeline.svg",
+      "checklist": "/guides/infographics/selective-enforcement-hoa-fines-checklist.svg"
+    }
   },
   "photographic-evidence-for-hoa-appeals": {
     "decisionTree": {
@@ -3239,38 +4967,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Photographic Evidence for HOA Fine Appeals",
-      "intro": "Follow these stages in order when working through light, landmarks, timestamps, and authenticity. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Photographic Evidence for HOA Fine Appeals",
+      "intro": "Follow these stages in order when working through light, landmarks, timestamps, and authenticity. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about light, landmarks, timestamps, and authenticity. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about light, landmarks, timestamps, and authenticity. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on light, landmarks, timestamps, and authenticity."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on light, landmarks, timestamps, and authenticity.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a photo set will persuade the board."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a photo set will persuade the board.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around light, landmarks, timestamps, and authenticity."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around light, landmarks, timestamps, and authenticity.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a photo set will persuade the board, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a photo set will persuade the board, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -3364,38 +5153,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving light, landmarks, timestamps, and authenticity",
-      "intro": "Typical sequence owners encounter when dealing with light, landmarks, timestamps, and authenticity. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for light, landmarks, timestamps, and authenticity",
+      "intro": "Typical sequence owners encounter when dealing with light, landmarks, timestamps, and authenticity. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing light, landmarks, timestamps, and authenticity arrives."
+          "notes": "Violation letter, invoice, or demand referencing light, landmarks, timestamps, and authenticity arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether a photo set will persuade the board."
+          "notes": "Gather CC&Rs, schedules, and records that control whether a photo set will persuade the board.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on light, landmarks, timestamps, and authenticity; ask for a written decision."
+          "notes": "Present indexed exhibits focused on light, landmarks, timestamps, and authenticity; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around light, landmarks, timestamps, and authenticity."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around light, landmarks, timestamps, and authenticity.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -3431,8 +5273,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for light, landmarks, timestamps, and authenticity.",
         "href": "/guides/worksheets/photographic-evidence-for-hoa-appeals-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Photographic Evidence for HOA Fine Appeals — process flowchart (SVG)",
+        "description": "Branded vector process diagram for light, landmarks, timestamps, and authenticity.",
+        "href": "/guides/infographics/photographic-evidence-for-hoa-appeals-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Photographic Evidence for HOA Fine Appeals — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Timestamped series, Single snapshot, and Edited / cropped only.",
+        "href": "/guides/infographics/photographic-evidence-for-hoa-appeals-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Photographic Evidence for HOA Fine Appeals — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for light, landmarks, timestamps, and authenticity.",
+        "href": "/guides/infographics/photographic-evidence-for-hoa-appeals-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Photographic Evidence for HOA Fine Appeals — checklist (SVG)",
+        "description": "Printable checklist categories for documenting light, landmarks, timestamps, and authenticity.",
+        "href": "/guides/infographics/photographic-evidence-for-hoa-appeals-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/photographic-evidence-for-hoa-appeals-process.svg",
+      "comparison": "/guides/infographics/photographic-evidence-for-hoa-appeals-comparison.svg",
+      "timeline": "/guides/infographics/photographic-evidence-for-hoa-appeals-timeline.svg",
+      "checklist": "/guides/infographics/photographic-evidence-for-hoa-appeals-checklist.svg"
+    }
   },
   "requesting-hoa-records-and-violation-files": {
     "decisionTree": {
@@ -3503,38 +5375,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Requesting HOA Records and Violation Files",
-      "intro": "Follow these stages in order when working through inspection rights, written requests, and follow-up. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Requesting HOA Records and Violation Files",
+      "intro": "Follow these stages in order when working through inspection rights, written requests, and follow-up. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about inspection rights, written requests, and follow-up. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about inspection rights, written requests, and follow-up. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on inspection rights, written requests, and follow-up."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on inspection rights, written requests, and follow-up.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to what records to demand first."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to what records to demand first.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around inspection rights, written requests, and follow-up."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around inspection rights, written requests, and follow-up.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to what records to demand first, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to what records to demand first, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -3628,38 +5561,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving inspection rights, written requests, and follow-up",
-      "intro": "Typical sequence owners encounter when dealing with inspection rights, written requests, and follow-up. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for inspection rights, written requests, and follow-up",
+      "intro": "Typical sequence owners encounter when dealing with inspection rights, written requests, and follow-up. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing inspection rights, written requests, and follow-up arrives."
+          "notes": "Violation letter, invoice, or demand referencing inspection rights, written requests, and follow-up arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control what records to demand first."
+          "notes": "Gather CC&Rs, schedules, and records that control what records to demand first.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on inspection rights, written requests, and follow-up; ask for a written decision."
+          "notes": "Present indexed exhibits focused on inspection rights, written requests, and follow-up; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around inspection rights, written requests, and follow-up."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around inspection rights, written requests, and follow-up.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -3695,8 +5681,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for inspection rights, written requests, and follow-up.",
         "href": "/guides/worksheets/requesting-hoa-records-and-violation-files-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Requesting HOA Records and Violation Files — process flowchart (SVG)",
+        "description": "Branded vector process diagram for inspection rights, written requests, and follow-up.",
+        "href": "/guides/infographics/requesting-hoa-records-and-violation-files-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Requesting HOA Records and Violation Files — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Governing docs, Violation file, and Financial ledger.",
+        "href": "/guides/infographics/requesting-hoa-records-and-violation-files-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Requesting HOA Records and Violation Files — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for inspection rights, written requests, and follow-up.",
+        "href": "/guides/infographics/requesting-hoa-records-and-violation-files-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Requesting HOA Records and Violation Files — checklist (SVG)",
+        "description": "Printable checklist categories for documenting inspection rights, written requests, and follow-up.",
+        "href": "/guides/infographics/requesting-hoa-records-and-violation-files-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/requesting-hoa-records-and-violation-files-process.svg",
+      "comparison": "/guides/infographics/requesting-hoa-records-and-violation-files-comparison.svg",
+      "timeline": "/guides/infographics/requesting-hoa-records-and-violation-files-timeline.svg",
+      "checklist": "/guides/infographics/requesting-hoa-records-and-violation-files-checklist.svg"
+    }
   },
   "comparing-neighbor-enforcement-records": {
     "decisionTree": {
@@ -3767,38 +5783,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Comparing Neighbor Enforcement Records in HOA Disputes",
-      "intro": "Follow these stages in order when working through ethical, documented comparisons that show uneven rules. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Comparing Neighbor Enforcement Records in HOA Disputes",
+      "intro": "Follow these stages in order when working through ethical, documented comparisons that show uneven rules. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about ethical, documented comparisons that show uneven rules. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about ethical, documented comparisons that show uneven rules. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on ethical, documented comparisons that show uneven rules."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on ethical, documented comparisons that show uneven rules.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to use neighbor data without harassment."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to use neighbor data without harassment.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around ethical, documented comparisons that show uneven rules."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around ethical, documented comparisons that show uneven rules.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to use neighbor data without harassment, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to use neighbor data without harassment, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -3892,38 +5969,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving ethical, documented comparisons that show uneven rules",
-      "intro": "Typical sequence owners encounter when dealing with ethical, documented comparisons that show uneven rules. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for ethical, documented comparisons that show uneven rules",
+      "intro": "Typical sequence owners encounter when dealing with ethical, documented comparisons that show uneven rules. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing ethical, documented comparisons that show uneven rules arrives."
+          "notes": "Violation letter, invoice, or demand referencing ethical, documented comparisons that show uneven rules arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control how to use neighbor data without harassment."
+          "notes": "Gather CC&Rs, schedules, and records that control how to use neighbor data without harassment.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on ethical, documented comparisons that show uneven rules; ask for a written decision."
+          "notes": "Present indexed exhibits focused on ethical, documented comparisons that show uneven rules; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around ethical, documented comparisons that show uneven rules."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around ethical, documented comparisons that show uneven rules.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -3959,8 +6089,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for ethical, documented comparisons that show uneven rules.",
         "href": "/guides/worksheets/comparing-neighbor-enforcement-records-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Comparing Neighbor Enforcement Records in HOA Disputes — process flowchart (SVG)",
+        "description": "Branded vector process diagram for ethical, documented comparisons that show uneven rules.",
+        "href": "/guides/infographics/comparing-neighbor-enforcement-records-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Comparing Neighbor Enforcement Records in HOA Disputes — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Public-visible violation, Portal record match, and Anecdote only.",
+        "href": "/guides/infographics/comparing-neighbor-enforcement-records-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Comparing Neighbor Enforcement Records in HOA Disputes — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for ethical, documented comparisons that show uneven rules.",
+        "href": "/guides/infographics/comparing-neighbor-enforcement-records-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Comparing Neighbor Enforcement Records in HOA Disputes — checklist (SVG)",
+        "description": "Printable checklist categories for documenting ethical, documented comparisons that show uneven rules.",
+        "href": "/guides/infographics/comparing-neighbor-enforcement-records-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/comparing-neighbor-enforcement-records-process.svg",
+      "comparison": "/guides/infographics/comparing-neighbor-enforcement-records-comparison.svg",
+      "timeline": "/guides/infographics/comparing-neighbor-enforcement-records-timeline.svg",
+      "checklist": "/guides/infographics/comparing-neighbor-enforcement-records-checklist.svg"
+    }
   },
   "certified-mail-and-notice-proof": {
     "decisionTree": {
@@ -4031,38 +6191,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Certified Mail and Proof of HOA Notice",
-      "intro": "Follow these stages in order when working through delivery receipts, green cards, and portal exports. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Certified Mail and Proof of HOA Notice",
+      "intro": "Follow these stages in order when working through delivery receipts, green cards, and portal exports. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about delivery receipts, green cards, and portal exports. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about delivery receipts, green cards, and portal exports. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on delivery receipts, green cards, and portal exports."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on delivery receipts, green cards, and portal exports.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which delivery method closes proof gaps."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which delivery method closes proof gaps.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around delivery receipts, green cards, and portal exports."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around delivery receipts, green cards, and portal exports.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which delivery method closes proof gaps, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which delivery method closes proof gaps, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -4156,38 +6377,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving delivery receipts, green cards, and portal exports",
-      "intro": "Typical sequence owners encounter when dealing with delivery receipts, green cards, and portal exports. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for delivery receipts, green cards, and portal exports",
+      "intro": "Typical sequence owners encounter when dealing with delivery receipts, green cards, and portal exports. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing delivery receipts, green cards, and portal exports arrives."
+          "notes": "Violation letter, invoice, or demand referencing delivery receipts, green cards, and portal exports arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control which delivery method closes proof gaps."
+          "notes": "Gather CC&Rs, schedules, and records that control which delivery method closes proof gaps.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on delivery receipts, green cards, and portal exports; ask for a written decision."
+          "notes": "Present indexed exhibits focused on delivery receipts, green cards, and portal exports; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around delivery receipts, green cards, and portal exports."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around delivery receipts, green cards, and portal exports.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -4223,8 +6497,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for delivery receipts, green cards, and portal exports.",
         "href": "/guides/worksheets/certified-mail-and-notice-proof-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Certified Mail and Proof of HOA Notice — process flowchart (SVG)",
+        "description": "Branded vector process diagram for delivery receipts, green cards, and portal exports.",
+        "href": "/guides/infographics/certified-mail-and-notice-proof-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Certified Mail and Proof of HOA Notice — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Certified mail, Email / portal, and Hand delivery.",
+        "href": "/guides/infographics/certified-mail-and-notice-proof-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Certified Mail and Proof of HOA Notice — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for delivery receipts, green cards, and portal exports.",
+        "href": "/guides/infographics/certified-mail-and-notice-proof-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Certified Mail and Proof of HOA Notice — checklist (SVG)",
+        "description": "Printable checklist categories for documenting delivery receipts, green cards, and portal exports.",
+        "href": "/guides/infographics/certified-mail-and-notice-proof-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/certified-mail-and-notice-proof-process.svg",
+      "comparison": "/guides/infographics/certified-mail-and-notice-proof-comparison.svg",
+      "timeline": "/guides/infographics/certified-mail-and-notice-proof-timeline.svg",
+      "checklist": "/guides/infographics/certified-mail-and-notice-proof-checklist.svg"
+    }
   },
   "preparing-exhibits-for-hoa-hearings": {
     "decisionTree": {
@@ -4295,38 +6599,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Preparing Exhibits for HOA Hearings",
-      "intro": "Follow these stages in order when working through indexed packets boards can skim in minutes. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Preparing Exhibits for HOA Hearings",
+      "intro": "Follow these stages in order when working through indexed packets boards can skim in minutes. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about indexed packets boards can skim in minutes. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about indexed packets boards can skim in minutes. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on indexed packets boards can skim in minutes."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on indexed packets boards can skim in minutes.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether your exhibit index is board-ready."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether your exhibit index is board-ready.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around indexed packets boards can skim in minutes."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around indexed packets boards can skim in minutes.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether your exhibit index is board-ready, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether your exhibit index is board-ready, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -4420,38 +6785,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving indexed packets boards can skim in minutes",
-      "intro": "Typical sequence owners encounter when dealing with indexed packets boards can skim in minutes. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for indexed packets boards can skim in minutes",
+      "intro": "Typical sequence owners encounter when dealing with indexed packets boards can skim in minutes. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing indexed packets boards can skim in minutes arrives."
+          "notes": "Violation letter, invoice, or demand referencing indexed packets boards can skim in minutes arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether your exhibit index is board-ready."
+          "notes": "Gather CC&Rs, schedules, and records that control whether your exhibit index is board-ready.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on indexed packets boards can skim in minutes; ask for a written decision."
+          "notes": "Present indexed exhibits focused on indexed packets boards can skim in minutes; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around indexed packets boards can skim in minutes."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around indexed packets boards can skim in minutes.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -4487,8 +6905,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for indexed packets boards can skim in minutes.",
         "href": "/guides/worksheets/preparing-exhibits-for-hoa-hearings-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Preparing Exhibits for HOA Hearings — process flowchart (SVG)",
+        "description": "Branded vector process diagram for indexed packets boards can skim in minutes.",
+        "href": "/guides/infographics/preparing-exhibits-for-hoa-hearings-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Preparing Exhibits for HOA Hearings — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Indexed binder, Loose emails, and Oral-only case.",
+        "href": "/guides/infographics/preparing-exhibits-for-hoa-hearings-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Preparing Exhibits for HOA Hearings — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for indexed packets boards can skim in minutes.",
+        "href": "/guides/infographics/preparing-exhibits-for-hoa-hearings-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Preparing Exhibits for HOA Hearings — checklist (SVG)",
+        "description": "Printable checklist categories for documenting indexed packets boards can skim in minutes.",
+        "href": "/guides/infographics/preparing-exhibits-for-hoa-hearings-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/preparing-exhibits-for-hoa-hearings-process.svg",
+      "comparison": "/guides/infographics/preparing-exhibits-for-hoa-hearings-comparison.svg",
+      "timeline": "/guides/infographics/preparing-exhibits-for-hoa-hearings-timeline.svg",
+      "checklist": "/guides/infographics/preparing-exhibits-for-hoa-hearings-checklist.svg"
+    }
   },
   "retaliatory-enforcement-by-hoa-boards": {
     "decisionTree": {
@@ -4559,38 +7007,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Retaliatory Enforcement by HOA Boards",
-      "intro": "Follow these stages in order when working through timing patterns after complaints or votes. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Retaliatory Enforcement by HOA Boards",
+      "intro": "Follow these stages in order when working through timing patterns after complaints or votes. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about timing patterns after complaints or votes. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about timing patterns after complaints or votes. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on timing patterns after complaints or votes."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on timing patterns after complaints or votes.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether retaliation indicators justify escalation."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether retaliation indicators justify escalation.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around timing patterns after complaints or votes."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around timing patterns after complaints or votes.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether retaliation indicators justify escalation, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether retaliation indicators justify escalation, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -4684,38 +7193,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving timing patterns after complaints or votes",
-      "intro": "Typical sequence owners encounter when dealing with timing patterns after complaints or votes. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for timing patterns after complaints or votes",
+      "intro": "Typical sequence owners encounter when dealing with timing patterns after complaints or votes. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing timing patterns after complaints or votes arrives."
+          "notes": "Violation letter, invoice, or demand referencing timing patterns after complaints or votes arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether retaliation indicators justify escalation."
+          "notes": "Gather CC&Rs, schedules, and records that control whether retaliation indicators justify escalation.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on timing patterns after complaints or votes; ask for a written decision."
+          "notes": "Present indexed exhibits focused on timing patterns after complaints or votes; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around timing patterns after complaints or votes."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around timing patterns after complaints or votes.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -4751,8 +7313,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for timing patterns after complaints or votes.",
         "href": "/guides/worksheets/retaliatory-enforcement-by-hoa-boards-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Retaliatory Enforcement by HOA Boards — process flowchart (SVG)",
+        "description": "Branded vector process diagram for timing patterns after complaints or votes.",
+        "href": "/guides/infographics/retaliatory-enforcement-by-hoa-boards-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Retaliatory Enforcement by HOA Boards — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Post-complaint fine, Routine inspection fine, and Unrelated third-party tip.",
+        "href": "/guides/infographics/retaliatory-enforcement-by-hoa-boards-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Retaliatory Enforcement by HOA Boards — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for timing patterns after complaints or votes.",
+        "href": "/guides/infographics/retaliatory-enforcement-by-hoa-boards-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Retaliatory Enforcement by HOA Boards — checklist (SVG)",
+        "description": "Printable checklist categories for documenting timing patterns after complaints or votes.",
+        "href": "/guides/infographics/retaliatory-enforcement-by-hoa-boards-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/retaliatory-enforcement-by-hoa-boards-process.svg",
+      "comparison": "/guides/infographics/retaliatory-enforcement-by-hoa-boards-comparison.svg",
+      "timeline": "/guides/infographics/retaliatory-enforcement-by-hoa-boards-timeline.svg",
+      "checklist": "/guides/infographics/retaliatory-enforcement-by-hoa-boards-checklist.svg"
+    }
   },
   "hoa-fine-schedules-and-caps": {
     "decisionTree": {
@@ -4823,38 +7415,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: HOA Fine Schedules and Caps Explained",
-      "intro": "Follow these stages in order when working through published schedules, daily caps, and unauthorized amounts. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: HOA Fine Schedules and Caps Explained",
+      "intro": "Follow these stages in order when working through published schedules, daily caps, and unauthorized amounts. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about published schedules, daily caps, and unauthorized amounts. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about published schedules, daily caps, and unauthorized amounts. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on published schedules, daily caps, and unauthorized amounts."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on published schedules, daily caps, and unauthorized amounts.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the assessed amount matches adopted schedules."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the assessed amount matches adopted schedules.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around published schedules, daily caps, and unauthorized amounts."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around published schedules, daily caps, and unauthorized amounts.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the assessed amount matches adopted schedules, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the assessed amount matches adopted schedules, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -4948,38 +7601,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving published schedules, daily caps, and unauthorized amounts",
-      "intro": "Typical sequence owners encounter when dealing with published schedules, daily caps, and unauthorized amounts. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for published schedules, daily caps, and unauthorized amounts",
+      "intro": "Typical sequence owners encounter when dealing with published schedules, daily caps, and unauthorized amounts. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing published schedules, daily caps, and unauthorized amounts arrives."
+          "notes": "Violation letter, invoice, or demand referencing published schedules, daily caps, and unauthorized amounts arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether the assessed amount matches adopted schedules."
+          "notes": "Gather CC&Rs, schedules, and records that control whether the assessed amount matches adopted schedules.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on published schedules, daily caps, and unauthorized amounts; ask for a written decision."
+          "notes": "Present indexed exhibits focused on published schedules, daily caps, and unauthorized amounts; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around published schedules, daily caps, and unauthorized amounts."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around published schedules, daily caps, and unauthorized amounts.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -5015,8 +7721,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for published schedules, daily caps, and unauthorized amounts.",
         "href": "/guides/worksheets/hoa-fine-schedules-and-caps-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "HOA Fine Schedules and Caps Explained — process flowchart (SVG)",
+        "description": "Branded vector process diagram for published schedules, daily caps, and unauthorized amounts.",
+        "href": "/guides/infographics/hoa-fine-schedules-and-caps-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Fine Schedules and Caps Explained — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Schedule-compliant, Above schedule, and No published schedule.",
+        "href": "/guides/infographics/hoa-fine-schedules-and-caps-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Fine Schedules and Caps Explained — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for published schedules, daily caps, and unauthorized amounts.",
+        "href": "/guides/infographics/hoa-fine-schedules-and-caps-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Fine Schedules and Caps Explained — checklist (SVG)",
+        "description": "Printable checklist categories for documenting published schedules, daily caps, and unauthorized amounts.",
+        "href": "/guides/infographics/hoa-fine-schedules-and-caps-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-fine-schedules-and-caps-process.svg",
+      "comparison": "/guides/infographics/hoa-fine-schedules-and-caps-comparison.svg",
+      "timeline": "/guides/infographics/hoa-fine-schedules-and-caps-timeline.svg",
+      "checklist": "/guides/infographics/hoa-fine-schedules-and-caps-checklist.svg"
+    }
   },
   "cure-periods-before-hoa-fines": {
     "decisionTree": {
@@ -5087,38 +7823,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Cure Periods Before HOA Fines Begin",
-      "intro": "Follow these stages in order when working through reasonable cure windows and proof of attempt. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Cure Periods Before HOA Fines Begin",
+      "intro": "Follow these stages in order when working through reasonable cure windows and proof of attempt. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about reasonable cure windows and proof of attempt. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about reasonable cure windows and proof of attempt. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on reasonable cure windows and proof of attempt."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on reasonable cure windows and proof of attempt.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the cure period was fair and usable."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the cure period was fair and usable.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around reasonable cure windows and proof of attempt."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around reasonable cure windows and proof of attempt.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the cure period was fair and usable, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the cure period was fair and usable, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -5212,38 +8009,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving reasonable cure windows and proof of attempt",
-      "intro": "Typical sequence owners encounter when dealing with reasonable cure windows and proof of attempt. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for reasonable cure windows and proof of attempt",
+      "intro": "Typical sequence owners encounter when dealing with reasonable cure windows and proof of attempt. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing reasonable cure windows and proof of attempt arrives."
+          "notes": "Violation letter, invoice, or demand referencing reasonable cure windows and proof of attempt arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether the cure period was fair and usable."
+          "notes": "Gather CC&Rs, schedules, and records that control whether the cure period was fair and usable.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on reasonable cure windows and proof of attempt; ask for a written decision."
+          "notes": "Present indexed exhibits focused on reasonable cure windows and proof of attempt; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around reasonable cure windows and proof of attempt."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around reasonable cure windows and proof of attempt.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -5279,8 +8129,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for reasonable cure windows and proof of attempt.",
         "href": "/guides/worksheets/cure-periods-before-hoa-fines-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Cure Periods Before HOA Fines Begin — process flowchart (SVG)",
+        "description": "Branded vector process diagram for reasonable cure windows and proof of attempt.",
+        "href": "/guides/infographics/cure-periods-before-hoa-fines-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Cure Periods Before HOA Fines Begin — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Adequate cure window, Rushed cure window, and No cure offered.",
+        "href": "/guides/infographics/cure-periods-before-hoa-fines-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Cure Periods Before HOA Fines Begin — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for reasonable cure windows and proof of attempt.",
+        "href": "/guides/infographics/cure-periods-before-hoa-fines-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Cure Periods Before HOA Fines Begin — checklist (SVG)",
+        "description": "Printable checklist categories for documenting reasonable cure windows and proof of attempt.",
+        "href": "/guides/infographics/cure-periods-before-hoa-fines-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/cure-periods-before-hoa-fines-process.svg",
+      "comparison": "/guides/infographics/cure-periods-before-hoa-fines-comparison.svg",
+      "timeline": "/guides/infographics/cure-periods-before-hoa-fines-timeline.svg",
+      "checklist": "/guides/infographics/cure-periods-before-hoa-fines-checklist.svg"
+    }
   },
   "daily-fines-and-accruing-penalties": {
     "decisionTree": {
@@ -5351,38 +8231,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Daily Fines and Accruing HOA Penalties",
-      "intro": "Follow these stages in order when working through stopping accrual, caps, and ledger challenges. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Daily Fines and Accruing HOA Penalties",
+      "intro": "Follow these stages in order when working through stopping accrual, caps, and ledger challenges. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about stopping accrual, caps, and ledger challenges. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about stopping accrual, caps, and ledger challenges. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on stopping accrual, caps, and ledger challenges."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on stopping accrual, caps, and ledger challenges.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to stop daily accrual quickly."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to stop daily accrual quickly.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around stopping accrual, caps, and ledger challenges."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around stopping accrual, caps, and ledger challenges.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to stop daily accrual quickly, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to stop daily accrual quickly, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -5476,38 +8417,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving stopping accrual, caps, and ledger challenges",
-      "intro": "Typical sequence owners encounter when dealing with stopping accrual, caps, and ledger challenges. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for stopping accrual, caps, and ledger challenges",
+      "intro": "Typical sequence owners encounter when dealing with stopping accrual, caps, and ledger challenges. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing stopping accrual, caps, and ledger challenges arrives."
+          "notes": "Violation letter, invoice, or demand referencing stopping accrual, caps, and ledger challenges arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control how to stop daily accrual quickly."
+          "notes": "Gather CC&Rs, schedules, and records that control how to stop daily accrual quickly.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on stopping accrual, caps, and ledger challenges; ask for a written decision."
+          "notes": "Present indexed exhibits focused on stopping accrual, caps, and ledger challenges; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around stopping accrual, caps, and ledger challenges."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around stopping accrual, caps, and ledger challenges.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -5543,8 +8537,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for stopping accrual, caps, and ledger challenges.",
         "href": "/guides/worksheets/daily-fines-and-accruing-penalties-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Daily Fines and Accruing HOA Penalties — process flowchart (SVG)",
+        "description": "Branded vector process diagram for stopping accrual, caps, and ledger challenges.",
+        "href": "/guides/infographics/daily-fines-and-accruing-penalties-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Daily Fines and Accruing HOA Penalties — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Continuing violation, One-time violation, and Disputed continuing claim.",
+        "href": "/guides/infographics/daily-fines-and-accruing-penalties-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Daily Fines and Accruing HOA Penalties — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for stopping accrual, caps, and ledger challenges.",
+        "href": "/guides/infographics/daily-fines-and-accruing-penalties-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Daily Fines and Accruing HOA Penalties — checklist (SVG)",
+        "description": "Printable checklist categories for documenting stopping accrual, caps, and ledger challenges.",
+        "href": "/guides/infographics/daily-fines-and-accruing-penalties-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/daily-fines-and-accruing-penalties-process.svg",
+      "comparison": "/guides/infographics/daily-fines-and-accruing-penalties-comparison.svg",
+      "timeline": "/guides/infographics/daily-fines-and-accruing-penalties-timeline.svg",
+      "checklist": "/guides/infographics/daily-fines-and-accruing-penalties-checklist.svg"
+    }
   },
   "assessment-vs-fine-differences": {
     "decisionTree": {
@@ -5615,38 +8639,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Assessments vs Fines: Critical Differences for Owners",
-      "intro": "Follow these stages in order when working through dues vs penalties and how ledgers blur them. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Assessments vs Fines: Critical Differences for Owners",
+      "intro": "Follow these stages in order when working through dues vs penalties and how ledgers blur them. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about dues vs penalties and how ledgers blur them. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about dues vs penalties and how ledgers blur them. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on dues vs penalties and how ledgers blur them."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on dues vs penalties and how ledgers blur them.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a charge is a fine or an assessment."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a charge is a fine or an assessment.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around dues vs penalties and how ledgers blur them."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around dues vs penalties and how ledgers blur them.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a charge is a fine or an assessment, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a charge is a fine or an assessment, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -5740,38 +8825,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving dues vs penalties and how ledgers blur them",
-      "intro": "Typical sequence owners encounter when dealing with dues vs penalties and how ledgers blur them. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for dues vs penalties and how ledgers blur them",
+      "intro": "Typical sequence owners encounter when dealing with dues vs penalties and how ledgers blur them. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing dues vs penalties and how ledgers blur them arrives."
+          "notes": "Violation letter, invoice, or demand referencing dues vs penalties and how ledgers blur them arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether a charge is a fine or an assessment."
+          "notes": "Gather CC&Rs, schedules, and records that control whether a charge is a fine or an assessment.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on dues vs penalties and how ledgers blur them; ask for a written decision."
+          "notes": "Present indexed exhibits focused on dues vs penalties and how ledgers blur them; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around dues vs penalties and how ledgers blur them."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around dues vs penalties and how ledgers blur them.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -5807,8 +8945,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for dues vs penalties and how ledgers blur them.",
         "href": "/guides/worksheets/assessment-vs-fine-differences-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Assessments vs Fines: Critical Differences for Owners — process flowchart (SVG)",
+        "description": "Branded vector process diagram for dues vs penalties and how ledgers blur them.",
+        "href": "/guides/infographics/assessment-vs-fine-differences-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Assessments vs Fines: Critical Differences for Owners — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Regular assessment, Fine / penalty, and Fee / cost recovery.",
+        "href": "/guides/infographics/assessment-vs-fine-differences-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Assessments vs Fines: Critical Differences for Owners — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for dues vs penalties and how ledgers blur them.",
+        "href": "/guides/infographics/assessment-vs-fine-differences-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Assessments vs Fines: Critical Differences for Owners — checklist (SVG)",
+        "description": "Printable checklist categories for documenting dues vs penalties and how ledgers blur them.",
+        "href": "/guides/infographics/assessment-vs-fine-differences-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/assessment-vs-fine-differences-process.svg",
+      "comparison": "/guides/infographics/assessment-vs-fine-differences-comparison.svg",
+      "timeline": "/guides/infographics/assessment-vs-fine-differences-timeline.svg",
+      "checklist": "/guides/infographics/assessment-vs-fine-differences-checklist.svg"
+    }
   },
   "hoa-collections-and-demand-letters": {
     "decisionTree": {
@@ -5879,38 +9047,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: HOA Collections and Demand Letters",
-      "intro": "Follow these stages in order when working through reading demands, disputing, and protecting appeal rights. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: HOA Collections and Demand Letters",
+      "intro": "Follow these stages in order when working through reading demands, disputing, and protecting appeal rights. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about reading demands, disputing, and protecting appeal rights. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about reading demands, disputing, and protecting appeal rights. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on reading demands, disputing, and protecting appeal rights."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on reading demands, disputing, and protecting appeal rights.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to answer a collections demand."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to answer a collections demand.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around reading demands, disputing, and protecting appeal rights."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around reading demands, disputing, and protecting appeal rights.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to answer a collections demand, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to answer a collections demand, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -6004,38 +9233,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving reading demands, disputing, and protecting appeal rights",
-      "intro": "Typical sequence owners encounter when dealing with reading demands, disputing, and protecting appeal rights. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for reading demands, disputing, and protecting appeal rights",
+      "intro": "Typical sequence owners encounter when dealing with reading demands, disputing, and protecting appeal rights. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing reading demands, disputing, and protecting appeal rights arrives."
+          "notes": "Violation letter, invoice, or demand referencing reading demands, disputing, and protecting appeal rights arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control how to answer a collections demand."
+          "notes": "Gather CC&Rs, schedules, and records that control how to answer a collections demand.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on reading demands, disputing, and protecting appeal rights; ask for a written decision."
+          "notes": "Present indexed exhibits focused on reading demands, disputing, and protecting appeal rights; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around reading demands, disputing, and protecting appeal rights."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around reading demands, disputing, and protecting appeal rights.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -6071,8 +9353,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for reading demands, disputing, and protecting appeal rights.",
         "href": "/guides/worksheets/hoa-collections-and-demand-letters-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "HOA Collections and Demand Letters — process flowchart (SVG)",
+        "description": "Branded vector process diagram for reading demands, disputing, and protecting appeal rights.",
+        "href": "/guides/infographics/hoa-collections-and-demand-letters-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Collections and Demand Letters — comparison chart (SVG)",
+        "description": "Side-by-side comparison of First demand, Attorney demand, and Credit threat.",
+        "href": "/guides/infographics/hoa-collections-and-demand-letters-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Collections and Demand Letters — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for reading demands, disputing, and protecting appeal rights.",
+        "href": "/guides/infographics/hoa-collections-and-demand-letters-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Collections and Demand Letters — checklist (SVG)",
+        "description": "Printable checklist categories for documenting reading demands, disputing, and protecting appeal rights.",
+        "href": "/guides/infographics/hoa-collections-and-demand-letters-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-collections-and-demand-letters-process.svg",
+      "comparison": "/guides/infographics/hoa-collections-and-demand-letters-comparison.svg",
+      "timeline": "/guides/infographics/hoa-collections-and-demand-letters-timeline.svg",
+      "checklist": "/guides/infographics/hoa-collections-and-demand-letters-checklist.svg"
+    }
   },
   "hoa-foreclosure-risks-from-unpaid-fines": {
     "decisionTree": {
@@ -6143,38 +9455,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: HOA Foreclosure Risks From Unpaid Fines",
-      "intro": "Follow these stages in order when working through when unpaid fines become foreclosure pathways. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: HOA Foreclosure Risks From Unpaid Fines",
+      "intro": "Follow these stages in order when working through when unpaid fines become foreclosure pathways. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about when unpaid fines become foreclosure pathways. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about when unpaid fines become foreclosure pathways. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on when unpaid fines become foreclosure pathways."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on when unpaid fines become foreclosure pathways.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how urgent foreclosure risk really is."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how urgent foreclosure risk really is.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around when unpaid fines become foreclosure pathways."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around when unpaid fines become foreclosure pathways.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how urgent foreclosure risk really is, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how urgent foreclosure risk really is, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -6268,38 +9641,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving when unpaid fines become foreclosure pathways",
-      "intro": "Typical sequence owners encounter when dealing with when unpaid fines become foreclosure pathways. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for when unpaid fines become foreclosure pathways",
+      "intro": "Typical sequence owners encounter when dealing with when unpaid fines become foreclosure pathways. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing when unpaid fines become foreclosure pathways arrives."
+          "notes": "Violation letter, invoice, or demand referencing when unpaid fines become foreclosure pathways arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control how urgent foreclosure risk really is."
+          "notes": "Gather CC&Rs, schedules, and records that control how urgent foreclosure risk really is.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on when unpaid fines become foreclosure pathways; ask for a written decision."
+          "notes": "Present indexed exhibits focused on when unpaid fines become foreclosure pathways; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around when unpaid fines become foreclosure pathways."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around when unpaid fines become foreclosure pathways.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -6335,8 +9761,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for when unpaid fines become foreclosure pathways.",
         "href": "/guides/worksheets/hoa-foreclosure-risks-from-unpaid-fines-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "HOA Foreclosure Risks From Unpaid Fines — process flowchart (SVG)",
+        "description": "Branded vector process diagram for when unpaid fines become foreclosure pathways.",
+        "href": "/guides/infographics/hoa-foreclosure-risks-from-unpaid-fines-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Foreclosure Risks From Unpaid Fines — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Early delinquency, Lien recorded, and Foreclosure filing.",
+        "href": "/guides/infographics/hoa-foreclosure-risks-from-unpaid-fines-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Foreclosure Risks From Unpaid Fines — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for when unpaid fines become foreclosure pathways.",
+        "href": "/guides/infographics/hoa-foreclosure-risks-from-unpaid-fines-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Foreclosure Risks From Unpaid Fines — checklist (SVG)",
+        "description": "Printable checklist categories for documenting when unpaid fines become foreclosure pathways.",
+        "href": "/guides/infographics/hoa-foreclosure-risks-from-unpaid-fines-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-foreclosure-risks-from-unpaid-fines-process.svg",
+      "comparison": "/guides/infographics/hoa-foreclosure-risks-from-unpaid-fines-comparison.svg",
+      "timeline": "/guides/infographics/hoa-foreclosure-risks-from-unpaid-fines-timeline.svg",
+      "checklist": "/guides/infographics/hoa-foreclosure-risks-from-unpaid-fines-checklist.svg"
+    }
   },
   "privilege-suspension-and-amenity-bans": {
     "decisionTree": {
@@ -6407,38 +9863,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Privilege Suspension and Amenity Bans by HOAs",
-      "intro": "Follow these stages in order when working through amenity cuts, due process, and written challenges. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Privilege Suspension and Amenity Bans by HOAs",
+      "intro": "Follow these stages in order when working through amenity cuts, due process, and written challenges. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about amenity cuts, due process, and written challenges. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about amenity cuts, due process, and written challenges. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on amenity cuts, due process, and written challenges."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on amenity cuts, due process, and written challenges.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a privilege ban followed your documents."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a privilege ban followed your documents.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around amenity cuts, due process, and written challenges."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around amenity cuts, due process, and written challenges.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a privilege ban followed your documents, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a privilege ban followed your documents, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -6532,38 +10049,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving amenity cuts, due process, and written challenges",
-      "intro": "Typical sequence owners encounter when dealing with amenity cuts, due process, and written challenges. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for amenity cuts, due process, and written challenges",
+      "intro": "Typical sequence owners encounter when dealing with amenity cuts, due process, and written challenges. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing amenity cuts, due process, and written challenges arrives."
+          "notes": "Violation letter, invoice, or demand referencing amenity cuts, due process, and written challenges arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether a privilege ban followed your documents."
+          "notes": "Gather CC&Rs, schedules, and records that control whether a privilege ban followed your documents.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on amenity cuts, due process, and written challenges; ask for a written decision."
+          "notes": "Present indexed exhibits focused on amenity cuts, due process, and written challenges; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around amenity cuts, due process, and written challenges."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around amenity cuts, due process, and written challenges.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -6599,8 +10169,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for amenity cuts, due process, and written challenges.",
         "href": "/guides/worksheets/privilege-suspension-and-amenity-bans-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Privilege Suspension and Amenity Bans by HOAs — process flowchart (SVG)",
+        "description": "Branded vector process diagram for amenity cuts, due process, and written challenges.",
+        "href": "/guides/infographics/privilege-suspension-and-amenity-bans-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Privilege Suspension and Amenity Bans by HOAs — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Documented suspension, Informal ban, and Essential-service cut.",
+        "href": "/guides/infographics/privilege-suspension-and-amenity-bans-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Privilege Suspension and Amenity Bans by HOAs — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for amenity cuts, due process, and written challenges.",
+        "href": "/guides/infographics/privilege-suspension-and-amenity-bans-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Privilege Suspension and Amenity Bans by HOAs — checklist (SVG)",
+        "description": "Printable checklist categories for documenting amenity cuts, due process, and written challenges.",
+        "href": "/guides/infographics/privilege-suspension-and-amenity-bans-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/privilege-suspension-and-amenity-bans-process.svg",
+      "comparison": "/guides/infographics/privilege-suspension-and-amenity-bans-comparison.svg",
+      "timeline": "/guides/infographics/privilege-suspension-and-amenity-bans-timeline.svg",
+      "checklist": "/guides/infographics/privilege-suspension-and-amenity-bans-checklist.svg"
+    }
   },
   "hoa-due-process-rights": {
     "decisionTree": {
@@ -6671,38 +10271,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: HOA Due Process Rights for Homeowners",
-      "intro": "Follow these stages in order when working through notice, opportunity to be heard, and impartial process. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: HOA Due Process Rights for Homeowners",
+      "intro": "Follow these stages in order when working through notice, opportunity to be heard, and impartial process. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about notice, opportunity to be heard, and impartial process. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about notice, opportunity to be heard, and impartial process. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on notice, opportunity to be heard, and impartial process."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on notice, opportunity to be heard, and impartial process.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which due-process step was skipped."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which due-process step was skipped.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around notice, opportunity to be heard, and impartial process."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around notice, opportunity to be heard, and impartial process.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which due-process step was skipped, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which due-process step was skipped, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -6796,38 +10457,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving notice, opportunity to be heard, and impartial process",
-      "intro": "Typical sequence owners encounter when dealing with notice, opportunity to be heard, and impartial process. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for notice, opportunity to be heard, and impartial process",
+      "intro": "Typical sequence owners encounter when dealing with notice, opportunity to be heard, and impartial process. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing notice, opportunity to be heard, and impartial process arrives."
+          "notes": "Violation letter, invoice, or demand referencing notice, opportunity to be heard, and impartial process arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control which due-process step was skipped."
+          "notes": "Gather CC&Rs, schedules, and records that control which due-process step was skipped.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on notice, opportunity to be heard, and impartial process; ask for a written decision."
+          "notes": "Present indexed exhibits focused on notice, opportunity to be heard, and impartial process; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around notice, opportunity to be heard, and impartial process."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around notice, opportunity to be heard, and impartial process.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -6863,8 +10577,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for notice, opportunity to be heard, and impartial process.",
         "href": "/guides/worksheets/hoa-due-process-rights-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "HOA Due Process Rights for Homeowners — process flowchart (SVG)",
+        "description": "Branded vector process diagram for notice, opportunity to be heard, and impartial process.",
+        "href": "/guides/infographics/hoa-due-process-rights-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Due Process Rights for Homeowners — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Full process, Partial process, and No process.",
+        "href": "/guides/infographics/hoa-due-process-rights-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Due Process Rights for Homeowners — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for notice, opportunity to be heard, and impartial process.",
+        "href": "/guides/infographics/hoa-due-process-rights-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Due Process Rights for Homeowners — checklist (SVG)",
+        "description": "Printable checklist categories for documenting notice, opportunity to be heard, and impartial process.",
+        "href": "/guides/infographics/hoa-due-process-rights-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-due-process-rights-process.svg",
+      "comparison": "/guides/infographics/hoa-due-process-rights-comparison.svg",
+      "timeline": "/guides/infographics/hoa-due-process-rights-timeline.svg",
+      "checklist": "/guides/infographics/hoa-due-process-rights-checklist.svg"
+    }
   },
   "hoa-fine-timelines-and-deadlines": {
     "decisionTree": {
@@ -6935,38 +10679,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: HOA Fine Timelines and Critical Deadlines",
-      "intro": "Follow these stages in order when working through appeal windows, cure clocks, and calendar discipline. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: HOA Fine Timelines and Critical Deadlines",
+      "intro": "Follow these stages in order when working through appeal windows, cure clocks, and calendar discipline. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about appeal windows, cure clocks, and calendar discipline. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about appeal windows, cure clocks, and calendar discipline. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on appeal windows, cure clocks, and calendar discipline."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on appeal windows, cure clocks, and calendar discipline.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which deadline controls your next move."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which deadline controls your next move.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around appeal windows, cure clocks, and calendar discipline."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around appeal windows, cure clocks, and calendar discipline.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which deadline controls your next move, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which deadline controls your next move, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -7060,38 +10865,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving appeal windows, cure clocks, and calendar discipline",
-      "intro": "Typical sequence owners encounter when dealing with appeal windows, cure clocks, and calendar discipline. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for appeal windows, cure clocks, and calendar discipline",
+      "intro": "Typical sequence owners encounter when dealing with appeal windows, cure clocks, and calendar discipline. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing appeal windows, cure clocks, and calendar discipline arrives."
+          "notes": "Violation letter, invoice, or demand referencing appeal windows, cure clocks, and calendar discipline arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control which deadline controls your next move."
+          "notes": "Gather CC&Rs, schedules, and records that control which deadline controls your next move.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on appeal windows, cure clocks, and calendar discipline; ask for a written decision."
+          "notes": "Present indexed exhibits focused on appeal windows, cure clocks, and calendar discipline; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around appeal windows, cure clocks, and calendar discipline."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around appeal windows, cure clocks, and calendar discipline.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -7127,8 +10985,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for appeal windows, cure clocks, and calendar discipline.",
         "href": "/guides/worksheets/hoa-fine-timelines-and-deadlines-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "HOA Fine Timelines and Critical Deadlines — process flowchart (SVG)",
+        "description": "Branded vector process diagram for appeal windows, cure clocks, and calendar discipline.",
+        "href": "/guides/infographics/hoa-fine-timelines-and-deadlines-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Fine Timelines and Critical Deadlines — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Appeal window open, Appeal window closing, and Appeal window missed.",
+        "href": "/guides/infographics/hoa-fine-timelines-and-deadlines-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Fine Timelines and Critical Deadlines — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for appeal windows, cure clocks, and calendar discipline.",
+        "href": "/guides/infographics/hoa-fine-timelines-and-deadlines-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Fine Timelines and Critical Deadlines — checklist (SVG)",
+        "description": "Printable checklist categories for documenting appeal windows, cure clocks, and calendar discipline.",
+        "href": "/guides/infographics/hoa-fine-timelines-and-deadlines-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-fine-timelines-and-deadlines-process.svg",
+      "comparison": "/guides/infographics/hoa-fine-timelines-and-deadlines-comparison.svg",
+      "timeline": "/guides/infographics/hoa-fine-timelines-and-deadlines-timeline.svg",
+      "checklist": "/guides/infographics/hoa-fine-timelines-and-deadlines-checklist.svg"
+    }
   },
   "reading-hoa-statutes-and-ccrs": {
     "decisionTree": {
@@ -7199,38 +11087,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: How to Read HOA Statutes and CC&Rs",
-      "intro": "Follow these stages in order when working through document hierarchy and conflict resolution. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: How to Read HOA Statutes and CC&Rs",
+      "intro": "Follow these stages in order when working through document hierarchy and conflict resolution. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about document hierarchy and conflict resolution. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about document hierarchy and conflict resolution. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on document hierarchy and conflict resolution."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on document hierarchy and conflict resolution.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which document controls the fine."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which document controls the fine.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around document hierarchy and conflict resolution."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around document hierarchy and conflict resolution.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which document controls the fine, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which document controls the fine, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -7324,38 +11273,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving document hierarchy and conflict resolution",
-      "intro": "Typical sequence owners encounter when dealing with document hierarchy and conflict resolution. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for document hierarchy and conflict resolution",
+      "intro": "Typical sequence owners encounter when dealing with document hierarchy and conflict resolution. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing document hierarchy and conflict resolution arrives."
+          "notes": "Violation letter, invoice, or demand referencing document hierarchy and conflict resolution arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control which document controls the fine."
+          "notes": "Gather CC&Rs, schedules, and records that control which document controls the fine.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on document hierarchy and conflict resolution; ask for a written decision."
+          "notes": "Present indexed exhibits focused on document hierarchy and conflict resolution; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around document hierarchy and conflict resolution."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around document hierarchy and conflict resolution.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -7391,8 +11393,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for document hierarchy and conflict resolution.",
         "href": "/guides/worksheets/reading-hoa-statutes-and-ccrs-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "How to Read HOA Statutes and CC&Rs — process flowchart (SVG)",
+        "description": "Branded vector process diagram for document hierarchy and conflict resolution.",
+        "href": "/guides/infographics/reading-hoa-statutes-and-ccrs-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "How to Read HOA Statutes and CC&Rs — comparison chart (SVG)",
+        "description": "Side-by-side comparison of State statute, CC&Rs, and Rules / guidelines.",
+        "href": "/guides/infographics/reading-hoa-statutes-and-ccrs-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "How to Read HOA Statutes and CC&Rs — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for document hierarchy and conflict resolution.",
+        "href": "/guides/infographics/reading-hoa-statutes-and-ccrs-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "How to Read HOA Statutes and CC&Rs — checklist (SVG)",
+        "description": "Printable checklist categories for documenting document hierarchy and conflict resolution.",
+        "href": "/guides/infographics/reading-hoa-statutes-and-ccrs-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/reading-hoa-statutes-and-ccrs-process.svg",
+      "comparison": "/guides/infographics/reading-hoa-statutes-and-ccrs-comparison.svg",
+      "timeline": "/guides/infographics/reading-hoa-statutes-and-ccrs-timeline.svg",
+      "checklist": "/guides/infographics/reading-hoa-statutes-and-ccrs-checklist.svg"
+    }
   },
   "hoa-legal-terminology-glossary": {
     "decisionTree": {
@@ -7463,38 +11495,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: HOA Legal Terminology Glossary for Homeowners",
-      "intro": "Follow these stages in order when working through key terms that appear in notices and ledgers. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: HOA Legal Terminology Glossary for Homeowners",
+      "intro": "Follow these stages in order when working through key terms that appear in notices and ledgers. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about key terms that appear in notices and ledgers. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about key terms that appear in notices and ledgers. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on key terms that appear in notices and ledgers."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on key terms that appear in notices and ledgers.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which term is driving your dispute."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which term is driving your dispute.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around key terms that appear in notices and ledgers."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around key terms that appear in notices and ledgers.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which term is driving your dispute, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which term is driving your dispute, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -7588,38 +11681,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving key terms that appear in notices and ledgers",
-      "intro": "Typical sequence owners encounter when dealing with key terms that appear in notices and ledgers. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for key terms that appear in notices and ledgers",
+      "intro": "Typical sequence owners encounter when dealing with key terms that appear in notices and ledgers. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing key terms that appear in notices and ledgers arrives."
+          "notes": "Violation letter, invoice, or demand referencing key terms that appear in notices and ledgers arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control which term is driving your dispute."
+          "notes": "Gather CC&Rs, schedules, and records that control which term is driving your dispute.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on key terms that appear in notices and ledgers; ask for a written decision."
+          "notes": "Present indexed exhibits focused on key terms that appear in notices and ledgers; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around key terms that appear in notices and ledgers."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around key terms that appear in notices and ledgers.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -7655,8 +11801,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for key terms that appear in notices and ledgers.",
         "href": "/guides/worksheets/hoa-legal-terminology-glossary-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "HOA Legal Terminology Glossary for Homeowners — process flowchart (SVG)",
+        "description": "Branded vector process diagram for key terms that appear in notices and ledgers.",
+        "href": "/guides/infographics/hoa-legal-terminology-glossary-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Legal Terminology Glossary for Homeowners — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Assessment, Violation, and Hearing / appeal.",
+        "href": "/guides/infographics/hoa-legal-terminology-glossary-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Legal Terminology Glossary for Homeowners — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for key terms that appear in notices and ledgers.",
+        "href": "/guides/infographics/hoa-legal-terminology-glossary-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Legal Terminology Glossary for Homeowners — checklist (SVG)",
+        "description": "Printable checklist categories for documenting key terms that appear in notices and ledgers.",
+        "href": "/guides/infographics/hoa-legal-terminology-glossary-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-legal-terminology-glossary-process.svg",
+      "comparison": "/guides/infographics/hoa-legal-terminology-glossary-comparison.svg",
+      "timeline": "/guides/infographics/hoa-legal-terminology-glossary-timeline.svg",
+      "checklist": "/guides/infographics/hoa-legal-terminology-glossary-checklist.svg"
+    }
   },
   "state-hoa-law-basics-for-homeowners": {
     "decisionTree": {
@@ -7727,38 +11903,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: State HOA Law Basics Every Homeowner Should Know",
-      "intro": "Follow these stages in order when working through how state acts interact with private covenants. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: State HOA Law Basics Every Homeowner Should Know",
+      "intro": "Follow these stages in order when working through how state acts interact with private covenants. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about how state acts interact with private covenants. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about how state acts interact with private covenants. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on how state acts interact with private covenants."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on how state acts interact with private covenants.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether state law adds protections beyond CC&Rs."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether state law adds protections beyond CC&Rs.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around how state acts interact with private covenants."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around how state acts interact with private covenants.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether state law adds protections beyond CC&Rs, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether state law adds protections beyond CC&Rs, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -7852,38 +12089,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving how state acts interact with private covenants",
-      "intro": "Typical sequence owners encounter when dealing with how state acts interact with private covenants. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for how state acts interact with private covenants",
+      "intro": "Typical sequence owners encounter when dealing with how state acts interact with private covenants. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing how state acts interact with private covenants arrives."
+          "notes": "Violation letter, invoice, or demand referencing how state acts interact with private covenants arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether state law adds protections beyond CC&Rs."
+          "notes": "Gather CC&Rs, schedules, and records that control whether state law adds protections beyond CC&Rs.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on how state acts interact with private covenants; ask for a written decision."
+          "notes": "Present indexed exhibits focused on how state acts interact with private covenants; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around how state acts interact with private covenants."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around how state acts interact with private covenants.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -7919,8 +12209,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for how state acts interact with private covenants.",
         "href": "/guides/worksheets/state-hoa-law-basics-for-homeowners-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "State HOA Law Basics Every Homeowner Should Know — process flowchart (SVG)",
+        "description": "Branded vector process diagram for how state acts interact with private covenants.",
+        "href": "/guides/infographics/state-hoa-law-basics-for-homeowners-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "State HOA Law Basics Every Homeowner Should Know — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Planned community act, Condo act, and General corporation law.",
+        "href": "/guides/infographics/state-hoa-law-basics-for-homeowners-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "State HOA Law Basics Every Homeowner Should Know — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for how state acts interact with private covenants.",
+        "href": "/guides/infographics/state-hoa-law-basics-for-homeowners-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "State HOA Law Basics Every Homeowner Should Know — checklist (SVG)",
+        "description": "Printable checklist categories for documenting how state acts interact with private covenants.",
+        "href": "/guides/infographics/state-hoa-law-basics-for-homeowners-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/state-hoa-law-basics-for-homeowners-process.svg",
+      "comparison": "/guides/infographics/state-hoa-law-basics-for-homeowners-comparison.svg",
+      "timeline": "/guides/infographics/state-hoa-law-basics-for-homeowners-timeline.svg",
+      "checklist": "/guides/infographics/state-hoa-law-basics-for-homeowners-checklist.svg"
+    }
   },
   "condominium-vs-hoa-fine-differences": {
     "decisionTree": {
@@ -7991,38 +12311,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Condominium vs HOA Fine Differences",
-      "intro": "Follow these stages in order when working through unit vs lot enforcement and shared elements. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Condominium vs HOA Fine Differences",
+      "intro": "Follow these stages in order when working through unit vs lot enforcement and shared elements. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about unit vs lot enforcement and shared elements. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about unit vs lot enforcement and shared elements. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on unit vs lot enforcement and shared elements."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on unit vs lot enforcement and shared elements.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether condo or HOA rules apply to your fine."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether condo or HOA rules apply to your fine.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around unit vs lot enforcement and shared elements."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around unit vs lot enforcement and shared elements.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether condo or HOA rules apply to your fine, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether condo or HOA rules apply to your fine, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -8116,38 +12497,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving unit vs lot enforcement and shared elements",
-      "intro": "Typical sequence owners encounter when dealing with unit vs lot enforcement and shared elements. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for unit vs lot enforcement and shared elements",
+      "intro": "Typical sequence owners encounter when dealing with unit vs lot enforcement and shared elements. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing unit vs lot enforcement and shared elements arrives."
+          "notes": "Violation letter, invoice, or demand referencing unit vs lot enforcement and shared elements arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether condo or HOA rules apply to your fine."
+          "notes": "Gather CC&Rs, schedules, and records that control whether condo or HOA rules apply to your fine.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on unit vs lot enforcement and shared elements; ask for a written decision."
+          "notes": "Present indexed exhibits focused on unit vs lot enforcement and shared elements; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around unit vs lot enforcement and shared elements."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around unit vs lot enforcement and shared elements.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -8183,8 +12617,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for unit vs lot enforcement and shared elements.",
         "href": "/guides/worksheets/condominium-vs-hoa-fine-differences-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Condominium vs HOA Fine Differences — process flowchart (SVG)",
+        "description": "Branded vector process diagram for unit vs lot enforcement and shared elements.",
+        "href": "/guides/infographics/condominium-vs-hoa-fine-differences-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Condominium vs HOA Fine Differences — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Condo unit fine, HOA lot fine, and Shared-element dispute.",
+        "href": "/guides/infographics/condominium-vs-hoa-fine-differences-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Condominium vs HOA Fine Differences — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for unit vs lot enforcement and shared elements.",
+        "href": "/guides/infographics/condominium-vs-hoa-fine-differences-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Condominium vs HOA Fine Differences — checklist (SVG)",
+        "description": "Printable checklist categories for documenting unit vs lot enforcement and shared elements.",
+        "href": "/guides/infographics/condominium-vs-hoa-fine-differences-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/condominium-vs-hoa-fine-differences-process.svg",
+      "comparison": "/guides/infographics/condominium-vs-hoa-fine-differences-comparison.svg",
+      "timeline": "/guides/infographics/condominium-vs-hoa-fine-differences-timeline.svg",
+      "checklist": "/guides/infographics/condominium-vs-hoa-fine-differences-checklist.svg"
+    }
   },
   "statute-of-limitations-for-hoa-fines": {
     "decisionTree": {
@@ -8255,38 +12719,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Statute of Limitations Issues for HOA Fines",
-      "intro": "Follow these stages in order when working through time bars on collection and enforcement claims. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Statute of Limitations Issues for HOA Fines",
+      "intro": "Follow these stages in order when working through time bars on collection and enforcement claims. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about time bars on collection and enforcement claims. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about time bars on collection and enforcement claims. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on time bars on collection and enforcement claims."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on time bars on collection and enforcement claims.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether age of the fine creates a defense."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether age of the fine creates a defense.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around time bars on collection and enforcement claims."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around time bars on collection and enforcement claims.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether age of the fine creates a defense, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether age of the fine creates a defense, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -8380,38 +12905,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving time bars on collection and enforcement claims",
-      "intro": "Typical sequence owners encounter when dealing with time bars on collection and enforcement claims. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for time bars on collection and enforcement claims",
+      "intro": "Typical sequence owners encounter when dealing with time bars on collection and enforcement claims. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing time bars on collection and enforcement claims arrives."
+          "notes": "Violation letter, invoice, or demand referencing time bars on collection and enforcement claims arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether age of the fine creates a defense."
+          "notes": "Gather CC&Rs, schedules, and records that control whether age of the fine creates a defense.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on time bars on collection and enforcement claims; ask for a written decision."
+          "notes": "Present indexed exhibits focused on time bars on collection and enforcement claims; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around time bars on collection and enforcement claims."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around time bars on collection and enforcement claims.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -8447,8 +13025,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for time bars on collection and enforcement claims.",
         "href": "/guides/worksheets/statute-of-limitations-for-hoa-fines-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Statute of Limitations Issues for HOA Fines — process flowchart (SVG)",
+        "description": "Branded vector process diagram for time bars on collection and enforcement claims.",
+        "href": "/guides/infographics/statute-of-limitations-for-hoa-fines-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Statute of Limitations Issues for HOA Fines — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Recent fine, Stale fine, and Revived / restated charge.",
+        "href": "/guides/infographics/statute-of-limitations-for-hoa-fines-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Statute of Limitations Issues for HOA Fines — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for time bars on collection and enforcement claims.",
+        "href": "/guides/infographics/statute-of-limitations-for-hoa-fines-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Statute of Limitations Issues for HOA Fines — checklist (SVG)",
+        "description": "Printable checklist categories for documenting time bars on collection and enforcement claims.",
+        "href": "/guides/infographics/statute-of-limitations-for-hoa-fines-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/statute-of-limitations-for-hoa-fines-process.svg",
+      "comparison": "/guides/infographics/statute-of-limitations-for-hoa-fines-comparison.svg",
+      "timeline": "/guides/infographics/statute-of-limitations-for-hoa-fines-timeline.svg",
+      "checklist": "/guides/infographics/statute-of-limitations-for-hoa-fines-checklist.svg"
+    }
   },
   "homeowner-bill-of-rights-hoa-enforcement": {
     "decisionTree": {
@@ -8519,38 +13127,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: A Practical Homeowner Bill of Rights for HOA Enforcement",
-      "intro": "Follow these stages in order when working through statutory owner protections during enforcement. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: A Practical Homeowner Bill of Rights for HOA Enforcement",
+      "intro": "Follow these stages in order when working through statutory owner protections during enforcement. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about statutory owner protections during enforcement. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about statutory owner protections during enforcement. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on statutory owner protections during enforcement."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on statutory owner protections during enforcement.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which bill-of-rights protection applies."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to which bill-of-rights protection applies.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around statutory owner protections during enforcement."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around statutory owner protections during enforcement.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which bill-of-rights protection applies, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to which bill-of-rights protection applies, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -8644,38 +13313,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving statutory owner protections during enforcement",
-      "intro": "Typical sequence owners encounter when dealing with statutory owner protections during enforcement. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for statutory owner protections during enforcement",
+      "intro": "Typical sequence owners encounter when dealing with statutory owner protections during enforcement. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing statutory owner protections during enforcement arrives."
+          "notes": "Violation letter, invoice, or demand referencing statutory owner protections during enforcement arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control which bill-of-rights protection applies."
+          "notes": "Gather CC&Rs, schedules, and records that control which bill-of-rights protection applies.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on statutory owner protections during enforcement; ask for a written decision."
+          "notes": "Present indexed exhibits focused on statutory owner protections during enforcement; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around statutory owner protections during enforcement."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around statutory owner protections during enforcement.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -8711,8 +13433,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for statutory owner protections during enforcement.",
         "href": "/guides/worksheets/homeowner-bill-of-rights-hoa-enforcement-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "A Practical Homeowner Bill of Rights for HOA Enforcement — process flowchart (SVG)",
+        "description": "Branded vector process diagram for statutory owner protections during enforcement.",
+        "href": "/guides/infographics/homeowner-bill-of-rights-hoa-enforcement-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "A Practical Homeowner Bill of Rights for HOA Enforcement — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Records access, Hearing rights, and Fair collection limits.",
+        "href": "/guides/infographics/homeowner-bill-of-rights-hoa-enforcement-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "A Practical Homeowner Bill of Rights for HOA Enforcement — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for statutory owner protections during enforcement.",
+        "href": "/guides/infographics/homeowner-bill-of-rights-hoa-enforcement-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "A Practical Homeowner Bill of Rights for HOA Enforcement — checklist (SVG)",
+        "description": "Printable checklist categories for documenting statutory owner protections during enforcement.",
+        "href": "/guides/infographics/homeowner-bill-of-rights-hoa-enforcement-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/homeowner-bill-of-rights-hoa-enforcement-process.svg",
+      "comparison": "/guides/infographics/homeowner-bill-of-rights-hoa-enforcement-comparison.svg",
+      "timeline": "/guides/infographics/homeowner-bill-of-rights-hoa-enforcement-timeline.svg",
+      "checklist": "/guides/infographics/homeowner-bill-of-rights-hoa-enforcement-checklist.svg"
+    }
   },
   "hoa-board-meeting-rules-and-minutes": {
     "decisionTree": {
@@ -8783,38 +13535,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: HOA Board Meeting Rules and Minutes",
-      "intro": "Follow these stages in order when working through agendas, minutes, and proving what the board decided. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: HOA Board Meeting Rules and Minutes",
+      "intro": "Follow these stages in order when working through agendas, minutes, and proving what the board decided. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about agendas, minutes, and proving what the board decided. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about agendas, minutes, and proving what the board decided. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on agendas, minutes, and proving what the board decided."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on agendas, minutes, and proving what the board decided.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether meeting records support your appeal."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether meeting records support your appeal.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around agendas, minutes, and proving what the board decided."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around agendas, minutes, and proving what the board decided.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether meeting records support your appeal, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether meeting records support your appeal, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -8908,38 +13721,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving agendas, minutes, and proving what the board decided",
-      "intro": "Typical sequence owners encounter when dealing with agendas, minutes, and proving what the board decided. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for agendas, minutes, and proving what the board decided",
+      "intro": "Typical sequence owners encounter when dealing with agendas, minutes, and proving what the board decided. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing agendas, minutes, and proving what the board decided arrives."
+          "notes": "Violation letter, invoice, or demand referencing agendas, minutes, and proving what the board decided arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether meeting records support your appeal."
+          "notes": "Gather CC&Rs, schedules, and records that control whether meeting records support your appeal.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on agendas, minutes, and proving what the board decided; ask for a written decision."
+          "notes": "Present indexed exhibits focused on agendas, minutes, and proving what the board decided; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around agendas, minutes, and proving what the board decided."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around agendas, minutes, and proving what the board decided.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -8975,8 +13841,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for agendas, minutes, and proving what the board decided.",
         "href": "/guides/worksheets/hoa-board-meeting-rules-and-minutes-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "HOA Board Meeting Rules and Minutes — process flowchart (SVG)",
+        "description": "Branded vector process diagram for agendas, minutes, and proving what the board decided.",
+        "href": "/guides/infographics/hoa-board-meeting-rules-and-minutes-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Board Meeting Rules and Minutes — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Approved minutes, Draft minutes, and No minutes.",
+        "href": "/guides/infographics/hoa-board-meeting-rules-and-minutes-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Board Meeting Rules and Minutes — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for agendas, minutes, and proving what the board decided.",
+        "href": "/guides/infographics/hoa-board-meeting-rules-and-minutes-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "HOA Board Meeting Rules and Minutes — checklist (SVG)",
+        "description": "Printable checklist categories for documenting agendas, minutes, and proving what the board decided.",
+        "href": "/guides/infographics/hoa-board-meeting-rules-and-minutes-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/hoa-board-meeting-rules-and-minutes-process.svg",
+      "comparison": "/guides/infographics/hoa-board-meeting-rules-and-minutes-comparison.svg",
+      "timeline": "/guides/infographics/hoa-board-meeting-rules-and-minutes-timeline.svg",
+      "checklist": "/guides/infographics/hoa-board-meeting-rules-and-minutes-checklist.svg"
+    }
   },
   "open-meeting-laws-and-hoa-transparency": {
     "decisionTree": {
@@ -9047,38 +13943,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Open Meeting Laws and HOA Transparency",
-      "intro": "Follow these stages in order when working through owner-notice requirements and closed-session limits. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Open Meeting Laws and HOA Transparency",
+      "intro": "Follow these stages in order when working through owner-notice requirements and closed-session limits. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about owner-notice requirements and closed-session limits. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about owner-notice requirements and closed-session limits. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on owner-notice requirements and closed-session limits."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on owner-notice requirements and closed-session limits.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a fine decision needed an open meeting."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a fine decision needed an open meeting.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around owner-notice requirements and closed-session limits."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around owner-notice requirements and closed-session limits.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a fine decision needed an open meeting, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a fine decision needed an open meeting, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -9172,38 +14129,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving owner-notice requirements and closed-session limits",
-      "intro": "Typical sequence owners encounter when dealing with owner-notice requirements and closed-session limits. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for owner-notice requirements and closed-session limits",
+      "intro": "Typical sequence owners encounter when dealing with owner-notice requirements and closed-session limits. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing owner-notice requirements and closed-session limits arrives."
+          "notes": "Violation letter, invoice, or demand referencing owner-notice requirements and closed-session limits arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether a fine decision needed an open meeting."
+          "notes": "Gather CC&Rs, schedules, and records that control whether a fine decision needed an open meeting.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on owner-notice requirements and closed-session limits; ask for a written decision."
+          "notes": "Present indexed exhibits focused on owner-notice requirements and closed-session limits; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around owner-notice requirements and closed-session limits."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around owner-notice requirements and closed-session limits.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -9239,8 +14249,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for owner-notice requirements and closed-session limits.",
         "href": "/guides/worksheets/open-meeting-laws-and-hoa-transparency-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Open Meeting Laws and HOA Transparency — process flowchart (SVG)",
+        "description": "Branded vector process diagram for owner-notice requirements and closed-session limits.",
+        "href": "/guides/infographics/open-meeting-laws-and-hoa-transparency-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Open Meeting Laws and HOA Transparency — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Open vote, Closed session, and Manager unilateral action.",
+        "href": "/guides/infographics/open-meeting-laws-and-hoa-transparency-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Open Meeting Laws and HOA Transparency — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for owner-notice requirements and closed-session limits.",
+        "href": "/guides/infographics/open-meeting-laws-and-hoa-transparency-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Open Meeting Laws and HOA Transparency — checklist (SVG)",
+        "description": "Printable checklist categories for documenting owner-notice requirements and closed-session limits.",
+        "href": "/guides/infographics/open-meeting-laws-and-hoa-transparency-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/open-meeting-laws-and-hoa-transparency-process.svg",
+      "comparison": "/guides/infographics/open-meeting-laws-and-hoa-transparency-comparison.svg",
+      "timeline": "/guides/infographics/open-meeting-laws-and-hoa-transparency-timeline.svg",
+      "checklist": "/guides/infographics/open-meeting-laws-and-hoa-transparency-checklist.svg"
+    }
   },
   "conflict-of-interest-on-hoa-boards": {
     "decisionTree": {
@@ -9311,38 +14351,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Conflicts of Interest on HOA Boards",
-      "intro": "Follow these stages in order when working through recusal, related-party bias, and process fairness. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Conflicts of Interest on HOA Boards",
+      "intro": "Follow these stages in order when working through recusal, related-party bias, and process fairness. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about recusal, related-party bias, and process fairness. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about recusal, related-party bias, and process fairness. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on recusal, related-party bias, and process fairness."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on recusal, related-party bias, and process fairness.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a conflict tainted the fine decision."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether a conflict tainted the fine decision.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around recusal, related-party bias, and process fairness."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around recusal, related-party bias, and process fairness.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a conflict tainted the fine decision, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether a conflict tainted the fine decision, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -9436,38 +14537,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving recusal, related-party bias, and process fairness",
-      "intro": "Typical sequence owners encounter when dealing with recusal, related-party bias, and process fairness. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for recusal, related-party bias, and process fairness",
+      "intro": "Typical sequence owners encounter when dealing with recusal, related-party bias, and process fairness. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing recusal, related-party bias, and process fairness arrives."
+          "notes": "Violation letter, invoice, or demand referencing recusal, related-party bias, and process fairness arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether a conflict tainted the fine decision."
+          "notes": "Gather CC&Rs, schedules, and records that control whether a conflict tainted the fine decision.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on recusal, related-party bias, and process fairness; ask for a written decision."
+          "notes": "Present indexed exhibits focused on recusal, related-party bias, and process fairness; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around recusal, related-party bias, and process fairness."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around recusal, related-party bias, and process fairness.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -9503,8 +14657,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for recusal, related-party bias, and process fairness.",
         "href": "/guides/worksheets/conflict-of-interest-on-hoa-boards-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Conflicts of Interest on HOA Boards — process flowchart (SVG)",
+        "description": "Branded vector process diagram for recusal, related-party bias, and process fairness.",
+        "href": "/guides/infographics/conflict-of-interest-on-hoa-boards-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Conflicts of Interest on HOA Boards — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Disclosed conflict, Hidden conflict, and No conflict evidence.",
+        "href": "/guides/infographics/conflict-of-interest-on-hoa-boards-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Conflicts of Interest on HOA Boards — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for recusal, related-party bias, and process fairness.",
+        "href": "/guides/infographics/conflict-of-interest-on-hoa-boards-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Conflicts of Interest on HOA Boards — checklist (SVG)",
+        "description": "Printable checklist categories for documenting recusal, related-party bias, and process fairness.",
+        "href": "/guides/infographics/conflict-of-interest-on-hoa-boards-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/conflict-of-interest-on-hoa-boards-process.svg",
+      "comparison": "/guides/infographics/conflict-of-interest-on-hoa-boards-comparison.svg",
+      "timeline": "/guides/infographics/conflict-of-interest-on-hoa-boards-timeline.svg",
+      "checklist": "/guides/infographics/conflict-of-interest-on-hoa-boards-checklist.svg"
+    }
   },
   "management-company-roles-in-hoa-fines": {
     "decisionTree": {
@@ -9575,38 +14759,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Management Company Roles in HOA Fines",
-      "intro": "Follow these stages in order when working through manager authority vs board decision-making. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Management Company Roles in HOA Fines",
+      "intro": "Follow these stages in order when working through manager authority vs board decision-making. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about manager authority vs board decision-making. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about manager authority vs board decision-making. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on manager authority vs board decision-making."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on manager authority vs board decision-making.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to who actually imposed or can reverse the fine."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to who actually imposed or can reverse the fine.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around manager authority vs board decision-making."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around manager authority vs board decision-making.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to who actually imposed or can reverse the fine, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to who actually imposed or can reverse the fine, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -9700,38 +14945,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving manager authority vs board decision-making",
-      "intro": "Typical sequence owners encounter when dealing with manager authority vs board decision-making. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for manager authority vs board decision-making",
+      "intro": "Typical sequence owners encounter when dealing with manager authority vs board decision-making. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing manager authority vs board decision-making arrives."
+          "notes": "Violation letter, invoice, or demand referencing manager authority vs board decision-making arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control who actually imposed or can reverse the fine."
+          "notes": "Gather CC&Rs, schedules, and records that control who actually imposed or can reverse the fine.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on manager authority vs board decision-making; ask for a written decision."
+          "notes": "Present indexed exhibits focused on manager authority vs board decision-making; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around manager authority vs board decision-making."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around manager authority vs board decision-making.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -9767,8 +15065,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for manager authority vs board decision-making.",
         "href": "/guides/worksheets/management-company-roles-in-hoa-fines-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Management Company Roles in HOA Fines — process flowchart (SVG)",
+        "description": "Branded vector process diagram for manager authority vs board decision-making.",
+        "href": "/guides/infographics/management-company-roles-in-hoa-fines-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Management Company Roles in HOA Fines — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Board-imposed fine, Manager-issued fine, and Attorney-directed fine.",
+        "href": "/guides/infographics/management-company-roles-in-hoa-fines-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Management Company Roles in HOA Fines — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for manager authority vs board decision-making.",
+        "href": "/guides/infographics/management-company-roles-in-hoa-fines-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Management Company Roles in HOA Fines — checklist (SVG)",
+        "description": "Printable checklist categories for documenting manager authority vs board decision-making.",
+        "href": "/guides/infographics/management-company-roles-in-hoa-fines-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/management-company-roles-in-hoa-fines-process.svg",
+      "comparison": "/guides/infographics/management-company-roles-in-hoa-fines-comparison.svg",
+      "timeline": "/guides/infographics/management-company-roles-in-hoa-fines-timeline.svg",
+      "checklist": "/guides/infographics/management-company-roles-in-hoa-fines-checklist.svg"
+    }
   },
   "amending-ccrs-vs-enforcing-rules": {
     "decisionTree": {
@@ -9839,38 +15167,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Amending CC&Rs vs Enforcing Existing Rules",
-      "intro": "Follow these stages in order when working through when boards need amendments instead of new fines. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Amending CC&Rs vs Enforcing Existing Rules",
+      "intro": "Follow these stages in order when working through when boards need amendments instead of new fines. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about when boards need amendments instead of new fines. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about when boards need amendments instead of new fines. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on when boards need amendments instead of new fines."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on when boards need amendments instead of new fines.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the rule was properly adopted."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the rule was properly adopted.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around when boards need amendments instead of new fines."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around when boards need amendments instead of new fines.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the rule was properly adopted, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the rule was properly adopted, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -9964,38 +15353,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving when boards need amendments instead of new fines",
-      "intro": "Typical sequence owners encounter when dealing with when boards need amendments instead of new fines. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for when boards need amendments instead of new fines",
+      "intro": "Typical sequence owners encounter when dealing with when boards need amendments instead of new fines. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing when boards need amendments instead of new fines arrives."
+          "notes": "Violation letter, invoice, or demand referencing when boards need amendments instead of new fines arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether the rule was properly adopted."
+          "notes": "Gather CC&Rs, schedules, and records that control whether the rule was properly adopted.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on when boards need amendments instead of new fines; ask for a written decision."
+          "notes": "Present indexed exhibits focused on when boards need amendments instead of new fines; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around when boards need amendments instead of new fines."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around when boards need amendments instead of new fines.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -10031,8 +15473,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for when boards need amendments instead of new fines.",
         "href": "/guides/worksheets/amending-ccrs-vs-enforcing-rules-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Amending CC&Rs vs Enforcing Existing Rules — process flowchart (SVG)",
+        "description": "Branded vector process diagram for when boards need amendments instead of new fines.",
+        "href": "/guides/infographics/amending-ccrs-vs-enforcing-rules-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Amending CC&Rs vs Enforcing Existing Rules — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Recorded covenant, Board-adopted rule, and Unwritten custom.",
+        "href": "/guides/infographics/amending-ccrs-vs-enforcing-rules-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Amending CC&Rs vs Enforcing Existing Rules — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for when boards need amendments instead of new fines.",
+        "href": "/guides/infographics/amending-ccrs-vs-enforcing-rules-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Amending CC&Rs vs Enforcing Existing Rules — checklist (SVG)",
+        "description": "Printable checklist categories for documenting when boards need amendments instead of new fines.",
+        "href": "/guides/infographics/amending-ccrs-vs-enforcing-rules-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/amending-ccrs-vs-enforcing-rules-process.svg",
+      "comparison": "/guides/infographics/amending-ccrs-vs-enforcing-rules-comparison.svg",
+      "timeline": "/guides/infographics/amending-ccrs-vs-enforcing-rules-timeline.svg",
+      "checklist": "/guides/infographics/amending-ccrs-vs-enforcing-rules-checklist.svg"
+    }
   },
   "challenging-arbitrary-hoa-fines": {
     "decisionTree": {
@@ -10103,38 +15575,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Challenging Arbitrary HOA Fines",
-      "intro": "Follow these stages in order when working through vague standards and inconsistent measurements. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Challenging Arbitrary HOA Fines",
+      "intro": "Follow these stages in order when working through vague standards and inconsistent measurements. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about vague standards and inconsistent measurements. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about vague standards and inconsistent measurements. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on vague standards and inconsistent measurements."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on vague standards and inconsistent measurements.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the standard used was objective enough."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the standard used was objective enough.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around vague standards and inconsistent measurements."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around vague standards and inconsistent measurements.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the standard used was objective enough, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the standard used was objective enough, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -10228,38 +15761,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving vague standards and inconsistent measurements",
-      "intro": "Typical sequence owners encounter when dealing with vague standards and inconsistent measurements. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for vague standards and inconsistent measurements",
+      "intro": "Typical sequence owners encounter when dealing with vague standards and inconsistent measurements. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing vague standards and inconsistent measurements arrives."
+          "notes": "Violation letter, invoice, or demand referencing vague standards and inconsistent measurements arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether the standard used was objective enough."
+          "notes": "Gather CC&Rs, schedules, and records that control whether the standard used was objective enough.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on vague standards and inconsistent measurements; ask for a written decision."
+          "notes": "Present indexed exhibits focused on vague standards and inconsistent measurements; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around vague standards and inconsistent measurements."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around vague standards and inconsistent measurements.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -10295,8 +15881,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for vague standards and inconsistent measurements.",
         "href": "/guides/worksheets/challenging-arbitrary-hoa-fines-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Challenging Arbitrary HOA Fines — process flowchart (SVG)",
+        "description": "Branded vector process diagram for vague standards and inconsistent measurements.",
+        "href": "/guides/infographics/challenging-arbitrary-hoa-fines-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Challenging Arbitrary HOA Fines — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Measurable standard, Vague aesthetic, and No cited rule.",
+        "href": "/guides/infographics/challenging-arbitrary-hoa-fines-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Challenging Arbitrary HOA Fines — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for vague standards and inconsistent measurements.",
+        "href": "/guides/infographics/challenging-arbitrary-hoa-fines-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Challenging Arbitrary HOA Fines — checklist (SVG)",
+        "description": "Printable checklist categories for documenting vague standards and inconsistent measurements.",
+        "href": "/guides/infographics/challenging-arbitrary-hoa-fines-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/challenging-arbitrary-hoa-fines-process.svg",
+      "comparison": "/guides/infographics/challenging-arbitrary-hoa-fines-comparison.svg",
+      "timeline": "/guides/infographics/challenging-arbitrary-hoa-fines-timeline.svg",
+      "checklist": "/guides/infographics/challenging-arbitrary-hoa-fines-checklist.svg"
+    }
   },
   "architectural-review-denials-and-appeals": {
     "decisionTree": {
@@ -10367,38 +15983,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Architectural Review Denials and Appeals",
-      "intro": "Follow these stages in order when working through ARC denials, guidelines, and appeal paths. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Architectural Review Denials and Appeals",
+      "intro": "Follow these stages in order when working through ARC denials, guidelines, and appeal paths. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about ARC denials, guidelines, and appeal paths. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about ARC denials, guidelines, and appeal paths. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on ARC denials, guidelines, and appeal paths."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on ARC denials, guidelines, and appeal paths.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to challenge an architectural denial."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to challenge an architectural denial.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around ARC denials, guidelines, and appeal paths."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around ARC denials, guidelines, and appeal paths.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to challenge an architectural denial, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to challenge an architectural denial, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -10492,38 +16169,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving ARC denials, guidelines, and appeal paths",
-      "intro": "Typical sequence owners encounter when dealing with ARC denials, guidelines, and appeal paths. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for ARC denials, guidelines, and appeal paths",
+      "intro": "Typical sequence owners encounter when dealing with ARC denials, guidelines, and appeal paths. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing ARC denials, guidelines, and appeal paths arrives."
+          "notes": "Violation letter, invoice, or demand referencing ARC denials, guidelines, and appeal paths arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control how to challenge an architectural denial."
+          "notes": "Gather CC&Rs, schedules, and records that control how to challenge an architectural denial.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on ARC denials, guidelines, and appeal paths; ask for a written decision."
+          "notes": "Present indexed exhibits focused on ARC denials, guidelines, and appeal paths; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around ARC denials, guidelines, and appeal paths."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around ARC denials, guidelines, and appeal paths.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -10559,8 +16289,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for ARC denials, guidelines, and appeal paths.",
         "href": "/guides/worksheets/architectural-review-denials-and-appeals-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Architectural Review Denials and Appeals — process flowchart (SVG)",
+        "description": "Branded vector process diagram for ARC denials, guidelines, and appeal paths.",
+        "href": "/guides/infographics/architectural-review-denials-and-appeals-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Architectural Review Denials and Appeals — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Guideline-based denial, Subjective denial, and Silent / delayed ARC.",
+        "href": "/guides/infographics/architectural-review-denials-and-appeals-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Architectural Review Denials and Appeals — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for ARC denials, guidelines, and appeal paths.",
+        "href": "/guides/infographics/architectural-review-denials-and-appeals-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Architectural Review Denials and Appeals — checklist (SVG)",
+        "description": "Printable checklist categories for documenting ARC denials, guidelines, and appeal paths.",
+        "href": "/guides/infographics/architectural-review-denials-and-appeals-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/architectural-review-denials-and-appeals-process.svg",
+      "comparison": "/guides/infographics/architectural-review-denials-and-appeals-comparison.svg",
+      "timeline": "/guides/infographics/architectural-review-denials-and-appeals-timeline.svg",
+      "checklist": "/guides/infographics/architectural-review-denials-and-appeals-checklist.svg"
+    }
   },
   "landscaping-and-maintenance-violation-appeals": {
     "decisionTree": {
@@ -10631,38 +16391,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Appealing Landscaping and Maintenance HOA Violations",
-      "intro": "Follow these stages in order when working through lawn, trees, and maintenance standards with proof. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Appealing Landscaping and Maintenance HOA Violations",
+      "intro": "Follow these stages in order when working through lawn, trees, and maintenance standards with proof. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about lawn, trees, and maintenance standards with proof. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about lawn, trees, and maintenance standards with proof. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on lawn, trees, and maintenance standards with proof."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on lawn, trees, and maintenance standards with proof.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether weather or access blocked a fair cure."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether weather or access blocked a fair cure.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around lawn, trees, and maintenance standards with proof."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around lawn, trees, and maintenance standards with proof.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether weather or access blocked a fair cure, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether weather or access blocked a fair cure, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -10756,38 +16577,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving lawn, trees, and maintenance standards with proof",
-      "intro": "Typical sequence owners encounter when dealing with lawn, trees, and maintenance standards with proof. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for lawn, trees, and maintenance standards with proof",
+      "intro": "Typical sequence owners encounter when dealing with lawn, trees, and maintenance standards with proof. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing lawn, trees, and maintenance standards with proof arrives."
+          "notes": "Violation letter, invoice, or demand referencing lawn, trees, and maintenance standards with proof arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether weather or access blocked a fair cure."
+          "notes": "Gather CC&Rs, schedules, and records that control whether weather or access blocked a fair cure.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on lawn, trees, and maintenance standards with proof; ask for a written decision."
+          "notes": "Present indexed exhibits focused on lawn, trees, and maintenance standards with proof; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around lawn, trees, and maintenance standards with proof."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around lawn, trees, and maintenance standards with proof.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -10823,8 +16697,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for lawn, trees, and maintenance standards with proof.",
         "href": "/guides/worksheets/landscaping-and-maintenance-violation-appeals-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Appealing Landscaping and Maintenance HOA Violations — process flowchart (SVG)",
+        "description": "Branded vector process diagram for lawn, trees, and maintenance standards with proof.",
+        "href": "/guides/infographics/landscaping-and-maintenance-violation-appeals-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Appealing Landscaping and Maintenance HOA Violations — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Clear maintenance duty, Disputed boundary, and Weather / vendor delay.",
+        "href": "/guides/infographics/landscaping-and-maintenance-violation-appeals-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Appealing Landscaping and Maintenance HOA Violations — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for lawn, trees, and maintenance standards with proof.",
+        "href": "/guides/infographics/landscaping-and-maintenance-violation-appeals-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Appealing Landscaping and Maintenance HOA Violations — checklist (SVG)",
+        "description": "Printable checklist categories for documenting lawn, trees, and maintenance standards with proof.",
+        "href": "/guides/infographics/landscaping-and-maintenance-violation-appeals-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/landscaping-and-maintenance-violation-appeals-process.svg",
+      "comparison": "/guides/infographics/landscaping-and-maintenance-violation-appeals-comparison.svg",
+      "timeline": "/guides/infographics/landscaping-and-maintenance-violation-appeals-timeline.svg",
+      "checklist": "/guides/infographics/landscaping-and-maintenance-violation-appeals-checklist.svg"
+    }
   },
   "parking-and-vehicle-hoa-fines": {
     "decisionTree": {
@@ -10895,38 +16799,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Parking and Vehicle HOA Fines: How to Dispute Them",
-      "intro": "Follow these stages in order when working through street vs driveway rules and tow/fine overlap. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Parking and Vehicle HOA Fines: How to Dispute Them",
+      "intro": "Follow these stages in order when working through street vs driveway rules and tow/fine overlap. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about street vs driveway rules and tow/fine overlap. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about street vs driveway rules and tow/fine overlap. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on street vs driveway rules and tow/fine overlap."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on street vs driveway rules and tow/fine overlap.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the parking rule was clearly posted and applied."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the parking rule was clearly posted and applied.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around street vs driveway rules and tow/fine overlap."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around street vs driveway rules and tow/fine overlap.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the parking rule was clearly posted and applied, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the parking rule was clearly posted and applied, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -11020,38 +16985,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving street vs driveway rules and tow/fine overlap",
-      "intro": "Typical sequence owners encounter when dealing with street vs driveway rules and tow/fine overlap. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for street vs driveway rules and tow/fine overlap",
+      "intro": "Typical sequence owners encounter when dealing with street vs driveway rules and tow/fine overlap. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing street vs driveway rules and tow/fine overlap arrives."
+          "notes": "Violation letter, invoice, or demand referencing street vs driveway rules and tow/fine overlap arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether the parking rule was clearly posted and applied."
+          "notes": "Gather CC&Rs, schedules, and records that control whether the parking rule was clearly posted and applied.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on street vs driveway rules and tow/fine overlap; ask for a written decision."
+          "notes": "Present indexed exhibits focused on street vs driveway rules and tow/fine overlap; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around street vs driveway rules and tow/fine overlap."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around street vs driveway rules and tow/fine overlap.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -11087,8 +17105,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for street vs driveway rules and tow/fine overlap.",
         "href": "/guides/worksheets/parking-and-vehicle-hoa-fines-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Parking and Vehicle HOA Fines: How to Dispute Them — process flowchart (SVG)",
+        "description": "Branded vector process diagram for street vs driveway rules and tow/fine overlap.",
+        "href": "/guides/infographics/parking-and-vehicle-hoa-fines-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Parking and Vehicle HOA Fines: How to Dispute Them — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Assigned space, Guest parking, and Street / overflow.",
+        "href": "/guides/infographics/parking-and-vehicle-hoa-fines-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Parking and Vehicle HOA Fines: How to Dispute Them — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for street vs driveway rules and tow/fine overlap.",
+        "href": "/guides/infographics/parking-and-vehicle-hoa-fines-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Parking and Vehicle HOA Fines: How to Dispute Them — checklist (SVG)",
+        "description": "Printable checklist categories for documenting street vs driveway rules and tow/fine overlap.",
+        "href": "/guides/infographics/parking-and-vehicle-hoa-fines-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/parking-and-vehicle-hoa-fines-process.svg",
+      "comparison": "/guides/infographics/parking-and-vehicle-hoa-fines-comparison.svg",
+      "timeline": "/guides/infographics/parking-and-vehicle-hoa-fines-timeline.svg",
+      "checklist": "/guides/infographics/parking-and-vehicle-hoa-fines-checklist.svg"
+    }
   },
   "noise-and-nuisance-hoa-violations": {
     "decisionTree": {
@@ -11159,38 +17207,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Noise and Nuisance HOA Violations",
-      "intro": "Follow these stages in order when working through subjective nuisance claims and corroboration. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Noise and Nuisance HOA Violations",
+      "intro": "Follow these stages in order when working through subjective nuisance claims and corroboration. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about subjective nuisance claims and corroboration. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about subjective nuisance claims and corroboration. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on subjective nuisance claims and corroboration."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on subjective nuisance claims and corroboration.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to answer a nuisance complaint with facts."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how to answer a nuisance complaint with facts.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around subjective nuisance claims and corroboration."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around subjective nuisance claims and corroboration.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to answer a nuisance complaint with facts, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how to answer a nuisance complaint with facts, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -11284,38 +17393,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving subjective nuisance claims and corroboration",
-      "intro": "Typical sequence owners encounter when dealing with subjective nuisance claims and corroboration. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for subjective nuisance claims and corroboration",
+      "intro": "Typical sequence owners encounter when dealing with subjective nuisance claims and corroboration. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing subjective nuisance claims and corroboration arrives."
+          "notes": "Violation letter, invoice, or demand referencing subjective nuisance claims and corroboration arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control how to answer a nuisance complaint with facts."
+          "notes": "Gather CC&Rs, schedules, and records that control how to answer a nuisance complaint with facts.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on subjective nuisance claims and corroboration; ask for a written decision."
+          "notes": "Present indexed exhibits focused on subjective nuisance claims and corroboration; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around subjective nuisance claims and corroboration."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around subjective nuisance claims and corroboration.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -11351,8 +17513,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for subjective nuisance claims and corroboration.",
         "href": "/guides/worksheets/noise-and-nuisance-hoa-violations-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Noise and Nuisance HOA Violations — process flowchart (SVG)",
+        "description": "Branded vector process diagram for subjective nuisance claims and corroboration.",
+        "href": "/guides/infographics/noise-and-nuisance-hoa-violations-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Noise and Nuisance HOA Violations — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Measured noise log, Single complaint, and Anonymous tip.",
+        "href": "/guides/infographics/noise-and-nuisance-hoa-violations-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Noise and Nuisance HOA Violations — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for subjective nuisance claims and corroboration.",
+        "href": "/guides/infographics/noise-and-nuisance-hoa-violations-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Noise and Nuisance HOA Violations — checklist (SVG)",
+        "description": "Printable checklist categories for documenting subjective nuisance claims and corroboration.",
+        "href": "/guides/infographics/noise-and-nuisance-hoa-violations-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/noise-and-nuisance-hoa-violations-process.svg",
+      "comparison": "/guides/infographics/noise-and-nuisance-hoa-violations-comparison.svg",
+      "timeline": "/guides/infographics/noise-and-nuisance-hoa-violations-timeline.svg",
+      "checklist": "/guides/infographics/noise-and-nuisance-hoa-violations-checklist.svg"
+    }
   },
   "pet-related-hoa-fines": {
     "decisionTree": {
@@ -11423,38 +17615,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Pet-Related HOA Fines and Appeals",
-      "intro": "Follow these stages in order when working through leash, waste, breed, and service-animal issues. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Pet-Related HOA Fines and Appeals",
+      "intro": "Follow these stages in order when working through leash, waste, breed, and service-animal issues. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about leash, waste, breed, and service-animal issues. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about leash, waste, breed, and service-animal issues. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on leash, waste, breed, and service-animal issues."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on leash, waste, breed, and service-animal issues.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the pet fine matches adopted pet rules."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the pet fine matches adopted pet rules.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around leash, waste, breed, and service-animal issues."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around leash, waste, breed, and service-animal issues.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the pet fine matches adopted pet rules, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the pet fine matches adopted pet rules, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -11548,38 +17801,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving leash, waste, breed, and service-animal issues",
-      "intro": "Typical sequence owners encounter when dealing with leash, waste, breed, and service-animal issues. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for leash, waste, breed, and service-animal issues",
+      "intro": "Typical sequence owners encounter when dealing with leash, waste, breed, and service-animal issues. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing leash, waste, breed, and service-animal issues arrives."
+          "notes": "Violation letter, invoice, or demand referencing leash, waste, breed, and service-animal issues arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether the pet fine matches adopted pet rules."
+          "notes": "Gather CC&Rs, schedules, and records that control whether the pet fine matches adopted pet rules.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on leash, waste, breed, and service-animal issues; ask for a written decision."
+          "notes": "Present indexed exhibits focused on leash, waste, breed, and service-animal issues; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around leash, waste, breed, and service-animal issues."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around leash, waste, breed, and service-animal issues.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -11615,8 +17921,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for leash, waste, breed, and service-animal issues.",
         "href": "/guides/worksheets/pet-related-hoa-fines-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Pet-Related HOA Fines and Appeals — process flowchart (SVG)",
+        "description": "Branded vector process diagram for leash, waste, breed, and service-animal issues.",
+        "href": "/guides/infographics/pet-related-hoa-fines-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Pet-Related HOA Fines and Appeals — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Rule-based pet fine, Breed / weight ban, and Assistance animal issue.",
+        "href": "/guides/infographics/pet-related-hoa-fines-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Pet-Related HOA Fines and Appeals — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for leash, waste, breed, and service-animal issues.",
+        "href": "/guides/infographics/pet-related-hoa-fines-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Pet-Related HOA Fines and Appeals — checklist (SVG)",
+        "description": "Printable checklist categories for documenting leash, waste, breed, and service-animal issues.",
+        "href": "/guides/infographics/pet-related-hoa-fines-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/pet-related-hoa-fines-process.svg",
+      "comparison": "/guides/infographics/pet-related-hoa-fines-comparison.svg",
+      "timeline": "/guides/infographics/pet-related-hoa-fines-timeline.svg",
+      "checklist": "/guides/infographics/pet-related-hoa-fines-checklist.svg"
+    }
   },
   "short-term-rental-hoa-enforcement": {
     "decisionTree": {
@@ -11687,38 +18023,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Short-Term Rental HOA Enforcement and Fines",
-      "intro": "Follow these stages in order when working through STR bans, leases, and enforcement evidence. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Short-Term Rental HOA Enforcement and Fines",
+      "intro": "Follow these stages in order when working through STR bans, leases, and enforcement evidence. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about STR bans, leases, and enforcement evidence. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about STR bans, leases, and enforcement evidence. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on STR bans, leases, and enforcement evidence."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on STR bans, leases, and enforcement evidence.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether STR enforcement followed your covenants."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether STR enforcement followed your covenants.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around STR bans, leases, and enforcement evidence."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around STR bans, leases, and enforcement evidence.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether STR enforcement followed your covenants, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether STR enforcement followed your covenants, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -11812,38 +18209,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving STR bans, leases, and enforcement evidence",
-      "intro": "Typical sequence owners encounter when dealing with STR bans, leases, and enforcement evidence. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for STR bans, leases, and enforcement evidence",
+      "intro": "Typical sequence owners encounter when dealing with STR bans, leases, and enforcement evidence. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing STR bans, leases, and enforcement evidence arrives."
+          "notes": "Violation letter, invoice, or demand referencing STR bans, leases, and enforcement evidence arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether STR enforcement followed your covenants."
+          "notes": "Gather CC&Rs, schedules, and records that control whether STR enforcement followed your covenants.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on STR bans, leases, and enforcement evidence; ask for a written decision."
+          "notes": "Present indexed exhibits focused on STR bans, leases, and enforcement evidence; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around STR bans, leases, and enforcement evidence."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around STR bans, leases, and enforcement evidence.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -11879,8 +18329,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for STR bans, leases, and enforcement evidence.",
         "href": "/guides/worksheets/short-term-rental-hoa-enforcement-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Short-Term Rental HOA Enforcement and Fines — process flowchart (SVG)",
+        "description": "Branded vector process diagram for STR bans, leases, and enforcement evidence.",
+        "href": "/guides/infographics/short-term-rental-hoa-enforcement-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Short-Term Rental HOA Enforcement and Fines — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Recorded STR ban, Rule-only ban, and Municipal + HOA overlap.",
+        "href": "/guides/infographics/short-term-rental-hoa-enforcement-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Short-Term Rental HOA Enforcement and Fines — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for STR bans, leases, and enforcement evidence.",
+        "href": "/guides/infographics/short-term-rental-hoa-enforcement-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Short-Term Rental HOA Enforcement and Fines — checklist (SVG)",
+        "description": "Printable checklist categories for documenting STR bans, leases, and enforcement evidence.",
+        "href": "/guides/infographics/short-term-rental-hoa-enforcement-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/short-term-rental-hoa-enforcement-process.svg",
+      "comparison": "/guides/infographics/short-term-rental-hoa-enforcement-comparison.svg",
+      "timeline": "/guides/infographics/short-term-rental-hoa-enforcement-timeline.svg",
+      "checklist": "/guides/infographics/short-term-rental-hoa-enforcement-checklist.svg"
+    }
   },
   "emergency-fines-and-safety-violations": {
     "decisionTree": {
@@ -11951,38 +18431,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Emergency Fines and Safety Violations",
-      "intro": "Follow these stages in order when working through true emergencies vs accelerated ordinary fines. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Emergency Fines and Safety Violations",
+      "intro": "Follow these stages in order when working through true emergencies vs accelerated ordinary fines. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about true emergencies vs accelerated ordinary fines. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about true emergencies vs accelerated ordinary fines. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on true emergencies vs accelerated ordinary fines."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on true emergencies vs accelerated ordinary fines.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether emergency process was justified."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether emergency process was justified.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around true emergencies vs accelerated ordinary fines."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around true emergencies vs accelerated ordinary fines.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether emergency process was justified, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether emergency process was justified, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -12076,38 +18617,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving true emergencies vs accelerated ordinary fines",
-      "intro": "Typical sequence owners encounter when dealing with true emergencies vs accelerated ordinary fines. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for true emergencies vs accelerated ordinary fines",
+      "intro": "Typical sequence owners encounter when dealing with true emergencies vs accelerated ordinary fines. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing true emergencies vs accelerated ordinary fines arrives."
+          "notes": "Violation letter, invoice, or demand referencing true emergencies vs accelerated ordinary fines arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether emergency process was justified."
+          "notes": "Gather CC&Rs, schedules, and records that control whether emergency process was justified.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on true emergencies vs accelerated ordinary fines; ask for a written decision."
+          "notes": "Present indexed exhibits focused on true emergencies vs accelerated ordinary fines; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around true emergencies vs accelerated ordinary fines."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around true emergencies vs accelerated ordinary fines.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -12143,8 +18737,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for true emergencies vs accelerated ordinary fines.",
         "href": "/guides/worksheets/emergency-fines-and-safety-violations-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Emergency Fines and Safety Violations — process flowchart (SVG)",
+        "description": "Branded vector process diagram for true emergencies vs accelerated ordinary fines.",
+        "href": "/guides/infographics/emergency-fines-and-safety-violations-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Emergency Fines and Safety Violations — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Imminent hazard, Ordinary violation labeled emergency, and Post-event fine.",
+        "href": "/guides/infographics/emergency-fines-and-safety-violations-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Emergency Fines and Safety Violations — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for true emergencies vs accelerated ordinary fines.",
+        "href": "/guides/infographics/emergency-fines-and-safety-violations-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Emergency Fines and Safety Violations — checklist (SVG)",
+        "description": "Printable checklist categories for documenting true emergencies vs accelerated ordinary fines.",
+        "href": "/guides/infographics/emergency-fines-and-safety-violations-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/emergency-fines-and-safety-violations-process.svg",
+      "comparison": "/guides/infographics/emergency-fines-and-safety-violations-comparison.svg",
+      "timeline": "/guides/infographics/emergency-fines-and-safety-violations-timeline.svg",
+      "checklist": "/guides/infographics/emergency-fines-and-safety-violations-checklist.svg"
+    }
   },
   "seasonal-and-weather-related-cure-delays": {
     "decisionTree": {
@@ -12215,38 +18839,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Seasonal and Weather-Related HOA Cure Delays",
-      "intro": "Follow these stages in order when working through weather logs and reasonable extension requests. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Seasonal and Weather-Related HOA Cure Delays",
+      "intro": "Follow these stages in order when working through weather logs and reasonable extension requests. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about weather logs and reasonable extension requests. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about weather logs and reasonable extension requests. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on weather logs and reasonable extension requests."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on weather logs and reasonable extension requests.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether to request a weather-based extension."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether to request a weather-based extension.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around weather logs and reasonable extension requests."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around weather logs and reasonable extension requests.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether to request a weather-based extension, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether to request a weather-based extension, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -12340,38 +19025,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving weather logs and reasonable extension requests",
-      "intro": "Typical sequence owners encounter when dealing with weather logs and reasonable extension requests. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for weather logs and reasonable extension requests",
+      "intro": "Typical sequence owners encounter when dealing with weather logs and reasonable extension requests. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing weather logs and reasonable extension requests arrives."
+          "notes": "Violation letter, invoice, or demand referencing weather logs and reasonable extension requests arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether to request a weather-based extension."
+          "notes": "Gather CC&Rs, schedules, and records that control whether to request a weather-based extension.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on weather logs and reasonable extension requests; ask for a written decision."
+          "notes": "Present indexed exhibits focused on weather logs and reasonable extension requests; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around weather logs and reasonable extension requests."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around weather logs and reasonable extension requests.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -12407,8 +19145,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for weather logs and reasonable extension requests.",
         "href": "/guides/worksheets/seasonal-and-weather-related-cure-delays-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Seasonal and Weather-Related HOA Cure Delays — process flowchart (SVG)",
+        "description": "Branded vector process diagram for weather logs and reasonable extension requests.",
+        "href": "/guides/infographics/seasonal-and-weather-related-cure-delays-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Seasonal and Weather-Related HOA Cure Delays — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Documented storm delay, Mild weather, and Vendor backlog only.",
+        "href": "/guides/infographics/seasonal-and-weather-related-cure-delays-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Seasonal and Weather-Related HOA Cure Delays — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for weather logs and reasonable extension requests.",
+        "href": "/guides/infographics/seasonal-and-weather-related-cure-delays-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Seasonal and Weather-Related HOA Cure Delays — checklist (SVG)",
+        "description": "Printable checklist categories for documenting weather logs and reasonable extension requests.",
+        "href": "/guides/infographics/seasonal-and-weather-related-cure-delays-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/seasonal-and-weather-related-cure-delays-process.svg",
+      "comparison": "/guides/infographics/seasonal-and-weather-related-cure-delays-comparison.svg",
+      "timeline": "/guides/infographics/seasonal-and-weather-related-cure-delays-timeline.svg",
+      "checklist": "/guides/infographics/seasonal-and-weather-related-cure-delays-checklist.svg"
+    }
   },
   "insurance-claims-and-hoa-fine-disputes": {
     "decisionTree": {
@@ -12479,38 +19247,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Insurance Claims and HOA Fine Disputes",
-      "intro": "Follow these stages in order when working through claim timelines overlapping fine cure clocks. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Insurance Claims and HOA Fine Disputes",
+      "intro": "Follow these stages in order when working through claim timelines overlapping fine cure clocks. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about claim timelines overlapping fine cure clocks. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about claim timelines overlapping fine cure clocks. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on claim timelines overlapping fine cure clocks."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on claim timelines overlapping fine cure clocks.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how insurance interacts with the fine clock."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to how insurance interacts with the fine clock.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around claim timelines overlapping fine cure clocks."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around claim timelines overlapping fine cure clocks.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how insurance interacts with the fine clock, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to how insurance interacts with the fine clock, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -12604,38 +19433,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving claim timelines overlapping fine cure clocks",
-      "intro": "Typical sequence owners encounter when dealing with claim timelines overlapping fine cure clocks. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for claim timelines overlapping fine cure clocks",
+      "intro": "Typical sequence owners encounter when dealing with claim timelines overlapping fine cure clocks. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing claim timelines overlapping fine cure clocks arrives."
+          "notes": "Violation letter, invoice, or demand referencing claim timelines overlapping fine cure clocks arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control how insurance interacts with the fine clock."
+          "notes": "Gather CC&Rs, schedules, and records that control how insurance interacts with the fine clock.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on claim timelines overlapping fine cure clocks; ask for a written decision."
+          "notes": "Present indexed exhibits focused on claim timelines overlapping fine cure clocks; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around claim timelines overlapping fine cure clocks."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around claim timelines overlapping fine cure clocks.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -12671,8 +19553,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for claim timelines overlapping fine cure clocks.",
         "href": "/guides/worksheets/insurance-claims-and-hoa-fine-disputes-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Insurance Claims and HOA Fine Disputes — process flowchart (SVG)",
+        "description": "Branded vector process diagram for claim timelines overlapping fine cure clocks.",
+        "href": "/guides/infographics/insurance-claims-and-hoa-fine-disputes-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Insurance Claims and HOA Fine Disputes — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Open claim, Denied claim, and No insurance angle.",
+        "href": "/guides/infographics/insurance-claims-and-hoa-fine-disputes-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Insurance Claims and HOA Fine Disputes — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for claim timelines overlapping fine cure clocks.",
+        "href": "/guides/infographics/insurance-claims-and-hoa-fine-disputes-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Insurance Claims and HOA Fine Disputes — checklist (SVG)",
+        "description": "Printable checklist categories for documenting claim timelines overlapping fine cure clocks.",
+        "href": "/guides/infographics/insurance-claims-and-hoa-fine-disputes-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/insurance-claims-and-hoa-fine-disputes-process.svg",
+      "comparison": "/guides/infographics/insurance-claims-and-hoa-fine-disputes-comparison.svg",
+      "timeline": "/guides/infographics/insurance-claims-and-hoa-fine-disputes-timeline.svg",
+      "checklist": "/guides/infographics/insurance-claims-and-hoa-fine-disputes-checklist.svg"
+    }
   },
   "mediation-and-adr-for-hoa-disputes": {
     "decisionTree": {
@@ -12743,38 +19655,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: Mediation and ADR for HOA Fine Disputes",
-      "intro": "Follow these stages in order when working through when mediation beats hearings or court. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: Mediation and ADR for HOA Fine Disputes",
+      "intro": "Follow these stages in order when working through when mediation beats hearings or court. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about when mediation beats hearings or court. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about when mediation beats hearings or court. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on when mediation beats hearings or court."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on when mediation beats hearings or court.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether ADR is available and useful now."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether ADR is available and useful now.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around when mediation beats hearings or court."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around when mediation beats hearings or court.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether ADR is available and useful now, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether ADR is available and useful now, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -12868,38 +19841,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving when mediation beats hearings or court",
-      "intro": "Typical sequence owners encounter when dealing with when mediation beats hearings or court. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for when mediation beats hearings or court",
+      "intro": "Typical sequence owners encounter when dealing with when mediation beats hearings or court. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing when mediation beats hearings or court arrives."
+          "notes": "Violation letter, invoice, or demand referencing when mediation beats hearings or court arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether ADR is available and useful now."
+          "notes": "Gather CC&Rs, schedules, and records that control whether ADR is available and useful now.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on when mediation beats hearings or court; ask for a written decision."
+          "notes": "Present indexed exhibits focused on when mediation beats hearings or court; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around when mediation beats hearings or court."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around when mediation beats hearings or court.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -12935,8 +19961,38 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for when mediation beats hearings or court.",
         "href": "/guides/worksheets/mediation-and-adr-for-hoa-disputes-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "Mediation and ADR for HOA Fine Disputes — process flowchart (SVG)",
+        "description": "Branded vector process diagram for when mediation beats hearings or court.",
+        "href": "/guides/infographics/mediation-and-adr-for-hoa-disputes-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Mediation and ADR for HOA Fine Disputes — comparison chart (SVG)",
+        "description": "Side-by-side comparison of Documented ADR clause, Voluntary mediation, and ADR not available.",
+        "href": "/guides/infographics/mediation-and-adr-for-hoa-disputes-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Mediation and ADR for HOA Fine Disputes — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for when mediation beats hearings or court.",
+        "href": "/guides/infographics/mediation-and-adr-for-hoa-disputes-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "Mediation and ADR for HOA Fine Disputes — checklist (SVG)",
+        "description": "Printable checklist categories for documenting when mediation beats hearings or court.",
+        "href": "/guides/infographics/mediation-and-adr-for-hoa-disputes-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/mediation-and-adr-for-hoa-disputes-process.svg",
+      "comparison": "/guides/infographics/mediation-and-adr-for-hoa-disputes-comparison.svg",
+      "timeline": "/guides/infographics/mediation-and-adr-for-hoa-disputes-timeline.svg",
+      "checklist": "/guides/infographics/mediation-and-adr-for-hoa-disputes-checklist.svg"
+    }
   },
   "when-to-hire-an-hoa-attorney": {
     "decisionTree": {
@@ -13007,38 +20063,99 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "processFlow": {
-      "heading": "Process flowchart: When to Hire an HOA Attorney",
-      "intro": "Follow these stages in order when working through cost-benefit triggers for counsel. Skip steps only when your documents expressly allow it.",
+      "heading": "Interactive process timeline: When to Hire an HOA Attorney",
+      "intro": "Follow these stages in order when working through cost-benefit triggers for counsel. Expand each step for estimated time, required documents, and common mistakes. Skip steps only when your documents expressly allow it.",
       "steps": [
         {
           "step": 1,
           "title": "Capture the trigger",
-          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about cost-benefit triggers for counsel. Note the date received."
+          "description": "Save the notice, portal message, invoice, or verbal summary that started the dispute about cost-benefit triggers for counsel. Note the date received.",
+          "estimatedTime": "Same day (30–90 min)",
+          "documentsRequired": [
+            "Violation notice, invoice, or portal message",
+            "Envelope postmark or delivery receipt",
+            "Dated note of when you first learned of the issue"
+          ],
+          "commonMistakes": [
+            "Relying on a verbal warning without a written artifact",
+            "Forgetting to photograph the notice date and cited rule"
+          ]
         },
         {
           "step": 2,
           "title": "Pull controlling text",
-          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on cost-benefit triggers for counsel."
+          "description": "Locate the statute, CC&R, rule, and fine-schedule language that supposedly authorizes action on cost-benefit triggers for counsel.",
+          "estimatedTime": "1–3 days",
+          "documentsRequired": [
+            "CC&R / rule pages cited in the notice",
+            "Current fine schedule",
+            "Bylaws appeal or hearing clause"
+          ],
+          "commonMistakes": [
+            "Arguing fairness before confirming the board cited a real rule",
+            "Using an outdated schedule that no longer matches the ledger"
+          ]
         },
         {
           "step": 3,
           "title": "Build the evidence spine",
-          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the dispute justifies legal fees."
+          "description": "Assemble dated photos, correspondence, ledgers, and comparables that speak directly to whether the dispute justifies legal fees.",
+          "estimatedTime": "2–5 days",
+          "documentsRequired": [
+            "Dated photos or maintenance logs",
+            "Correspondence export",
+            "Comparable-neighbor notes (when relevant)",
+            "One-page exhibit index"
+          ],
+          "commonMistakes": [
+            "Photos without dates, landmarks, or consistent angles",
+            "Dumping unsorted emails instead of labeled exhibits"
+          ]
         },
         {
           "step": 4,
           "title": "Choose the procedural path",
-          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around cost-benefit triggers for counsel."
+          "description": "Pick cure, informal dispute, formal hearing, payment under protest, ADR, or counsel based on deadlines and stakes around cost-benefit triggers for counsel.",
+          "estimatedTime": "Per notice window (often 7–14 days)",
+          "documentsRequired": [
+            "Deadline calendar from the notice and bylaws",
+            "Draft remedy sentence (waive / reduce / re-notice / reverse)",
+            "Proof of any cure already completed"
+          ],
+          "commonMistakes": [
+            "Missing the internal appeal deadline while still gathering evidence",
+            "Asking for conflicting remedies in the same letter"
+          ]
         },
         {
           "step": 5,
           "title": "Submit a written ask",
-          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the dispute justifies legal fees, with exhibits attached."
+          "description": "Send one clear remedy request (waive, reduce, re-notice, or reverse) tied to whether the dispute justifies legal fees, with exhibits attached.",
+          "estimatedTime": "1–2 hours to finalize + send",
+          "documentsRequired": [
+            "Signed appeal or dispute letter",
+            "Indexed exhibits",
+            "Certified-mail / portal delivery proof"
+          ],
+          "commonMistakes": [
+            "Sending exhibits without a clear ask on the first page",
+            "Failing to keep delivery proof for the appeal packet"
+          ]
         },
         {
           "step": 6,
           "title": "Confirm the outcome in writing",
-          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate."
+          "description": "Demand or calendar a written decision, update your ledger notes, and decide whether escalation is still proportionate.",
+          "estimatedTime": "1–7 days after hearing or board action",
+          "documentsRequired": [
+            "Written decision or refusal-to-decide record",
+            "Updated ledger screenshot",
+            "Post-decision deadline calendar"
+          ],
+          "commonMistakes": [
+            "Assuming silence means the fine was waived",
+            "Paying without noting payment under protest when escalation continues"
+          ]
         }
       ]
     },
@@ -13132,38 +20249,91 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
       ]
     },
     "timeline": {
-      "heading": "Timeline for issues involving cost-benefit triggers for counsel",
-      "intro": "Typical sequence owners encounter when dealing with cost-benefit triggers for counsel. Replace example windows with the dates in your governing documents.",
+      "heading": "Interactive timeline for cost-benefit triggers for counsel",
+      "intro": "Typical sequence owners encounter when dealing with cost-benefit triggers for counsel. Expand each stage for documents and pitfalls. Replace example windows with the dates in your governing documents.",
       "events": [
         {
           "label": "Trigger / notice",
           "duration": "Day 0",
-          "notes": "Violation letter, invoice, or demand referencing cost-benefit triggers for counsel arrives."
+          "notes": "Violation letter, invoice, or demand referencing cost-benefit triggers for counsel arrives.",
+          "documentsRequired": [
+            "Violation letter or invoice",
+            "Delivery proof / portal export"
+          ],
+          "commonMistakes": [
+            "Ignoring early inspection photos that later become exhibit A",
+            "Losing the envelope that shows the mailing date"
+          ]
         },
         {
           "label": "Document pull",
           "duration": "Days 0–3",
-          "notes": "Gather CC&Rs, schedules, and records that control whether the dispute justifies legal fees."
+          "notes": "Gather CC&Rs, schedules, and records that control whether the dispute justifies legal fees.",
+          "documentsRequired": [
+            "CC&Rs and rules cited",
+            "Fine schedule",
+            "Prior correspondence on the same issue"
+          ],
+          "commonMistakes": [
+            "Starting to write before you have the controlling text",
+            "Mixing draft rules with recorded covenants"
+          ]
         },
         {
           "label": "Cure or early response",
           "duration": "Per notice (often 7–14 days)",
-          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights."
+          "notes": "Cure if appropriate; otherwise send a written dispute preserving hearing rights.",
+          "documentsRequired": [
+            "Cure photos or vendor invoice",
+            "Written dispute letter if not curing",
+            "Delivery proof"
+          ],
+          "commonMistakes": [
+            "Curing without asking for written confirmation",
+            "Letting the cure window expire while waiting on a phone call"
+          ]
         },
         {
           "label": "Hearing / board review",
           "duration": "Often 2–6 weeks after request",
-          "notes": "Present indexed exhibits focused on cost-benefit triggers for counsel; ask for a written decision."
+          "notes": "Present indexed exhibits focused on cost-benefit triggers for counsel; ask for a written decision.",
+          "documentsRequired": [
+            "Indexed exhibit packet",
+            "Hearing agenda or appearance confirmation",
+            "One-sentence remedy ask"
+          ],
+          "commonMistakes": [
+            "Showing up without copies for the board",
+            "Skipping a written decision request on the record"
+          ]
         },
         {
           "label": "Written decision",
           "duration": "Promptly after hearing (document-driven)",
-          "notes": "Confirm outcome in writing; calendar any post-decision deadlines."
+          "notes": "Confirm outcome in writing; calendar any post-decision deadlines.",
+          "documentsRequired": [
+            "Written decision letter",
+            "Updated ledger entry",
+            "Minutes request (if decision is oral only)"
+          ],
+          "commonMistakes": [
+            "Accepting an oral outcome without a dated writing",
+            "Missing post-decision escalation clocks"
+          ]
         },
         {
           "label": "Escalation fork",
           "duration": "After denial or silence",
-          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around cost-benefit triggers for counsel."
+          "notes": "Choose payment under protest, ADR, counsel, or court based on stakes around cost-benefit triggers for counsel.",
+          "documentsRequired": [
+            "Full appeal record to date",
+            "Collections / lien notice if any",
+            "ADR clause or counsel intake notes"
+          ],
+          "commonMistakes": [
+            "Escalating before the internal record is complete",
+            "Paying without preserving dispute rights when a lien is threatened"
+          ]
         }
       ]
     },
@@ -13199,7 +20369,37 @@ export const GUIDE_ASSETS: Record<string, GuideEducationalAssets> = {
         "description": "Printable packet with the decision path, process steps, checklist, timeline, and visual summary for cost-benefit triggers for counsel.",
         "href": "/guides/worksheets/when-to-hire-an-hoa-attorney-worksheet.pdf",
         "fileType": "pdf"
+      },
+      {
+        "label": "When to Hire an HOA Attorney — process flowchart (SVG)",
+        "description": "Branded vector process diagram for cost-benefit triggers for counsel.",
+        "href": "/guides/infographics/when-to-hire-an-hoa-attorney-process.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "When to Hire an HOA Attorney — comparison chart (SVG)",
+        "description": "Side-by-side comparison of High stakes / lien, Low-dollar fine, and Complex multi-issue case.",
+        "href": "/guides/infographics/when-to-hire-an-hoa-attorney-comparison.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "When to Hire an HOA Attorney — deadline timeline (SVG)",
+        "description": "Visual timeline of deadlines and durations for cost-benefit triggers for counsel.",
+        "href": "/guides/infographics/when-to-hire-an-hoa-attorney-timeline.svg",
+        "fileType": "svg"
+      },
+      {
+        "label": "When to Hire an HOA Attorney — checklist (SVG)",
+        "description": "Printable checklist categories for documenting cost-benefit triggers for counsel.",
+        "href": "/guides/infographics/when-to-hire-an-hoa-attorney-checklist.svg",
+        "fileType": "svg"
       }
-    ]
+    ],
+    "infographics": {
+      "process": "/guides/infographics/when-to-hire-an-hoa-attorney-process.svg",
+      "comparison": "/guides/infographics/when-to-hire-an-hoa-attorney-comparison.svg",
+      "timeline": "/guides/infographics/when-to-hire-an-hoa-attorney-timeline.svg",
+      "checklist": "/guides/infographics/when-to-hire-an-hoa-attorney-checklist.svg"
+    }
   }
 };

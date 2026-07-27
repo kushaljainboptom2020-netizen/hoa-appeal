@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="804" viewBox="0 0 920 804" role="img" aria-labelledby="title desc">
+  <title id="title">Selective Enforcement of HOA Fines Explained</title>
+  <desc id="desc">MyHOAAppeal branded Timeline infographic</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0b1224"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1e293b" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <rect width="920" height="804" fill="url(#bgGrad)"/>
+  <rect width="920" height="804" fill="url(#dotGrid)" opacity="0.35"/>
+  <rect x="24" y="24" width="872" height="756" rx="18" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <circle cx="52" cy="56" r="10" fill="url(#accentGrad)"/>
+  <path d="M48 56 l3 3 6-7" fill="none" stroke="#020617" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="52" fill="#ffffff" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700">MyHOAAppeal</text>
+  <text x="72" y="70" fill="#94a3b8" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="500">TIMELINE</text>
+  
+  <text x="56" y="88" font-family="system-ui,Segoe UI,sans-serif"><tspan x="56" dy="0" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start">Interactive timeline for comparable neighbors and unequal application</tspan><tspan x="56" dy="20" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start">proof</tspan></text>
+  
+      <g>
+        <line x1="72" y1="148" x2="72" y2="220" stroke="#059669" stroke-width="3"/>
+        <circle cx="72" cy="140" r="12" fill="url(#accentGrad)" stroke="#020617" stroke-width="3"/>
+        <rect x="100" y="120" width="772" height="88" rx="14" fill="#111827" stroke="#334155"/>
+        <text x="120" y="148" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#f8fafc" font-size="15" font-weight="650" text-anchor="start">Trigger / notice</tspan></text>
+        <rect x="724" y="134" width="128" height="26" rx="8" fill="#064e3b" stroke="#34d399"/>
+        <text x="788" y="152" text-anchor="middle" fill="#34d399" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="600">Day 0</text>
+        <text x="120" y="174" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Violation letter, invoice, or demand referencing comparable neighbors and</tspan><tspan x="120" dy="17" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">unequal application proof arrives.</tspan></text>
+      </g>
+      <g>
+        <line x1="72" y1="256" x2="72" y2="328" stroke="#059669" stroke-width="3"/>
+        <circle cx="72" cy="248" r="12" fill="url(#accentGrad)" stroke="#020617" stroke-width="3"/>
+        <rect x="100" y="228" width="772" height="88" rx="14" fill="#111827" stroke="#334155"/>
+        <text x="120" y="256" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#f8fafc" font-size="15" font-weight="650" text-anchor="start">Document pull</tspan></text>
+        <rect x="724" y="242" width="128" height="26" rx="8" fill="#064e3b" stroke="#34d399"/>
+        <text x="788" y="260" text-anchor="middle" fill="#34d399" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="600">Days 0–3</text>
+        <text x="120" y="282" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Gather CC&amp;Rs, schedules, and records that control whether you have enough</tspan><tspan x="120" dy="17" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">comparables.</tspan></text>
+      </g>
+      <g>
+        <line x1="72" y1="364" x2="72" y2="436" stroke="#059669" stroke-width="3"/>
+        <circle cx="72" cy="356" r="12" fill="url(#accentGrad)" stroke="#020617" stroke-width="3"/>
+        <rect x="100" y="336" width="772" height="88" rx="14" fill="#111827" stroke="#334155"/>
+        <text x="120" y="364" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#f8fafc" font-size="15" font-weight="650" text-anchor="start">Cure or early response</tspan></text>
+        <rect x="724" y="350" width="128" height="26" rx="8" fill="#064e3b" stroke="#34d399"/>
+        <text x="788" y="368" text-anchor="middle" fill="#34d399" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="600">Per notice</text>
+        <text x="120" y="390" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Cure if appropriate; otherwise send a written dispute preserving hearing</tspan><tspan x="120" dy="17" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">rights.</tspan></text>
+      </g>
+      <g>
+        <line x1="72" y1="472" x2="72" y2="544" stroke="#059669" stroke-width="3"/>
+        <circle cx="72" cy="464" r="12" fill="url(#accentGrad)" stroke="#020617" stroke-width="3"/>
+        <rect x="100" y="444" width="772" height="88" rx="14" fill="#111827" stroke="#334155"/>
+        <text x="120" y="472" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#f8fafc" font-size="15" font-weight="650" text-anchor="start">Hearing / board review</tspan></text>
+        <rect x="724" y="458" width="128" height="26" rx="8" fill="#064e3b" stroke="#34d399"/>
+        <text x="788" y="476" text-anchor="middle" fill="#34d399" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="600">Often 2–6 weeks</text>
+        <text x="120" y="498" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Present indexed exhibits focused on comparable neighbors and unequal</tspan><tspan x="120" dy="17" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">application proof; ask for a written decision.</tspan></text>
+      </g>
+      <g>
+        <line x1="72" y1="580" x2="72" y2="652" stroke="#059669" stroke-width="3"/>
+        <circle cx="72" cy="572" r="12" fill="url(#accentGrad)" stroke="#020617" stroke-width="3"/>
+        <rect x="100" y="552" width="772" height="88" rx="14" fill="#111827" stroke="#334155"/>
+        <text x="120" y="580" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#f8fafc" font-size="15" font-weight="650" text-anchor="start">Written decision</tspan></text>
+        <rect x="724" y="566" width="128" height="26" rx="8" fill="#064e3b" stroke="#34d399"/>
+        <text x="788" y="584" text-anchor="middle" fill="#34d399" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="600">Promptly after</text>
+        <text x="120" y="606" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Confirm outcome in writing; calendar any post-decision deadlines.</tspan></text>
+      </g>
+      <g>
+        
+        <circle cx="72" cy="680" r="12" fill="url(#accentGrad)" stroke="#020617" stroke-width="3"/>
+        <rect x="100" y="660" width="772" height="88" rx="14" fill="#111827" stroke="#334155"/>
+        <text x="120" y="688" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#f8fafc" font-size="15" font-weight="650" text-anchor="start">Escalation fork</tspan></text>
+        <rect x="724" y="674" width="128" height="26" rx="8" fill="#064e3b" stroke="#34d399"/>
+        <text x="788" y="692" text-anchor="middle" fill="#34d399" font-family="system-ui,Segoe UI,sans-serif" font-size="11" font-weight="600">After denial or</text>
+        <text x="120" y="714" font-family="system-ui,Segoe UI,sans-serif"><tspan x="120" dy="0" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">Choose payment under protest, ADR, counsel, or court based on stakes around</tspan><tspan x="120" dy="17" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start">comparable neighbors and unequal application proof.</tspan></text>
+      </g>
+</svg>

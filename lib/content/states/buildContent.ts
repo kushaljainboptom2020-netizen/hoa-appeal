@@ -1,4 +1,8 @@
 import { attributionForStateCode } from "@/lib/content/editorial/attribution";
+import {
+  toInteractiveStepsFromEvents,
+  toInteractiveStepsFromProcess,
+} from "@/lib/content/process/timeline";
 import type { StateSeoConfig } from "@/lib/seo/statePages";
 import type { StateLegalContent } from "./types";
 
@@ -78,6 +82,75 @@ function internalLinksFor(
   ];
 }
 
+function enrichAppealSteps(
+  profile: StateContentProfile,
+  stateName: string
+): StateLegalContent["appealProcess"]["steps"] {
+  const noticeHint = profile.noticeWindow
+    ? `often aligned with a ${profile.noticeWindow} notice/cure concept`
+    : "per your CC&Rs and notice letter";
+
+  const base = toInteractiveStepsFromProcess(
+    profile.appealSteps.map((step, index) => {
+      const paired = profile.timelineEvents[index];
+      return {
+        ...step,
+        estimatedTime:
+          paired?.duration ??
+          (index === 0
+            ? "Same day"
+            : index === 1
+              ? `Cure / appeal window (${noticeHint})`
+              : "Document-driven window"),
+      };
+    }),
+    "appeal"
+  );
+
+  return base.map((step, index) => {
+    const extras: string[] = [];
+    if (index === 0) {
+      extras.push(
+        `Skipping ${stateName}-specific citations in the violation packet`
+      );
+    }
+    if (index === base.length - 1) {
+      extras.push(
+        `Filing outside ${stateName} without exhausting the association record`
+      );
+    }
+    return {
+      step: step.step,
+      title: step.title,
+      description: step.description,
+      estimatedTime: step.estimatedTime,
+      documentsRequired: step.documentsRequired,
+      commonMistakes: [...step.commonMistakes, ...extras],
+    };
+  });
+}
+
+function enrichTimelineEvents(
+  profile: StateContentProfile,
+  stateName: string
+): StateLegalContent["timelines"]["events"] {
+  const base = toInteractiveStepsFromEvents(profile.timelineEvents, "timeline");
+
+  return base.map((step, index) => ({
+    label: step.title,
+    duration: step.estimatedTime,
+    notes: step.description,
+    documentsRequired: step.documentsRequired,
+    commonMistakes: [
+      ...step.commonMistakes,
+      `Treating this ${stateName} stage as optional without checking your declaration`,
+      ...(index === 0
+        ? ["Losing inspection photos that later become exhibit A"]
+        : []),
+    ],
+  }));
+}
+
 export function buildStateLegalContent(
   config: StateSeoConfig,
   profile: StateContentProfile
@@ -103,7 +176,7 @@ export function buildStateLegalContent(
     appealProcess: {
       heading: `${config.name} HOA fine appeal process`,
       paragraphs: profile.appealIntro,
-      steps: profile.appealSteps,
+      steps: enrichAppealSteps(profile, config.name),
     },
     statutes: {
       heading: `Relevant ${config.name} HOA statutes`,
@@ -113,7 +186,7 @@ export function buildStateLegalContent(
     timelines: {
       heading: `Typical ${config.name} HOA fine timelines`,
       paragraphs: profile.timelinesIntro,
-      events: profile.timelineEvents,
+      events: enrichTimelineEvents(profile, config.name),
     },
     hearingProcess: {
       heading: `HOA hearing process in ${config.name}`,

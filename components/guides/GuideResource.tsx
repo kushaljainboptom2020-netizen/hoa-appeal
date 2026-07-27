@@ -30,10 +30,10 @@ export function GuideResource({ guide }: GuideResourceProps) {
     { id: "conclusion", label: "Conclusion" },
     { id: "visual-summary", label: "Visual summary" },
     { id: "decision-tree", label: "Decision tree" },
-    { id: "process-flow", label: "Process flowchart" },
+    { id: "process-flow", label: "Process timeline" },
     { id: "comparison-table", label: "Comparison table" },
     { id: "checklist", label: "Checklist" },
-    { id: "timeline", label: "Timeline" },
+    { id: "timeline", label: "Deadline timeline" },
     { id: "downloads", label: "Downloads" },
     { id: "guide-faq", label: "FAQ" },
     { id: "related-content", label: "Related content" },
@@ -101,7 +101,10 @@ export function GuideResource({ guide }: GuideResourceProps) {
                 paragraphs={guide.conclusion}
               />
 
-              <GuideEducationalAssetsSection assets={guide.educationalAssets} />
+              <GuideEducationalAssetsSection
+                assets={guide.educationalAssets}
+                guideTitle={guide.title}
+              />
 
               <GuideFaqAccordion items={guide.faq} guideTitle={guide.title} />
 
