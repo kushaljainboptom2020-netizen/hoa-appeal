@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
 import { LEGAL_LAST_UPDATED, SUPPORT_EMAIL } from "@/lib/config/site";
+import { canonicalPath } from "@/lib/seo/siteUrl";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | MyHOAAppeal",
   description:
     "Privacy Policy for MyHOAAppeal. Client-side letter generation, no banking data collected, and disclosures for Google Analytics and Google AdSense.",
+  alternates: {
+    canonical: canonicalPath("/privacy-policy"),
+  },
 };
 
 export default function PrivacyPolicyPage() {

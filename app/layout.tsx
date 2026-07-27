@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Geist, Geist_Mono } from "next/font/google";
+import { JsonLd } from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/config/site";
+import { buildSiteSchemaGraph } from "@/lib/seo/jsonLd";
+import { canonicalPath } from "@/lib/seo/siteUrl";
 import { ProductionHeadScripts } from "@/components/seo/ProductionHeadScripts";
 import "./globals.css";
 
@@ -22,6 +25,9 @@ export const metadata: Metadata = {
   title: "MyHOAAppeal — HOA Fine Appeal Letter Generator",
   description:
     "Free US HOA fine appeal letter generator for homeowners across the United States. 100% free, no account required.",
+  alternates: {
+    canonical: canonicalPath("/"),
+  },
   openGraph: {
     locale: "en_US",
   },
@@ -44,6 +50,13 @@ export default function RootLayout({
         <ProductionHeadScripts />
       </head>
       <body className="min-h-full bg-slate-950 text-slate-100 font-sans">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-emerald-600 focus:px-3 focus:py-2 focus:text-white"
+        >
+          Skip to main content
+        </a>
+        <JsonLd schema={buildSiteSchemaGraph()} />
         {children}
         {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
       </body>

@@ -1,9 +1,11 @@
 import { AppealWizard } from "@/components/AppealWizard";
-import { HoaAppealFaq } from "@/components/HoaAppealFaq";
 import { HeroSection } from "@/components/HeroSection";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StateBrowseFooter } from "@/components/StateBrowseFooter";
+import { PageBreadcrumbs } from "@/components/seo/PageBreadcrumbs";
+import { StateLegalResource } from "@/components/state-legal/StateLegalResource";
 import { StateStatuteBanner } from "@/components/StateStatuteBanner";
+import { getStateLegalContent } from "@/lib/content/states";
 import {
   getStateHeroCopy,
   type StateSeoConfig,
@@ -15,21 +17,38 @@ type AppealLandingPageProps = {
 
 export function AppealLandingPage({ stateConfig }: AppealLandingPageProps) {
   const heroCopy = stateConfig ? getStateHeroCopy(stateConfig) : undefined;
+  const legalContent = stateConfig ? getStateLegalContent(stateConfig) : undefined;
 
   return (
-    <main className="min-h-screen bg-slate-950">
-      <HeroSection
-        headline={heroCopy?.headline}
-        subheadline={heroCopy?.subheadline}
-      />
-      {stateConfig && <StateStatuteBanner stateConfig={stateConfig} />}
-      <AppealWizard
-        initialState={stateConfig?.code}
-        statePageLabel={stateConfig?.name}
-      />
-      <HoaAppealFaq stateName={stateConfig?.name} />
-      <StateBrowseFooter />
+    <div className="min-h-screen bg-slate-950">
+      {stateConfig ? (
+        <header className="border-b border-slate-800/80">
+          <div className="mx-auto max-w-6xl px-4 py-5">
+            <PageBreadcrumbs
+              items={[
+                { label: "Home", href: "/" },
+                { label: `${stateConfig.name} HOA appeal` },
+              ]}
+            />
+          </div>
+        </header>
+      ) : null}
+      <main id="main-content">
+        <HeroSection
+          headline={heroCopy?.headline}
+          subheadline={heroCopy?.subheadline}
+        />
+        {stateConfig && <StateStatuteBanner stateConfig={stateConfig} />}
+        <AppealWizard
+          initialState={stateConfig?.code}
+          statePageLabel={stateConfig?.name}
+        />
+        {stateConfig && legalContent && (
+          <StateLegalResource content={legalContent} stateConfig={stateConfig} />
+        )}
+        <StateBrowseFooter />
+      </main>
       <SiteFooter />
-    </main>
+    </div>
   );
 }

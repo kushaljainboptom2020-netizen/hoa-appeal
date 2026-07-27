@@ -15,6 +15,21 @@ const nextConfig: NextConfig = {
         destination: "/terms-of-service",
         permanent: true,
       },
+      {
+        source: "/editorial",
+        destination: "/editorial-policy",
+        permanent: true,
+      },
+      {
+        source: "/ai",
+        destination: "/ai-transparency",
+        permanent: true,
+      },
+      {
+        source: "/team",
+        destination: "/authors",
+        permanent: true,
+      },
     ];
   },
 };

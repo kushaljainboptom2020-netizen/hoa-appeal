@@ -3,8 +3,9 @@ import { STATE_SEO_CONFIG } from "@/lib/seo/statePages";
 
 export function StateBrowseFooter() {
   return (
-    <footer
-      className="border-t border-slate-800 bg-slate-900/30"
+    <section
+      id="browse-by-state"
+      className="scroll-mt-24 border-t border-slate-800 bg-slate-900/30"
       aria-label="Browse appeal letters by state"
     >
       <div className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
@@ -30,6 +31,6 @@ export function StateBrowseFooter() {
           </ul>
         </nav>
       </div>
-    </footer>
+    </section>
   );
 }

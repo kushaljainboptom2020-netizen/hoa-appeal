@@ -2,11 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
 import { LEGAL_LAST_UPDATED, SUPPORT_EMAIL } from "@/lib/config/site";
+import { canonicalPath } from "@/lib/seo/siteUrl";
 
 export const metadata: Metadata = {
   title: "Terms of Service | MyHOAAppeal",
   description:
     "Terms of Service for MyHOAAppeal. Template-based HOA appeal letters, no legal representation, and Delaware governing law.",
+  alternates: {
+    canonical: canonicalPath("/terms-of-service"),
+  },
 };
 
 export default function TermsOfServicePage() {
@@ -49,7 +53,7 @@ export default function TermsOfServicePage() {
           No legal advice or attorney-client relationship
         </h2>
         <p className="mt-3 leading-relaxed">
-          MyHOAAppeal and HOAShield are not law firms. We do not provide legal
+          MyHOAAppeal is not a law firm. We do not provide legal
           advice, legal representation, or services that create an
           attorney-client relationship. No communication with us—by email, contact
           form, or otherwise—establishes attorney-client privilege or a duty of

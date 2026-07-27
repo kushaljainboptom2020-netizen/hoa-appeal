@@ -6,7 +6,7 @@ import {
   getAllStateSlugs,
   getStateBySlug,
 } from "@/lib/seo/statePages";
-import { buildHowToSchema } from "@/lib/seo/jsonLd";
+import { buildStateStructuredDataGraph } from "@/lib/seo/jsonLd";
 
 export async function generateStaticParams() {
   return getAllStateSlugs().map((state) => ({ state }));
@@ -36,7 +36,7 @@ export default async function StateAppealPage({
 
   return (
     <>
-      <JsonLd schema={buildHowToSchema(config)} />
+      <JsonLd schema={buildStateStructuredDataGraph(config)} />
       <AppealLandingPage stateConfig={config} />
     </>
   );

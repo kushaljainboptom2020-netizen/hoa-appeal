@@ -2,20 +2,24 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
 import { LEGAL_LAST_UPDATED } from "@/lib/config/site";
+import { canonicalPath } from "@/lib/seo/siteUrl";
 
 export const metadata: Metadata = {
   title: "About Us | MyHOAAppeal",
   description:
-    "Learn why HOAShield and MyHOAAppeal were created to help U.S. homeowners dispute unfair HOA fines with transparent, formal appeal tools.",
+    "Learn why MyHOAAppeal was created to help U.S. homeowners dispute unfair HOA fines with transparent, formal appeal tools.",
+  alternates: {
+    canonical: canonicalPath("/about"),
+  },
 };
 
 export default function AboutPage() {
   return (
     <LegalPageLayout title="About Us" lastUpdated={LEGAL_LAST_UPDATED}>
       <section>
-        <h2 className="text-xl font-semibold text-white">Why HOAShield exists</h2>
+        <h2 className="text-xl font-semibold text-white">Why MyHOAAppeal exists</h2>
         <p className="mt-3 leading-relaxed">
-          HOAShield was created to level the playing field for homeowners facing
+          MyHOAAppeal was created to level the playing field for homeowners facing
           aggressive property management firms and community associations. Too
           often, residents receive violation notices and fines without clear
           guidance on how to respond formally, on deadline, and in language that
@@ -62,12 +66,57 @@ export default function AboutPage() {
       <section>
         <h2 className="text-xl font-semibold text-white">What we are not</h2>
         <p className="mt-3 leading-relaxed">
-          MyHOAAppeal and HOAShield are not a law firm. We do not provide legal
+          MyHOAAppeal is not a law firm. We do not provide legal
           advice, representation, or an attorney-client relationship. Generated
           content is educational and template-based. For advice tailored to your
           HOA documents, deadlines, and state law, consult a licensed attorney in
           your jurisdiction.
         </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-semibold text-white">
+          Editorial standards &amp; trust
+        </h2>
+        <p className="mt-3 leading-relaxed">
+          Educational guides and state resources list a named author and reviewer,
+          last updated and last reviewed dates, and a Sources and citations
+          section. Read how we publish and verify content:
+        </p>
+        <ul className="mt-3 list-disc space-y-2 pl-5 leading-relaxed">
+          <li>
+            <Link
+              href="/editorial-policy"
+              className="text-emerald-400 underline-offset-2 hover:underline"
+            >
+              Editorial Policy
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/fact-checking"
+              className="text-emerald-400 underline-offset-2 hover:underline"
+            >
+              Fact Checking
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/ai-transparency"
+              className="text-emerald-400 underline-offset-2 hover:underline"
+            >
+              AI Transparency
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/authors"
+              className="text-emerald-400 underline-offset-2 hover:underline"
+            >
+              Authors and reviewers
+            </Link>
+          </li>
+        </ul>
       </section>
 
       <section>

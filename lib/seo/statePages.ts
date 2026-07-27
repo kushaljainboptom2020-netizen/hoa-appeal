@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
+import {
+  attributionForStateCode,
+  resolveAttribution,
+} from "@/lib/content/editorial/attribution";
 import { US_STATES } from "@/lib/wizard/constants";
+import { SITE_URL, canonicalPath } from "@/lib/seo/siteUrl";
 
 /** @deprecated All states now have custom statutes; kept for JSON-LD comparisons. */
 export const GENERIC_STATUTE_FALLBACK =
@@ -417,8 +422,8 @@ const SLUG_BY_CODE: Record<string, string> = {
 };
 
 const CUSTOM_DESCRIPTIONS: Partial<Record<string, string>> = {
-  FL: "Instantly generate a legally formatted dispute letter to appeal your Florida HOA fine. Built for Chapter 720 compliance. 100% Free.",
-  TX: "Instantly generate a legally formatted dispute letter to appeal your Texas HOA fine. Built for Property Code Section 209's 30-day notice requirements. 100% Free.",
+  FL: "Generate a free letter to appeal your Florida HOA fine. Educational guidance informed by Chapter 720. No account required.",
+  TX: "Generate a free letter to appeal your Texas HOA fine. Educational guidance informed by Property Code Chapter 209. No account required.",
 };
 
 export type StateSeoConfig = {
@@ -492,20 +497,45 @@ export function getStateLetterContext(code: string): StateLetterContext | undefi
 }
 
 function buildTitle(name: string): string {
-  return `Free ${name} HOA Fine Appeal Letter Generator | Fight HOA Violations`;
+  return `Free ${name} HOA Fine Appeal Letter`;
 }
 
 function buildDescription(config: StateSeoConfig): string {
   const custom = CUSTOM_DESCRIPTIONS[config.code];
   if (custom) return custom;
 
-  return `Instantly generate a legally formatted dispute letter to appeal your ${config.name} HOA fine. Built with ${config.name} HOA law in mind: ${config.statuteReference}. 100% Free.`;
+  return `Generate a free letter to appeal your ${config.name} HOA fine. Educational association-law guidance for homeowners. No account required.`;
 }
 
 export function buildStateMetadata(config: StateSeoConfig): Metadata {
+  const attribution = attributionForStateCode(config.code);
+  const { author, reviewer } = resolveAttribution(attribution);
+  const canonical = canonicalPath(`/appeal-hoa-fine/${config.slug}`);
+  const title = buildTitle(config.name);
+  const description = buildDescription(config);
+
   return {
-    title: buildTitle(config.name),
-    description: buildDescription(config),
+    title,
+    description,
+    alternates: {
+      canonical,
+    },
+    authors: [{ name: author.name, url: `${SITE_URL}${author.profilePath}` }],
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: "article",
+      siteName: "MyHOAAppeal",
+      publishedTime: attribution.publishedAtIso,
+      modifiedTime: attribution.updatedAtIso,
+    },
+    other: {
+      "article:author": author.name,
+      "article:reviewed_by": reviewer.name,
+      "article:published_time": attribution.publishedAtIso,
+      "article:modified_time": attribution.updatedAtIso,
+    },
   };
 }
 

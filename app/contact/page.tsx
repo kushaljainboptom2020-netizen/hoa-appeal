@@ -2,11 +2,15 @@ import type { Metadata } from "next";
 import { ContactForm } from "@/components/legal/ContactForm";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
 import { LEGAL_LAST_UPDATED, SUPPORT_EMAIL } from "@/lib/config/site";
+import { canonicalPath } from "@/lib/seo/siteUrl";
 
 export const metadata: Metadata = {
   title: "Contact | MyHOAAppeal",
   description:
     "Contact MyHOAAppeal support for site questions, privacy requests, and general inquiries. We do not provide legal advice by email.",
+  alternates: {
+    canonical: canonicalPath("/contact"),
+  },
 };
 
 export default function ContactPage() {

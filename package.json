@@ -7,7 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run"
+    "test": "vitest run",
+    "content:expansions": "node scripts/write-expansions-file.mjs",
+    "content:profiles": "node scripts/generate-state-profiles.mjs",
+    "content:generate": "npm run content:expansions && npm run content:profiles",
+    "content:count": "npx tsx scripts/count-words.mjs",
+    "content:guides": "node scripts/generate-guide-content.mjs",
+    "content:guide-assets": "node scripts/generate-guide-assets.mjs",
+    "content:faq": "node scripts/generate-faq-content.mjs",
+    "content:count-guides": "npx tsx scripts/count-guide-words.mjs",
+    "content:audit": "node scripts/audit-content-quality.mjs",
+    "seo:audit": "node scripts/audit-technical-seo.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^16.2.6",
@@ -24,6 +34,7 @@
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "schema-dts": "^2.0.0",
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^3.2.4"
