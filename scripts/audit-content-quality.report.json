@@ -1,0 +1,3707 @@
+{
+  "summary": {
+    "generatedAt": "2026-07-27T14:20:44.977Z",
+    "totalPages": 117,
+    "averageOverall": 83,
+    "flaggedForManualReview": 22,
+    "gradeDistribution": {
+      "weak": 10,
+      "adequate": 50,
+      "strong": 57
+    },
+    "byType": {
+      "success-story": {
+        "count": 6,
+        "averageOverall": 68,
+        "flagged": 4
+      },
+      "hub": {
+        "count": 5,
+        "averageOverall": 68,
+        "flagged": 0
+      },
+      "legal": {
+        "count": 2,
+        "averageOverall": 69,
+        "flagged": 0
+      },
+      "state": {
+        "count": 50,
+        "averageOverall": 85,
+        "flagged": 18
+      },
+      "trust": {
+        "count": 4,
+        "averageOverall": 75,
+        "flagged": 0
+      },
+      "guide": {
+        "count": 50,
+        "averageOverall": 85,
+        "flagged": 0
+      }
+    },
+    "topWeaknesses": [
+      {
+        "weakness": "High cross-page sentence overlap / repetitive phrasing",
+        "count": 50
+      },
+      {
+        "weakness": "Many citations lack clickable external URLs",
+        "count": 31
+      },
+      {
+        "weakness": "Heavy template/pad phrasing reduces originality",
+        "count": 18
+      },
+      {
+        "weakness": "Template artifacts undercut E-E-A-T review claims",
+        "count": 18
+      },
+      {
+        "weakness": "Success story is thin for standalone search intent",
+        "count": 4
+      },
+      {
+        "weakness": "Sparse internal linking",
+        "count": 3
+      },
+      {
+        "weakness": "Long average sentence length (~29.1 words)",
+        "count": 1
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "florida-pet-fine-overturned",
+      "type": "success-story",
+      "url": "/success-stories/florida-pet-fine-overturned",
+      "title": "Florida resident overturned a pet-related fine with record comparisons",
+      "words": 256,
+      "scores": {
+        "overall": 67,
+        "originality": 86,
+        "searchIntent": 40,
+        "readability": 85,
+        "topicalCompleteness": 45,
+        "internalLinking": 80,
+        "externalCitations": 55,
+        "trustworthiness": 63,
+        "eeat": 58,
+        "structuredData": 88,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.9,
+      "weaknesses": [
+        "Success story is thin for standalone search intent"
+      ],
+      "improvements": [],
+      "flagManualReview": true
+    },
+    {
+      "id": "arizona-parking-penalty-reduced",
+      "type": "success-story",
+      "url": "/success-stories/arizona-parking-penalty-reduced",
+      "title": "Arizona parking penalty reduced after signage and towing evidence",
+      "words": 253,
+      "scores": {
+        "overall": 67,
+        "originality": 86,
+        "searchIntent": 40,
+        "readability": 85,
+        "topicalCompleteness": 45,
+        "internalLinking": 80,
+        "externalCitations": 55,
+        "trustworthiness": 63,
+        "eeat": 58,
+        "structuredData": 88,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.9,
+      "weaknesses": [
+        "Success story is thin for standalone search intent"
+      ],
+      "improvements": [],
+      "flagManualReview": true
+    },
+    {
+      "id": "new-york-collections-paused",
+      "type": "success-story",
+      "url": "/success-stories/new-york-collections-paused",
+      "title": "New York owner paused collections while disputing HOA fine balance",
+      "words": 250,
+      "scores": {
+        "overall": 67,
+        "originality": 86,
+        "searchIntent": 40,
+        "readability": 85,
+        "topicalCompleteness": 45,
+        "internalLinking": 80,
+        "externalCitations": 55,
+        "trustworthiness": 63,
+        "eeat": 58,
+        "structuredData": 88,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.9,
+      "weaknesses": [
+        "Success story is thin for standalone search intent"
+      ],
+      "improvements": [],
+      "flagManualReview": true
+    },
+    {
+      "id": "north-carolina-architectural-appeal-win",
+      "type": "success-story",
+      "url": "/success-stories/north-carolina-architectural-appeal-win",
+      "title": "North Carolina architectural fine reversed after plan history review",
+      "words": 254,
+      "scores": {
+        "overall": 67,
+        "originality": 86,
+        "searchIntent": 40,
+        "readability": 85,
+        "topicalCompleteness": 45,
+        "internalLinking": 80,
+        "externalCitations": 55,
+        "trustworthiness": 63,
+        "eeat": 58,
+        "structuredData": 88,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.9,
+      "weaknesses": [
+        "Success story is thin for standalone search intent"
+      ],
+      "improvements": [],
+      "flagManualReview": true
+    },
+    {
+      "id": "/authors",
+      "type": "hub",
+      "url": "/authors",
+      "title": "Authors hub",
+      "words": 119,
+      "scores": {
+        "overall": 67,
+        "originality": 84,
+        "searchIntent": 72,
+        "readability": 85,
+        "topicalCompleteness": 68,
+        "internalLinking": 48,
+        "externalCitations": 55,
+        "trustworthiness": 55,
+        "eeat": 50,
+        "structuredData": 60,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [
+        "Sparse internal linking"
+      ],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "/contact",
+      "type": "hub",
+      "url": "/contact",
+      "title": "Contact",
+      "words": 191,
+      "scores": {
+        "overall": 67,
+        "originality": 84,
+        "searchIntent": 72,
+        "readability": 85,
+        "topicalCompleteness": 68,
+        "internalLinking": 48,
+        "externalCitations": 55,
+        "trustworthiness": 55,
+        "eeat": 50,
+        "structuredData": 60,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [
+        "Sparse internal linking"
+      ],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "/terms-of-service",
+      "type": "legal",
+      "url": "/terms-of-service",
+      "title": "Terms of service",
+      "words": 597,
+      "scores": {
+        "overall": 67,
+        "originality": 84,
+        "searchIntent": 70,
+        "readability": 85,
+        "topicalCompleteness": 68,
+        "internalLinking": 56,
+        "externalCitations": 55,
+        "trustworthiness": 55,
+        "eeat": 50,
+        "structuredData": 60,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "/guides",
+      "type": "hub",
+      "url": "/guides",
+      "title": "Guides hub",
+      "words": 207,
+      "scores": {
+        "overall": 68,
+        "originality": 84,
+        "searchIntent": 72,
+        "readability": 80,
+        "topicalCompleteness": 68,
+        "internalLinking": 64,
+        "externalCitations": 55,
+        "trustworthiness": 55,
+        "eeat": 50,
+        "structuredData": 60,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "/success-stories",
+      "type": "hub",
+      "url": "/success-stories",
+      "title": "Success stories hub",
+      "words": 100,
+      "scores": {
+        "overall": 68,
+        "originality": 84,
+        "searchIntent": 72,
+        "readability": 85,
+        "topicalCompleteness": 68,
+        "internalLinking": 56,
+        "externalCitations": 55,
+        "trustworthiness": 63,
+        "eeat": 50,
+        "structuredData": 60,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "/",
+      "type": "hub",
+      "url": "/",
+      "title": "Home — appeal letter tool",
+      "words": 20,
+      "scores": {
+        "overall": 69,
+        "originality": 84,
+        "searchIntent": 72,
+        "readability": 85,
+        "topicalCompleteness": 68,
+        "internalLinking": 40,
+        "externalCitations": 55,
+        "trustworthiness": 55,
+        "eeat": 58,
+        "structuredData": 88,
+        "accessibility": 90
+      },
+      "grade": "weak",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [
+        "Sparse internal linking"
+      ],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "california-landscaping-fine-reduced",
+      "type": "success-story",
+      "url": "/success-stories/california-landscaping-fine-reduced",
+      "title": "California owner cut a landscaping fine after proving cure timing",
+      "words": 309,
+      "scores": {
+        "overall": 70,
+        "originality": 86,
+        "searchIntent": 68,
+        "readability": 85,
+        "topicalCompleteness": 45,
+        "internalLinking": 80,
+        "externalCitations": 55,
+        "trustworthiness": 63,
+        "eeat": 58,
+        "structuredData": 88,
+        "accessibility": 90
+      },
+      "grade": "adequate",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.9,
+      "weaknesses": [],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "texas-notice-defect-led-to-dismissal",
+      "type": "success-story",
+      "url": "/success-stories/texas-notice-defect-led-to-dismissal",
+      "title": "Texas hearing panel dismissed fines after notice defects were documented",
+      "words": 290,
+      "scores": {
+        "overall": 70,
+        "originality": 86,
+        "searchIntent": 68,
+        "readability": 85,
+        "topicalCompleteness": 45,
+        "internalLinking": 80,
+        "externalCitations": 55,
+        "trustworthiness": 63,
+        "eeat": 58,
+        "structuredData": 88,
+        "accessibility": 90
+      },
+      "grade": "adequate",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.9,
+      "weaknesses": [],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "/privacy-policy",
+      "type": "legal",
+      "url": "/privacy-policy",
+      "title": "Privacy policy",
+      "words": 693,
+      "scores": {
+        "overall": 70,
+        "originality": 84,
+        "searchIntent": 70,
+        "readability": 85,
+        "topicalCompleteness": 68,
+        "internalLinking": 72,
+        "externalCitations": 55,
+        "trustworthiness": 63,
+        "eeat": 50,
+        "structuredData": 60,
+        "accessibility": 90
+      },
+      "grade": "adequate",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "MS",
+      "type": "state",
+      "url": "/appeal-hoa-fine/mississippi",
+      "title": "Mississippi HOA fine appeal",
+      "words": 1796,
+      "scores": {
+        "overall": 72,
+        "originality": 2,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 10,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.811,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Many citations lack clickable external URLs",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "/ai-transparency",
+      "type": "trust",
+      "url": "/ai-transparency",
+      "title": "AI transparency",
+      "words": 291,
+      "scores": {
+        "overall": 72,
+        "originality": 84,
+        "searchIntent": 60,
+        "readability": 83,
+        "topicalCompleteness": 60,
+        "internalLinking": 72,
+        "externalCitations": 55,
+        "trustworthiness": 75,
+        "eeat": 95,
+        "structuredData": 35,
+        "accessibility": 90
+      },
+      "grade": "adequate",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [
+        "Long average sentence length (~29.1 words)"
+      ],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "/fact-checking",
+      "type": "trust",
+      "url": "/fact-checking",
+      "title": "Fact checking",
+      "words": 306,
+      "scores": {
+        "overall": 73,
+        "originality": 84,
+        "searchIntent": 60,
+        "readability": 85,
+        "topicalCompleteness": 60,
+        "internalLinking": 80,
+        "externalCitations": 55,
+        "trustworthiness": 75,
+        "eeat": 95,
+        "structuredData": 35,
+        "accessibility": 90
+      },
+      "grade": "adequate",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "MN",
+      "type": "state",
+      "url": "/appeal-hoa-fine/minnesota",
+      "title": "Minnesota HOA fine appeal",
+      "words": 1803,
+      "scores": {
+        "overall": 75,
+        "originality": 2,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 10,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.796,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Many citations lack clickable external URLs",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "MD",
+      "type": "state",
+      "url": "/appeal-hoa-fine/maryland",
+      "title": "Maryland HOA fine appeal",
+      "words": 1897,
+      "scores": {
+        "overall": 76,
+        "originality": 11,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 9,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.817,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Many citations lack clickable external URLs",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "MA",
+      "type": "state",
+      "url": "/appeal-hoa-fine/massachusetts",
+      "title": "Massachusetts HOA fine appeal",
+      "words": 1853,
+      "scores": {
+        "overall": 76,
+        "originality": 12,
+        "searchIntent": 92,
+        "readability": 80,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 9,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.845,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Many citations lack clickable external URLs",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "MI",
+      "type": "state",
+      "url": "/appeal-hoa-fine/michigan",
+      "title": "Michigan HOA fine appeal",
+      "words": 1829,
+      "scores": {
+        "overall": 76,
+        "originality": 11,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 9,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.814,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Many citations lack clickable external URLs",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "WA",
+      "type": "state",
+      "url": "/appeal-hoa-fine/washington",
+      "title": "Washington HOA fine appeal",
+      "words": 1795,
+      "scores": {
+        "overall": 76,
+        "originality": 11,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 9,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.817,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "PA",
+      "type": "state",
+      "url": "/appeal-hoa-fine/pennsylvania",
+      "title": "Pennsylvania HOA fine appeal",
+      "words": 1930,
+      "scores": {
+        "overall": 77,
+        "originality": 19,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 8,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.829,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Many citations lack clickable external URLs",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "/editorial-policy",
+      "type": "trust",
+      "url": "/editorial-policy",
+      "title": "Editorial policy",
+      "words": 364,
+      "scores": {
+        "overall": 77,
+        "originality": 84,
+        "searchIntent": 80,
+        "readability": 85,
+        "topicalCompleteness": 60,
+        "internalLinking": 88,
+        "externalCitations": 55,
+        "trustworthiness": 83,
+        "eeat": 95,
+        "structuredData": 35,
+        "accessibility": 90
+      },
+      "grade": "adequate",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "NJ",
+      "type": "state",
+      "url": "/appeal-hoa-fine/new-jersey",
+      "title": "New Jersey HOA fine appeal",
+      "words": 2050,
+      "scores": {
+        "overall": 78,
+        "originality": 20,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 62,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 8,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.845,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "NM",
+      "type": "state",
+      "url": "/appeal-hoa-fine/new-mexico",
+      "title": "New Mexico HOA fine appeal",
+      "words": 1981,
+      "scores": {
+        "overall": 78,
+        "originality": 28,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 7,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.839,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Many citations lack clickable external URLs",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "NY",
+      "type": "state",
+      "url": "/appeal-hoa-fine/new-york",
+      "title": "New York HOA fine appeal",
+      "words": 2124,
+      "scores": {
+        "overall": 78,
+        "originality": 21,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 62,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 8,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.868,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "WI",
+      "type": "state",
+      "url": "/appeal-hoa-fine/wisconsin",
+      "title": "Wisconsin HOA fine appeal",
+      "words": 1821,
+      "scores": {
+        "overall": 78,
+        "originality": 2,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 10,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.81,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "/about",
+      "type": "trust",
+      "url": "/about",
+      "title": "About",
+      "words": 409,
+      "scores": {
+        "overall": 78,
+        "originality": 84,
+        "searchIntent": 80,
+        "readability": 85,
+        "topicalCompleteness": 78,
+        "internalLinking": 88,
+        "externalCitations": 55,
+        "trustworthiness": 75,
+        "eeat": 95,
+        "structuredData": 35,
+        "accessibility": 90
+      },
+      "grade": "adequate",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [],
+      "improvements": [],
+      "flagManualReview": false
+    },
+    {
+      "id": "SC",
+      "type": "state",
+      "url": "/appeal-hoa-fine/south-carolina",
+      "title": "South Carolina HOA fine appeal",
+      "words": 1860,
+      "scores": {
+        "overall": 79,
+        "originality": 11,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 9,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.829,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "VT",
+      "type": "state",
+      "url": "/appeal-hoa-fine/vermont",
+      "title": "Vermont HOA fine appeal",
+      "words": 1867,
+      "scores": {
+        "overall": 79,
+        "originality": 11,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 9,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.814,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "TN",
+      "type": "state",
+      "url": "/appeal-hoa-fine/tennessee",
+      "title": "Tennessee HOA fine appeal",
+      "words": 1957,
+      "scores": {
+        "overall": 80,
+        "originality": 19,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 8,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.813,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "NH",
+      "type": "state",
+      "url": "/appeal-hoa-fine/new-hampshire",
+      "title": "New Hampshire HOA fine appeal",
+      "words": 2023,
+      "scores": {
+        "overall": 81,
+        "originality": 44,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 5,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.84,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Many citations lack clickable external URLs",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "NC",
+      "type": "state",
+      "url": "/appeal-hoa-fine/north-carolina",
+      "title": "North Carolina HOA fine appeal",
+      "words": 1970,
+      "scores": {
+        "overall": 81,
+        "originality": 37,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 62,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 6,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.863,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "TX",
+      "type": "state",
+      "url": "/appeal-hoa-fine/texas",
+      "title": "Texas HOA fine appeal",
+      "words": 2071,
+      "scores": {
+        "overall": 82,
+        "originality": 37,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 6,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.886,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "RI",
+      "type": "state",
+      "url": "/appeal-hoa-fine/rhode-island",
+      "title": "Rhode Island HOA fine appeal",
+      "words": 2030,
+      "scores": {
+        "overall": 83,
+        "originality": 44,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 78,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 5,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.861,
+      "weaknesses": [
+        "Heavy template/pad phrasing reduces originality",
+        "Template artifacts undercut E-E-A-T review claims"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": true
+    },
+    {
+      "id": "dealing-with-lien-threats",
+      "type": "guide",
+      "url": "/guides/dealing-with-lien-threats",
+      "title": "Dealing With HOA Lien Threats Over Unpaid Fines",
+      "words": 1776,
+      "scores": {
+        "overall": 84,
+        "originality": 69,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 55,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.463,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing",
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-meeting-preparation",
+      "type": "guide",
+      "url": "/guides/hoa-meeting-preparation",
+      "title": "Preparing to Present Your Case at an HOA Board Hearing",
+      "words": 1695,
+      "scores": {
+        "overall": 84,
+        "originality": 70,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 55,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.494,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing",
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "how-to-write-an-hoa-appeal-letter",
+      "type": "guide",
+      "url": "/guides/how-to-write-an-hoa-appeal-letter",
+      "title": "How to Write an Effective HOA Fine Appeal Letter",
+      "words": 1755,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.457,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "sample-hoa-appeal-letter-structure",
+      "type": "guide",
+      "url": "/guides/sample-hoa-appeal-letter-structure",
+      "title": "Sample HOA Appeal Letter Structure and Outline",
+      "words": 1796,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.457,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-hearing-what-to-expect",
+      "type": "guide",
+      "url": "/guides/hoa-hearing-what-to-expect",
+      "title": "What to Expect at an HOA Fine Hearing",
+      "words": 1761,
+      "scores": {
+        "overall": 84,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.476,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "after-the-hoa-hearing-next-steps",
+      "type": "guide",
+      "url": "/guides/after-the-hoa-hearing-next-steps",
+      "title": "After the HOA Hearing: Next Steps for Homeowners",
+      "words": 1775,
+      "scores": {
+        "overall": 84,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.476,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "appealing-an-hoa-fine-in-court",
+      "type": "guide",
+      "url": "/guides/appealing-an-hoa-fine-in-court",
+      "title": "Appealing an HOA Fine in Court",
+      "words": 1791,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.45,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "requesting-hoa-records-and-violation-files",
+      "type": "guide",
+      "url": "/guides/requesting-hoa-records-and-violation-files",
+      "title": "Requesting HOA Records and Violation Files",
+      "words": 1744,
+      "scores": {
+        "overall": 84,
+        "originality": 62,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.506,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "comparing-neighbor-enforcement-records",
+      "type": "guide",
+      "url": "/guides/comparing-neighbor-enforcement-records",
+      "title": "Comparing Neighbor Enforcement Records in HOA Disputes",
+      "words": 1751,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.444,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "preparing-exhibits-for-hoa-hearings",
+      "type": "guide",
+      "url": "/guides/preparing-exhibits-for-hoa-hearings",
+      "title": "Preparing Exhibits for HOA Hearings",
+      "words": 1774,
+      "scores": {
+        "overall": 84,
+        "originality": 62,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.488,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "retaliatory-enforcement-by-hoa-boards",
+      "type": "guide",
+      "url": "/guides/retaliatory-enforcement-by-hoa-boards",
+      "title": "Retaliatory Enforcement by HOA Boards",
+      "words": 1745,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.444,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "assessment-vs-fine-differences",
+      "type": "guide",
+      "url": "/guides/assessment-vs-fine-differences",
+      "title": "Assessments vs Fines: Critical Differences for Owners",
+      "words": 1798,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.457,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-collections-and-demand-letters",
+      "type": "guide",
+      "url": "/guides/hoa-collections-and-demand-letters",
+      "title": "HOA Collections and Demand Letters",
+      "words": 1788,
+      "scores": {
+        "overall": 84,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.463,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-due-process-rights",
+      "type": "guide",
+      "url": "/guides/hoa-due-process-rights",
+      "title": "HOA Due Process Rights for Homeowners",
+      "words": 1798,
+      "scores": {
+        "overall": 84,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.481,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "state-hoa-law-basics-for-homeowners",
+      "type": "guide",
+      "url": "/guides/state-hoa-law-basics-for-homeowners",
+      "title": "State HOA Law Basics Every Homeowner Should Know",
+      "words": 1762,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.438,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "condominium-vs-hoa-fine-differences",
+      "type": "guide",
+      "url": "/guides/condominium-vs-hoa-fine-differences",
+      "title": "Condominium vs HOA Fine Differences",
+      "words": 1750,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.44,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "statute-of-limitations-for-hoa-fines",
+      "type": "guide",
+      "url": "/guides/statute-of-limitations-for-hoa-fines",
+      "title": "Statute of Limitations Issues for HOA Fines",
+      "words": 1757,
+      "scores": {
+        "overall": 84,
+        "originality": 62,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.494,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "homeowner-bill-of-rights-hoa-enforcement",
+      "type": "guide",
+      "url": "/guides/homeowner-bill-of-rights-hoa-enforcement",
+      "title": "A Practical Homeowner Bill of Rights for HOA Enforcement",
+      "words": 1789,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.438,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-board-meeting-rules-and-minutes",
+      "type": "guide",
+      "url": "/guides/hoa-board-meeting-rules-and-minutes",
+      "title": "HOA Board Meeting Rules and Minutes",
+      "words": 1767,
+      "scores": {
+        "overall": 84,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.463,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "amending-ccrs-vs-enforcing-rules",
+      "type": "guide",
+      "url": "/guides/amending-ccrs-vs-enforcing-rules",
+      "title": "Amending CC&Rs vs Enforcing Existing Rules",
+      "words": 1785,
+      "scores": {
+        "overall": 84,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.469,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "challenging-arbitrary-hoa-fines",
+      "type": "guide",
+      "url": "/guides/challenging-arbitrary-hoa-fines",
+      "title": "Challenging Arbitrary HOA Fines",
+      "words": 1752,
+      "scores": {
+        "overall": 84,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.469,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "architectural-review-denials-and-appeals",
+      "type": "guide",
+      "url": "/guides/architectural-review-denials-and-appeals",
+      "title": "Architectural Review Denials and Appeals",
+      "words": 1755,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.45,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "parking-and-vehicle-hoa-fines",
+      "type": "guide",
+      "url": "/guides/parking-and-vehicle-hoa-fines",
+      "title": "Parking and Vehicle HOA Fines: How to Dispute Them",
+      "words": 1798,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.45,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "mediation-and-adr-for-hoa-disputes",
+      "type": "guide",
+      "url": "/guides/mediation-and-adr-for-hoa-disputes",
+      "title": "Mediation and ADR for HOA Fine Disputes",
+      "words": 1771,
+      "scores": {
+        "overall": 84,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.463,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "when-to-hire-an-hoa-attorney",
+      "type": "guide",
+      "url": "/guides/when-to-hire-an-hoa-attorney",
+      "title": "When to Hire an HOA Attorney",
+      "words": 1776,
+      "scores": {
+        "overall": 84,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "adequate",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.456,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "how-to-collect-evidence",
+      "type": "guide",
+      "url": "/guides/how-to-collect-evidence",
+      "title": "How to Collect Evidence for an HOA Fine Appeal",
+      "words": 1783,
+      "scores": {
+        "overall": 85,
+        "originality": 62,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 79,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.506,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-fine-appeal-process",
+      "type": "guide",
+      "url": "/guides/hoa-fine-appeal-process",
+      "title": "The HOA Fine Appeal Process Step by Step",
+      "words": 1748,
+      "scores": {
+        "overall": 85,
+        "originality": 69,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.476,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "checklist-before-paying-an-hoa-fine",
+      "type": "guide",
+      "url": "/guides/checklist-before-paying-an-hoa-fine",
+      "title": "Checklist Before Paying an HOA Fine",
+      "words": 1761,
+      "scores": {
+        "overall": 85,
+        "originality": 70,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.494,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "selective-enforcement-hoa-fines",
+      "type": "guide",
+      "url": "/guides/selective-enforcement-hoa-fines",
+      "title": "Selective Enforcement of HOA Fines Explained",
+      "words": 1785,
+      "scores": {
+        "overall": 85,
+        "originality": 68,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.443,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "photographic-evidence-for-hoa-appeals",
+      "type": "guide",
+      "url": "/guides/photographic-evidence-for-hoa-appeals",
+      "title": "Photographic Evidence for HOA Fine Appeals",
+      "words": 1765,
+      "scores": {
+        "overall": 85,
+        "originality": 69,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.47,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-fine-schedules-and-caps",
+      "type": "guide",
+      "url": "/guides/hoa-fine-schedules-and-caps",
+      "title": "HOA Fine Schedules and Caps Explained",
+      "words": 1741,
+      "scores": {
+        "overall": 85,
+        "originality": 68,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.446,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "cure-periods-before-hoa-fines",
+      "type": "guide",
+      "url": "/guides/cure-periods-before-hoa-fines",
+      "title": "Cure Periods Before HOA Fines Begin",
+      "words": 1764,
+      "scores": {
+        "overall": 85,
+        "originality": 69,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.476,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "daily-fines-and-accruing-penalties",
+      "type": "guide",
+      "url": "/guides/daily-fines-and-accruing-penalties",
+      "title": "Daily Fines and Accruing HOA Penalties",
+      "words": 1792,
+      "scores": {
+        "overall": 85,
+        "originality": 68,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.45,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-fine-timelines-and-deadlines",
+      "type": "guide",
+      "url": "/guides/hoa-fine-timelines-and-deadlines",
+      "title": "HOA Fine Timelines and Critical Deadlines",
+      "words": 1794,
+      "scores": {
+        "overall": 85,
+        "originality": 68,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.45,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "conflict-of-interest-on-hoa-boards",
+      "type": "guide",
+      "url": "/guides/conflict-of-interest-on-hoa-boards",
+      "title": "Conflicts of Interest on HOA Boards",
+      "words": 1783,
+      "scores": {
+        "overall": 85,
+        "originality": 69,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.463,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "management-company-roles-in-hoa-fines",
+      "type": "guide",
+      "url": "/guides/management-company-roles-in-hoa-fines",
+      "title": "Management Company Roles in HOA Fines",
+      "words": 1750,
+      "scores": {
+        "overall": 85,
+        "originality": 67,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.432,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "noise-and-nuisance-hoa-violations",
+      "type": "guide",
+      "url": "/guides/noise-and-nuisance-hoa-violations",
+      "title": "Noise and Nuisance HOA Violations",
+      "words": 1781,
+      "scores": {
+        "overall": 85,
+        "originality": 68,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.443,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "pet-related-hoa-fines",
+      "type": "guide",
+      "url": "/guides/pet-related-hoa-fines",
+      "title": "Pet-Related HOA Fines and Appeals",
+      "words": 1765,
+      "scores": {
+        "overall": 85,
+        "originality": 70,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.487,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "short-term-rental-hoa-enforcement",
+      "type": "guide",
+      "url": "/guides/short-term-rental-hoa-enforcement",
+      "title": "Short-Term Rental HOA Enforcement and Fines",
+      "words": 1788,
+      "scores": {
+        "overall": 85,
+        "originality": 68,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.451,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "understanding-your-rights",
+      "type": "guide",
+      "url": "/guides/understanding-your-rights",
+      "title": "Understanding Your Rights When an HOA Fines You",
+      "words": 1862,
+      "scores": {
+        "overall": 86,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 67,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.476,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-foreclosure-risks-from-unpaid-fines",
+      "type": "guide",
+      "url": "/guides/hoa-foreclosure-risks-from-unpaid-fines",
+      "title": "HOA Foreclosure Risks From Unpaid Fines",
+      "words": 1846,
+      "scores": {
+        "overall": 86,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.456,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "privilege-suspension-and-amenity-bans",
+      "type": "guide",
+      "url": "/guides/privilege-suspension-and-amenity-bans",
+      "title": "Privilege Suspension and Amenity Bans by HOAs",
+      "words": 1860,
+      "scores": {
+        "overall": 86,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.457,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "emergency-fines-and-safety-violations",
+      "type": "guide",
+      "url": "/guides/emergency-fines-and-safety-violations",
+      "title": "Emergency Fines and Safety Violations",
+      "words": 1837,
+      "scores": {
+        "overall": 86,
+        "originality": 60,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.457,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "insurance-claims-and-hoa-fine-disputes",
+      "type": "guide",
+      "url": "/guides/insurance-claims-and-hoa-fine-disputes",
+      "title": "Insurance Claims and HOA Fine Disputes",
+      "words": 1866,
+      "scores": {
+        "overall": 86,
+        "originality": 59,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.43,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "HI",
+      "type": "state",
+      "url": "/appeal-hoa-fine/hawaii",
+      "title": "Hawaii HOA fine appeal",
+      "words": 2152,
+      "scores": {
+        "overall": 86,
+        "originality": 69,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 2,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.885,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "NE",
+      "type": "state",
+      "url": "/appeal-hoa-fine/nebraska",
+      "title": "Nebraska HOA fine appeal",
+      "words": 2061,
+      "scores": {
+        "overall": 86,
+        "originality": 62,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 62,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 3,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.889,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "certified-mail-and-notice-proof",
+      "type": "guide",
+      "url": "/guides/certified-mail-and-notice-proof",
+      "title": "Certified Mail and Proof of HOA Notice",
+      "words": 1875,
+      "scores": {
+        "overall": 87,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.468,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "landscaping-and-maintenance-violation-appeals",
+      "type": "guide",
+      "url": "/guides/landscaping-and-maintenance-violation-appeals",
+      "title": "Appealing Landscaping and Maintenance HOA Violations",
+      "words": 1832,
+      "scores": {
+        "overall": 87,
+        "originality": 62,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.488,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "seasonal-and-weather-related-cure-delays",
+      "type": "guide",
+      "url": "/guides/seasonal-and-weather-related-cure-delays",
+      "title": "Seasonal and Weather-Related HOA Cure Delays",
+      "words": 1816,
+      "scores": {
+        "overall": 87,
+        "originality": 61,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.481,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "AR",
+      "type": "state",
+      "url": "/appeal-hoa-fine/arkansas",
+      "title": "Arkansas HOA fine appeal",
+      "words": 2055,
+      "scores": {
+        "overall": 87,
+        "originality": 78,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.891,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "DE",
+      "type": "state",
+      "url": "/appeal-hoa-fine/delaware",
+      "title": "Delaware HOA fine appeal",
+      "words": 2094,
+      "scores": {
+        "overall": 87,
+        "originality": 77,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 1,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.877,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "GA",
+      "type": "state",
+      "url": "/appeal-hoa-fine/georgia",
+      "title": "Georgia HOA fine appeal",
+      "words": 2155,
+      "scores": {
+        "overall": 87,
+        "originality": 85,
+        "searchIntent": 92,
+        "readability": 80,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.866,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "LA",
+      "type": "state",
+      "url": "/appeal-hoa-fine/louisiana",
+      "title": "Louisiana HOA fine appeal",
+      "words": 1921,
+      "scores": {
+        "overall": 87,
+        "originality": 82,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.8,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "ME",
+      "type": "state",
+      "url": "/appeal-hoa-fine/maine",
+      "title": "Maine HOA fine appeal",
+      "words": 1926,
+      "scores": {
+        "overall": 87,
+        "originality": 82,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.806,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "MO",
+      "type": "state",
+      "url": "/appeal-hoa-fine/missouri",
+      "title": "Missouri HOA fine appeal",
+      "words": 1807,
+      "scores": {
+        "overall": 87,
+        "originality": 81,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.77,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "ND",
+      "type": "state",
+      "url": "/appeal-hoa-fine/north-dakota",
+      "title": "North Dakota HOA fine appeal",
+      "words": 1924,
+      "scores": {
+        "overall": 87,
+        "originality": 82,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.796,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "reading-hoa-statutes-and-ccrs",
+      "type": "guide",
+      "url": "/guides/reading-hoa-statutes-and-ccrs",
+      "title": "How to Read HOA Statutes and CC&Rs",
+      "words": 1855,
+      "scores": {
+        "overall": 88,
+        "originality": 68,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.45,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "hoa-legal-terminology-glossary",
+      "type": "guide",
+      "url": "/guides/hoa-legal-terminology-glossary",
+      "title": "HOA Legal Terminology Glossary for Homeowners",
+      "words": 1833,
+      "scores": {
+        "overall": 88,
+        "originality": 70,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.494,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "open-meeting-laws-and-hoa-transparency",
+      "type": "guide",
+      "url": "/guides/open-meeting-laws-and-hoa-transparency",
+      "title": "Open Meeting Laws and HOA Transparency",
+      "words": 1830,
+      "scores": {
+        "overall": 88,
+        "originality": 69,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.463,
+      "weaknesses": [
+        "High cross-page sentence overlap / repetitive phrasing"
+      ],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "CO",
+      "type": "state",
+      "url": "/appeal-hoa-fine/colorado",
+      "title": "Colorado HOA fine appeal",
+      "words": 1914,
+      "scores": {
+        "overall": 88,
+        "originality": 89,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.978,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "CT",
+      "type": "state",
+      "url": "/appeal-hoa-fine/connecticut",
+      "title": "Connecticut HOA fine appeal",
+      "words": 2163,
+      "scores": {
+        "overall": 88,
+        "originality": 85,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.887,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "ID",
+      "type": "state",
+      "url": "/appeal-hoa-fine/idaho",
+      "title": "Idaho HOA fine appeal",
+      "words": 2101,
+      "scores": {
+        "overall": 88,
+        "originality": 83,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.815,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "IN",
+      "type": "state",
+      "url": "/appeal-hoa-fine/indiana",
+      "title": "Indiana HOA fine appeal",
+      "words": 1992,
+      "scores": {
+        "overall": 88,
+        "originality": 87,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.929,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "IA",
+      "type": "state",
+      "url": "/appeal-hoa-fine/iowa",
+      "title": "Iowa HOA fine appeal",
+      "words": 2082,
+      "scores": {
+        "overall": 88,
+        "originality": 84,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.861,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "KS",
+      "type": "state",
+      "url": "/appeal-hoa-fine/kansas",
+      "title": "Kansas HOA fine appeal",
+      "words": 1974,
+      "scores": {
+        "overall": 88,
+        "originality": 84,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.85,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "KY",
+      "type": "state",
+      "url": "/appeal-hoa-fine/kentucky",
+      "title": "Kentucky HOA fine appeal",
+      "words": 1938,
+      "scores": {
+        "overall": 88,
+        "originality": 84,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.849,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "OH",
+      "type": "state",
+      "url": "/appeal-hoa-fine/ohio",
+      "title": "Ohio HOA fine appeal",
+      "words": 1958,
+      "scores": {
+        "overall": 88,
+        "originality": 83,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.823,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "OR",
+      "type": "state",
+      "url": "/appeal-hoa-fine/oregon",
+      "title": "Oregon HOA fine appeal",
+      "words": 1906,
+      "scores": {
+        "overall": 88,
+        "originality": 83,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.826,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "WV",
+      "type": "state",
+      "url": "/appeal-hoa-fine/west-virginia",
+      "title": "West Virginia HOA fine appeal",
+      "words": 1744,
+      "scores": {
+        "overall": 88,
+        "originality": 84,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 80,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.84,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "AK",
+      "type": "state",
+      "url": "/appeal-hoa-fine/alaska",
+      "title": "Alaska HOA fine appeal",
+      "words": 1823,
+      "scores": {
+        "overall": 89,
+        "originality": 90,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 53,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.99,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "AZ",
+      "type": "state",
+      "url": "/appeal-hoa-fine/arizona",
+      "title": "Arizona HOA fine appeal",
+      "words": 2194,
+      "scores": {
+        "overall": 89,
+        "originality": 87,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 62,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.919,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "CA",
+      "type": "state",
+      "url": "/appeal-hoa-fine/california",
+      "title": "California HOA fine appeal",
+      "words": 2145,
+      "scores": {
+        "overall": 89,
+        "originality": 87,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 58,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.925,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "FL",
+      "type": "state",
+      "url": "/appeal-hoa-fine/florida",
+      "title": "Florida HOA fine appeal",
+      "words": 2126,
+      "scores": {
+        "overall": 89,
+        "originality": 86,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 58,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.908,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "IL",
+      "type": "state",
+      "url": "/appeal-hoa-fine/illinois",
+      "title": "Illinois HOA fine appeal",
+      "words": 2071,
+      "scores": {
+        "overall": 89,
+        "originality": 87,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 58,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.915,
+      "weaknesses": [
+        "Many citations lack clickable external URLs"
+      ],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "MT",
+      "type": "state",
+      "url": "/appeal-hoa-fine/montana",
+      "title": "Montana HOA fine appeal",
+      "words": 2017,
+      "scores": {
+        "overall": 89,
+        "originality": 86,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 62,
+        "trustworthiness": 93,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.912,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "NV",
+      "type": "state",
+      "url": "/appeal-hoa-fine/nevada",
+      "title": "Nevada HOA fine appeal",
+      "words": 2112,
+      "scores": {
+        "overall": 89,
+        "originality": 85,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 62,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.878,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "OK",
+      "type": "state",
+      "url": "/appeal-hoa-fine/oklahoma",
+      "title": "Oklahoma HOA fine appeal",
+      "words": 1862,
+      "scores": {
+        "overall": 89,
+        "originality": 84,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 62,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.856,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "VA",
+      "type": "state",
+      "url": "/appeal-hoa-fine/virginia",
+      "title": "Virginia HOA fine appeal",
+      "words": 1835,
+      "scores": {
+        "overall": 89,
+        "originality": 82,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 71,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.809,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "AL",
+      "type": "state",
+      "url": "/appeal-hoa-fine/alabama",
+      "title": "Alabama HOA fine appeal",
+      "words": 2172,
+      "scores": {
+        "overall": 90,
+        "originality": 90,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 62,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 1,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "SD",
+      "type": "state",
+      "url": "/appeal-hoa-fine/south-dakota",
+      "title": "South Dakota HOA fine appeal",
+      "words": 2014,
+      "scores": {
+        "overall": 90,
+        "originality": 82,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.8,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "UT",
+      "type": "state",
+      "url": "/appeal-hoa-fine/utah",
+      "title": "Utah HOA fine appeal",
+      "words": 1804,
+      "scores": {
+        "overall": 90,
+        "originality": 84,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.848,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    },
+    {
+      "id": "WY",
+      "type": "state",
+      "url": "/appeal-hoa-fine/wyoming",
+      "title": "Wyoming HOA fine appeal",
+      "words": 1804,
+      "scores": {
+        "overall": 90,
+        "originality": 81,
+        "searchIntent": 92,
+        "readability": 85,
+        "topicalCompleteness": 100,
+        "internalLinking": 98,
+        "externalCitations": 80,
+        "trustworthiness": 91,
+        "eeat": 93,
+        "structuredData": 88,
+        "accessibility": 95
+      },
+      "grade": "strong",
+      "padHits": 0,
+      "grammarBugs": 0,
+      "uniqueRatio": 0.777,
+      "weaknesses": [],
+      "improvements": [
+        "Related content buckets complete",
+        "Disclaimer presented via page shell attribution/disclaimer components"
+      ],
+      "flagManualReview": false
+    }
+  ]
+}
