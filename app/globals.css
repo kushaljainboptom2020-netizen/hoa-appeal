@@ -18,6 +18,26 @@ body {
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
+@keyframes hero-letter-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.hero-letter-float {
+  animation: hero-letter-float 6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-letter-float {
+    animation: none;
+  }
+}
+
 @media print {
   body * {
     visibility: hidden;

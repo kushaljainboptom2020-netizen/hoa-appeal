@@ -14,6 +14,6 @@ export function getSiteOrigin(): string {
   return SITE_URL.replace(/\/$/, "");
 }
 
-export const SUPPORT_EMAIL = "insighteyecare9988@gmail.com";
+export const SUPPORT_EMAIL = "support@myhoaappeal.com";
 
 export const LEGAL_LAST_UPDATED = "June 1, 2026";

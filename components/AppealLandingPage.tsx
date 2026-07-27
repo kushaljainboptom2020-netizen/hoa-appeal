@@ -1,5 +1,6 @@
 import { AppealWizard } from "@/components/AppealWizard";
 import { HeroSection } from "@/components/HeroSection";
+import { HowItWorksSection } from "@/components/HowItWorksSection";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StateBrowseFooter } from "@/components/StateBrowseFooter";
 import { PageBreadcrumbs } from "@/components/seo/PageBreadcrumbs";
@@ -39,6 +40,7 @@ export function AppealLandingPage({ stateConfig }: AppealLandingPageProps) {
           subheadline={heroCopy?.subheadline}
         />
         {stateConfig && <StateStatuteBanner stateConfig={stateConfig} />}
+        <HowItWorksSection />
         <AppealWizard
           initialState={stateConfig?.code}
           statePageLabel={stateConfig?.name}
