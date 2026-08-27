@@ -16,10 +16,18 @@ export function StateBrowseFooter() {
           Find a free HOA fine appeal letter generator tailored to your
           state&apos;s requirements.{" "}
           <Link
+            href="/state-laws"
+            className="text-emerald-400 underline-offset-2 hover:underline"
+          >
+            Compare fine caps by state
+          </Link>
+          {" "}
+          or{" "}
+          <Link
             href="/map"
             className="text-emerald-400 underline-offset-2 hover:underline"
           >
-            Explore the interactive map
+            explore the interactive map
           </Link>
           .
         </p>

@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { getFaqBySlug } from "@/lib/content/faq";
 import { getGuideBySlug } from "@/lib/content/guides";
+import { getStateLawComparisonRows } from "@/lib/content/state-laws";
 import {
   ORGANIZATION_ID,
   WEBSITE_ID,
@@ -8,6 +9,7 @@ import {
   buildSoftwareApplicationSchema,
   buildStateStructuredDataGraph,
 } from "@/lib/seo/jsonLd";
+import { buildStateLawsTableSchema } from "@/lib/seo/stateLaws";
 import { buildFaqStructuredDataGraph } from "@/lib/seo/faq";
 import { buildGuideStructuredDataGraph } from "@/lib/seo/guides";
 import { getStateBySlug } from "@/lib/seo/statePages";
@@ -107,6 +109,24 @@ describe("structured data", () => {
     expect(items[0]?.name).toBe("Home");
     expect(items[1]?.name).toBe("California HOA appeal");
     expect(String(items[1]?.item)).toContain("/appeal-hoa-fine/california");
+    for (const node of nodes) {
+      expect(node["@context"]).toBeUndefined();
+    }
+  });
+
+  it("builds a Table schema with 50 comparison list items", () => {
+    const rows = getStateLawComparisonRows();
+    const graph = buildStateLawsTableSchema(rows);
+    const nodes = graph["@graph"] as Array<Record<string, unknown>>;
+
+    expect(nodes.some((n) => n["@type"] === "Table")).toBe(true);
+    expect(nodes.some((n) => n["@type"] === "WebPage")).toBe(true);
+
+    const list = nodes.find((n) => n["@type"] === "ItemList") as
+      | Record<string, unknown>
+      | undefined;
+    expect(list?.numberOfItems).toBe(50);
+    expect(list?.itemListElement).toHaveLength(50);
     for (const node of nodes) {
       expect(node["@context"]).toBeUndefined();
     }

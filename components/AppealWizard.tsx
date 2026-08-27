@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { AdSensePlaceholder } from "@/components/monetization/AdSensePlaceholder";
 import { WizardNav } from "@/components/WizardNav";
 import { WizardStepPanel } from "@/components/WizardStepPanel";
@@ -14,6 +14,10 @@ import {
   type AppealFormData,
   type FormErrors,
 } from "@/lib/wizard/formState";
+import {
+  WIZARD_PREFILL_EVENT,
+  type WizardPrefillDetail,
+} from "@/lib/wizard/prefill";
 
 type AppealWizardProps = {
   initialState?: string;
@@ -44,6 +48,26 @@ export function AppealWizard({
     },
     []
   );
+
+  useEffect(() => {
+    const onPrefill = (event: Event) => {
+      const custom = event as CustomEvent<WizardPrefillDetail>;
+      const detail = custom.detail;
+      if (!detail?.state || !detail.violationCategory) return;
+
+      setFormData((prev) => {
+        let next = updateFormField(prev, "state", detail.state);
+        next = updateFormField(next, "violationCategory", detail.violationCategory);
+        return next;
+      });
+      setCurrentStep(1);
+      setErrors({});
+      setShowErrors(false);
+    };
+
+    window.addEventListener(WIZARD_PREFILL_EVENT, onPrefill);
+    return () => window.removeEventListener(WIZARD_PREFILL_EVENT, onPrefill);
+  }, []);
 
   const handleNext = () => {
     if (currentStep >= TOTAL_STEPS) return;

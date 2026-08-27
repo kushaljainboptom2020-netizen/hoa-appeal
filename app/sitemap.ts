@@ -123,6 +123,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: CONTENT_LAST_MOD,
   };
 
+  const stateLawsPage: MetadataRoute.Sitemap[number] = {
+    url: new URL("/state-laws", SITE_URL).toString(),
+    changeFrequency: "weekly",
+    priority: 0.9,
+    lastModified: CONTENT_LAST_MOD,
+  };
+
   const successStoriesIndex: MetadataRoute.Sitemap[number] = {
     url: new URL("/success-stories", SITE_URL).toString(),
     changeFrequency: "monthly",
@@ -148,6 +155,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     decisionTreePage,
     readinessCalculatorPage,
     stateMapPage,
+    stateLawsPage,
     ...statePages,
     successStoriesIndex,
     ...successStoryPages,

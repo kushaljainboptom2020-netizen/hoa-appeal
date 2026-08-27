@@ -5,6 +5,7 @@ import { SUPPORT_EMAIL } from "@/lib/config/site";
 const TOOL_LINKS = [
   { href: "/#appeal-wizard", label: "Letter Generator" },
   { href: "/map", label: "State Law Hub" },
+  { href: "/state-laws", label: "State Law Comparison" },
   { href: "/readiness-calculator", label: "Readiness Calculator" },
   { href: "/decision-tree", label: "Decision Tree" },
 ] as const;

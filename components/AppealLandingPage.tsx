@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StateBrowseFooter } from "@/components/StateBrowseFooter";
+import { StateFineCalculator } from "@/components/StateFineCalculator";
 import { PageBreadcrumbs } from "@/components/seo/PageBreadcrumbs";
 import { StateLegalResource } from "@/components/state-legal/StateLegalResource";
 import { StateStatuteBanner } from "@/components/StateStatuteBanner";
@@ -40,6 +41,7 @@ export function AppealLandingPage({ stateConfig }: AppealLandingPageProps) {
           subheadline={heroCopy?.subheadline}
         />
         {stateConfig && <StateStatuteBanner stateConfig={stateConfig} />}
+        <StateFineCalculator initialState={stateConfig?.code} />
         <HowItWorksSection />
         <AppealWizard
           initialState={stateConfig?.code}
