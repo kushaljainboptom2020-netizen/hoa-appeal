@@ -12,6 +12,7 @@ const TOOL_LINKS = [
 
 const RESOURCE_LINKS = [
   { href: "/guides", label: "HOA Dispute Guides" },
+  { href: "/samples", label: "Sample Appeal Letters" },
   { href: "/appeal-hoa-fine/florida", label: "FL Chapter 720" },
   { href: "/appeal-hoa-fine/texas", label: "TX Section 209" },
   { href: "/appeal-hoa-fine/california", label: "CA Davis-Stirling Act" },

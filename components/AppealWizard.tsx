@@ -114,7 +114,7 @@ export function AppealWizard({
         className="mb-6"
       />
 
-      <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-6 shadow-xl sm:p-8">
+      <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 shadow-xl sm:p-8">
         <WizardStepper currentStep={currentStep} />
         <WizardStepPanel
           currentStep={currentStep}

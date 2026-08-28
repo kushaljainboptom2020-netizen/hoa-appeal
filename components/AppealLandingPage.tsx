@@ -1,6 +1,7 @@
 import { AppealWizard } from "@/components/AppealWizard";
 import { HeroSection } from "@/components/HeroSection";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
+import { StateMapExploreSection } from "@/components/StateMapExploreSection";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StateBrowseFooter } from "@/components/StateBrowseFooter";
 import { StateFineCalculator } from "@/components/StateFineCalculator";
@@ -43,6 +44,7 @@ export function AppealLandingPage({ stateConfig }: AppealLandingPageProps) {
         {stateConfig && <StateStatuteBanner stateConfig={stateConfig} />}
         <StateFineCalculator initialState={stateConfig?.code} />
         <HowItWorksSection />
+        {!stateConfig ? <StateMapExploreSection /> : null}
         <AppealWizard
           initialState={stateConfig?.code}
           statePageLabel={stateConfig?.name}

@@ -63,13 +63,13 @@ export function fieldDescribedBy(
 }
 
 const baseInputClassName =
-  "w-full rounded-lg border bg-slate-800 px-4 py-2.5 text-sm text-slate-100 placeholder:text-slate-500 focus:outline-none focus:ring-2";
+  "w-full rounded-lg border bg-slate-900/60 px-4 py-2.5 text-sm text-slate-100 placeholder:text-slate-500 outline-none transition-[border-color,box-shadow] focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950";
 
 function inputClassName(hasError: boolean): string {
   return `${baseInputClassName} ${
     hasError
-      ? "border-red-500/60 focus:border-red-500 focus:ring-red-500/30"
-      : "border-slate-700 focus:border-emerald-500 focus:ring-emerald-500/50"
+      ? "border-red-500/60 focus:border-red-500 focus-visible:ring-red-500/40"
+      : "border-slate-800 focus:border-emerald-500 focus-visible:ring-emerald-400/50"
   }`;
 }
 

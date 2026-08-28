@@ -117,7 +117,7 @@ export function HoaDecisionTree() {
   }
 
   return (
-    <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-5 sm:p-6">
+    <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 sm:p-6">
       <p className="text-sm leading-relaxed text-slate-400">{tree.intro}</p>
 
       {history.length > 0 || phase.kind !== "question" || phase.nodeId !== tree.startId ? (
@@ -152,7 +152,7 @@ export function HoaDecisionTree() {
                 <button
                   type="button"
                   onClick={() => chooseOption(option)}
-                  className="w-full rounded-md border border-slate-700 bg-slate-950/60 px-4 py-3 text-left text-sm text-slate-200 transition-colors hover:border-emerald-600/50 hover:text-white"
+                  className="w-full rounded-md border border-slate-800 bg-slate-950/60 px-4 py-3 text-left text-sm text-slate-200 transition-colors hover:border-emerald-600/50 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/50"
                 >
                   {option.label}
                 </button>
@@ -181,7 +181,7 @@ export function HoaDecisionTree() {
                 setStateCode(event.target.value);
                 setStateError(false);
               }}
-              className="mt-2 w-full rounded-md border border-slate-700 bg-slate-950 px-3 py-2.5 text-slate-100 focus:border-emerald-600 focus:outline-none focus:ring-1 focus:ring-emerald-600"
+              className="mt-2 w-full rounded-lg border border-slate-800 bg-slate-900/60 px-3 py-2.5 text-sm text-slate-100 outline-none transition-[border-color,box-shadow] focus:border-emerald-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/50 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
             >
               <option value="">Select your state</option>
               {US_STATES.map((state) => (

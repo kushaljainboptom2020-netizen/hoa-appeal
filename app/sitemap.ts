@@ -9,12 +9,14 @@ import {
 import { getAllTeamSlugs } from "@/lib/content/team";
 import { getAllStateLegalContent } from "@/lib/content/states";
 import { getAllStateSlugs, getStateByCode } from "@/lib/seo/statePages";
+import { SAMPLE_LETTERS, getAllSampleSlugs } from "@/lib/content/samples";
 import { SITE_URL } from "@/lib/seo/siteUrl";
 
 const STATE_SLUGS = getAllStateSlugs();
 const GUIDE_SLUGS = getAllGuideSlugs();
 const FAQ_SLUGS = getAllFaqSlugs();
 const SUCCESS_STORY_SLUGS = getAllSuccessStorySlugs();
+const SAMPLE_SLUGS = getAllSampleSlugs();
 const TEAM_SLUGS = getAllTeamSlugs();
 const CONTENT_LAST_MOD = new Date(CONTENT_UPDATED_ISO);
 
@@ -26,6 +28,9 @@ const faqLastMod = new Map(
 );
 const storyLastMod = new Map(
   SUCCESS_STORIES.map((s) => [s.slug, new Date(s.attribution.updatedAtIso)])
+);
+const sampleLastMod = new Map(
+  SAMPLE_LETTERS.map((s) => [s.slug, new Date(s.attribution.updatedAtIso)])
 );
 const stateLastModBySlug = new Map(
   getAllStateLegalContent().flatMap((c) => {
@@ -144,6 +149,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: storyLastMod.get(slug) ?? CONTENT_LAST_MOD,
   }));
 
+  const samplesIndex: MetadataRoute.Sitemap[number] = {
+    url: new URL("/samples", SITE_URL).toString(),
+    changeFrequency: "weekly",
+    priority: 0.85,
+    lastModified: CONTENT_LAST_MOD,
+  };
+
+  const samplePages = SAMPLE_SLUGS.map((slug) => ({
+    url: new URL(`/samples/${slug}`, SITE_URL).toString(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+    lastModified: sampleLastMod.get(slug) ?? CONTENT_LAST_MOD,
+  }));
+
   return [
     home,
     ...trustPages,
@@ -159,5 +178,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...statePages,
     successStoriesIndex,
     ...successStoryPages,
+    samplesIndex,
+    ...samplePages,
   ];
 }

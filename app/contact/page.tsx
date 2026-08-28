@@ -25,7 +25,7 @@ export default function ContactPage() {
         </p>
       </section>
 
-      <section className="rounded-xl border border-slate-800 bg-slate-900/50 px-5 py-5 sm:px-6">
+      <section className="rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-5 sm:px-6">
         <h2 className="text-lg font-semibold text-white">Direct email</h2>
         <p className="mt-2 text-sm leading-relaxed text-slate-400">
           Prefer email? Write to{" "}
@@ -46,7 +46,7 @@ export default function ContactPage() {
           wizard data to our servers. Do not use this form for legal advice,
           emergency disputes, or sensitive banking information.
         </p>
-        <div className="mt-6">
+        <div className="mt-6 rounded-2xl border border-slate-800 bg-slate-900/60 p-5 shadow-xl sm:p-6">
           <ContactForm />
         </div>
       </section>

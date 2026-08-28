@@ -1,7 +1,16 @@
 "use client";
 
+import { useId } from "react";
 import Link from "next/link";
-import { ArrowRight, ShieldCheck, Zap } from "lucide-react";
+import {
+  ArrowRight,
+  Clock,
+  FileText,
+  Scale,
+  Shield,
+  ShieldCheck,
+  Zap,
+} from "lucide-react";
 import { HeroLetterPreview } from "@/components/HeroLetterPreview";
 import { SiteNavbar } from "@/components/SiteNavbar";
 
@@ -13,6 +22,29 @@ type HeroSectionProps = {
 const DEFAULT_HEADLINE = "Fight Unfair HOA Fines in Minutes";
 const DEFAULT_SUBHEADLINE =
   "Generate a statute-aware appeal letter in minutes — personalized to your violation, ready to send to your board.";
+
+const TRUST_BADGES = [
+  {
+    title: "100% Client-Side Private",
+    subtitle: "No data stored on servers",
+    icon: Shield,
+  },
+  {
+    title: "50-State Statutory Compliance",
+    subtitle: "Coverage across all U.S. states",
+    icon: Scale,
+  },
+  {
+    title: "Instant Word (.docx) & PDF Export",
+    subtitle: "Download-ready board letter",
+    icon: FileText,
+  },
+  {
+    title: "Takes Less Than 3 Minutes",
+    subtitle: "Fast, guided appeal",
+    icon: Clock,
+  },
+] as const;
 
 function HeadlineWithGradient({ text }: { text: string }) {
   const parts = text.split(/(HOA Fines)/i);
@@ -34,6 +66,104 @@ function HeadlineWithGradient({ text }: { text: string }) {
   );
 }
 
+function HeroBackdrop() {
+  const rawId = useId().replace(/:/g, "");
+  const patternId = `hero-grid-${rawId}`;
+  const maskGradientId = `hero-grid-fade-${rawId}`;
+  const maskId = `hero-grid-mask-${rawId}`;
+  const glowLeftId = `hero-glow-left-${rawId}`;
+  const glowCenterId = `hero-glow-center-${rawId}`;
+  const glowRightId = `hero-glow-right-${rawId}`;
+
+  return (
+    <div className="pointer-events-none absolute inset-0" aria-hidden>
+      <svg
+        className="absolute inset-0 h-full w-full"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+      >
+        <defs>
+          <pattern
+            id={patternId}
+            width="48"
+            height="48"
+            patternUnits="userSpaceOnUse"
+          >
+            <path
+              d="M 48 0 L 0 0 0 48"
+              fill="none"
+              stroke="rgb(148 163 184)"
+              strokeOpacity="0.12"
+              strokeWidth="1"
+            />
+          </pattern>
+          <radialGradient id={maskGradientId} cx="38%" cy="42%" r="72%">
+            <stop offset="0%" stopColor="white" stopOpacity="1" />
+            <stop offset="45%" stopColor="white" stopOpacity="0.45" />
+            <stop offset="100%" stopColor="white" stopOpacity="0" />
+          </radialGradient>
+          <mask id={maskId}>
+            <rect width="100%" height="100%" fill={`url(#${maskGradientId})`} />
+          </mask>
+          <radialGradient id={glowLeftId} cx="22%" cy="38%" r="42%">
+            <stop offset="0%" stopColor="rgb(16 185 129)" stopOpacity="0.28" />
+            <stop offset="45%" stopColor="rgb(20 184 166)" stopOpacity="0.1" />
+            <stop offset="100%" stopColor="rgb(16 185 129)" stopOpacity="0" />
+          </radialGradient>
+          <radialGradient id={glowCenterId} cx="36%" cy="48%" r="28%">
+            <stop offset="0%" stopColor="rgb(52 211 153)" stopOpacity="0.16" />
+            <stop offset="100%" stopColor="rgb(52 211 153)" stopOpacity="0" />
+          </radialGradient>
+          <radialGradient id={glowRightId} cx="82%" cy="58%" r="38%">
+            <stop offset="0%" stopColor="rgb(14 165 233)" stopOpacity="0.12" />
+            <stop offset="100%" stopColor="rgb(14 165 233)" stopOpacity="0" />
+          </radialGradient>
+        </defs>
+        <rect width="100%" height="100%" fill={`url(#${glowLeftId})`} />
+        <rect width="100%" height="100%" fill={`url(#${glowCenterId})`} />
+        <rect width="100%" height="100%" fill={`url(#${glowRightId})`} />
+        <rect
+          width="100%"
+          height="100%"
+          fill={`url(#${patternId})`}
+          mask={`url(#${maskId})`}
+        />
+      </svg>
+    </div>
+  );
+}
+
+function TrustComplianceBar() {
+  return (
+    <ul
+      className="mt-8 grid w-full max-w-xl grid-cols-1 gap-3 sm:grid-cols-2"
+      aria-label="Trust and compliance"
+    >
+      {TRUST_BADGES.map((badge) => {
+        const Icon = badge.icon;
+        return (
+          <li
+            key={badge.title}
+            className="flex items-start gap-3 rounded-xl border border-slate-800 bg-slate-900/60 px-3.5 py-3 backdrop-blur-sm"
+          >
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-emerald-500/25 bg-emerald-500/10 text-emerald-400">
+              <Icon className="h-4 w-4" aria-hidden />
+            </span>
+            <span className="min-w-0">
+              <span className="block text-sm font-semibold leading-snug text-white">
+                {badge.title}
+              </span>
+              <span className="mt-0.5 block text-xs leading-relaxed text-slate-400">
+                {badge.subtitle}
+              </span>
+            </span>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 export function HeroSection({
   headline = DEFAULT_HEADLINE,
   subheadline = DEFAULT_SUBHEADLINE,
@@ -49,14 +179,7 @@ export function HeroSection({
       <SiteNavbar />
 
       <section className="relative overflow-hidden border-b border-slate-800/80">
-        <div
-          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(16,185,129,0.12),transparent_45%),radial-gradient(ellipse_at_bottom_right,rgba(14,165,233,0.08),transparent_40%)]"
-          aria-hidden
-        />
-        <div
-          className="pointer-events-none absolute inset-0 opacity-[0.35] [background-image:linear-gradient(rgba(148,163,184,0.07)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.07)_1px,transparent_1px)] [background-size:48px_48px] [mask-image:radial-gradient(ellipse_at_center,black_20%,transparent_75%)]"
-          aria-hidden
-        />
+        <HeroBackdrop />
 
         <div className="relative mx-auto grid max-w-6xl gap-12 px-4 py-14 sm:py-16 lg:grid-cols-2 lg:items-center lg:gap-10 lg:py-20">
           <div className="flex flex-col items-start text-left">
@@ -83,14 +206,16 @@ export function HeroSection({
                 <ArrowRight className="h-5 w-5" aria-hidden />
               </button>
               <Link
-                href="/guides/sample-hoa-appeal-letter-structure"
+                href="/samples"
                 className="inline-flex items-center justify-center gap-2 rounded-xl px-4 py-3.5 text-base font-medium text-slate-300 underline-offset-4 transition-colors hover:text-white hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/50"
               >
                 View Sample Letter
               </Link>
             </div>
 
-            <p className="mt-6 inline-flex max-w-xl items-start gap-2 rounded-lg border border-slate-800/90 bg-slate-900/50 px-3.5 py-2.5 text-sm text-slate-300 backdrop-blur-sm">
+            <TrustComplianceBar />
+
+            <p className="mt-6 inline-flex max-w-xl items-start gap-2 rounded-lg border border-slate-800 bg-slate-900/60 px-3.5 py-2.5 text-sm text-slate-300 backdrop-blur-sm">
               <Zap
                 className="mt-0.5 h-4 w-4 shrink-0 text-amber-400"
                 aria-hidden

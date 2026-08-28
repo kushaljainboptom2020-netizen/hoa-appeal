@@ -4,6 +4,7 @@ import { Shield } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { HubExploreLinks } from "@/components/seo/HubExploreLinks";
+import { StateMapExploreSection } from "@/components/StateMapExploreSection";
 import { PageBreadcrumbs } from "@/components/seo/PageBreadcrumbs";
 import { StateLawsComparisonTable } from "@/components/state-laws/StateLawsComparisonTable";
 import { AttorneyDisclaimer } from "@/components/state-legal/AttorneyDisclaimer";
@@ -63,6 +64,8 @@ export default function StateLawsPage() {
         </div>
 
         <HubExploreLinks currentPath="/state-laws" />
+
+        <StateMapExploreSection compact />
 
         <StateLawsComparisonTable rows={rows} />
 

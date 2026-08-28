@@ -65,7 +65,7 @@ export function StateFineCalculator({ initialState = "" }: StateFineCalculatorPr
       className="scroll-mt-24 border-b border-slate-800/80 bg-slate-950"
     >
       <div className="mx-auto max-w-6xl px-4 py-14 sm:py-16">
-        <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-6 shadow-xl sm:p-8">
+        <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 shadow-xl sm:p-8">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div>
               <p className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.18em] text-emerald-400 uppercase">

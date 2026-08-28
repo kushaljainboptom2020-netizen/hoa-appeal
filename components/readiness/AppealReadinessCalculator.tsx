@@ -43,7 +43,7 @@ function ResultPanel({
 }) {
   return (
     <div className="space-y-8">
-      <div className="rounded-xl border border-slate-700 bg-slate-950/60 p-5 sm:p-6">
+      <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 sm:p-6">
         <p className="text-xs font-medium uppercase tracking-wider text-emerald-400">
           Readiness score
         </p>
@@ -237,7 +237,7 @@ export function AppealReadinessCalculator() {
   }
 
   return (
-    <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-5 sm:p-6">
+    <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 sm:p-6">
       <p className="text-sm leading-relaxed text-slate-400">{calculator.intro}</p>
 
       <div className="mt-5">
@@ -286,8 +286,8 @@ export function AppealReadinessCalculator() {
                     aria-pressed={isSelected}
                     className={`w-full rounded-md border px-4 py-3 text-left text-sm transition-colors ${
                       isSelected
-                        ? "border-emerald-600/60 bg-emerald-600/10 text-white"
-                        : "border-slate-700 bg-slate-950/60 text-slate-200 hover:border-emerald-600/40 hover:text-white"
+                        ? "border-emerald-600/60 bg-emerald-600/10 text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/50"
+                        : "border-slate-800 bg-slate-950/60 text-slate-200 hover:border-emerald-600/40 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/50"
                     }`}
                   >
                     {option.label}

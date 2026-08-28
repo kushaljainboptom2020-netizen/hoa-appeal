@@ -9,6 +9,7 @@ const HUB_LINKS = [
   { href: "/guides", label: "Guides" },
   { href: "/faq", label: "FAQ" },
   { href: "/success-stories", label: "Success stories" },
+  { href: "/samples", label: "Sample letters" },
 ] as const;
 
 type HubExploreLinksProps = {
@@ -21,7 +22,8 @@ type HubExploreLinksProps = {
     | "/decision-tree"
     | "/readiness-calculator"
     | "/map"
-    | "/state-laws";
+    | "/state-laws"
+    | "/samples";
 };
 
 export function HubExploreLinks({ currentPath }: HubExploreLinksProps) {
