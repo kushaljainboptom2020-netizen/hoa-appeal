@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
+import { legacyRedirects } from "./lib/seo/legacyRedirects";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactCompiler: true,
   async redirects() {
     return [
@@ -30,6 +30,7 @@ const nextConfig: NextConfig = {
         destination: "/authors",
         permanent: true,
       },
+      ...legacyRedirects(),
     ];
   },
 };

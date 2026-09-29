@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const PLACEHOLDERS = [
   { id: "name", label: "[Your Name]" },
   { id: "date", label: "[Violation Date]" },
-  { id: "statute", label: "State Law Sec. 720" },
+  { id: "statute", label: "[Rule section]" },
 ] as const;
 
 type PlaceholderId = (typeof PLACEHOLDERS)[number]["id"];
@@ -25,8 +25,11 @@ export function HeroLetterPreview() {
 
   useEffect(() => {
     if (reduceMotion) {
-      setTyped(PLACEHOLDERS[0].label);
-      setActiveId("name");
+      const showStatic = () => {
+        setTyped(PLACEHOLDERS[0].label);
+        setActiveId("name");
+      };
+      queueMicrotask(showStatic);
       return;
     }
 
@@ -160,7 +163,7 @@ export function HeroLetterPreview() {
                 Pursuant to{" "}
                 {activeId === "statute"
                   ? typed || "\u00a0"
-                  : "State Law Sec. 720"}
+                  : "[Rule section]"}
                 {activeId === "statute" && typed.length < activeLabel.length ? (
                   <span className="ml-0.5 inline-block h-3.5 w-px animate-pulse bg-sky-800 align-middle" />
                 ) : null}

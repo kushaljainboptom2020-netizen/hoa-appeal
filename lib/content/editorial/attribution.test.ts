@@ -93,7 +93,7 @@ describe("E-E-A-T team and attribution", () => {
     expect(rights.authorSlug).toBe("jordan-hale");
     expect(money.authorSlug).toBe("morgan-ellis");
     expect(attributionForStateCode("CA").authorSlug).toBe("jordan-hale");
-    expect(attributionForStateCode("TX").authorSlug).toBe("morgan-ellis");
+    expect(attributionForStateCode("TX").authorSlug).toBe("jordan-hale");
     expect(rights.publishedAtIso).toBe(CONTENT_PUBLISHED_ISO);
   });
 });

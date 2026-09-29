@@ -60,7 +60,7 @@ describe("FAQ knowledge base content", () => {
       expect(faq.relatedContent.states.length).toBeGreaterThanOrEqual(1);
       expect(faq.relatedContent.faqs.length).toBeGreaterThanOrEqual(1);
       expect(faq.relatedContent.tools.length).toBeGreaterThanOrEqual(1);
-      expect(faq.relatedContent.successStories.length).toBeGreaterThanOrEqual(1);
+      expect(faq.relatedContent.successStories.length).toBe(0);
     }
   });
 });

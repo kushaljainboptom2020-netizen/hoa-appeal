@@ -1,22 +1,22 @@
 import type { TeamMember } from "./types";
 
 /**
- * Editorial team profiles for E-E-A-T bylines.
- * Roles are editorial/research — not licensed legal counsel.
+ * Internal role labels used to organize drafts.
+ * These names are not verified outside experts and have no published credentials.
  */
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     slug: "jordan-hale",
     name: "Jordan Hale",
     role: "author",
-    title: "Senior Editorial Writer",
+    title: "Internal role label",
     credentials: [
-      "Leads consumer-education guides on HOA notice, hearing, and appeal workflows",
-      "Specializes in translating governing-document procedures into plain-language checklists",
+      "Internal drafting label only",
+      "No published employer, school, or bar number",
     ],
     bio: [
-      "Jordan Hale writes MyHOAAppeal’s long-form educational guides on due process, hearing preparation, and written appeal strategy. The focus is practical procedure: what notices typically must contain, how cure windows work, and how owners can organize facts before a board meeting.",
-      "Jordan’s work is researched against primary statutes and association governance concepts, then edited for clarity so homeowners can verify claims in their own CC&Rs and state code. Jordan does not provide legal advice or represent homeowners.",
+      "Jordan Hale is an internal role label used to organize drafts. This site does not publish a verifiable employer, school, or bar number for this name.",
+      "The label is not a licensed attorney and does not provide legal advice.",
     ],
     expertise: [
       "HOA fine appeal workflows",
@@ -29,14 +29,14 @@ export const TEAM_MEMBERS: TeamMember[] = [
     slug: "morgan-ellis",
     name: "Morgan Ellis",
     role: "author",
-    title: "Research Writer, State Resources",
+    title: "Internal role label",
     credentials: [
-      "Authors and maintains state HOA fine appeal resource pages",
-      "Cross-references legislative publications and official code repositories",
+      "Internal drafting label only",
+      "No published employer, school, or bar number",
     ],
     bio: [
-      "Morgan Ellis researches and drafts MyHOAAppeal’s state-specific HOA fine resources, emphasizing statute citations, typical timeline language, and how local governing documents interact with statewide association acts.",
-      "Morgan prioritizes official legislative sources and clearly separates educational overview from jurisdiction-specific legal advice. Readers are encouraged to confirm current code text before relying on any citation in formal correspondence.",
+      "Morgan Ellis is an internal role label used to organize drafts. This site does not publish a verifiable employer, school, or bar number for this name.",
+      "The label is not a licensed attorney and does not provide legal advice.",
     ],
     expertise: [
       "State association statutes",
@@ -49,14 +49,14 @@ export const TEAM_MEMBERS: TeamMember[] = [
     slug: "casey-nguyen",
     name: "Casey Nguyen",
     role: "reviewer",
-    title: "Editorial Standards Lead",
+    title: "Internal role label",
     credentials: [
-      "Owns the site fact-checking checklist and source verification standards",
-      "Reviews educational articles for accuracy, balance, and disclaimer clarity",
+      "Internal drafting label only",
+      "No published employer, school, or bar number",
     ],
     bio: [
-      "Casey Nguyen leads editorial standards for MyHOAAppeal, including citation checks, claim-to-source mapping, and review of AI-assisted drafts before publication. Casey’s reviews focus on whether statements are supported by listed sources and whether educational limits are clearly disclosed.",
-      "Casey is not a licensed attorney. Reviews confirm editorial quality and sourcing—not case-specific legal conclusions.",
+      "Casey Nguyen is an internal role label used to organize drafts. This site does not publish a verifiable employer, school, or bar number for this name.",
+      "The label is not a licensed attorney and does not provide legal advice.",
     ],
     expertise: [
       "Fact-checking workflows",
@@ -69,14 +69,14 @@ export const TEAM_MEMBERS: TeamMember[] = [
     slug: "riley-brooks",
     name: "Riley Brooks",
     role: "reviewer",
-    title: "Policy Research Editor",
+    title: "Internal role label",
     credentials: [
-      "Reviews statute summaries, timeline tables, and FAQ answers for consistency",
-      "Flags outdated citations and overbroad claims for rewrite or removal",
+      "Internal drafting label only",
+      "No published employer, school, or bar number",
     ],
     bio: [
-      "Riley Brooks reviews MyHOAAppeal content for consistency across related guides and state pages—especially timelines, hearing rights language, and collections/lien education. Riley compares drafts against the cited legislative sources and the site’s editorial and AI transparency policies.",
-      "Like all MyHOAAppeal editors, Riley provides editorial review only and does not offer legal advice or attorney services.",
+      "Riley Brooks is an internal role label used to organize drafts. This site does not publish a verifiable employer, school, or bar number for this name.",
+      "The label is not a licensed attorney and does not provide legal advice.",
     ],
     expertise: [
       "Cross-article consistency",

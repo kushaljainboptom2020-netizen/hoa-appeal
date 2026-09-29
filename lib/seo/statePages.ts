@@ -421,11 +421,6 @@ const SLUG_BY_CODE: Record<string, string> = {
   WY: "wyoming",
 };
 
-const CUSTOM_DESCRIPTIONS: Partial<Record<string, string>> = {
-  FL: "Generate a free letter to appeal your Florida HOA fine. Educational guidance informed by Chapter 720. No account required.",
-  TX: "Generate a free letter to appeal your Texas HOA fine. Educational guidance informed by Property Code Chapter 209. No account required.",
-};
-
 export type StateSeoConfig = {
   code: string;
   name: string;
@@ -459,8 +454,6 @@ function buildStateConfig(
     slug: SLUG_BY_CODE[code],
     statuteReference: data.statuteReference,
     letterStatuteClause: data.letterStatuteClause,
-    noticeDefenseHook: data.noticeDefenseHook,
-    hearingRightsHook: data.hearingRightsHook,
   };
 }
 
@@ -497,19 +490,16 @@ export function getStateLetterContext(code: string): StateLetterContext | undefi
 }
 
 function buildTitle(name: string): string {
-  return `Free ${name} HOA Fine Appeal Letter`;
+  return `How to Appeal an HOA Fine in ${name}`;
 }
 
 function buildDescription(config: StateSeoConfig): string {
-  const custom = CUSTOM_DESCRIPTIONS[config.code];
-  if (custom) return custom;
-
-  return `Generate a free letter to appeal your ${config.name} HOA fine. Educational association-law guidance for homeowners. No account required.`;
+  return `How HOA fine appeals work in ${config.name}: which statute to open, what this page does not confirm, and how to draft a letter from your own documents.`;
 }
 
 export function buildStateMetadata(config: StateSeoConfig): Metadata {
   const attribution = attributionForStateCode(config.code);
-  const { author, reviewer } = resolveAttribution(attribution);
+  const { reviewer } = resolveAttribution(attribution);
   const canonical = canonicalPath(`/appeal-hoa-fine/${config.slug}`);
   const title = buildTitle(config.name);
   const description = buildDescription(config);
@@ -520,7 +510,7 @@ export function buildStateMetadata(config: StateSeoConfig): Metadata {
     alternates: {
       canonical,
     },
-    authors: [{ name: author.name, url: `${SITE_URL}${author.profilePath}` }],
+    authors: [{ name: "MyHOAAppeal Editorial", url: `${SITE_URL}/editorial-policy` }],
     openGraph: {
       title,
       description,
@@ -531,7 +521,7 @@ export function buildStateMetadata(config: StateSeoConfig): Metadata {
       modifiedTime: attribution.updatedAtIso,
     },
     other: {
-      "article:author": author.name,
+      "article:author": "MyHOAAppeal Editorial",
       "article:reviewed_by": reviewer.name,
       "article:published_time": attribution.publishedAtIso,
       "article:modified_time": attribution.updatedAtIso,
@@ -544,7 +534,7 @@ export function getStateHeroCopy(config: StateSeoConfig): {
   subheadline: string;
 } {
   return {
-    headline: `Fight Unfair HOA Fines in ${config.name}`,
-    subheadline: `Generate a professional, persuasive HOA fine appeal letter tailored to ${config.name} homeowners — with language informed by ${config.statuteReference}.`,
+    headline: `How to Appeal an HOA Fine in ${config.name}`,
+    subheadline: `Educational notes for ${config.name} homeowners. The letter tool builds a template from your facts. It does not decide whether the fine is lawful.`,
   };
 }

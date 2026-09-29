@@ -107,8 +107,8 @@ export function InteractiveUSMap({ states }: InteractiveUSMapProps) {
           </p>
         ) : (
           <p className="text-slate-500">
-            Hover or tap a state to see its key statutory rule. Click to open
-            that state&apos;s appeal page.
+            Hover or tap a state to see the starting citation. Click to open
+            that state&apos;s page.
           </p>
         )}
       </div>

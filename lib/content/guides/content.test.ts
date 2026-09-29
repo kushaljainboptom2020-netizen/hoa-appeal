@@ -2,7 +2,6 @@ import { describe, expect, it } from "vitest";
 import {
   assertAllGuidesValid,
   GUIDE_ARTICLES,
-  countGuideWords,
   getAllGuideSlugs,
 } from "./index";
 
@@ -12,15 +11,20 @@ describe("guide hub content", () => {
     expect(getAllGuideSlugs()).toHaveLength(50);
   });
 
-  it("keeps every guide between 1800 and 3000 words", () => {
-    const outliers: string[] = [];
+  it("rejects scaled filler and requires a document qualification", () => {
+    const problems: string[] = [];
     for (const guide of GUIDE_ARTICLES) {
-      const words = countGuideWords(guide);
-      if (words < 1800 || words > 3000) {
-        outliers.push(`${guide.slug}: ${words}`);
+      const text = [...guide.intro, ...guide.sections.flatMap((s) => s.paragraphs)].join(
+        " "
+      );
+      if (/While you focus on/i.test(text)) {
+        problems.push(`${guide.slug}: scaled stem`);
+      }
+      if (!/declaration|CC&R|governing document/i.test(text)) {
+        problems.push(`${guide.slug}: missing qualification`);
       }
     }
-    expect(outliers, `Word count outliers:\n${outliers.join("\n")}`).toEqual([]);
+    expect(problems, problems.join("\n")).toEqual([]);
   });
 
   it("passes aggregate validation", () => {
@@ -66,7 +70,7 @@ describe("guide hub content", () => {
       expect(guide.relatedContent.states.length).toBeGreaterThanOrEqual(1);
       expect(guide.relatedContent.faqs.length).toBeGreaterThanOrEqual(1);
       expect(guide.relatedContent.tools.length).toBeGreaterThanOrEqual(1);
-      expect(guide.relatedContent.successStories.length).toBeGreaterThanOrEqual(1);
+      expect(guide.relatedContent.successStories.length).toBe(0);
     }
   });
 

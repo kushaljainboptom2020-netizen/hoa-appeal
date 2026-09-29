@@ -9,7 +9,7 @@ export const SAMPLE_LETTERS: SampleLetter[] = [
     title: "Sample HOA Lawn & Landscaping Fine Appeal Letter",
     metaTitle: "Sample HOA Lawn & Landscaping Fine Appeal Letter",
     metaDescription:
-      "Read a sample HOA lawn and landscaping fine appeal letter, then generate a statute-aware version for your state in minutes.",
+      "A fictional lawn and landscaping appeal. Replace the dates, the rule number, and the facts. It does not guarantee a result.",
     excerpt:
       "A sample lawn-and-landscaping appeal covering drought watering limits, a pending contractor schedule, and a request to waive daily accrual.",
     keyword: "HOA lawn landscaping fine appeal letter",
@@ -33,7 +33,7 @@ export const SAMPLE_LETTERS: SampleLetter[] = [
         "Please send written confirmation of the hearing date, the exhibits the association intends to introduce, and a hold on further charges pending the decision. Thank you for reviewing this landscaping appeal on the written record.",
       ],
       signOff:
-        "Respectfully submitted,\nMorgan Hale\nOwner, Lot 17 / 612 Sycamore Trace",
+        "Respectfully submitted,\nAlex Rivera\nOwner, Lot 17 / 612 Sycamore Trace",
     },
   },
   {
@@ -64,7 +64,7 @@ export const SAMPLE_LETTERS: SampleLetter[] = [
         "I request dismissal of Fine T-2109, or in the alternative conversion to a written warning and a published retrieval deadline (for example, by 8:00 p.m. on collection day). I will continue to retrieve carts as soon as collection is complete and will store them behind the gate.",
         "Please confirm a hearing date in writing and send any additional evidence at least forty-eight hours before the meeting. I will attend and will bring the collection-day photo and the side-gate storage photo.",
       ],
-      signOff: "Sincerely,\nCasey Nguyen\nOwner, 41 Laurel Walk",
+      signOff: "Sincerely,\nSam Patel\nOwner, 41 Laurel Walk",
     },
   },
   {

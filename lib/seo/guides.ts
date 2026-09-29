@@ -14,7 +14,7 @@ import { seoDescription, seoTitle } from "@/lib/seo/metaFormat";
 
 export function buildGuideMetadata(guide: GuideArticle): Metadata {
   const canonical = canonicalPath(`/guides/${guide.slug}`);
-  const { author, reviewer } = resolveAttribution(guide.attribution);
+  const { reviewer } = resolveAttribution(guide.attribution);
   const title = seoTitle(guide.metaTitle);
   const description = seoDescription(guide.metaDescription);
 
@@ -24,7 +24,7 @@ export function buildGuideMetadata(guide: GuideArticle): Metadata {
     alternates: {
       canonical,
     },
-    authors: [{ name: author.name, url: `${SITE_URL}${author.profilePath}` }],
+    authors: [{ name: "MyHOAAppeal Editorial", url: `${SITE_URL}/editorial-policy` }],
     openGraph: {
       title,
       description,
@@ -35,12 +35,12 @@ export function buildGuideMetadata(guide: GuideArticle): Metadata {
       modifiedTime: guide.attribution.updatedAtIso,
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title,
       description,
     },
     other: {
-      "article:author": author.name,
+      "article:author": "MyHOAAppeal Editorial",
       "article:reviewed_by": reviewer.name,
       "article:published_time": guide.attribution.publishedAtIso,
       "article:modified_time": guide.attribution.updatedAtIso,
@@ -49,7 +49,6 @@ export function buildGuideMetadata(guide: GuideArticle): Metadata {
 }
 
 export function buildGuideArticleSchema(guide: GuideArticle) {
-  const { author, reviewer } = resolveAttribution(guide.attribution);
   const pageUrl = `${SITE_URL}/guides/${guide.slug}`;
   const article: Article = {
     "@id": `${pageUrl}#article`,
@@ -63,16 +62,9 @@ export function buildGuideArticleSchema(guide: GuideArticle) {
       "@id": WEBSITE_ID,
     },
     author: {
-      "@type": "Person",
-      name: author.name,
-      url: `${SITE_URL}${author.profilePath}`,
-      jobTitle: author.title,
-    },
-    editor: {
-      "@type": "Person",
-      name: reviewer.name,
-      url: `${SITE_URL}${reviewer.profilePath}`,
-      jobTitle: reviewer.title,
+      "@type": "Organization",
+      name: "MyHOAAppeal",
+      url: SITE_URL,
     },
     publisher: {
       "@id": ORGANIZATION_ID,

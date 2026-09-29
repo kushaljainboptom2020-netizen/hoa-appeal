@@ -7,9 +7,10 @@ import { SUCCESS_STORY_CARDS } from "@/lib/content/success-stories";
 import { canonicalPath } from "@/lib/seo/siteUrl";
 
 export const metadata: Metadata = {
-  title: "HOA Fine Appeal Success Stories | MyHOAAppeal",
+  title: "Fictional HOA dispute illustrations | MyHOAAppeal",
   description:
-    "Educational HOA fine appeal success stories showing how homeowners used documentation, timelines, and hearings to resolve disputes.",
+    "Fictional illustrations for organizing an HOA dispute file. Not reports of real board decisions. Not indexed.",
+  robots: { index: false, follow: false },
   alternates: {
     canonical: canonicalPath("/success-stories"),
   },
@@ -35,8 +36,9 @@ export default function SuccessStoriesIndexPage() {
           HOA Fine Appeal Success Stories
         </h1>
         <p className="mt-4 max-w-3xl leading-relaxed text-slate-300">
-          These anonymized stories explain what worked in real HOA fine disputes. They are
-          educational examples, not legal advice or guaranteed outcomes.
+          These pages are fictional illustrations for organizing a dispute file.
+          They are not reports of real hearings, real fines, or real board
+          decisions. They are not indexed for search.
         </p>
 
         <HubExploreLinks currentPath="/success-stories" />

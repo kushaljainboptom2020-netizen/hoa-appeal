@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: "/guides/worksheets/",
     },
     sitemap: new URL("/sitemap.xml", SITE_URL).toString(),
   };

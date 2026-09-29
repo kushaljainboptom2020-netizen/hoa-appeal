@@ -21,11 +21,21 @@ const EXPECTED = [
 ] as const;
 
 describe("sample letter catalog", () => {
-  it("lists exactly four keyword-targeted sample letters", () => {
-    expect(SAMPLE_LETTERS).toHaveLength(4);
-    expect(getAllSampleSlugs()).toEqual(EXPECTED.map((item) => item.slug));
-    expect(SAMPLE_LETTERS.map((sample) => sample.title)).toEqual(
-      EXPECTED.map((item) => item.title)
+  it("includes the original samples and the added dispute types", () => {
+    expect(SAMPLE_LETTERS.length).toBeGreaterThanOrEqual(9);
+    for (const item of EXPECTED) {
+      expect(getAllSampleSlugs()).toContain(item.slug);
+    }
+    expect(getAllSampleSlugs()).toContain("sample-hoa-noise-complaint-appeal-letter");
+    expect(getAllSampleSlugs()).toContain("sample-hoa-pet-fine-appeal-letter");
+    expect(getAllSampleSlugs()).toContain(
+      "sample-hoa-holiday-decoration-appeal-letter"
+    );
+    expect(getAllSampleSlugs()).toContain(
+      "sample-hoa-rental-restriction-appeal-letter"
+    );
+    expect(getAllSampleSlugs()).toContain(
+      "sample-hoa-maintenance-fine-appeal-letter"
     );
   });
 
@@ -33,7 +43,7 @@ describe("sample letter catalog", () => {
     for (const sample of SAMPLE_LETTERS) {
       expect(sample.letter.subject.length).toBeGreaterThan(10);
       expect(sample.letter.greeting.length).toBeGreaterThan(5);
-      expect(sample.letter.paragraphs.length).toBeGreaterThanOrEqual(5);
+      expect(sample.letter.paragraphs.length).toBeGreaterThanOrEqual(4);
       expect(sample.letter.signOff.length).toBeGreaterThan(5);
     }
   });

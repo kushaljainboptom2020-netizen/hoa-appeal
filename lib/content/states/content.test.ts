@@ -2,23 +2,23 @@ import { describe, expect, it } from "vitest";
 import {
   assertAllStatesHaveLegalContent,
   getAllStateLegalContent,
-  countStateContentWords,
 } from "./index";
 
 describe("state legal content", () => {
-  it("includes all 50 states with 1800–2500 words each", () => {
+  it("qualifies every state and does not keep the old word floor", () => {
     const all = getAllStateLegalContent();
     expect(all).toHaveLength(50);
-
-    const outliers: string[] = [];
+    const problems: string[] = [];
     for (const content of all) {
-      const words = countStateContentWords(content);
-      if (words < 1800 || words > 2500) {
-        outliers.push(`${content.code}: ${words}`);
+      const text = content.overview.paragraphs.join(" ");
+      if (!/does not|Do not|Confirm|confirm/i.test(text)) {
+        problems.push(`${content.code}: missing qualification`);
+      }
+      if (/Compare formation documents carefully/i.test(text)) {
+        problems.push(`${content.code}: expansion skeleton`);
       }
     }
-
-    expect(outliers, `Word count outliers:\n${outliers.join("\n")}`).toEqual([]);
+    expect(problems, problems.join("\n")).toEqual([]);
   });
 
   it("passes aggregate validation", () => {
@@ -73,7 +73,7 @@ describe("state legal content", () => {
       expect(content.relatedContent.guides.length).toBeGreaterThanOrEqual(2);
       expect(content.relatedContent.states.length).toBeGreaterThanOrEqual(1);
       expect(content.relatedContent.tools.length).toBeGreaterThanOrEqual(1);
-      expect(content.relatedContent.successStories.length).toBeGreaterThanOrEqual(1);
+      expect(content.relatedContent.successStories.length).toBe(0);
     }
   });
 });

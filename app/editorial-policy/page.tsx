@@ -26,10 +26,12 @@ export default function EditorialPolicyPage() {
       <section>
         <h2 className="text-xl font-semibold text-white">Purpose</h2>
         <p className="mt-3 leading-relaxed">
-          MyHOAAppeal publishes educational guides and state HOA fine resources to
-          help U.S. homeowners understand common notice, hearing, and appeal
-          workflows. This policy explains how we create, attribute, review, and
-          correct that content.
+          A date on this site is the day the text was edited. It is not a
+          statement that a lawyer reviewed every statute. As of September 28,
+          2026, nine state pages use wording from a source check of specific
+          sections. The other state pages say a statewide day count or fine cap
+          was not confirmed. Generated filler is no longer the published body of
+          the guides.
         </p>
       </section>
 

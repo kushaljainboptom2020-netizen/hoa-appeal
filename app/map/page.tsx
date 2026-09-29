@@ -18,7 +18,7 @@ import { SITE_URL, canonicalPath } from "@/lib/seo/siteUrl";
 export const metadata: Metadata = {
   title: "Interactive US HOA Law Map | MyHOAAppeal",
   description:
-    "Explore HOA fine appeal laws by state. Hover any state for overview, appeal deadlines, and common violations—then open the full state guide.",
+    "Open a state page for the statute note, including where a statewide day count was not confirmed.",
   alternates: {
     canonical: canonicalPath("/map"),
   },
@@ -97,9 +97,9 @@ export default function MapPage() {
             Interactive US HOA Law Map
           </h1>
           <p className="mt-4 leading-relaxed text-slate-300">
-            Hover any state for a quick look at HOA rules, appeal deadlines, and
-            common violations. Click to open the full state guide and letter
-            tools.
+            Hover a state for a short note, then open that state&apos;s page.
+            The map is a directory. The state page is where any checked rule
+            is written down.
           </p>
         </div>
 

@@ -19,11 +19,10 @@ export default function AboutPage() {
       <section>
         <h2 className="text-xl font-semibold text-white">Why MyHOAAppeal exists</h2>
         <p className="mt-3 leading-relaxed">
-          MyHOAAppeal was created to level the playing field for homeowners facing
-          aggressive property management firms and community associations. Too
-          often, residents receive violation notices and fines without clear
-          guidance on how to respond formally, on deadline, and in language that
-          boards and managers take seriously.
+          MyHOAAppeal publishes two different things. One is general educational
+          information about how to read a notice, a declaration, and a state
+          statute. The other is document-generation assistance: a template you
+          edit. Neither one is professional legal advice.
         </p>
         <p className="mt-3 leading-relaxed">
           MyHOAAppeal (myhoaappeal.com) is the public home of that mission: a

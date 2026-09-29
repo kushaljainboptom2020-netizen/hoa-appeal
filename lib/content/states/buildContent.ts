@@ -1,12 +1,9 @@
-import { attributionForStateCode } from "@/lib/content/editorial/attribution";
-import {
-  toInteractiveStepsFromEvents,
-  toInteractiveStepsFromProcess,
-} from "@/lib/content/process/timeline";
+﻿import { attributionForStateCode } from "@/lib/content/editorial/attribution";
 import type { StateSeoConfig } from "@/lib/seo/statePages";
+import { buildRemediatedStateFields } from "./remediated";
 import type { StateLegalContent } from "./types";
 
-/** Factual and narrative inputs unique to each state — no shared paragraph text. */
+/** Factual and narrative inputs unique to each state â€” no shared paragraph text. */
 export type StateContentProfile = {
   code: string;
   /** Regional or climate context woven into overview and violations */
@@ -19,7 +16,7 @@ export type StateContentProfile = {
   noticeWindow?: string;
   /** Whether statute explicitly mentions board hearing rights */
   hasStatutoryHearingRight: boolean;
-  /** Unique overview paragraphs — written for this state only */
+  /** Unique overview paragraphs â€” written for this state only */
   overviewParagraphs: string[];
   overviewBullets: string[];
   /** Section intros and structured items */
@@ -42,115 +39,6 @@ export type StateContentProfile = {
   relatedGuideSlugs: string[];
 };
 
-function internalLinksFor(
-  config: StateSeoConfig,
-  profile: StateContentProfile
-): StateLegalContent["internalLinks"] {
-  const hearingNote = profile.hasStatutoryHearingRight
-    ? `${config.name}'s statutory hearing framework`
-    : `${config.name} governing-document hearing clauses`;
-  const noticeNote = profile.noticeWindow
-    ? `typical ${profile.noticeWindow} cure windows`
-    : "document-based cure windows";
-
-  return [
-    {
-      label: `${config.name} appeal letter generator`,
-      href: `/appeal-hoa-fine/${config.slug}`,
-      description: `Draft a dispute letter that cites ${profile.primaryActShort} where applicable, your CC&Rs, and ${noticeNote} common in ${config.name} associations.`,
-    },
-    {
-      label: "Understanding your appeal rights",
-      href: "/guides/understanding-your-rights",
-      description: `Pair national due-process arguments with ${hearingNote} and the regional enforcement patterns around ${profile.regionalContext}.`,
-    },
-    {
-      label: "How to collect evidence",
-      href: "/guides/how-to-collect-evidence",
-      description: `Build photo logs and selective-enforcement comparisons that ${config.name} boards and, if needed, ${profile.regulatoryBody ?? "local courts"} take seriously.`,
-    },
-    {
-      label: "Dealing with lien threats",
-      href: "/guides/dealing-with-lien-threats",
-      description: `Respond quickly if a ${config.name} association escalates unpaid fines toward assessment liens after you dispute ${profile.primaryActShort} procedure.`,
-    },
-    {
-      label: "Browse all state appeal guides",
-      href: "#browse-by-state",
-      description: `Compare this ${config.name} resource with HOA fine appeal guides for other states if you own property in more than one jurisdiction.`,
-    },
-  ];
-}
-
-function enrichAppealSteps(
-  profile: StateContentProfile,
-  stateName: string
-): StateLegalContent["appealProcess"]["steps"] {
-  const noticeHint = profile.noticeWindow
-    ? `often aligned with a ${profile.noticeWindow} notice/cure concept`
-    : "per your CC&Rs and notice letter";
-
-  const base = toInteractiveStepsFromProcess(
-    profile.appealSteps.map((step, index) => {
-      const paired = profile.timelineEvents[index];
-      return {
-        ...step,
-        estimatedTime:
-          paired?.duration ??
-          (index === 0
-            ? "Same day"
-            : index === 1
-              ? `Cure / appeal window (${noticeHint})`
-              : "Document-driven window"),
-      };
-    }),
-    "appeal"
-  );
-
-  return base.map((step, index) => {
-    const extras: string[] = [];
-    if (index === 0) {
-      extras.push(
-        `Skipping ${stateName}-specific citations in the violation packet`
-      );
-    }
-    if (index === base.length - 1) {
-      extras.push(
-        `Filing outside ${stateName} without exhausting the association record`
-      );
-    }
-    return {
-      step: step.step,
-      title: step.title,
-      description: step.description,
-      estimatedTime: step.estimatedTime,
-      documentsRequired: step.documentsRequired,
-      commonMistakes: [...step.commonMistakes, ...extras],
-    };
-  });
-}
-
-function enrichTimelineEvents(
-  profile: StateContentProfile,
-  stateName: string
-): StateLegalContent["timelines"]["events"] {
-  const base = toInteractiveStepsFromEvents(profile.timelineEvents, "timeline");
-
-  return base.map((step, index) => ({
-    label: step.title,
-    duration: step.estimatedTime,
-    notes: step.description,
-    documentsRequired: step.documentsRequired,
-    commonMistakes: [
-      ...step.commonMistakes,
-      `Treating this ${stateName} stage as optional without checking your declaration`,
-      ...(index === 0
-        ? ["Losing inspection photos that later become exhibit A"]
-        : []),
-    ],
-  }));
-}
-
 export function buildStateLegalContent(
   config: StateSeoConfig,
   profile: StateContentProfile
@@ -162,51 +50,7 @@ export function buildStateLegalContent(
   }
 
   return {
-    code: config.code,
-    overview: {
-      heading: `Overview of HOA laws in ${config.name}`,
-      paragraphs: profile.overviewParagraphs,
-      bullets: profile.overviewBullets,
-    },
-    commonViolations: {
-      heading: `Common HOA violations in ${config.name}`,
-      paragraphs: profile.violationsIntro,
-      violations: profile.violations,
-    },
-    appealProcess: {
-      heading: `${config.name} HOA fine appeal process`,
-      paragraphs: profile.appealIntro,
-      steps: enrichAppealSteps(profile, config.name),
-    },
-    statutes: {
-      heading: `Relevant ${config.name} HOA statutes`,
-      paragraphs: profile.statutesIntro,
-      items: profile.statutes,
-    },
-    timelines: {
-      heading: `Typical ${config.name} HOA fine timelines`,
-      paragraphs: profile.timelinesIntro,
-      events: enrichTimelineEvents(profile, config.name),
-    },
-    hearingProcess: {
-      heading: `HOA hearing process in ${config.name}`,
-      paragraphs: profile.hearingParagraphs,
-      bullets: profile.hearingBullets,
-    },
-    evidenceChecklist: {
-      heading: `Evidence checklist for ${config.name} appeals`,
-      paragraphs: profile.evidenceIntro,
-      categories: profile.evidenceCategories,
-    },
-    appealStrategy: {
-      heading: `Sample appeal strategy for ${config.name} homeowners`,
-      paragraphs: profile.strategyIntro,
-      phases: profile.strategyPhases,
-    },
-    faq: profile.faq,
-    internalLinks: internalLinksFor(config, profile),
-    relatedGuideSlugs: profile.relatedGuideSlugs,
-    sources: profile.sources,
+    ...buildRemediatedStateFields(config, profile),
     attribution: attributionForStateCode(config.code),
     relatedContent: {
       states: [],

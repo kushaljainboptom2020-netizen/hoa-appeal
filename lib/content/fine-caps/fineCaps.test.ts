@@ -12,26 +12,29 @@ describe("state HOA fine cap lookup", () => {
     const result = getStateFineCap("CA");
     expect(result.isFallback).toBe(false);
     expect(result.stateName).toBe("California");
-    expect(result.maxFineLabel).toContain("$100");
-    expect(result.noticeWindow).toMatch(/10-day/i);
+    expect(result.maxFineLabel).toMatch(/\$100/);
+    expect(result.noticeWindow).toMatch(/5855|10 days/i);
     expect(result.citation).toMatch(/5850/);
+    expect(result.defenseClause.toLowerCase()).not.toMatch(/invalidate/);
   });
 
   it("returns Florida daily cap, $1,000 aggregate, and 14-day committee notice", () => {
     const result = getStateFineCap("FL");
     expect(result.isFallback).toBe(false);
-    expect(result.maxFineLabel).toMatch(/\$100 per day/i);
+    expect(result.maxFineLabel).toMatch(/\$100/);
     expect(result.maxFineLabel).toMatch(/\$1,000/);
-    expect(result.noticeWindow).toMatch(/14-day/i);
+    expect(result.noticeWindow).toMatch(/14 days/i);
     expect(result.defenseClause).toMatch(/720\.305/);
+    expect(result.defenseClause.toLowerCase()).not.toMatch(/invalidates/);
   });
 
   it("returns Colorado $500 cap and two 30-day cure periods", () => {
     const result = getStateFineCap("CO");
     expect(result.isFallback).toBe(false);
     expect(result.maxFineLabel).toMatch(/\$500/);
-    expect(result.noticeWindow).toMatch(/30-day/);
+    expect(result.noticeWindow).toMatch(/30 days/i);
     expect(result.citation).toMatch(/38-33\.3-209\.5/);
+    expect(result.defenseClause.toLowerCase()).not.toMatch(/skipping both/);
   });
 
   it("returns Virginia $50 / $10-per-day cap", () => {
@@ -46,8 +49,8 @@ describe("state HOA fine cap lookup", () => {
     const result = getStateFineCap("TX");
     expect(result.isFallback).toBe(true);
     expect(result.stateName).toBe("Texas");
-    expect(result.noticeWindow).toMatch(/10–14 day/);
-    expect(result.defenseClause.toLowerCase()).toMatch(/cc&rs|cc&r/);
+    expect(result.noticeWindow.toLowerCase()).toMatch(/not confirmed/);
+    expect(result.defenseClause.toLowerCase()).not.toMatch(/10–14|10-14/);
   });
 
   it("maps calculator categories onto wizard violation values", () => {

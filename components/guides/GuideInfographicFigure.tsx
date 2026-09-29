@@ -15,7 +15,9 @@ export function GuideInfographicFigure({
       <img
         src={src}
         alt={title}
-        className="h-auto w-full"
+        width={1200}
+        height={675}
+        className="aspect-video h-auto w-full object-contain"
         loading="lazy"
         decoding="async"
       />

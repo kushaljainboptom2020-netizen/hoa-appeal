@@ -60,7 +60,7 @@ describe("compileAppealLetter state tailoring", () => {
     });
     const text = compiledLetterToPlainText(letter);
     expect(text).toContain("Florida Statutes Chapter 720");
-    expect(text).toContain("Chapter 720 affords owners");
+    expect(text).not.toContain("Chapter 720 affords owners");
   });
 
   it("includes California Civil Code for CA", () => {
@@ -79,17 +79,19 @@ describe("buildDefenseParagraph notice hooks", () => {
 
   it("appends Texas 30-day notice hook only for TX", () => {
     const tx = buildDefenseParagraph(strategy, "", "TX");
-    expect(tx).toContain("30 days");
-    expect(tx).toContain("Texas Property Code Section 209");
+    expect(tx).toContain("30th day");
+    expect(tx).toContain("Texas Property Code Chapter 209");
+    expect(tx).not.toContain("before a fine may be imposed");
 
     const ca = buildDefenseParagraph(strategy, "", "CA");
-    expect(ca).not.toContain("30 days");
-    expect(ca).toContain("California Civil Code");
+    expect(ca).toContain("Civil Code");
+    expect(ca).not.toContain("30th day");
   });
 
   it("appends Florida Chapter 720 hook for FL", () => {
     const fl = buildDefenseParagraph(strategy, "", "FL");
-    expect(fl).toContain("Florida Statutes Chapter 720");
+    expect(fl).toContain("720.305");
+    expect(fl).not.toContain("invalidates");
   });
 
   it("has no notice hook for states without one", () => {

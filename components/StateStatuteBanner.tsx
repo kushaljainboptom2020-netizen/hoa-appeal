@@ -18,7 +18,9 @@ export function StateStatuteBanner({ stateConfig }: StateStatuteBannerProps) {
           {stateConfig.name} HOA Fine Appeal Resources
         </h2>
         <p className="mt-2 text-sm leading-relaxed text-slate-300 sm:text-base">
-          {stateConfig.statuteReference}
+          Read the notes on this page before you use the letter tool. A one-line
+          statute slogan is not the rule. If this page says a statewide day count
+          was not confirmed, do not invent one in the letter.
         </p>
       </div>
     </section>

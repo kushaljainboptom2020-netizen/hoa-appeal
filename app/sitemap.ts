@@ -1,33 +1,22 @@
 import type { MetadataRoute } from "next";
 import { CONTENT_UPDATED_ISO } from "@/lib/content/editorial/attribution";
-import { FAQ_ARTICLES, getAllFaqSlugs } from "@/lib/content/faq";
 import { GUIDE_ARTICLES, getAllGuideSlugs } from "@/lib/content/guides";
-import {
-  SUCCESS_STORIES,
-  getAllSuccessStorySlugs,
-} from "@/lib/content/success-stories";
-import { getAllTeamSlugs } from "@/lib/content/team";
-import { getAllStateLegalContent } from "@/lib/content/states";
-import { getAllStateSlugs, getStateByCode } from "@/lib/seo/statePages";
 import { SAMPLE_LETTERS, getAllSampleSlugs } from "@/lib/content/samples";
+import { getAllStateLegalContent } from "@/lib/content/states";
+import { getAllTeamSlugs } from "@/lib/content/team";
+import { MERGED_GUIDE_SLUGS } from "@/lib/seo/legacyRedirects";
+import { getAllStateSlugs, getStateByCode } from "@/lib/seo/statePages";
 import { SITE_URL } from "@/lib/seo/siteUrl";
 
+const merged = new Set<string>(MERGED_GUIDE_SLUGS);
 const STATE_SLUGS = getAllStateSlugs();
-const GUIDE_SLUGS = getAllGuideSlugs();
-const FAQ_SLUGS = getAllFaqSlugs();
-const SUCCESS_STORY_SLUGS = getAllSuccessStorySlugs();
+const GUIDE_SLUGS = getAllGuideSlugs().filter((slug) => !merged.has(slug));
 const SAMPLE_SLUGS = getAllSampleSlugs();
 const TEAM_SLUGS = getAllTeamSlugs();
 const CONTENT_LAST_MOD = new Date(CONTENT_UPDATED_ISO);
 
 const guideLastMod = new Map(
   GUIDE_ARTICLES.map((g) => [g.slug, new Date(g.attribution.updatedAtIso)])
-);
-const faqLastMod = new Map(
-  FAQ_ARTICLES.map((f) => [f.slug, new Date(f.attribution.updatedAtIso)])
-);
-const storyLastMod = new Map(
-  SUCCESS_STORIES.map((s) => [s.slug, new Date(s.attribution.updatedAtIso)])
 );
 const sampleLastMod = new Map(
   SAMPLE_LETTERS.map((s) => [s.slug, new Date(s.attribution.updatedAtIso)])
@@ -74,7 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const guidesIndex: MetadataRoute.Sitemap[number] = {
     url: new URL("/guides", SITE_URL).toString(),
-    changeFrequency: "daily",
+    changeFrequency: "monthly",
     priority: 0.9,
     lastModified: CONTENT_LAST_MOD,
   };
@@ -86,20 +75,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: guideLastMod.get(slug) ?? CONTENT_LAST_MOD,
   }));
 
-  const faqIndex: MetadataRoute.Sitemap[number] = {
-    url: new URL("/faq", SITE_URL).toString(),
-    changeFrequency: "daily",
-    priority: 0.9,
-    lastModified: CONTENT_LAST_MOD,
-  };
-
-  const faqPages = FAQ_SLUGS.map((slug) => ({
-    url: new URL(`/faq/${slug}`, SITE_URL).toString(),
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-    lastModified: faqLastMod.get(slug) ?? CONTENT_LAST_MOD,
-  }));
-
   const statePages = STATE_SLUGS.map((slug) => ({
     url: new URL(`/appeal-hoa-fine/${slug}`, SITE_URL).toString(),
     changeFrequency: "monthly" as const,
@@ -107,54 +82,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: stateLastModBySlug.get(slug) ?? CONTENT_LAST_MOD,
   }));
 
-  const decisionTreePage: MetadataRoute.Sitemap[number] = {
-    url: new URL("/decision-tree", SITE_URL).toString(),
-    changeFrequency: "weekly",
-    priority: 0.9,
+  const toolPages: MetadataRoute.Sitemap = (
+    [
+      ["/decision-tree", "weekly", 0.9],
+      ["/readiness-calculator", "weekly", 0.9],
+      ["/map", "monthly", 0.85],
+      ["/state-laws", "monthly", 0.9],
+      ["/samples", "weekly", 0.85],
+    ] as const
+  ).map(([path, changeFrequency, priority]) => ({
+    url: new URL(path, SITE_URL).toString(),
+    changeFrequency,
+    priority,
     lastModified: CONTENT_LAST_MOD,
-  };
-
-  const readinessCalculatorPage: MetadataRoute.Sitemap[number] = {
-    url: new URL("/readiness-calculator", SITE_URL).toString(),
-    changeFrequency: "weekly",
-    priority: 0.9,
-    lastModified: CONTENT_LAST_MOD,
-  };
-
-  const stateMapPage: MetadataRoute.Sitemap[number] = {
-    url: new URL("/map", SITE_URL).toString(),
-    changeFrequency: "monthly",
-    priority: 0.85,
-    lastModified: CONTENT_LAST_MOD,
-  };
-
-  const stateLawsPage: MetadataRoute.Sitemap[number] = {
-    url: new URL("/state-laws", SITE_URL).toString(),
-    changeFrequency: "weekly",
-    priority: 0.9,
-    lastModified: CONTENT_LAST_MOD,
-  };
-
-  const successStoriesIndex: MetadataRoute.Sitemap[number] = {
-    url: new URL("/success-stories", SITE_URL).toString(),
-    changeFrequency: "monthly",
-    priority: 0.75,
-    lastModified: CONTENT_LAST_MOD,
-  };
-
-  const successStoryPages = SUCCESS_STORY_SLUGS.map((slug) => ({
-    url: new URL(`/success-stories/${slug}`, SITE_URL).toString(),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-    lastModified: storyLastMod.get(slug) ?? CONTENT_LAST_MOD,
   }));
-
-  const samplesIndex: MetadataRoute.Sitemap[number] = {
-    url: new URL("/samples", SITE_URL).toString(),
-    changeFrequency: "weekly",
-    priority: 0.85,
-    lastModified: CONTENT_LAST_MOD,
-  };
 
   const samplePages = SAMPLE_SLUGS.map((slug) => ({
     url: new URL(`/samples/${slug}`, SITE_URL).toString(),
@@ -169,16 +110,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...authorPages,
     guidesIndex,
     ...guidePages,
-    faqIndex,
-    ...faqPages,
-    decisionTreePage,
-    readinessCalculatorPage,
-    stateMapPage,
-    stateLawsPage,
+    ...toolPages,
     ...statePages,
-    successStoriesIndex,
-    ...successStoryPages,
-    samplesIndex,
     ...samplePages,
   ];
 }
