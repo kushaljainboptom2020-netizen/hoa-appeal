@@ -16,6 +16,7 @@ import {
 } from "@/lib/wizard/formState";
 import {
   WIZARD_PREFILL_EVENT,
+  takePendingWizardPrefill,
   type WizardPrefillDetail,
 } from "@/lib/wizard/prefill";
 
@@ -29,10 +30,25 @@ export function AppealWizard({
   statePageLabel,
 }: AppealWizardProps) {
   const [currentStep, setCurrentStep] = useState(1);
-  const [formData, setFormData] = useState<AppealFormData>(() => ({
-    ...initialFormData,
-    ...(initialState ? { state: initialState } : {}),
-  }));
+  const [formData, setFormData] = useState<AppealFormData>(() => {
+    let data: AppealFormData = {
+      ...initialFormData,
+      ...(initialState ? { state: initialState } : {}),
+    };
+
+    // The calculator above may have fired a prefill while this component was
+    // still being fetched. Apply it here so the selection is not lost.
+    const pending = takePendingWizardPrefill();
+    if (pending) {
+      data = updateFormField(data, "state", pending.state);
+      data = updateFormField(
+        data,
+        "violationCategory",
+        pending.violationCategory
+      );
+    }
+    return data;
+  });
   const [errors, setErrors] = useState<FormErrors>({});
   const [showErrors, setShowErrors] = useState(false);
 

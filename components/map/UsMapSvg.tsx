@@ -1,6 +1,6 @@
 "use client";
 
-import { US_MAP_VIEWBOX, US_STATE_PATHS } from "@/lib/content/map";
+import { US_MAP_VIEWBOX, US_STATE_PATHS } from "@/lib/content/map/usStatePaths";
 
 type UsMapSvgProps = {
   activeCode: string | null;

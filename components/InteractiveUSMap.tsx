@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useId, useState } from "react";
-import { US_MAP_VIEWBOX, US_STATE_PATHS } from "@/lib/content/map";
+import { US_MAP_VIEWBOX, US_STATE_PATHS } from "@/lib/content/map/usStatePaths";
 
 export type InteractiveMapState = {
   code: string;

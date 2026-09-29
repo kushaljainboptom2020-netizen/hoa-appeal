@@ -1,8 +1,8 @@
-import { AppealWizard } from "@/components/AppealWizard";
+import { LazyAppealWizard } from "@/components/wizard/LazyAppealWizard";
+import { WizardStaticShell } from "@/components/wizard/WizardStaticShell";
 import { HeroSection } from "@/components/HeroSection";
 import { HomePurposeSection } from "@/components/HomePurposeSection";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
-import { StateMapExploreSection } from "@/components/StateMapExploreSection";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StateBrowseFooter } from "@/components/StateBrowseFooter";
 import { StateFineCalculator } from "@/components/StateFineCalculator";
@@ -17,9 +17,18 @@ import {
 
 type AppealLandingPageProps = {
   stateConfig?: StateSeoConfig;
+  /**
+   * Homepage-only US map section. Passed in rather than imported so the 50
+   * state routes never reference the map module, which carries 214 KB of SVG
+   * path data they would otherwise download without rendering.
+   */
+  exploreSection?: React.ReactNode;
 };
 
-export function AppealLandingPage({ stateConfig }: AppealLandingPageProps) {
+export function AppealLandingPage({
+  stateConfig,
+  exploreSection,
+}: AppealLandingPageProps) {
   const heroCopy = stateConfig ? getStateHeroCopy(stateConfig) : undefined;
   const legalContent = stateConfig ? getStateLegalContent(stateConfig) : undefined;
 
@@ -51,10 +60,16 @@ export function AppealLandingPage({ stateConfig }: AppealLandingPageProps) {
         {stateConfig && <StateStatuteBanner stateConfig={stateConfig} />}
         <StateFineCalculator initialState={stateConfig?.code} />
         {stateConfig ? null : <HowItWorksSection />}
-        {!stateConfig ? <StateMapExploreSection /> : null}
-        <AppealWizard
+        {!stateConfig ? exploreSection : null}
+        <LazyAppealWizard
           initialState={stateConfig?.code}
           statePageLabel={stateConfig?.name}
+          placeholder={
+            <WizardStaticShell
+              initialState={stateConfig?.code}
+              statePageLabel={stateConfig?.name}
+            />
+          }
         />
         <StateBrowseFooter />
       </main>

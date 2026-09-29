@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Clock, Scale } from "lucide-react";
-import type { StateMapSummary } from "@/lib/content/map";
+import type { StateMapSummary } from "@/lib/content/map/types";
 
 type StateMapPanelProps = {
   summary: StateMapSummary | null;

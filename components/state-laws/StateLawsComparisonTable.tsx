@@ -3,10 +3,8 @@
 import { useId, useMemo, useState } from "react";
 import Link from "next/link";
 import { Search } from "lucide-react";
-import {
-  filterStateLawRows,
-  type StateLawComparisonRow,
-} from "@/lib/content/state-laws";
+import { filterStateLawRows } from "@/lib/content/state-laws/filter";
+import type { StateLawComparisonRow } from "@/lib/content/state-laws/types";
 
 type StateLawsComparisonTableProps = {
   rows: StateLawComparisonRow[];

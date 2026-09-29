@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useId, useState } from "react";
-import type { StateMapSummary } from "@/lib/content/map";
+import type { StateMapSummary } from "@/lib/content/map/types";
 import { StateMapPanel } from "./StateMapPanel";
 import { UsMapSvg } from "./UsMapSvg";
 

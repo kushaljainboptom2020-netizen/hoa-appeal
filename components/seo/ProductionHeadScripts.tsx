@@ -32,7 +32,11 @@ export function ProductionHeadScripts() {
       async
       src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`}
       crossOrigin="anonymous"
-      strategy="afterInteractive"
+      // lazyOnload, not afterInteractive: the AdSense bundle is the single
+      // largest script on the page and afterInteractive let it compete with
+      // hydration. Waiting for the load event keeps it off the critical path;
+      // ad slots still fill, just slightly later.
+      strategy="lazyOnload"
     />
   );
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { InteractiveUSMap } from "@/components/InteractiveUSMap";
+import { LazyInteractiveUSMap } from "@/components/map/LazyInteractiveUSMap";
+import { MapPlaceholder } from "@/components/map/MapPlaceholder";
 import { getStateLawComparisonRows } from "@/lib/content/state-laws";
 
 type StateMapExploreSectionProps = {
@@ -45,7 +46,20 @@ export function StateMapExploreSection({
         </div>
 
         <div className="mt-8 rounded-2xl border border-slate-800 bg-slate-900/60 p-3 shadow-xl sm:p-5">
-          <InteractiveUSMap states={states} />
+          <LazyInteractiveUSMap
+            states={states}
+            placeholder={
+              <MapPlaceholder
+                links={states.map((state) => ({
+                  code: state.code,
+                  name: state.name,
+                  href: `/appeal-hoa-fine/${state.slug}`,
+                }))}
+                label="HOA appeal pages by state"
+                hint="Hover or tap a state to see the starting citation. Click to open that state's page."
+              />
+            }
+          />
         </div>
 
         <p className="mt-4 text-sm text-slate-500">

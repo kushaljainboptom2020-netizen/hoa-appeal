@@ -1,3 +1,7 @@
+// Pulls in the generated 50-state content profiles. Client code that only
+// needs to filter already-built rows should import "./filter" instead.
+import "server-only";
+
 import { getStateFineCap } from "@/lib/content/fine-caps";
 import { STATE_CONTENT_PROFILES } from "@/lib/content/states/profiles.generated";
 import { STATE_SEO_CONFIG } from "@/lib/seo/statePages";
@@ -37,27 +41,7 @@ export function getStateLawComparisonRows(): StateLawComparisonRow[] {
   });
 }
 
-export function filterStateLawRows(
-  rows: StateLawComparisonRow[],
-  query: string
-): StateLawComparisonRow[] {
-  const needle = query.trim().toLowerCase();
-  if (!needle) return rows;
-
-  return rows.filter((row) => {
-    const haystack = [
-      row.name,
-      row.code,
-      row.slug,
-      row.governingStatute,
-      row.maxFineCap,
-      row.hearingNotice,
-    ]
-      .join(" ")
-      .toLowerCase();
-    return haystack.includes(needle);
-  });
-}
+export { filterStateLawRows } from "./filter";
 
 export function absoluteLetterUrl(row: StateLawComparisonRow): string {
   return `${SITE_URL}${row.letterHref}`;

@@ -10,28 +10,9 @@ import {
 
 const POPULAR_CODES = ["CA", "FL", "TX", "NC", "GA"] as const;
 
-function statuteCoverageTag(state: StateSeoConfig): string {
-  const clause = state.letterStatuteClause.replace(/^the\s+/i, "");
-
-  const chapter = clause.match(/Chapter\s+[\d.A-Za-z\-]+/i);
-  if (chapter) return `${chapter[0]} Covered`;
-
-  const sections = clause.match(
-    /(?:Civil Code\s+)?Sections?\s+[\d]+(?:\s*(?:through|–|-)\s*[\d]+)?/i,
-  );
-  if (sections) {
-    return `${sections[0].replace(/\s*through\s*/i, "–")} Covered`;
-  }
-
-  const titleChapter = clause.match(
-    /Title\s+\d+(?:,\s*Chapter\s+[\d.A-Za-z\-]+)?/i,
-  );
-  if (titleChapter) {
-    return `${titleChapter[0].replace(/,\s*Chapter/i, ", Ch.")} Covered`;
-  }
-
-  const short = clause.length > 36 ? `${clause.slice(0, 33).trimEnd()}…` : clause;
-  return short;
+/** Statute name shown under the state on each card. */
+function statuteLabel(state: StateSeoConfig): string {
+  return state.letterStatuteClause.replace(/^the\s+/i, "");
 }
 
 function matchesQuery(state: StateSeoConfig, query: string): boolean {
@@ -78,7 +59,7 @@ function StateCard({ state, featured = false }: StateCardProps) {
         {state.name}
       </p>
       <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-slate-500 transition-colors group-hover:text-emerald-300/80">
-        {statuteCoverageTag(state)}
+        {statuteLabel(state)}
       </p>
     </Link>
   );

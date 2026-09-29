@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { AppealLandingPage } from "@/components/AppealLandingPage";
+import { StateMapExploreSection } from "@/components/StateMapExploreSection";
 import { JsonLd } from "@/components/JsonLd";
 import { buildSoftwareApplicationSchema } from "@/lib/seo/jsonLd";
 import { canonicalPath } from "@/lib/seo/siteUrl";
@@ -25,7 +26,7 @@ export default function Home() {
   return (
     <>
       <JsonLd schema={buildSoftwareApplicationSchema()} />
-      <AppealLandingPage />
+      <AppealLandingPage exploreSection={<StateMapExploreSection />} />
     </>
   );
 }

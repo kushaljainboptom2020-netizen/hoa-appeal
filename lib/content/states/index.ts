@@ -1,3 +1,9 @@
+// Building the registry walks all 50 state profiles and the guide, FAQ and
+// success-story catalogs. That is server work: importing this from a client
+// component would ship roughly a megabyte of content and re-run the build in
+// the browser during hydration.
+import "server-only";
+
 import { buildStateLegalContent } from "./buildContent";
 import { STATE_CONTENT_PROFILES } from "./profiles.generated";
 import type { StateLegalContent } from "./types";
@@ -82,12 +88,17 @@ function buildRegistry(): Map<string, StateLegalContent> {
   return map;
 }
 
-const registry = buildRegistry();
+let registryCache: Map<string, StateLegalContent> | undefined;
+
+function getRegistry(): Map<string, StateLegalContent> {
+  registryCache ??= buildRegistry();
+  return registryCache;
+}
 
 export function getStateLegalContentByCode(
   code: string
 ): StateLegalContent | undefined {
-  return registry.get(code.toUpperCase());
+  return getRegistry().get(code.toUpperCase());
 }
 
 export function getStateLegalContentBySlug(
@@ -105,7 +116,7 @@ export function getStateLegalContent(
 }
 
 export function getAllStateLegalContent(): StateLegalContent[] {
-  return Array.from(registry.values());
+  return Array.from(getRegistry().values());
 }
 
 export function assertAllStatesHaveLegalContent(): void {
@@ -114,7 +125,7 @@ export function assertAllStatesHaveLegalContent(): void {
     throw new Error(`Expected 50 state profiles, found ${codes.length}`);
   }
 
-  for (const content of registry.values()) {
+  for (const content of getRegistry().values()) {
     const answer = content.overview.paragraphs[0] ?? "";
     if (answer.length < 80) {
       throw new Error(`State ${content.code}: quick answer is too short`);

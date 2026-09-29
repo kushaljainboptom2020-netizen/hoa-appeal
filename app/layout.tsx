@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@/components/seo/Analytics";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/config/site";
 import { buildSiteSchemaGraph } from "@/lib/seo/jsonLd";
@@ -18,6 +18,9 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  // Only a handful of small uppercase labels use the mono face, so preloading
+  // it put 28 KB on the critical path of every page for no visible gain.
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -58,7 +61,7 @@ export default function RootLayout({
         </a>
         <JsonLd schema={buildSiteSchemaGraph()} />
         {children}
-        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
+        {gaId ? <Analytics gaId={gaId} /> : null}
       </body>
     </html>
   );

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Shield } from "lucide-react";
-import { UsStatesMap } from "@/components/map/UsStatesMap";
+import { LazyUsStatesMap } from "@/components/map/LazyUsStatesMap";
+import { MapPlaceholder } from "@/components/map/MapPlaceholder";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { HubExploreLinks } from "@/components/seo/HubExploreLinks";
@@ -106,7 +107,20 @@ export default function MapPage() {
         <HubExploreLinks currentPath="/map" />
 
         <div className="mt-10">
-          <UsStatesMap summaries={summaries} />
+          <LazyUsStatesMap
+            summaries={summaries}
+            placeholder={
+              <MapPlaceholder
+                links={summaries.map((summary) => ({
+                  code: summary.code,
+                  name: summary.name,
+                  href: summary.href,
+                }))}
+                label="HOA appeal guides by state"
+                hint="Hover or tap a state for a short note. Click to open that state's page."
+              />
+            }
+          />
         </div>
 
         <p className="mt-10 max-w-3xl text-sm leading-relaxed text-slate-500">
