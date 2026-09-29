@@ -5,6 +5,10 @@ import { SITE_URL } from "@/lib/seo/siteUrl";
 import type { StateLawComparisonRow } from "./types";
 
 const SHORT_STATUTE_LABELS: Partial<Record<string, string>> = {
+  AK: "AS 34.08 Uniform Common Interest Ownership Act",
+  CO: "CCIOA (C.R.S. §§ 38-33.3)",
+  NY: "RPL Article 9-B (condominiums; not co-ops)",
+  AL: "Ala. Code § 35-8A and possibly § 35-20",
   CA: "CA Davis-Stirling Act",
   FL: "Fla. Stat. § 720",
   TX: "TX Prop Code Ch 209",
@@ -18,9 +22,7 @@ export function getStateLawComparisonRows(): StateLawComparisonRow[] {
     }
 
     const cap = getStateFineCap(state.code);
-    const hearingNotice = cap.isFallback
-      ? profile.noticeWindow?.trim() || cap.noticeWindow
-      : cap.noticeWindow;
+    const hearingNotice = cap.noticeWindow;
 
     return {
       code: state.code,

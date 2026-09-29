@@ -13,8 +13,6 @@ import {
   type StateSeoConfig,
 } from "@/lib/seo/statePages";
 
-const contentByCode = new Map<string, StateLegalContent>();
-
 function buildRegistry(): Map<string, StateLegalContent> {
   const map = new Map<string, StateLegalContent>();
   const guideCandidates = GUIDE_ARTICLES.map((guide) => ({
@@ -117,14 +115,12 @@ export function assertAllStatesHaveLegalContent(): void {
   }
 
   for (const content of registry.values()) {
-    const words = countStateContentWords(content);
-    if (words < 1800 || words > 2500) {
-      throw new Error(
-        `State ${content.code} has ${words} words (expected 1800–2500)`
-      );
+    const answer = content.overview.paragraphs[0] ?? "";
+    if (answer.length < 80) {
+      throw new Error(`State ${content.code}: quick answer is too short`);
     }
-    if (!content.attribution?.authorSlug || !content.attribution?.reviewerSlug) {
-      throw new Error(`State ${content.code}: missing editorial attribution`);
+    if (!/does not|Do not|Confirm|confirm/i.test(content.overview.paragraphs.join(" "))) {
+      throw new Error(`State ${content.code}: missing a qualification`);
     }
     if (content.sources.length < 1) {
       throw new Error(`State ${content.code}: missing sources section`);

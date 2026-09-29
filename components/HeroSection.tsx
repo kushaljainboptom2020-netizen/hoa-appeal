@@ -9,7 +9,6 @@ import {
   Scale,
   Shield,
   ShieldCheck,
-  Zap,
 } from "lucide-react";
 import { HeroLetterPreview } from "@/components/HeroLetterPreview";
 import { SiteNavbar } from "@/components/SiteNavbar";
@@ -17,31 +16,33 @@ import { SiteNavbar } from "@/components/SiteNavbar";
 type HeroSectionProps = {
   headline?: string;
   subheadline?: string;
+  /** State pages lead with the explanation, not the product badge row. */
+  compact?: boolean;
 };
 
-const DEFAULT_HEADLINE = "Fight Unfair HOA Fines in Minutes";
+const DEFAULT_HEADLINE = "Draft an HOA fine appeal letter from your own facts";
 const DEFAULT_SUBHEADLINE =
-  "Generate a statute-aware appeal letter in minutes — personalized to your violation, ready to send to your board.";
+  "MyHOAAppeal is a free template for U.S. homeowners. You enter the notice details. You edit the letter. It is not a law firm, and it does not decide whether a fine is lawful.";
 
 const TRUST_BADGES = [
   {
-    title: "100% Client-Side Private",
-    subtitle: "No data stored on servers",
+    title: "Free to use",
+    subtitle: "No account and no fee to draft a letter",
     icon: Shield,
   },
   {
-    title: "50-State Statutory Compliance",
-    subtitle: "Coverage across all U.S. states",
+    title: "Runs in your browser",
+    subtitle: "The letter is built on your device",
     icon: Scale,
   },
   {
-    title: "Instant Word (.docx) & PDF Export",
-    subtitle: "Download-ready board letter",
+    title: "Word and PDF export",
+    subtitle: "Download a file you can edit before you send it",
     icon: FileText,
   },
   {
-    title: "Takes Less Than 3 Minutes",
-    subtitle: "Fast, guided appeal",
+    title: "Not legal advice",
+    subtitle: "Check your documents and your state page",
     icon: Clock,
   },
 ] as const;
@@ -167,6 +168,7 @@ function TrustComplianceBar() {
 export function HeroSection({
   headline = DEFAULT_HEADLINE,
   subheadline = DEFAULT_SUBHEADLINE,
+  compact = false,
 }: HeroSectionProps) {
   const scrollToWizard = () => {
     document.getElementById("appeal-wizard")?.scrollIntoView({
@@ -185,7 +187,7 @@ export function HeroSection({
           <div className="flex flex-col items-start text-left">
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3.5 py-1.5 text-sm font-medium text-emerald-300">
               <ShieldCheck className="h-4 w-4 shrink-0" aria-hidden />
-              100% Free &amp; Legal Statute Compliant
+              Free letter template
             </span>
 
             <h1 className="mt-6 max-w-xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
@@ -213,20 +215,7 @@ export function HeroSection({
               </Link>
             </div>
 
-            <TrustComplianceBar />
-
-            <p className="mt-6 inline-flex max-w-xl items-start gap-2 rounded-lg border border-slate-800 bg-slate-900/60 px-3.5 py-2.5 text-sm text-slate-300 backdrop-blur-sm">
-              <Zap
-                className="mt-0.5 h-4 w-4 shrink-0 text-amber-400"
-                aria-hidden
-              />
-              <span>
-                Over{" "}
-                <span className="font-semibold text-white">$150,000</span> in
-                unfair fines appealed across{" "}
-                <span className="font-semibold text-white">50 states</span>.
-              </span>
-            </p>
+            {compact ? null : <TrustComplianceBar />}
           </div>
 
           <div className="relative min-h-[22rem] sm:min-h-[26rem]">

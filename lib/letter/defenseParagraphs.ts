@@ -1,4 +1,4 @@
-import { getStateLetterContext } from "@/lib/seo/statePages";
+import { qualifiedNoticeNote } from "@/lib/letter/qualifiedNotes";
 
 function weaveSupportingDetails(base: string, details: string): string {
   const trimmed = details.trim();
@@ -66,9 +66,9 @@ const NOTICE_DEFENSE_STRATEGY = "Lack of proper written notice period";
 
 function appendStateNoticeHook(paragraph: string, stateCode: string): string {
   if (!stateCode) return paragraph;
-  const hook = getStateLetterContext(stateCode)?.noticeDefenseHook;
-  if (!hook) return paragraph;
-  return `${paragraph} ${hook}`;
+  const note = qualifiedNoticeNote(stateCode);
+  if (!note) return paragraph;
+  return `${paragraph} ${note}`;
 }
 
 export function buildDefenseParagraph(

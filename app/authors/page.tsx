@@ -12,7 +12,7 @@ import { canonicalPath } from "@/lib/seo/siteUrl";
 export const metadata: Metadata = {
   title: "Authors & Reviewers | MyHOAAppeal",
   description:
-    "Meet the MyHOAAppeal editorial authors and reviewers who write and fact-check educational HOA fine appeal guides.",
+    "Internal role labels used to organize MyHOAAppeal drafts. These names are not verified outside experts.",
   alternates: {
     canonical: canonicalPath("/authors"),
   },
@@ -30,15 +30,17 @@ export default function AuthorsIndexPage() {
     >
       <section>
         <p className="leading-relaxed">
-          Educational articles on MyHOAAppeal list a named author and reviewer so
-          readers can see who wrote and checked the page. Profiles describe
-          editorial focus areas—not legal representation. Learn how we publish in
-          our{" "}
+          Article bylines say MyHOAAppeal Editorial. The names below are
+          internal role labels used to organize drafts. This site does not
+          publish verifiable outside credentials for them, and it does not
+          assign a reviewer by the first letter of a state code. They are not
+          attorneys. If you need advice about your fine, hire a lawyer in your
+          state. Read the{" "}
           <Link
             href="/editorial-policy"
             className="text-emerald-400 underline-offset-2 hover:underline"
           >
-            Editorial Policy
+            editorial policy
           </Link>
           .
         </p>

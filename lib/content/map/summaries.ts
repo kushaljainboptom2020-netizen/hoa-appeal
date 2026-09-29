@@ -1,4 +1,4 @@
-import { STATE_CONTENT_PROFILES } from "@/lib/content/states/profiles.generated";
+import { getStateFineCap } from "@/lib/content/fine-caps";
 import { getAllStateLegalContent } from "@/lib/content/states";
 import { getStateByCode } from "@/lib/seo/statePages";
 import type { StateMapSummary } from "./types";
@@ -15,14 +15,14 @@ function buildSummaries(): StateMapSummary[] {
       throw new Error(`No SEO config for map summary code: ${content.code}`);
     }
 
-    const profile = STATE_CONTENT_PROFILES[content.code];
-    const noticeWindow =
-      profile?.noticeWindow?.trim() ||
-      "Check your governing documents for notice and cure windows";
+    const cap = getStateFineCap(content.code);
+    const noticeWindow = cap.isFallback
+      ? "See the state page — a statewide day count is not confirmed here"
+      : cap.noticeWindow;
 
     const overview =
       content.overview.paragraphs[0]?.trim() ||
-      `Overview of HOA fine appeal rules in ${config.name}.`;
+      `How to appeal an HOA fine in ${config.name}.`;
 
     const appealDeadlines = content.timelines.events
       .slice(0, MAX_DEADLINES)

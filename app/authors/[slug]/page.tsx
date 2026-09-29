@@ -43,20 +43,19 @@ export default async function AuthorProfilePage({
   const member = getTeamMemberBySlug(slug);
   if (!member) notFound();
 
-  const personSchema = {
+  const pageSchema = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    name: member.name,
-    jobTitle: member.title,
-    description: member.bio[0],
+    "@type": "WebPage",
+    name: `${member.name} role label`,
+    description:
+      "Internal editorial role label. This page does not verify an outside identity or professional credential.",
     url: `${SITE_URL}/authors/${member.slug}`,
-    worksFor: { "@id": ORGANIZATION_ID },
-    knowsAbout: member.expertise,
+    isPartOf: { "@id": ORGANIZATION_ID },
   };
 
   return (
     <>
-      <JsonLd schema={personSchema} />
+      <JsonLd schema={pageSchema} />
       <TeamMemberProfile member={member} />
     </>
   );

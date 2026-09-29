@@ -16,7 +16,7 @@ const RESOURCE_LINKS = [
   { href: "/appeal-hoa-fine/florida", label: "FL Chapter 720" },
   { href: "/appeal-hoa-fine/texas", label: "TX Section 209" },
   { href: "/appeal-hoa-fine/california", label: "CA Davis-Stirling Act" },
-  { href: "/faq", label: "FAQ" },
+  { href: "/guides", label: "Guides" },
 ] as const;
 
 const LEGAL_LINKS = [
@@ -28,9 +28,9 @@ const LEGAL_LINKS = [
 ] as const;
 
 const TRUST_BADGES = [
-  "100% Free",
-  "No Account Required",
-  "50 States",
+  "Free",
+  "No account required",
+  "Not legal advice",
 ] as const;
 
 function FooterNavColumn({
@@ -85,8 +85,8 @@ export function SiteFooter() {
               </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-400">
-              Empowering homeowners with free, automated legal dispute tools
-              across all 50 states.
+              A free template you edit from your own notice and governing
+              documents. Not a law firm.
             </p>
             <a
               href={`mailto:${SUPPORT_EMAIL}`}

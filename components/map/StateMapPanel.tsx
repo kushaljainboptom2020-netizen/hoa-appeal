@@ -39,7 +39,7 @@ export function StateMapPanel({ summary, panelId }: StateMapPanelProps) {
 
       <p className="mt-2 flex items-start gap-2 text-xs text-slate-500">
         <Scale className="mt-0.5 h-3.5 w-3.5 shrink-0 text-slate-500" aria-hidden />
-        <span>{summary.statuteReference}</span>
+        <span>{summary.noticeWindow}</span>
       </p>
 
       <section className="mt-5">

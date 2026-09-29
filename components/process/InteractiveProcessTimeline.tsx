@@ -43,7 +43,7 @@ export function InteractiveProcessTimeline({
         const id = item.dataset.timelineStep;
         if (id) allVisible[id] = true;
       }
-      setVisible(allVisible);
+      queueMicrotask(() => setVisible(allVisible));
       return;
     }
 

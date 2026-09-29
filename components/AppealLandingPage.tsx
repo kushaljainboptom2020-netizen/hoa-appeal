@@ -1,5 +1,6 @@
 import { AppealWizard } from "@/components/AppealWizard";
 import { HeroSection } from "@/components/HeroSection";
+import { HomePurposeSection } from "@/components/HomePurposeSection";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
 import { StateMapExploreSection } from "@/components/StateMapExploreSection";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -40,18 +41,21 @@ export function AppealLandingPage({ stateConfig }: AppealLandingPageProps) {
         <HeroSection
           headline={heroCopy?.headline}
           subheadline={heroCopy?.subheadline}
+          compact={Boolean(stateConfig)}
         />
+        {stateConfig && legalContent ? (
+          <StateLegalResource content={legalContent} stateConfig={stateConfig} />
+        ) : (
+          <HomePurposeSection />
+        )}
         {stateConfig && <StateStatuteBanner stateConfig={stateConfig} />}
         <StateFineCalculator initialState={stateConfig?.code} />
-        <HowItWorksSection />
+        {stateConfig ? null : <HowItWorksSection />}
         {!stateConfig ? <StateMapExploreSection /> : null}
         <AppealWizard
           initialState={stateConfig?.code}
           statePageLabel={stateConfig?.name}
         />
-        {stateConfig && legalContent && (
-          <StateLegalResource content={legalContent} stateConfig={stateConfig} />
-        )}
         <StateBrowseFooter />
       </main>
       <SiteFooter />

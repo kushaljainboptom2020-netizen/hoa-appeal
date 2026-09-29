@@ -22,9 +22,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "MyHOAAppeal — HOA Fine Appeal Letter Generator",
+  title: "MyHOAAppeal — HOA fine appeal letter template",
   description:
-    "Free US HOA fine appeal letter generator for homeowners across the United States. 100% free, no account required.",
+    "Free HOA fine appeal letter template for U.S. homeowners. You edit the letter. Not a law firm and not legal advice.",
   alternates: {
     canonical: canonicalPath("/"),
   },

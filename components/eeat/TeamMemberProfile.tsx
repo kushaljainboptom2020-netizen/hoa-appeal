@@ -19,7 +19,12 @@ export function TeamMemberProfile({ member }: TeamMemberProfileProps) {
       lastUpdated={CONTENT_UPDATED_AT}
       lastReviewed={CONTENT_REVIEWED_AT}
     >
-      <p className="-mt-4 text-sm text-emerald-400">
+      <p className="-mt-4 text-sm text-amber-300">
+        Internal role label. This page does not verify that {member.name} is a
+        real outside expert, and it does not list a bar number, employer, or
+        school.
+      </p>
+      <p className="text-sm text-emerald-400">
         {roleLabel} · {member.title}
       </p>
 

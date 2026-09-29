@@ -30,10 +30,11 @@ describe("structured data", () => {
     expect(websiteNodes[0].potentialAction).toBeUndefined();
   });
 
-  it("exposes SoftwareApplication on the home page schema", () => {
+  it("exposes WebApplication on the home page schema", () => {
     const appSchema = buildSoftwareApplicationSchema() as Record<string, unknown>;
-    expect(appSchema["@type"]).toBe("SoftwareApplication");
+    expect(appSchema["@type"]).toBe("WebApplication");
     expect(appSchema.publisher).toEqual({ "@id": ORGANIZATION_ID });
+    expect(String(appSchema.description)).not.toMatch(/legally structured/i);
   });
 
   it("builds one Article, FAQPage, and BreadcrumbList per guide page without nested @context", () => {
@@ -90,14 +91,14 @@ describe("structured data", () => {
     expect(mainEntity[0]?.name).toBe(faq.question);
   });
 
-  it("builds state HowTo + Article + Home→State breadcrumb without nested @context", () => {
+  it("builds state Article + Home→State breadcrumb without HowTo or nested @context", () => {
     const config = getStateBySlug("california");
     expect(config).toBeDefined();
     if (!config) return;
 
     const graph = buildStateStructuredDataGraph(config);
     const nodes = graph["@graph"] as Array<Record<string, unknown>>;
-    expect(nodes.some((n) => n["@type"] === "HowTo")).toBe(true);
+    expect(nodes.some((n) => n["@type"] === "HowTo")).toBe(false);
     expect(nodes.some((n) => n["@type"] === "Article")).toBe(true);
 
     const crumb = nodes.find((n) => n["@type"] === "BreadcrumbList") as

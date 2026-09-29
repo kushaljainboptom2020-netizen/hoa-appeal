@@ -26,9 +26,9 @@ describe("state law comparison rows", () => {
   });
 
   it("uses featured fine-cap notice windows for CA, FL, CO, and VA", () => {
-    expect(rows.find((r) => r.code === "CA")?.hearingNotice).toMatch(/10-day/i);
-    expect(rows.find((r) => r.code === "FL")?.hearingNotice).toMatch(/14-day/i);
-    expect(rows.find((r) => r.code === "CO")?.hearingNotice).toMatch(/30-day/i);
+    expect(rows.find((r) => r.code === "CA")?.hearingNotice).toMatch(/10 days/i);
+    expect(rows.find((r) => r.code === "FL")?.hearingNotice).toMatch(/14 days/i);
+    expect(rows.find((r) => r.code === "CO")?.hearingNotice).toMatch(/30 days/i);
     expect(rows.find((r) => r.code === "VA")?.maxFineCap).toMatch(/\$50/);
   });
 

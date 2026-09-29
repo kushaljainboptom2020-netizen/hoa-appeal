@@ -52,23 +52,16 @@ export default function GuidesIndexPage() {
 
         <div className="mt-8 max-w-3xl space-y-4 text-slate-300">
           <p className="leading-relaxed">
-            This hub collects practical, SEO-focused guides on HOA fines, appeals,
-            hearings, evidence, selective enforcement, liens, foreclosure risk, due
-            process, statutes, board meetings, and homeowner rights. Each article
-            includes a table of contents, FAQ, sources, and a call to action. For
-            single-question answers, browse the{" "}
-            <Link
-              href="/faq"
-              className="text-emerald-400 underline-offset-2 hover:underline"
-            >
-              FAQ knowledge base
-            </Link>
-            .
+            This hub collects practical guides on HOA fines, appeals, hearings,
+            evidence, and what to do when a letter mentions a lien. Each article
+            answers one job and points you at a state page when the rule depends
+            on where you live. Short answers that used to live on separate FAQ
+            URLs are on the matching guide. Those FAQ addresses redirect here.
           </p>
           <p className="leading-relaxed">
-            Content is educational and does not constitute legal advice. After
-            reading, use the free appeal letter generator to draft a formal dispute
-            letter.
+          Content is educational. It is not legal advice. A date on a page is
+          the day the text was edited, not an attorney&apos;s review of every
+          statute.
           </p>
         </div>
 

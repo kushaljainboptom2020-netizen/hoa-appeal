@@ -17,6 +17,7 @@
     "content:faq": "node scripts/generate-faq-content.mjs",
     "content:count-guides": "npx tsx scripts/count-guide-words.mjs",
     "content:audit": "node scripts/audit-content-quality.mjs",
+    "content:scan": "vitest run lib/content/quality-scan.test.ts",
     "seo:audit": "node scripts/audit-technical-seo.mjs"
   },
   "dependencies": {

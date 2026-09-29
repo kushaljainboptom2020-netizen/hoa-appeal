@@ -7,13 +7,12 @@ import { PageBreadcrumbs } from "@/components/seo/PageBreadcrumbs";
 import { SiteFooter } from "@/components/SiteFooter";
 import { AttorneyDisclaimer } from "@/components/state-legal/AttorneyDisclaimer";
 import { SourcesAndCitations } from "@/components/state-legal/SourcesAndCitations";
-import { resolveAttribution } from "@/lib/content/editorial/attribution";
 import { GUIDE_ENTRIES } from "@/lib/content/guides";
 import {
   getAllSuccessStorySlugs,
   getSuccessStoryBySlug,
 } from "@/lib/content/success-stories";
-import { SCHEMA_CONTEXT, ORGANIZATION_ID } from "@/lib/seo/jsonLd";
+import { SCHEMA_CONTEXT } from "@/lib/seo/jsonLd";
 import { seoDescription, seoTitle } from "@/lib/seo/metaFormat";
 import { SITE_URL, canonicalPath } from "@/lib/seo/siteUrl";
 
@@ -32,7 +31,6 @@ export async function generateMetadata({
   const story = getSuccessStoryBySlug(slug);
   if (!story) return {};
 
-  const { author, reviewer } = resolveAttribution(story.attribution);
   const canonical = canonicalPath(`/success-stories/${story.slug}`);
   const title = seoTitle(story.metaTitle);
   const description = seoDescription(story.metaDescription);
@@ -40,10 +38,11 @@ export async function generateMetadata({
   return {
     title,
     description,
+    robots: { index: false, follow: false },
     alternates: {
       canonical,
     },
-    authors: [{ name: author.name, url: `${SITE_URL}${author.profilePath}` }],
+    authors: [{ name: "MyHOAAppeal Editorial", url: `${SITE_URL}/authors` }],
     openGraph: {
       title,
       description,
@@ -52,10 +51,6 @@ export async function generateMetadata({
       siteName: "MyHOAAppeal",
       publishedTime: story.attribution.publishedAtIso,
       modifiedTime: story.attribution.updatedAtIso,
-    },
-    other: {
-      "article:author": author.name,
-      "article:reviewed_by": reviewer.name,
     },
   };
 }
@@ -69,7 +64,6 @@ export default async function SuccessStoryPage({
   const story = getSuccessStoryBySlug(slug);
   if (!story) notFound();
 
-  const { author, reviewer } = resolveAttribution(story.attribution);
   const pageUrl = `${SITE_URL}/success-stories/${story.slug}`;
 
   const relatedGuides = story.guideSlugs
@@ -79,30 +73,6 @@ export default async function SuccessStoryPage({
   const structuredData = {
     "@context": SCHEMA_CONTEXT,
     "@graph": [
-      {
-        "@type": "Article",
-        "@id": `${pageUrl}#article`,
-        headline: story.title,
-        description: story.metaDescription,
-        url: pageUrl,
-        datePublished: story.attribution.publishedAtIso,
-        dateModified: story.attribution.updatedAtIso,
-        inLanguage: "en-US",
-        author: {
-          "@type": "Person",
-          name: author.name,
-          url: `${SITE_URL}${author.profilePath}`,
-          jobTitle: author.title,
-        },
-        editor: {
-          "@type": "Person",
-          name: reviewer.name,
-          url: `${SITE_URL}${reviewer.profilePath}`,
-          jobTitle: reviewer.title,
-        },
-        publisher: { "@id": ORGANIZATION_ID },
-        about: `HOA fine appeal example in ${story.stateCode}`,
-      },
       {
         "@type": "BreadcrumbList",
         "@id": `${pageUrl}#breadcrumb`,
@@ -148,7 +118,12 @@ export default async function SuccessStoryPage({
 
       <main id="main-content" className="mx-auto max-w-3xl px-4 py-12 sm:py-16">
         <p className="text-sm font-medium uppercase tracking-wider text-emerald-400">
-          Educational success story
+          Fictional illustration
+        </p>
+        <p className="mt-3 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm leading-relaxed text-amber-100">
+          This page is an educational illustration. It is not a report of a real
+          HOA dispute, a real hearing, or a real result. It is not indexed for
+          search.
         </p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
           {story.title}

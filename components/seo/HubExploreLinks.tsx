@@ -7,8 +7,6 @@ const HUB_LINKS = [
   { href: "/map", label: "State map" },
   { href: "/state-laws", label: "State law comparison" },
   { href: "/guides", label: "Guides" },
-  { href: "/faq", label: "FAQ" },
-  { href: "/success-stories", label: "Success stories" },
   { href: "/samples", label: "Sample letters" },
 ] as const;
 

@@ -3,13 +3,14 @@ import { assertTeamMember, type ResolvedTeamMember } from "@/lib/content/team";
 
 /** Display dates for the current editorial cycle. */
 export const CONTENT_PUBLISHED_AT = "June 1, 2026";
-export const CONTENT_UPDATED_AT = "July 15, 2026";
-export const CONTENT_REVIEWED_AT = "July 12, 2026";
+/** Content edit date for this remediation. Not an attorney review of every statute. */
+export const CONTENT_UPDATED_AT = "September 28, 2026";
+export const CONTENT_REVIEWED_AT = "September 28, 2026";
 
 /** ISO dates for schema.org and sitemap lastmod. */
 export const CONTENT_PUBLISHED_ISO = "2026-06-01";
-export const CONTENT_UPDATED_ISO = "2026-07-15";
-export const CONTENT_REVIEWED_ISO = "2026-07-12";
+export const CONTENT_UPDATED_ISO = "2026-09-28";
+export const CONTENT_REVIEWED_ISO = "2026-09-28";
 
 export type EditorialAttribution = {
   authorSlug: string;
@@ -73,15 +74,16 @@ export function attributionForGuideCategory(
   return withDates(GUIDE_ATTRIBUTION_BY_CATEGORY[category]);
 }
 
-/** Split state pages across the two author/reviewer pairs by code order. */
+/**
+ * One organizational byline for every state page.
+ * Named profiles are internal role labels, not a per-statute reviewer assignment.
+ */
 export function attributionForStateCode(code: string): EditorialAttribution {
-  const first = code.trim().toUpperCase().charAt(0);
-  const early = first >= "A" && first <= "M";
-  return withDates(
-    early
-      ? { authorSlug: "jordan-hale", reviewerSlug: "casey-nguyen" }
-      : { authorSlug: "morgan-ellis", reviewerSlug: "riley-brooks" }
-  );
+  void code;
+  return withDates({
+    authorSlug: "jordan-hale",
+    reviewerSlug: "casey-nguyen",
+  });
 }
 
 export function resolveAttribution(

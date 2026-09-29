@@ -26,10 +26,11 @@ export default function AiTransparencyPage() {
       <section>
         <h2 className="text-xl font-semibold text-white">Summary</h2>
         <p className="mt-3 leading-relaxed">
-          MyHOAAppeal uses AI-assisted drafting tools to help produce educational
-          guide and state resource copy at scale. AI does not publish on its own.
-          Named human authors and reviewers are responsible for sourcing,
-          accuracy checks, disclaimer language, and final publication decisions.
+          MyHOAAppeal may use AI-assisted drafting for educational copy. AI does
+          not publish on its own, and it does not review your dispute. Bylines
+          say MyHOAAppeal Editorial. Named profiles on the authors page are
+          internal role labels, not verified outside experts, and a content date
+          is not an attorney review of every statute.
         </p>
       </section>
 
@@ -59,7 +60,7 @@ export default function AiTransparencyPage() {
             your dispute
           </li>
           <li>
-            Replacing human fact checking of statute citations and source lists
+            Confirming a statewide notice day-count or fine cap that this site has not checked against the official section
           </li>
           <li>
             Deciding whether content is ready to publish without editorial review
@@ -82,9 +83,10 @@ export default function AiTransparencyPage() {
       <section>
         <h2 className="text-xl font-semibold text-white">Human oversight</h2>
         <p className="mt-3 leading-relaxed">
-          Every educational article displays an author, a reviewer, last updated
-          and last reviewed dates, and a Sources and citations section. Reviewers
-          follow the{" "}
+          Published articles show an organizational byline, a content-edit date,
+          and a sources section when a source was actually used. That date is
+          the day the text was edited. It is not a lawyer&apos;s review of every
+          statute. The checklist is on the{" "}
           <Link
             href="/fact-checking"
             className="text-emerald-400 underline-offset-2 hover:underline"

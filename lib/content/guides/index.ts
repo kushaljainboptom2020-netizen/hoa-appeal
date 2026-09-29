@@ -4,8 +4,13 @@ import { generateRelatedContentForGuide } from "@/lib/content/related";
 import { SUCCESS_STORIES } from "@/lib/content/success-stories";
 import { STATE_SEO_CONFIG } from "@/lib/seo/statePages";
 import { GUIDE_ASSETS } from "./assets.generated";
+import { GUIDE_BRIEFS } from "./briefs";
+import { PART_BRIEFS as PART_BRIEFS_1 } from "./brief-part-1";
+import { PART_BRIEFS as PART_BRIEFS_2 } from "./brief-part-2";
+import { PART_BRIEFS as PART_BRIEFS_3 } from "./brief-part-3";
+import { PART_BRIEFS as PART_BRIEFS_4 } from "./brief-part-4";
+import { PART_BRIEFS as PART_BRIEFS_5 } from "./brief-part-5";
 import { GUIDE_CATALOG, GUIDE_CATEGORY_ORDER } from "./catalog";
-import { GUIDE_BODIES } from "./guides.generated";
 import {
   countGuideWords,
   GUIDE_CATEGORY_LABELS,
@@ -16,18 +21,34 @@ import {
 
 type BaseGuideArticle = Omit<GuideArticle, "relatedContent">;
 
+/** Rewritten briefs override the old generated bodies. */
+const AUTHORED_BRIEFS = {
+  ...GUIDE_BRIEFS,
+  ...PART_BRIEFS_1,
+  ...PART_BRIEFS_2,
+  ...PART_BRIEFS_3,
+  ...PART_BRIEFS_4,
+  ...PART_BRIEFS_5,
+};
+
 function assemble(slug: string): BaseGuideArticle {
   const meta = GUIDE_CATALOG.find((g) => g.slug === slug);
-  const body = GUIDE_BODIES[slug];
+  const body = AUTHORED_BRIEFS[slug];
   const educationalAssets = GUIDE_ASSETS[slug];
   if (!meta) throw new Error(`Missing catalog entry for guide: ${slug}`);
-  if (!body) throw new Error(`Missing generated body for guide: ${slug}`);
+  if (!body) throw new Error(`Missing authored brief for guide: ${slug}`);
   if (!educationalAssets) {
     throw new Error(`Missing educational assets for guide: ${slug}`);
   }
   return {
     ...meta,
-    ...body,
+    intro: body.intro,
+    sections: body.sections,
+    conclusion: body.conclusion,
+    faq: body.faqs,
+    sources: body.sources,
+    internalLinks: body.internalLinks,
+    cta: body.cta,
     educationalAssets,
     attribution: attributionForGuideCategory(meta.category),
   };
@@ -138,13 +159,14 @@ export function assertAllGuidesValid(): void {
   }
 
   for (const article of articlesWithRelatedContent) {
-    const words = countGuideWords(article);
-    if (words < 1800 || words > 3000) {
-      throw new Error(
-        `Guide ${article.slug} has ${words} words (expected 1800–3000)`
-      );
+    if (article.intro.length < 2) throw new Error(`${article.slug}: missing intro`);
+    const joined = [
+      ...article.intro,
+      ...article.sections.flatMap((section) => section.paragraphs),
+    ].join(" ");
+    if (!/declaration|CC&R|governing document/i.test(joined)) {
+      throw new Error(`${article.slug}: missing a governing-document qualification`);
     }
-    if (article.intro.length < 1) throw new Error(`${article.slug}: missing intro`);
     if (article.conclusion.length < 1) {
       throw new Error(`${article.slug}: missing conclusion`);
     }

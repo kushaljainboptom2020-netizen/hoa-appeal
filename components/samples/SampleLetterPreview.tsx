@@ -56,7 +56,8 @@ export function SampleGenerateCallout() {
         Personalize this letter
       </p>
       <p className="mt-3 text-base leading-relaxed text-slate-200">
-        Want this tailored to your specific situation and state laws?
+        Edit the facts before you send anything. The tool fills a template.
+        It does not apply your state&apos;s law for you.
       </p>
       <Link
         href="/#appeal-wizard"

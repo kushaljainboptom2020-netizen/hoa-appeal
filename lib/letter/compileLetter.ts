@@ -33,11 +33,7 @@ export function compileAppealLetter(formData: AppealFormData): CompiledLetter {
     formData.state
   );
 
-  const hearingSentence = stateContext?.hearingRightsHook
-    ? `${stateContext.hearingRightsHook} `
-    : "";
-
-  const paragraph3 = `Pursuant to ${statuteClause}, I hereby demand a formal hearing before the HOA board of directors at which I may present this appeal and all supporting evidence. ${hearingSentence}I further request that the association produce all photographic evidence, inspection reports, violation logs, and proof of tracking or certified delivery relied upon in connection with this violation notice. I reserve all rights available to me under the association's governing documents and applicable ${stateLabel} law pending resolution of this appeal.`;
+  const paragraph3 = `I request whatever hearing, meeting, or written review the governing documents and any applicable statute actually provide, and I ask the association to produce the photographs, inspection reports, violation logs, and proof of delivery it relied on. I reserve only the rights those documents and statutes provide. Pursuant to ${statuteClause}, please treat this letter as a request for review, not as a determination that a hearing is legally required. I reserve all rights available under the association's governing documents and applicable ${stateLabel} law pending resolution of this appeal.`;
 
   return {
     headerLeft: {

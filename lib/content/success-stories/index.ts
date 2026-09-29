@@ -29,6 +29,21 @@ const SUCCESS_STORY_SOURCES: GuideSource[] = [
 function assembleStory(def: SuccessStoryDef): SuccessStory {
   return {
     ...def,
+    title: `Illustration: ${def.title}`,
+    metaDescription: `Fictional illustration only. ${def.metaDescription} Not a report of a real board decision.`,
+    summary: `Fictional illustration, not a real dispute. ${def.summary}`,
+    timeline: "This page does not report a real timeline.",
+    outcome:
+      "This page does not report a real board decision, a dollar result, or a day count you should expect.",
+    body: [
+      {
+        heading: "How to read this illustration",
+        paragraphs: [
+          "The people, dates, and board actions on this page are invented. Do not treat a reduced fine or a day count in the story as something that happened, or as a result you should expect.",
+        ],
+      },
+      ...def.body,
+    ],
     attribution: attributionForStateCode(def.stateCode),
     sources: SUCCESS_STORY_SOURCES,
   };
@@ -72,7 +87,7 @@ const SUCCESS_STORY_DEFS: SuccessStoryDef[] = [
         heading: "Evidence that changed the hearing",
         paragraphs: [
           "A local nursery estimate showed a three-week plant shortage after heat damage. The packet paired that estimate with irrigation runtime logs and photos taken on the cure deadline and again after replacement planting.",
-          "At the hearing, the owner asked for a written decision and pointed directors to neighboring lots that remained brown under the same watering rules. The board’s minutes later reflected a one-time warning instead of accruing daily penalties.",
+          "In this invented scene, the owner asks for a written decision and points to neighboring lots that stayed brown under the same watering rules. The scene is a teaching example of what to ask for. It is not a board result.",
         ],
       },
       {
@@ -121,7 +136,7 @@ const SUCCESS_STORY_DEFS: SuccessStoryDef[] = [
         heading: "The ask that worked",
         paragraphs: [
           "Rather than arguing only aesthetics, the written appeal asked for dismissal of the defective notice and a restart with compliant service. Delivery proof and a one-page timeline were attached as Exhibit A.",
-          "Management withdrew the fine sixteen days later and reissued a corrected notice. The owner cured the underlying yard condition while preserving the procedural challenge on the first attempt.",
+          "In this invented scene, the letter asks for a corrected notice and keeps the first letter in the file. The scene does not report that a board withdrew a fine, and it does not give a day count.",
         ],
       },
       {
@@ -170,7 +185,7 @@ const SUCCESS_STORY_DEFS: SuccessStoryDef[] = [
         heading: "How the packet was structured",
         paragraphs: [
           "The hearing binder opened with the handbook revision history, then a chronological comparison chart using only publicly visible common-area incidents. No neighbor names appeared in materials left with the board.",
-          "Counsel for the association later recommended reversal and a clarifying bulletin so managers would apply the same warning ladder before fines.",
+          "In this invented scene, the packet asks for a written explanation of why similar incidents were handled differently. The scene does not report that a fine was reversed.",
         ],
       },
       {
@@ -218,7 +233,7 @@ const SUCCESS_STORY_DEFS: SuccessStoryDef[] = [
       {
         heading: "Hearing result",
         paragraphs: [
-          "Directors reduced the stacked fine and removed the towing surcharge after reviewing the signage conflict and permit thread. They also directed management to replace the faded sign within thirty days.",
+          "In this invented scene, the owner asks the committee to separate each date and to look at the sign and the permit email. The scene does not report a percentage reduction or a towing refund.",
           "The owner paid the reduced amount under a written reservation of rights while confirming the ledger correction in email.",
         ],
       },
@@ -268,7 +283,7 @@ const SUCCESS_STORY_DEFS: SuccessStoryDef[] = [
       {
         heading: "Accounting correction",
         paragraphs: [
-          "Within twelve days, counsel confirmed a temporary hold. After the board meeting, management issued a corrected ledger that removed unsupported fee stacking tied to the contested fine.",
+          "In this invented scene, the owner asks for a written hold while the board looks at the disputed lines, and keeps a call log. The scene does not report that collections stopped or that a balance was corrected.",
           "The owner kept a call log and required every phone assurance to be restated by email the same day.",
         ],
       },
@@ -319,7 +334,7 @@ const SUCCESS_STORY_DEFS: SuccessStoryDef[] = [
         heading: "Conflict and recusal",
         paragraphs: [
           "One committee member lived next door and had previously complained about the railing. The owner requested recusal in writing before the hearing and presented side-by-side drawings from the original approval email.",
-          "The board rescinded the fine and directed the committee to publish a clarified checklist distinguishing recorded covenants from unrecorded preferences.",
+          "In this invented scene, the owner asks the board to compare the older approval with the newer handbook page. The scene does not report that a fine was rescinded.",
         ],
       },
       {

@@ -19,17 +19,17 @@ type StateLegalResourceProps = {
 };
 
 const TOC_ITEMS = [
-  { id: "overview", label: "Overview" },
-  { id: "common-violations", label: "Common violations" },
-  { id: "appeal-process", label: "Appeal process" },
-  { id: "statutes", label: "Statutes" },
-  { id: "timelines", label: "Timelines" },
-  { id: "hearing-process", label: "Hearing process" },
-  { id: "evidence-checklist", label: "Evidence checklist" },
-  { id: "appeal-strategy", label: "Appeal strategy" },
-  { id: "state-faq", label: "FAQ" },
-  { id: "related-content", label: "Related content" },
-  { id: "sources", label: "Sources" },
+  { id: "overview", label: "Introduction" },
+  { id: "common-violations", label: "Fictional example" },
+  { id: "appeal-process", label: "How to write the appeal" },
+  { id: "statutes", label: "Governing law" },
+  { id: "timelines", label: "Notice and cure" },
+  { id: "hearing-process", label: "Who it applies to" },
+  { id: "evidence-checklist", label: "Documentation" },
+  { id: "appeal-strategy", label: "If the board says no" },
+  { id: "state-faq", label: "Questions" },
+  { id: "related-content", label: "Related resources" },
+  { id: "sources", label: "Primary sources" },
   { id: "attorney-disclaimer", label: "Disclaimer" },
 ] as const;
 
@@ -65,7 +65,7 @@ export function StateLegalResource({ content, stateConfig }: StateLegalResourceP
                 {stateConfig.name} legal resource
               </p>
               <h2 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl">
-                Complete guide to appealing HOA fines in {stateConfig.name}
+                Notes for {stateConfig.name}
               </h2>
               <ArticleAttribution attribution={content.attribution} />
             </header>
@@ -102,7 +102,7 @@ export function StateLegalResource({ content, stateConfig }: StateLegalResourceP
               <StateFaqAccordion items={content.faq} stateName={stateConfig.name} />
               <RelatedContentSection
                 relatedContent={content.relatedContent}
-                intro={`These links are generated from ${stateConfig.name} topic relevance, pairing this page with related state resources, guides, tools, and success stories.`}
+                intro={`Related pages for a ${stateConfig.name} fine. Open a guide for the task, not a second copy of this statute note.`}
               />
               <SourcesAndCitations
                 sources={content.sources}

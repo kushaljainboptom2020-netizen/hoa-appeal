@@ -13,9 +13,9 @@ import { buildStateLawsTableSchema } from "@/lib/seo/stateLaws";
 import { canonicalPath } from "@/lib/seo/siteUrl";
 
 export const metadata: Metadata = {
-  title: "HOA Fine Caps and Hearing Notice by State | MyHOAAppeal",
+  title: "HOA Fine Rules by State | MyHOAAppeal",
   description:
-    "Compare 50-state HOA statutes, fine caps, and hearing notice windows, then generate a custom appeal letter.",
+    "Compare state HOA fine pages. Cells show a checked limit only where this site opened the section. Otherwise the cell says the figure was not confirmed.",
   alternates: {
     canonical: canonicalPath("/state-laws"),
   },
@@ -54,12 +54,13 @@ export default function StateLawsPage() {
             50-state comparison
           </p>
           <h1 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            HOA Fine Caps and Hearing Notice by State
+            HOA fine rules by state
           </h1>
           <p className="mt-4 leading-relaxed text-slate-300">
-            Search this matrix for your state&apos;s primary HOA statute,
-            statutory fine ceiling, and mandatory hearing notice window—then
-            generate a custom appeal letter in one click.
+            A cell states a dollar limit or a number of days only where this
+            site checked the official section and kept the exceptions. Every
+            other cell says to read the governing documents. Open the state
+            page before you put a number in a letter.
           </p>
         </div>
 

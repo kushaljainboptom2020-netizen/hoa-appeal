@@ -71,6 +71,33 @@ export default async function SampleLetterPage({
           {sample.excerpt} Names, addresses, and facts below are fictional.
         </p>
 
+        <section className="mt-8 max-w-3xl space-y-4 text-sm leading-relaxed text-slate-300">
+          <h2 className="text-lg font-semibold text-white">When this sample is useful</h2>
+          <p>
+            Use it when your notice is about the same kind of dispute as this
+            title. It is a fictional letter. It does not report a hearing and it
+            does not guarantee that a board will waive a fine.
+          </p>
+          <h2 className="text-lg font-semibold text-white">What to customize</h2>
+          <p>
+            Replace the name, address, dates, amounts, rule numbers, and every
+            fact that is not true of your property. If the sample mentions a
+            cure period or a fine schedule, quote your declaration instead.
+          </p>
+          <h2 className="text-lg font-semibold text-white">What to attach</h2>
+          <p>
+            Attach the notice, the rule it cites, dated photos or receipts, and
+            proof of how you send the letter. Do not attach this sample page.
+          </p>
+          <h2 className="text-lg font-semibold text-white">What not to claim</h2>
+          <p>
+            Do not claim the association already decided in your favor. Do not
+            copy a statute from another state. Do not say the letter is legal
+            advice. Do not sign with a name used on this site&apos;s editorial
+            pages.
+          </p>
+        </section>
+
         <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1.15fr)_minmax(280px,0.85fr)] lg:items-start">
           <SampleLetterPreview sample={sample} />
           <div className="space-y-6 lg:sticky lg:top-24">

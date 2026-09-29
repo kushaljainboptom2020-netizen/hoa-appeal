@@ -39,8 +39,8 @@ export function StateMapExploreSection({
             Explore HOA appeal rules by state
           </h2>
           <p className="mt-3 text-base leading-relaxed text-slate-400">
-            Highlight a state for its primary HOA statute, then open a
-            statute-aware appeal letter for that jurisdiction.
+            Highlight a state to see the starting citation, then open that
+            state&apos;s page. A day count appears only where it was checked.
           </p>
         </div>
 

@@ -26,11 +26,14 @@ export default function FactCheckingPage() {
       <section>
         <h2 className="text-xl font-semibold text-white">Our standard</h2>
         <p className="mt-3 leading-relaxed">
-          Educational claims on MyHOAAppeal should be supportable by cited primary
-          or clearly identified secondary sources. We prefer official legislative
-          publications, enacted statute text, and recognized government or
-          university consumer resources over anonymous forums or unverified
-          summaries.
+          We do not claim that every legal sentence on the site was checked
+          against the official code. Where a section was not opened, the page
+          says so. Corrections are made by editing the page and changing its
+          content date. Email{" "}
+          <a href="mailto:support@myhoaappeal.com" className="text-emerald-400">
+            support@myhoaappeal.com
+          </a>{" "}
+          if a citation does not match the official text.
         </p>
       </section>
 

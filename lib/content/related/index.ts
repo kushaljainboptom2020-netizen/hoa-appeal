@@ -169,26 +169,26 @@ function buildStateLinks(states: RelatedStateCandidate[]): RelatedContentLink[] 
   return states.map((state) => ({
     label: `HOA fine appeal guide for ${state.name}`,
     href: `/appeal-hoa-fine/${state.slug}`,
-    description: state.statuteReference,
-  }));
-}
-
-function buildSuccessStoryLinks(
-  stories: RelatedSuccessStoryCandidate[]
-): RelatedContentLink[] {
-  return stories.map((story) => ({
-    label: story.title,
-    href: `/success-stories/${story.slug}`,
-    description: story.metaDescription,
+    description: `Open the ${state.name} page before you cite a statute.`,
   }));
 }
 
 function buildFaqLinks(faqs: RelatedFaqCandidate[]): RelatedContentLink[] {
   return faqs.map((faq) => ({
     label: faq.question,
-    href: `/faq/${faq.slug}`,
-    description: faq.metaDescription,
+    href: guideHrefForFaq(faq.pairedGuideSlug),
+    description: "Answered on the guide. The old FAQ URL redirects there.",
   }));
+}
+
+function guideHrefForFaq(slug: string): string {
+  if (
+    slug === "hoa-due-process-rights" ||
+    slug === "homeowner-bill-of-rights-hoa-enforcement"
+  ) {
+    return "/guides/understanding-your-rights";
+  }
+  return `/guides/${slug}`;
 }
 
 function faqScoreForTokens(
@@ -256,19 +256,6 @@ export function generateRelatedContentForGuide(
     return score;
   };
 
-  const successStoryScore = (story: RelatedSuccessStoryCandidate): number => {
-    const storyTokens = tokenize([
-      story.title,
-      story.summary,
-      story.metaDescription,
-      story.topicKeywords.join(" "),
-    ]);
-    let score = overlapScore(guideTokens, storyTokens);
-    if (story.guideSlugs.includes(context.slug)) score += 8;
-    score += hashValue(`${context.slug}:${story.slug}`) % 3;
-    return score;
-  };
-
   const faqScore = (faq: RelatedFaqCandidate): number =>
     faqScoreForTokens(guideTokens, faq, {
       pairedGuideSlug: context.slug,
@@ -291,15 +278,16 @@ export function generateRelatedContentForGuide(
         "Open the full guide library for process, evidence, and enforcement strategies.",
     },
     {
-      label: "Browse the FAQ knowledge base",
-      href: "/faq",
+      label: "Compare state pages",
+      href: "/state-laws",
       description:
-        "Open direct answers to common homeowner questions about HOA fines and appeals.",
+        "See which states have a checked limit and which cells say the figure was not confirmed.",
     },
     {
-      label: "Read more success stories",
-      href: "/success-stories",
-      description: "See additional real-world HOA fine appeal outcomes and workflows.",
+      label: "Read sample letters",
+      href: "/samples",
+      description:
+        "Fictional letters for common disputes. Replace the facts before you send one.",
     },
   ];
   if (preferredState) {
@@ -307,7 +295,7 @@ export function generateRelatedContentForGuide(
       label: `Use the ${preferredState.name} state tool page`,
       href: `/appeal-hoa-fine/${preferredState.slug}`,
       description:
-        "Open the state-tailored appeal flow with jurisdiction-specific legal framing.",
+        "Open the state page and read the notes before you cite a statute.",
     });
   }
 
@@ -316,9 +304,7 @@ export function generateRelatedContentForGuide(
     states: buildStateLinks(topStates),
     faqs: buildFaqLinks(pickTop(inputs.faqs, faqScore, 3)),
     tools: toolLinks,
-    successStories: buildSuccessStoryLinks(
-      pickTop(inputs.successStories, successStoryScore, 2)
-    ),
+    successStories: [],
   };
 }
 
@@ -353,24 +339,6 @@ export function generateRelatedContentForState(
     const candidateTokens = tokenize([state.statuteReference, state.slug, state.name]);
     score += overlapScore(stateTokens, candidateTokens);
     score += hashValue(`${context.code}:${state.code}`) % 2;
-    return score;
-  };
-
-  const successStoryScore = (story: RelatedSuccessStoryCandidate): number => {
-    let score = 0;
-    if (story.stateCode === context.code) score += 10;
-    const sharedGuides = story.guideSlugs.filter((slug) =>
-      context.relatedGuideSlugs.includes(slug)
-    );
-    score += sharedGuides.length * 2;
-    const storyTokens = tokenize([
-      story.title,
-      story.summary,
-      story.metaDescription,
-      story.topicKeywords.join(" "),
-    ]);
-    score += overlapScore(stateTokens, storyTokens);
-    score += hashValue(`${context.code}:${story.slug}`) % 3;
     return score;
   };
 
@@ -416,9 +384,7 @@ export function generateRelatedContentForState(
         description: "Review additional outcomes from documented HOA fine appeal disputes.",
       },
     ],
-    successStories: buildSuccessStoryLinks(
-      pickTop(inputs.successStories, successStoryScore, 2)
-    ),
+    successStories: [],
   };
 }
 
@@ -457,22 +423,6 @@ export function generateRelatedContentForFaq(
     if (faqTokens.has("notice") && state.noticeDefenseHook) score += 2;
     if (faqTokens.has("hearing") && state.hearingRightsHook) score += 2;
     score += hashValue(`${context.slug}:${state.code}`) % 2;
-    return score;
-  };
-
-  const successStoryScore = (story: RelatedSuccessStoryCandidate): number => {
-    const storyTokens = tokenize([
-      story.title,
-      story.summary,
-      story.metaDescription,
-      story.topicKeywords.join(" "),
-    ]);
-    let score = overlapScore(faqTokens, storyTokens);
-    if (story.guideSlugs.includes(context.pairedGuideSlug)) score += 7;
-    if (story.guideSlugs.some((slug) => context.relatedGuideSlugs.includes(slug))) {
-      score += 3;
-    }
-    score += hashValue(`${context.slug}:${story.slug}`) % 3;
     return score;
   };
 
@@ -516,7 +466,7 @@ export function generateRelatedContentForFaq(
       label: `Use the ${preferredState.name} state tool page`,
       href: `/appeal-hoa-fine/${preferredState.slug}`,
       description:
-        "Open the state-tailored appeal flow with jurisdiction-specific legal framing.",
+        "Open the state page and read the notes before you cite a statute.",
     });
   }
 
@@ -525,9 +475,7 @@ export function generateRelatedContentForFaq(
     states: buildStateLinks(topStates),
     faqs: buildFaqLinks(pickTop(inputs.faqs, faqScore, 3)),
     tools: toolLinks,
-    successStories: buildSuccessStoryLinks(
-      pickTop(inputs.successStories, successStoryScore, 2)
-    ),
+    successStories: [],
   };
 }
 
