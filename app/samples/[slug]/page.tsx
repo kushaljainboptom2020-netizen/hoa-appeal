@@ -6,12 +6,12 @@ import {
   SampleGenerateCallout,
   SampleLetterPreview,
 } from "@/components/samples/SampleLetterPreview";
-import { PageBreadcrumbs } from "@/components/seo/PageBreadcrumbs";
-import { SiteFooter } from "@/components/SiteFooter";
+import { PageChrome } from "@/components/seo/PageChrome";
 import { AttorneyDisclaimer } from "@/components/state-legal/AttorneyDisclaimer";
 import {
   getAllSampleSlugs,
   getSampleBySlug,
+  relatedGuideForSample,
 } from "@/lib/content/samples";
 import {
   buildSampleMetadata,
@@ -44,21 +44,17 @@ export default async function SampleLetterPage({
   const sample = getSampleBySlug(slug);
   if (!sample) notFound();
 
-  return (
-    <div className="min-h-screen bg-slate-950">
-      <JsonLd schema={buildSampleStructuredDataGraph(sample)} />
+  const relatedGuide = relatedGuideForSample(sample.slug);
 
-      <header className="border-b border-slate-800/80">
-        <div className="mx-auto max-w-6xl px-4 py-5">
-          <PageBreadcrumbs
-            items={[
-              { label: "Home", href: "/" },
-              { label: "Sample Letters", href: "/samples" },
-              { label: sample.title },
-            ]}
-          />
-        </div>
-      </header>
+  return (
+    <PageChrome
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Sample Letters", href: "/samples" },
+        { label: sample.title },
+      ]}
+    >
+      <JsonLd schema={buildSampleStructuredDataGraph(sample)} />
 
       <main id="main-content" className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
         <p className="text-sm font-medium tracking-wider text-emerald-400 uppercase">
@@ -89,12 +85,29 @@ export default async function SampleLetterPage({
             Attach the notice, the rule it cites, dated photos or receipts, and
             proof of how you send the letter. Do not attach this sample page.
           </p>
-          <h2 className="text-lg font-semibold text-white">What not to claim</h2>
+          <h2 className="text-lg font-semibold text-white">Common mistakes</h2>
           <p>
-            Do not claim the association already decided in your favor. Do not
-            copy a statute from another state. Do not say the letter is legal
-            advice. Do not sign with a name used on this site&apos;s editorial
-            pages.
+            Sending the sample unchanged. Citing a statute from a different
+            state. Treating a fictional hearing date as a real deadline. Asking
+            the board to treat this website as legal advice.
+          </p>
+          <h2 className="text-lg font-semibold text-white">State considerations</h2>
+          <p>
+            Notice, cure, and hearing rules depend on your association type and
+            the state page for where the property is. Open that page before you
+            quote a statewide number. This sample does not apply a statute for
+            you.
+          </p>
+          <h2 className="text-lg font-semibold text-white">Related guide</h2>
+          <p>
+            For the process behind this kind of dispute, read{" "}
+            <Link
+              href={relatedGuide.href}
+              className="text-emerald-400 underline-offset-2 hover:underline"
+            >
+              {relatedGuide.label}
+            </Link>
+            .
           </p>
         </section>
 
@@ -110,7 +123,14 @@ export default async function SampleLetterPage({
               >
                 sample HOA appeal letter structure guide
               </Link>
-              .
+              . Open the{" "}
+              <Link
+                href="/#appeal-wizard"
+                className="text-emerald-400 underline-offset-2 hover:underline"
+              >
+                letter generator
+              </Link>{" "}
+              when you are ready to draft from your own facts.
             </p>
           </div>
         </div>
@@ -119,8 +139,6 @@ export default async function SampleLetterPage({
           <AttorneyDisclaimer contextLabel="this sample appeal letter" />
         </div>
       </main>
-
-      <SiteFooter />
-    </div>
+    </PageChrome>
   );
 }

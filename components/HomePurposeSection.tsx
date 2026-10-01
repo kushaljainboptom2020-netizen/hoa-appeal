@@ -47,7 +47,7 @@ export function HomePurposeSection() {
             </article>
           ))}
         </div>
-        <div className="mt-8 grid gap-4 sm:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Link
             href="/state-laws"
             className="rounded-xl border border-slate-800 px-4 py-4 text-sm text-slate-200 hover:border-emerald-500/40"
@@ -68,6 +68,13 @@ export function HomePurposeSection() {
           >
             <span className="block font-semibold text-white">Guides</span>
             How to document a dispute, write the letter, and when to hire a lawyer.
+          </Link>
+          <Link
+            href="/faq"
+            className="rounded-xl border border-slate-800 px-4 py-4 text-sm text-slate-200 hover:border-emerald-500/40"
+          >
+            <span className="block font-semibold text-white">FAQ</span>
+            Short answers that send you to the guide covering that job.
           </Link>
         </div>
         <div className="mt-8 max-w-3xl text-sm leading-relaxed text-slate-400">

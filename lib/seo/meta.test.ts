@@ -61,7 +61,7 @@ describe("page metadata lengths and canonicals", () => {
     }
   });
 
-  it("emits FAQ metadata with canonical and capped title/description", () => {
+  it("emits FAQ metadata with canonical (legacy slug URLs redirect)", () => {
     for (const faq of FAQ_ARTICLES) {
       const meta = buildFaqMetadata(faq);
       expect(String(meta.title).length).toBeLessThanOrEqual(60);

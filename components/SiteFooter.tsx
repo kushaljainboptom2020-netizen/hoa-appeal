@@ -3,20 +3,20 @@ import { Shield } from "lucide-react";
 import { SUPPORT_EMAIL } from "@/lib/config/site";
 
 const TOOL_LINKS = [
-  { href: "/#appeal-wizard", label: "Letter Generator" },
-  { href: "/map", label: "State Law Hub" },
-  { href: "/state-laws", label: "State Law Comparison" },
-  { href: "/readiness-calculator", label: "Readiness Calculator" },
-  { href: "/decision-tree", label: "Decision Tree" },
+  { href: "/#appeal-wizard", label: "Letter generator" },
+  { href: "/map", label: "State map" },
+  { href: "/state-laws", label: "State law comparison" },
+  { href: "/readiness-calculator", label: "Readiness calculator" },
+  { href: "/decision-tree", label: "Decision tree" },
 ] as const;
 
 const RESOURCE_LINKS = [
-  { href: "/guides", label: "HOA Dispute Guides" },
-  { href: "/samples", label: "Sample Appeal Letters" },
-  { href: "/appeal-hoa-fine/florida", label: "FL Chapter 720" },
-  { href: "/appeal-hoa-fine/texas", label: "TX Section 209" },
-  { href: "/appeal-hoa-fine/california", label: "CA Davis-Stirling Act" },
-  { href: "/guides", label: "Guides" },
+  { href: "/guides", label: "HOA dispute guides" },
+  { href: "/faq", label: "FAQ index" },
+  { href: "/samples", label: "Sample appeal letters" },
+  { href: "/appeal-hoa-fine/florida", label: "Florida HOA fine appeal notes" },
+  { href: "/appeal-hoa-fine/texas", label: "Texas HOA fine appeal notes" },
+  { href: "/appeal-hoa-fine/california", label: "California HOA fine appeal notes" },
 ] as const;
 
 const LEGAL_LINKS = [
@@ -46,7 +46,7 @@ function FooterNavColumn({
       <nav className="mt-4" aria-label={title}>
         <ul className="space-y-2.5">
           {links.map((link) => (
-            <li key={link.href}>
+            <li key={`${link.href}-${link.label}`}>
               <Link
                 href={link.href}
                 className="text-sm text-slate-400 transition-colors hover:text-emerald-400"

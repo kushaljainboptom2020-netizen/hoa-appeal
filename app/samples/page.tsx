@@ -1,52 +1,35 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, FileText, Shield } from "lucide-react";
+import { ArrowRight, FileText } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
-import { SiteFooter } from "@/components/SiteFooter";
 import { HubExploreLinks } from "@/components/seo/HubExploreLinks";
-import { PageBreadcrumbs } from "@/components/seo/PageBreadcrumbs";
+import { PageChrome } from "@/components/seo/PageChrome";
 import { getAllSampleLetters } from "@/lib/content/samples";
+import { pageMetadata } from "@/lib/seo/metaFormat";
 import { buildSampleIndexSchema } from "@/lib/seo/samples";
-import { canonicalPath } from "@/lib/seo/siteUrl";
 
 export const metadata: Metadata = {
-  title: "Sample HOA Appeal Letters | MyHOAAppeal",
-  description:
-    "Read sample HOA appeal letters for landscaping, trash-can placement, parking, and architectural fines—then generate a personalized letter for your state.",
-  alternates: {
-    canonical: canonicalPath("/samples"),
-  },
+  ...pageMetadata({
+    title: "Sample HOA Appeal Letters | MyHOAAppeal",
+    description:
+      "Educational sample HOA appeal letters for common violations. Replace the facts, then generate a letter from your own notice.",
+    path: "/samples",
+  }),
 };
 
 export default function SamplesIndexPage() {
   const samples = getAllSampleLetters();
 
   return (
-    <div className="min-h-screen bg-slate-950">
+    <PageChrome
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Sample Letters" },
+      ]}
+    >
       <JsonLd schema={buildSampleIndexSchema()} />
-      <header className="border-b border-slate-800/80">
-        <nav className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-5">
-          <Link
-            href="/"
-            className="flex items-center gap-2 transition-opacity hover:opacity-90"
-          >
-            <Shield className="h-7 w-7 text-emerald-500" />
-            <span className="text-lg font-bold tracking-tight text-white">
-              MyHOAAppeal
-            </span>
-          </Link>
-        </nav>
-      </header>
-
       <main id="main-content" className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
-        <PageBreadcrumbs
-          items={[
-            { label: "Home", href: "/" },
-            { label: "Sample Letters" },
-          ]}
-        />
-
-        <div className="mt-8 max-w-3xl">
+        <div className="max-w-3xl">
           <p className="text-sm font-medium tracking-wider text-emerald-400 uppercase">
             Sample letter library
           </p>
@@ -54,9 +37,8 @@ export default function SamplesIndexPage() {
             Sample HOA Appeal Letters
           </h1>
           <p className="mt-4 leading-relaxed text-slate-300">
-            Four fully written educational samples targeting common search
-            queries. Use them as structure—then generate a letter tailored to
-            your facts and state statutes.
+            Educational samples for common disputes. Use them as structure. They
+            are fictional. Then generate a letter from your own notice.
           </p>
         </div>
 
@@ -98,8 +80,6 @@ export default function SamplesIndexPage() {
           for section-by-section drafting tips.
         </p>
       </main>
-
-      <SiteFooter />
-    </div>
+    </PageChrome>
   );
 }

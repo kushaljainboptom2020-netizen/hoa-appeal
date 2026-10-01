@@ -7,21 +7,15 @@ const HUB_LINKS = [
   { href: "/map", label: "State map" },
   { href: "/state-laws", label: "State law comparison" },
   { href: "/guides", label: "Guides" },
+  { href: "/faq", label: "FAQ" },
   { href: "/samples", label: "Sample letters" },
 ] as const;
 
 type HubExploreLinksProps = {
   /** Current hub path to exclude from the list */
   currentPath:
-    | "/"
-    | "/guides"
-    | "/faq"
-    | "/success-stories"
-    | "/decision-tree"
-    | "/readiness-calculator"
-    | "/map"
-    | "/state-laws"
-    | "/samples";
+    | (typeof HUB_LINKS)[number]["href"]
+    | "/success-stories";
 };
 
 export function HubExploreLinks({ currentPath }: HubExploreLinksProps) {

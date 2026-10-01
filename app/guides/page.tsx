@@ -1,40 +1,31 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, BookOpen, Shield } from "lucide-react";
-import { SiteFooter } from "@/components/SiteFooter";
+import { ArrowRight, BookOpen } from "lucide-react";
 import { HubExploreLinks } from "@/components/seo/HubExploreLinks";
+import { PageChrome } from "@/components/seo/PageChrome";
 import { LEGAL_LAST_UPDATED } from "@/lib/config/site";
 import { getGuidesGroupedByCategory } from "@/lib/content/guides";
-import { canonicalPath } from "@/lib/seo/siteUrl";
+import { pageMetadata } from "@/lib/seo/metaFormat";
 
 export const metadata: Metadata = {
-  title: "HOA Fine Appeal Guides | MyHOAAppeal",
-  description:
-    "Fifty in-depth HOA fine appeal guides covering owner rights, evidence, hearings, liens, statutes, and board meetings for U.S. homeowners.",
-  alternates: {
-    canonical: canonicalPath("/guides"),
-  },
+  ...pageMetadata({
+    title: "HOA Fine Appeal Guides | MyHOAAppeal",
+    description:
+      "Guides on HOA fines, hearings, evidence, and letters. Each article answers one job and points to a state page when the rule depends on where you live.",
+    path: "/guides",
+  }),
 };
 
 export default function GuidesIndexPage() {
   const groups = getGuidesGroupedByCategory();
 
   return (
-    <div className="min-h-screen bg-slate-950">
-      <header className="border-b border-slate-800/80">
-        <nav className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-5">
-          <Link
-            href="/"
-            className="flex items-center gap-2 transition-opacity hover:opacity-90"
-          >
-            <Shield className="h-7 w-7 text-emerald-500" />
-            <span className="text-lg font-bold tracking-tight text-white">
-              MyHOAAppeal
-            </span>
-          </Link>
-        </nav>
-      </header>
-
+    <PageChrome
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Guides" },
+      ]}
+    >
       <main id="main-content" className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
         <div className="max-w-3xl text-center sm:text-left">
           <p className="text-sm font-medium uppercase tracking-wider text-emerald-400">
@@ -44,7 +35,7 @@ export default function GuidesIndexPage() {
             HOA Fine Appeal Guides
           </h1>
           <p className="mt-2 text-sm text-slate-500">
-            Last updated: {LEGAL_LAST_UPDATED} · 50 articles
+            Last updated: {LEGAL_LAST_UPDATED}
           </p>
         </div>
 
@@ -56,7 +47,15 @@ export default function GuidesIndexPage() {
             evidence, and what to do when a letter mentions a lien. Each article
             answers one job and points you at a state page when the rule depends
             on where you live. Short answers that used to live on separate FAQ
-            URLs are on the matching guide. Those FAQ addresses redirect here.
+            URLs are on the matching guide. Individual FAQ addresses redirect
+            to that guide. Start from the{" "}
+            <Link
+              href="/faq"
+              className="text-emerald-400 underline-offset-2 hover:underline"
+            >
+              FAQ index
+            </Link>{" "}
+            if you prefer a question list.
           </p>
           <p className="leading-relaxed">
           Content is educational. It is not legal advice. A date on a page is
@@ -125,7 +124,7 @@ export default function GuidesIndexPage() {
           </p>
           <p className="mt-4">
             <Link
-              href="/"
+              href="/#appeal-wizard"
               className="text-emerald-400 underline-offset-2 hover:underline"
             >
               Start your appeal letter
@@ -133,8 +132,6 @@ export default function GuidesIndexPage() {
           </p>
         </section>
       </main>
-
-      <SiteFooter />
-    </div>
+    </PageChrome>
   );
 }

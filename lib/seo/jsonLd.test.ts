@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getFaqBySlug } from "@/lib/content/faq";
+import { FAQ_ARTICLES, getFaqBySlug } from "@/lib/content/faq";
 import { getGuideBySlug } from "@/lib/content/guides";
 import { getStateLawComparisonRows } from "@/lib/content/state-laws";
 import {
@@ -10,7 +10,7 @@ import {
   buildStateStructuredDataGraph,
 } from "@/lib/seo/jsonLd";
 import { buildStateLawsTableSchema } from "@/lib/seo/stateLaws";
-import { buildFaqStructuredDataGraph } from "@/lib/seo/faq";
+import { buildFaqIndexSchema, buildFaqStructuredDataGraph } from "@/lib/seo/faq";
 import { buildGuideStructuredDataGraph } from "@/lib/seo/guides";
 import { getStateBySlug } from "@/lib/seo/statePages";
 
@@ -89,6 +89,17 @@ describe("structured data", () => {
     const mainEntity = faqNode?.mainEntity as Array<Record<string, unknown>>;
     expect(mainEntity).toHaveLength(1);
     expect(mainEntity[0]?.name).toBe(faq.question);
+  });
+
+  it("builds a WebPage ItemList for the FAQ index without FAQPage", () => {
+    const graph = buildFaqIndexSchema(FAQ_ARTICLES);
+    const nodes = graph["@graph"] as Array<Record<string, unknown>>;
+    expect(nodes.some((n) => n["@type"] === "FAQPage")).toBe(false);
+    expect(nodes.some((n) => n["@type"] === "WebPage")).toBe(true);
+    const list = nodes.find((n) => n["@type"] === "ItemList") as
+      | Record<string, unknown>
+      | undefined;
+    expect(list?.numberOfItems).toBe(FAQ_ARTICLES.length);
   });
 
   it("builds state Article + Home→State breadcrumb without HowTo or nested @context", () => {

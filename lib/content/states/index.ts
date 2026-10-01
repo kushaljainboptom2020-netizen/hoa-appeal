@@ -140,4 +140,4 @@ export function assertAllStatesHaveLegalContent(): void {
 }
 
 export { countStateContentWords };
-export type { StateLegalContent };
+export type { StateLegalContent, StateSource, VerificationStatus } from "./types";

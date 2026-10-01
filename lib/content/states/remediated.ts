@@ -1,6 +1,6 @@
 import type { StateSeoConfig } from "@/lib/seo/statePages";
 import type { StateContentProfile } from "./buildContent";
-import type { StateLegalContent } from "./types";
+import type { StateLegalContent, VerificationStatus } from "./types";
 
 /**
  * State-page copy after the September 2026 audit.
@@ -167,23 +167,35 @@ function sourceList(
   profile: StateContentProfile
 ): StateLegalContent["sources"] {
   const official = OFFICIAL[config.code] ?? [];
+  const verified = VERIFIED.has(config.code);
+  const status: VerificationStatus = verified ? "verified" : "needs-review";
   const fromProfile = profile.sources.filter((source) =>
     Boolean(source.url && /^https?:/i.test(source.url))
   );
   const merged = [
     ...official.map((item) => ({
       citation: item.citation,
+      sourceName: item.citation,
       description: `Official code location for ${config.name}. Open it and confirm the current section before you quote it.`,
       url: item.url,
+      jurisdiction: config.code,
+      verificationStatus: status,
+      lastVerified: verified ? "2026-09-28" : undefined,
+      notes: verified
+        ? "Section text was reviewed in the September 2026 source check. Confirm the live code."
+        : "A statewide notice day count or fine cap was not confirmed in the source check.",
     })),
     ...fromProfile.map((source) => ({
       citation: source.citation,
+      sourceName: source.citation,
       description: source.description,
       url: source.url,
+      jurisdiction: config.code,
+      verificationStatus: "needs-review" as const,
     })),
   ];
   const seen = new Set<string>();
-  const unique = merged.filter((source) => {
+  const unique: StateLegalContent["sources"] = merged.filter((source) => {
     const key = source.url ?? source.citation;
     if (seen.has(key)) return false;
     seen.add(key);
@@ -192,14 +204,22 @@ function sourceList(
   if (unique.length === 0) {
     unique.push({
       citation: actName(config, profile),
+      sourceName: actName(config, profile),
       description: `${config.name} association statutes should be read on the legislature's code site. This page does not supply a section URL that was opened for a statewide fine rule.`,
       url: undefined,
+      jurisdiction: config.code,
+      verificationStatus: "not-found",
     });
   }
   unique.push({
     citation: "Your recorded declaration, bylaws, and rules",
+    sourceName: "Association governing documents",
     description: `Private rules for the ${config.name} association. They can add procedures even when a statute is silent, and they cannot be replaced by this page.`,
     url: undefined,
+    jurisdiction: config.code,
+    associationType: "varies",
+    verificationStatus: "needs-review",
+    notes: "Always the primary private instrument for the lot.",
   });
   return unique;
 }

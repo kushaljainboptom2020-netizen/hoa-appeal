@@ -3,7 +3,6 @@ import { CONTENT_UPDATED_ISO } from "@/lib/content/editorial/attribution";
 import { GUIDE_ARTICLES, getAllGuideSlugs } from "@/lib/content/guides";
 import { SAMPLE_LETTERS, getAllSampleSlugs } from "@/lib/content/samples";
 import { getAllStateLegalContent } from "@/lib/content/states";
-import { getAllTeamSlugs } from "@/lib/content/team";
 import { MERGED_GUIDE_SLUGS } from "@/lib/seo/legacyRedirects";
 import { getAllStateSlugs, getStateByCode } from "@/lib/seo/statePages";
 import { SITE_URL } from "@/lib/seo/siteUrl";
@@ -12,7 +11,6 @@ const merged = new Set<string>(MERGED_GUIDE_SLUGS);
 const STATE_SLUGS = getAllStateSlugs();
 const GUIDE_SLUGS = getAllGuideSlugs().filter((slug) => !merged.has(slug));
 const SAMPLE_SLUGS = getAllSampleSlugs();
-const TEAM_SLUGS = getAllTeamSlugs();
 const CONTENT_LAST_MOD = new Date(CONTENT_UPDATED_ISO);
 
 const guideLastMod = new Map(
@@ -41,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const trustPages: MetadataRoute.Sitemap = [
     "/about",
     "/contact",
+    "/faq",
     "/authors",
     "/editorial-policy",
     "/fact-checking",
@@ -50,14 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ].map((path) => ({
     url: new URL(path, SITE_URL).toString(),
     changeFrequency: "yearly" as const,
-    priority: path === "/authors" ? 0.7 : 0.6,
-    lastModified: CONTENT_LAST_MOD,
-  }));
-
-  const authorPages = TEAM_SLUGS.map((slug) => ({
-    url: new URL(`/authors/${slug}`, SITE_URL).toString(),
-    changeFrequency: "yearly" as const,
-    priority: 0.65,
+    priority: path === "/faq" ? 0.8 : path === "/authors" ? 0.5 : 0.6,
     lastModified: CONTENT_LAST_MOD,
   }));
 
@@ -107,7 +99,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     home,
     ...trustPages,
-    ...authorPages,
     guidesIndex,
     ...guidePages,
     ...toolPages,

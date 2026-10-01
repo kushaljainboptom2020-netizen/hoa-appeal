@@ -1,4 +1,10 @@
 {
-  "hitCount": 0,
-  "hits": []
+  "hitCount": 1,
+  "hits": [
+    {
+      "kind": "missing-h1",
+      "where": "\\app\\authors\\[slug]\\page.tsx",
+      "detail": "page source has no h1"
+    }
+  ]
 }

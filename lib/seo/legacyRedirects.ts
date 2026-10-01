@@ -1,4 +1,5 @@
 import { FAQ_CATALOG } from "../content/faq/catalog";
+import { getAllTeamSlugs } from "../content/team";
 
 export const MERGED_GUIDE_SLUGS = [
   "hoa-due-process-rights",
@@ -15,6 +16,10 @@ export function guideDestination(slug: string): string {
   return `/guides/${slug}`;
 }
 
+export function pairedGuideFaqHref(pairedGuideSlug: string): string {
+  return `${guideDestination(pairedGuideSlug)}#guide-faq`;
+}
+
 export function legacyRedirects(): { source: string; destination: string; permanent: true }[] {
   return [
     ...MERGED_GUIDE_SLUGS.map((slug) => ({
@@ -22,14 +27,14 @@ export function legacyRedirects(): { source: string; destination: string; perman
       destination: "/guides/understanding-your-rights",
       permanent: true as const,
     })),
-    {
-      source: "/faq",
-      destination: "/guides",
-      permanent: true as const,
-    },
     ...FAQ_CATALOG.map((faq) => ({
       source: `/faq/${faq.slug}`,
       destination: guideDestination(faq.pairedGuideSlug),
+      permanent: true as const,
+    })),
+    ...getAllTeamSlugs().map((slug) => ({
+      source: `/authors/${slug}`,
+      destination: "/editorial-policy",
       permanent: true as const,
     })),
   ];

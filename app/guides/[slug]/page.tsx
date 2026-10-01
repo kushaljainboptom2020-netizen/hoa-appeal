@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideResource } from "@/components/guides/GuideResource";
 import { JsonLd } from "@/components/JsonLd";
-import { PageBreadcrumbs } from "@/components/seo/PageBreadcrumbs";
-import { SiteFooter } from "@/components/SiteFooter";
+import { PageChrome } from "@/components/seo/PageChrome";
 import {
   getAllGuideSlugs,
   getGuideBySlug,
@@ -40,26 +39,17 @@ export default async function GuidePage({
   if (!guide) notFound();
 
   return (
-    <div className="min-h-screen bg-slate-950">
+    <PageChrome
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Guides", href: "/guides" },
+        { label: guide.title },
+      ]}
+    >
       <JsonLd schema={buildGuideStructuredDataGraph(guide)} />
-
-      <header className="border-b border-slate-800/80">
-        <div className="mx-auto max-w-6xl px-4 py-5">
-          <PageBreadcrumbs
-            items={[
-              { label: "Home", href: "/" },
-              { label: "Guides", href: "/guides" },
-              { label: guide.title },
-            ]}
-          />
-        </div>
-      </header>
-
       <main id="main-content">
         <GuideResource guide={guide} />
       </main>
-
-      <SiteFooter />
-    </div>
+    </PageChrome>
   );
 }

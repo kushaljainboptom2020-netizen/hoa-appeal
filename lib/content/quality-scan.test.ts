@@ -163,7 +163,8 @@ function collect(): Hit[] {
       source.includes("export const metadata") &&
       !source.includes("index: false") &&
       !rel.includes("success-stories") &&
-      !source.includes("canonical")
+      !source.includes("canonical") &&
+      !source.includes("pageMetadata")
     ) {
       add("missing-canonical", rel, "metadata without canonical");
     }

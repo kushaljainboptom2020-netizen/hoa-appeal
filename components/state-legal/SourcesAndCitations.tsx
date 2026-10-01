@@ -1,12 +1,17 @@
 import Link from "next/link";
 import type { StateSource } from "@/lib/content/states/types";
-
-type CitationSource = Pick<StateSource, "citation" | "description"> & {
-  url?: string;
-};
+import { sourceStatusLabel } from "@/lib/content/states/quality";
 
 type SourcesAndCitationsProps = {
-  sources: CitationSource[];
+  sources: Array<
+    Pick<StateSource, "citation" | "description"> &
+      Partial<
+        Pick<
+          StateSource,
+          "url" | "sourceName" | "verificationStatus" | "lastVerified"
+        >
+      >
+  >;
   stateName?: string;
   intro?: string;
 };
@@ -50,7 +55,9 @@ export function SourcesAndCitations({
         {sources.map((source) => (
           <li key={source.citation}>
             <cite className="not-italic">
-              <span className="font-medium text-slate-200">{source.citation}</span>
+              <span className="font-medium text-slate-200">
+                {source.sourceName ?? source.citation}
+              </span>
               {" — "}
               {source.description}
               {source.url && (
@@ -67,6 +74,12 @@ export function SourcesAndCitations({
                 </>
               )}
             </cite>
+            {sourceStatusLabel(source.verificationStatus) ? (
+              <p className="mt-1 text-xs text-slate-500">
+                Verification: {sourceStatusLabel(source.verificationStatus)}
+                {source.lastVerified ? ` Last checked ${source.lastVerified}.` : ""}
+              </p>
+            ) : null}
           </li>
         ))}
       </ol>

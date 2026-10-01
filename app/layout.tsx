@@ -4,11 +4,11 @@ import { Analytics } from "@/components/seo/Analytics";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/config/site";
 import { buildSiteSchemaGraph } from "@/lib/seo/jsonLd";
-import { canonicalPath } from "@/lib/seo/siteUrl";
 import { ProductionHeadScripts } from "@/components/seo/ProductionHeadScripts";
 import "./globals.css";
 
 const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const adsenseClientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,18 +25,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "MyHOAAppeal — HOA fine appeal letter template",
+  title: "HOA Fine Appeal Letter Generator | MyHOAAppeal",
   description:
     "Free HOA fine appeal letter template for U.S. homeowners. You edit the letter. Not a law firm and not legal advice.",
-  alternates: {
-    canonical: canonicalPath("/"),
-  },
   openGraph: {
     locale: "en_US",
+    siteName: "MyHOAAppeal",
+    type: "website",
   },
-  other: {
-    "google-adsense-account": "ca-pub-7862241510527930",
+  twitter: {
+    card: "summary",
   },
+  ...(adsenseClientId
+    ? {
+        other: {
+          "google-adsense-account": adsenseClientId,
+        },
+      }
+    : {}),
 };
 
 export default function RootLayout({

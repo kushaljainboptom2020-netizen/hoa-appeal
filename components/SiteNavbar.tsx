@@ -5,19 +5,14 @@ import { useEffect, useId, useState } from "react";
 import { Menu, Shield, X } from "lucide-react";
 
 const NAV_LINKS = [
-  { href: "#how-it-works", label: "How It Works" },
+  { href: "/#how-it-works", label: "How It Works" },
   { href: "/state-laws", label: "State Laws" },
-  { href: "/map", label: "Map" },
   { href: "/guides", label: "Guides" },
-  { href: "/samples", label: "Sample Letters" },
-  { href: "/about", label: "About Us" },
+  { href: "/samples", label: "Samples" },
+  { href: "/faq", label: "FAQ" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ] as const;
-
-function scrollToWizard() {
-  document.getElementById("appeal-wizard")?.scrollIntoView({
-    behavior: "smooth",
-  });
-}
 
 export function SiteNavbar() {
   const [open, setOpen] = useState(false);
@@ -68,13 +63,12 @@ export function SiteNavbar() {
         </ul>
 
         <div className="flex items-center gap-2">
-          <button
-            type="button"
-            onClick={scrollToWizard}
+          <Link
+            href="/#appeal-wizard"
             className="hidden rounded-lg bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-950 shadow-[0_0_24px_-4px_rgba(16,185,129,0.55)] transition-[background-color,box-shadow,transform] hover:bg-emerald-400 hover:shadow-[0_0_28px_-2px_rgba(52,211,153,0.65)] active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 sm:inline-flex"
           >
-            Create Free Appeal
-          </button>
+            Create a free appeal letter
+          </Link>
 
           <button
             type="button"
@@ -108,16 +102,13 @@ export function SiteNavbar() {
             </li>
           ))}
           <li className="pt-1 sm:hidden">
-            <button
-              type="button"
-              onClick={() => {
-                setOpen(false);
-                scrollToWizard();
-              }}
-              className="w-full rounded-lg bg-emerald-500 px-4 py-2.5 text-sm font-semibold text-slate-950 transition-colors hover:bg-emerald-400"
+            <Link
+              href="/#appeal-wizard"
+              onClick={() => setOpen(false)}
+              className="block w-full rounded-lg bg-emerald-500 px-4 py-2.5 text-center text-sm font-semibold text-slate-950 transition-colors hover:bg-emerald-400"
             >
-              Create Free Appeal
-            </button>
+              Create a free appeal letter
+            </Link>
           </li>
         </ul>
       </div>

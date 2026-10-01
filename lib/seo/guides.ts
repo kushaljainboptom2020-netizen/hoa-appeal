@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import type { Article, BreadcrumbList, FAQPage, ListItem } from "schema-dts";
-import { resolveAttribution } from "@/lib/content/editorial/attribution";
 import type { GuideArticle } from "@/lib/content/guides/types";
 import {
   asGraphNode,
@@ -14,7 +13,6 @@ import { seoDescription, seoTitle } from "@/lib/seo/metaFormat";
 
 export function buildGuideMetadata(guide: GuideArticle): Metadata {
   const canonical = canonicalPath(`/guides/${guide.slug}`);
-  const { reviewer } = resolveAttribution(guide.attribution);
   const title = seoTitle(guide.metaTitle);
   const description = seoDescription(guide.metaDescription);
 
@@ -41,7 +39,6 @@ export function buildGuideMetadata(guide: GuideArticle): Metadata {
     },
     other: {
       "article:author": "MyHOAAppeal Editorial",
-      "article:reviewed_by": reviewer.name,
       "article:published_time": guide.attribution.publishedAtIso,
       "article:modified_time": guide.attribution.updatedAtIso,
     },

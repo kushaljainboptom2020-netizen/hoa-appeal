@@ -32,7 +32,7 @@ export function resolveTeamMember(slug: string): ResolvedTeamMember | undefined 
   if (!member) return undefined;
   return {
     ...member,
-    profilePath: `/authors/${member.slug}`,
+    profilePath: "/editorial-policy",
   };
 }
 

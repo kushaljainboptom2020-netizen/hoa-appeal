@@ -40,7 +40,7 @@ assert(
 
 // --- static pages with canonical ---
 const staticPages = [
-  "app/layout.tsx",
+  "app/page.tsx",
   "app/guides/page.tsx",
   "app/faq/page.tsx",
   "app/success-stories/page.tsx",
@@ -57,7 +57,9 @@ for (const page of staticPages) {
   assert(existsSync(join(root, page)), `missing ${page}`);
   const src = read(page);
   assert(
-    src.includes("canonical") || src.includes("canonicalPath"),
+    src.includes("canonical") ||
+      src.includes("canonicalPath") ||
+      src.includes("pageMetadata"),
     `${page} should set an explicit canonical`
   );
 }
@@ -68,6 +70,11 @@ assert(!about.includes("HOAShield"), "about page should not mention HOAShield");
 
 // --- skip / main landmarks ---
 const layout = read("app/layout.tsx");
+assert(
+  !layout.includes("canonicalPath(\"/\")") &&
+    !layout.includes("canonical: canonicalPath(\"/\")"),
+  "root layout must not set a homepage canonical that child pages inherit"
+);
 assert(
   layout.includes('href="#main-content"'),
   "layout should keep skip link to #main-content"
@@ -93,15 +100,25 @@ assert(
 const sitemap = read("app/sitemap.ts");
 for (const token of [
   "getAllGuideSlugs",
-  "getAllFaqSlugs",
   "getAllStateSlugs",
-  "getAllSuccessStorySlugs",
-  "getAllTeamSlugs",
+  "/faq",
   "/editorial-policy",
   "/fact-checking",
 ]) {
   assert(sitemap.includes(token), `sitemap.ts should reference ${token}`);
 }
+assert(
+  !sitemap.includes("getAllFaqSlugs"),
+  "sitemap must not include individual FAQ slugs"
+);
+assert(
+  !sitemap.includes("getAllSuccessStorySlugs"),
+  "sitemap must not include success stories"
+);
+assert(
+  !sitemap.includes("getAllTeamSlugs"),
+  "sitemap must not include author people pages"
+);
 
 // --- PageBreadcrumbs present ---
 assert(
@@ -116,8 +133,8 @@ assert(
 // --- state meta templates short ---
 const statePages = read("lib/seo/statePages.ts");
 assert(
-  statePages.includes("Free ${name} HOA Fine Appeal Letter"),
-  "state titles should use the shortened template"
+  statePages.includes("How to Appeal an HOA Fine in ${name}"),
+  "state titles should use How to Appeal an HOA Fine in [State]"
 );
 assert(
   !statePages.includes("Fight HOA Violations"),

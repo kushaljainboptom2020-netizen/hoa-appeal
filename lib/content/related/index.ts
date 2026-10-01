@@ -177,7 +177,7 @@ function buildFaqLinks(faqs: RelatedFaqCandidate[]): RelatedContentLink[] {
   return faqs.map((faq) => ({
     label: faq.question,
     href: guideHrefForFaq(faq.pairedGuideSlug),
-    description: "Answered on the guide. The old FAQ URL redirects there.",
+    description: "Answered on the matching guide.",
   }));
 }
 
@@ -373,15 +373,10 @@ export function generateRelatedContentForState(
           "Explore the full educational library for additional hearing and evidence tactics.",
       },
       {
-        label: "Browse the FAQ knowledge base",
+        label: "Browse the FAQ index",
         href: "/faq",
         description:
-          "Open direct answers to common homeowner questions about HOA fines and appeals.",
-      },
-      {
-        label: "Read more success stories",
-        href: "/success-stories",
-        description: "Review additional outcomes from documented HOA fine appeal disputes.",
+          "Questions about notice, hearings, and letters, each linked to the matching guide.",
       },
     ],
     successStories: [],

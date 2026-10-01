@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Shield } from "lucide-react";
 import { HoaDecisionTree } from "@/components/decision-tree/HoaDecisionTree";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
+import { SiteNavbar } from "@/components/SiteNavbar";
 import { HubExploreLinks } from "@/components/seo/HubExploreLinks";
 import { PageBreadcrumbs } from "@/components/seo/PageBreadcrumbs";
 import { getDecisionTree } from "@/lib/content/decision-tree";
@@ -67,19 +66,7 @@ export default function DecisionTreePage() {
   return (
     <div className="min-h-screen bg-slate-950">
       <JsonLd schema={buildDecisionTreeSchema()} />
-      <header className="border-b border-slate-800/80">
-        <nav className="mx-auto flex max-w-6xl items-center gap-2 px-4 py-5">
-          <Link
-            href="/"
-            className="flex items-center gap-2 transition-opacity hover:opacity-90"
-          >
-            <Shield className="h-7 w-7 text-emerald-500" />
-            <span className="text-lg font-bold tracking-tight text-white">
-              MyHOAAppeal
-            </span>
-          </Link>
-        </nav>
-      </header>
+      <SiteNavbar />
 
       <main id="main-content" className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
         <PageBreadcrumbs

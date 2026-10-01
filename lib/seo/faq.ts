@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
-import type { BreadcrumbList, FAQPage, ListItem } from "schema-dts";
-import { resolveAttribution } from "@/lib/content/editorial/attribution";
+import type { BreadcrumbList, FAQPage, ItemList, ListItem, WebPage } from "schema-dts";
 import type { FaqArticle } from "@/lib/content/faq/types";
 import {
   asGraphNode,
+  ORGANIZATION_ID,
   SCHEMA_CONTEXT,
+  WEBSITE_ID,
   type JsonLdGraph,
 } from "@/lib/seo/jsonLd";
-import { SITE_URL, canonicalPath } from "@/lib/seo/siteUrl";
+import { pairedGuideFaqHref } from "@/lib/seo/legacyRedirects";
 import { seoDescription, seoTitle } from "@/lib/seo/metaFormat";
+import { SITE_URL, canonicalPath } from "@/lib/seo/siteUrl";
 
 export function buildFaqMetadata(faq: FaqArticle): Metadata {
   const canonical = canonicalPath(`/faq/${faq.slug}`);
-  const { author, reviewer } = resolveAttribution(faq.attribution);
   const title = seoTitle(faq.metaTitle);
   const description = seoDescription(faq.metaDescription);
 
@@ -22,7 +23,7 @@ export function buildFaqMetadata(faq: FaqArticle): Metadata {
     alternates: {
       canonical,
     },
-    authors: [{ name: author.name, url: `${SITE_URL}${author.profilePath}` }],
+    authors: [{ name: "MyHOAAppeal Editorial", url: `${SITE_URL}/editorial-policy` }],
     openGraph: {
       title,
       description,
@@ -33,16 +34,16 @@ export function buildFaqMetadata(faq: FaqArticle): Metadata {
       modifiedTime: faq.attribution.updatedAtIso,
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title,
       description,
     },
     other: {
-      "article:author": author.name,
-      "article:reviewed_by": reviewer.name,
+      "article:author": "MyHOAAppeal Editorial",
       "article:published_time": faq.attribution.publishedAtIso,
       "article:modified_time": faq.attribution.updatedAtIso,
     },
+    robots: { index: false, follow: true },
   };
 }
 
@@ -111,4 +112,62 @@ export function buildFaqStructuredDataGraph(faq: FaqArticle) {
       asGraphNode(buildFaqBreadcrumbSchema(faq)),
     ],
   } satisfies JsonLdGraph;
+}
+
+export function firstSentence(text: string): string {
+  const trimmed = text.replace(/\s+/g, " ").trim();
+  const match = trimmed.match(/^(.+?[.?!])(\s|$)/);
+  return match ? match[1] : trimmed;
+}
+
+export function buildFaqIndexSchema(faqs: FaqArticle[]): JsonLdGraph {
+  const pageUrl = `${SITE_URL}/faq`;
+
+  const page: WebPage = {
+    "@id": pageUrl,
+    "@type": "WebPage",
+    name: "HOA Fine Appeal FAQ",
+    description:
+      "Questions about HOA fines, notice, hearings, and letters, each linked to the guide that answers it.",
+    url: pageUrl,
+    isPartOf: { "@id": WEBSITE_ID },
+    publisher: { "@id": ORGANIZATION_ID },
+  };
+
+  const itemList: ItemList = {
+    "@id": `${pageUrl}#list`,
+    "@type": "ItemList",
+    name: "HOA fine appeal questions",
+    numberOfItems: faqs.length,
+    itemListElement: faqs.map((faq, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: faq.question,
+      url: `${SITE_URL}${pairedGuideFaqHref(faq.pairedGuideSlug)}`,
+    })),
+  };
+
+  const breadcrumb: BreadcrumbList = {
+    "@id": `${pageUrl}#breadcrumb`,
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "FAQ",
+        item: pageUrl,
+      },
+    ] satisfies ListItem[],
+  };
+
+  return {
+    "@context": SCHEMA_CONTEXT,
+    "@graph": [asGraphNode(page), asGraphNode(itemList), asGraphNode(breadcrumb)],
+  };
 }

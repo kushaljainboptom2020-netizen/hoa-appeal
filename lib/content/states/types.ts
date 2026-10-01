@@ -56,10 +56,19 @@ export type StateInternalLink = {
   description: string;
 };
 
+export type VerificationStatus = "verified" | "needs-review" | "not-found";
+
 export type StateSource = {
   citation: string;
   description: string;
   url?: string;
+  sourceName?: string;
+  jurisdiction?: string;
+  associationType?: string;
+  statuteSection?: string;
+  verificationStatus?: VerificationStatus;
+  lastVerified?: string;
+  notes?: string;
 };
 
 export type StateLegalContent = {

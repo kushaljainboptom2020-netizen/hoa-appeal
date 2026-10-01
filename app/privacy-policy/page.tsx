@@ -35,8 +35,9 @@ export default function PrivacyPolicyPage() {
           enter—such as your name, property address, HOA details, violation
           descriptions, and defense selections—is used locally on your device to
           compile your letter. We do not transmit wizard form contents to our
-          servers for storage or processing. We do not require an account to use
-          the generator.
+          servers for storage or processing. We do not send those fields to
+          analytics as custom events, and we do not put them in page URLs. We do
+          not require an account to use the generator.
         </p>
         <p className="mt-3 leading-relaxed">
           If you copy, download, or print your letter, that export happens on your

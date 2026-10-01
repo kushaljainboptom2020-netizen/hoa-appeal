@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import {
-  attributionForStateCode,
-  resolveAttribution,
-} from "@/lib/content/editorial/attribution";
+import { attributionForStateCode } from "@/lib/content/editorial/attribution";
 import { US_STATES } from "@/lib/wizard/constants";
 import { SITE_URL, canonicalPath } from "@/lib/seo/siteUrl";
 
@@ -499,7 +496,6 @@ function buildDescription(config: StateSeoConfig): string {
 
 export function buildStateMetadata(config: StateSeoConfig): Metadata {
   const attribution = attributionForStateCode(config.code);
-  const { reviewer } = resolveAttribution(attribution);
   const canonical = canonicalPath(`/appeal-hoa-fine/${config.slug}`);
   const title = buildTitle(config.name);
   const description = buildDescription(config);
@@ -520,9 +516,13 @@ export function buildStateMetadata(config: StateSeoConfig): Metadata {
       publishedTime: attribution.publishedAtIso,
       modifiedTime: attribution.updatedAtIso,
     },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
     other: {
       "article:author": "MyHOAAppeal Editorial",
-      "article:reviewed_by": reviewer.name,
       "article:published_time": attribution.publishedAtIso,
       "article:modified_time": attribution.updatedAtIso,
     },

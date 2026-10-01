@@ -1,5 +1,3 @@
-"use client";
-
 import { useId } from "react";
 import Link from "next/link";
 import {
@@ -20,7 +18,7 @@ type HeroSectionProps = {
   compact?: boolean;
 };
 
-const DEFAULT_HEADLINE = "Draft an HOA fine appeal letter from your own facts";
+const DEFAULT_HEADLINE = "HOA Fine Appeal Letter Generator";
 const DEFAULT_SUBHEADLINE =
   "MyHOAAppeal is a free template for U.S. homeowners. You enter the notice details. You edit the letter. It is not a law firm, and it does not decide whether a fine is lawful.";
 
@@ -170,12 +168,6 @@ export function HeroSection({
   subheadline = DEFAULT_SUBHEADLINE,
   compact = false,
 }: HeroSectionProps) {
-  const scrollToWizard = () => {
-    document.getElementById("appeal-wizard")?.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
-
   return (
     <header>
       <SiteNavbar />
@@ -199,19 +191,18 @@ export function HeroSection({
             </p>
 
             <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center">
-              <button
-                type="button"
-                onClick={scrollToWizard}
+              <Link
+                href="#appeal-wizard"
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-500 px-7 py-3.5 text-base font-semibold text-slate-950 shadow-[0_0_32px_-6px_rgba(16,185,129,0.55)] transition-[background-color,box-shadow,transform] hover:bg-emerald-400 hover:shadow-[0_0_36px_-4px_rgba(52,211,153,0.7)] active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
               >
-                Generate Your Free Letter
+                Create a free appeal letter
                 <ArrowRight className="h-5 w-5" aria-hidden />
-              </button>
+              </Link>
               <Link
                 href="/samples"
                 className="inline-flex items-center justify-center gap-2 rounded-xl px-4 py-3.5 text-base font-medium text-slate-300 underline-offset-4 transition-colors hover:text-white hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/50"
               >
-                View Sample Letter
+                View sample letters
               </Link>
             </div>
 

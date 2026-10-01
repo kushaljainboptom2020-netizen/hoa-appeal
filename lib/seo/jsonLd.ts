@@ -9,7 +9,7 @@ import type {
   WebSite,
 } from "schema-dts";
 import { SUPPORT_EMAIL } from "@/lib/config/site";
-import { CONTENT_UPDATED_ISO } from "@/lib/content/editorial/attribution";
+import { attributionForStateCode } from "@/lib/content/editorial/attribution";
 import { SITE_URL } from "./siteUrl";
 
 export const SCHEMA_CONTEXT = "https://schema.org";
@@ -89,8 +89,8 @@ export function buildStateStructuredDataGraph(config: StateSeoConfig) {
     headline: `How to Appeal an HOA Fine in ${config.name}`,
     description: `Educational ${config.name} HOA fine appeal notes. Statewide rules are stated only where this site checked the section.`,
     url: stateUrl,
-    datePublished: "2026-06-01",
-    dateModified: CONTENT_UPDATED_ISO,
+    datePublished: attributionForStateCode(config.code).publishedAtIso,
+    dateModified: attributionForStateCode(config.code).updatedAtIso,
     inLanguage: "en-US",
     author: {
       "@type": "Organization",
